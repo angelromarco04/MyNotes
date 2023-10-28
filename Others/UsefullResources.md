@@ -3,16 +3,18 @@
 [YT linux.conf.au](https://www.youtube.com/@linuxconfau/)
 
 # Operating Systems
-- ["What UNIX Cost Us" - Benno Rice (LCA 2020)](https://www.youtube.com/watch?v=9-IWMbJXoLM)
+- Conference.
+  ["What UNIX Cost Us" - Benno Rice (LCA 2020)](https://www.youtube.com/watch?v=9-IWMbJXoLM)
 
 # Programming
-- Short videos about everything related to computers
+- Short videos about everything related to computers.
   [Fireship](https://www.youtube.com/@Fireship)
-- Long videos about everything related to computers
+- Long videos about everything related to computers.
   [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
-- Short videos about Java
+- Short videos about Java.
   [Coding with John](https://www.youtube.com/@CodingWithJohn)
-- [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
+- Misc. programming videos.
+  [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
 
 # Git - Github
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&t=847s)
@@ -20,4 +22,5 @@
 - [GitHub Pull Request in 100 Seconds](https://www.youtube.com/watch?v=8lGpZkjnkt4)
 
 # Redes
-- [uo272509 tcpreno](https://github.com/uo272509/tcpreno)
+- Trabajo para uniovi.
+  [uo272509/tcpreno](https://github.com/uo272509/tcpreno)
