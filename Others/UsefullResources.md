@@ -24,3 +24,9 @@
 # Redes
 - Trabajo para uniovi.
   [uo272509/tcpreno](https://github.com/uo272509/tcpreno)
+
+# Hacking
+- Database with malware samples.
+  [MalwareBazaar](https://bazaar.abuse.ch/)
+- NIST database of known vulnerabilities
+  [National Vulnerability Database - NIST](https://nvd.nist.gov/)
