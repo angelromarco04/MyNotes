@@ -7,14 +7,25 @@
   ["What UNIX Cost Us" - Benno Rice (LCA 2020)](https://www.youtube.com/watch?v=9-IWMbJXoLM)
 
 # Programming
-- Short videos about everything related to computers.
+## General
+- Short videos.
   [Fireship](https://www.youtube.com/@Fireship)
-- Long videos about everything related to computers.
+- Long videos.
   [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
+- Misc. videos.
+  [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
+
+## Java
 - Short videos about Java.
   [Coding with John](https://www.youtube.com/@CodingWithJohn)
-- Misc. programming videos.
-  [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
+
+## C
+- C documentation
+  [The GNU C Library](https://www.gnu.org/software/libc/manual/html_node/index.html)
+
+## C++
+
+## Python
 
 # Git - Github
 - [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&t=847s)
