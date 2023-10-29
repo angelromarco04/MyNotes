@@ -1,6 +1,10 @@
 # Linux
-- Annual conference in Australia or New Zealand, with a focus on Linux.
-[YT linux.conf.au](https://www.youtube.com/@linuxconfau/)
+- YT profile. Annual conference with a focus on Linux.
+  [YT linux.conf.au](https://www.youtube.com/@linuxconfau/)
+- YT list. Linux tutorials (Spanish).
+  [Curso completo de Linux desde cero para principiantes](https://www.youtube.com/playlist?list=PL2Z95CSZ1N4FKsZQKqCmbylDqssYFJX5A)
+- YT list. Bash scripting (Spanish).
+  [Scripts en Bash](https://www.youtube.com/playlist?list=PL3lTiK2rXrUGkLL8Iz1KT5y5rddUvGeYv)
 
 # Operating Systems
 - Conference.
@@ -8,36 +12,63 @@
 
 # Programming
 ## General
-- Short videos.
+- YT profile. Short videos.
   [Fireship](https://www.youtube.com/@Fireship)
-- Long videos.
+- YT profile. Long videos.
   [freeCodeCamp.org](https://www.youtube.com/@freecodecamp)
-- Misc. videos.
+- YT profile. Misc videos.
   [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
+- YT list. Data structures (Spanish).
+  [Estructuras de datos](https://www.youtube.com/playlist?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT)
 
 ## Java
-- Short videos about Java.
+- YT profile. Short videos.
   [Coding with John](https://www.youtube.com/@CodingWithJohn)
+- YT list. Java tutorials (Spanish).
+  [Curso de Java desde 0](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
 
 ## C
-- C documentation
+- C documentation.
   [The GNU C Library](https://www.gnu.org/software/libc/manual/html_node/index.html)
+- YT list. Tutorial of C (Spanish)
+  [Tutorial de C](https://www.youtube.com/playlist?list=PLTd5ehIj0goOAWdpCpghXiRCmEOrJJLEW)
 
 ## C++
 
 ## Python
+- YT list. Tutorial (Spanish).
+  [Curso de Python desde cero para principiantes versión 2021](https://www.youtube.com/playlist?list=PL2Z95CSZ1N4EPXOoufjj2uw8mCndbKHLs)
 
 # Git - Github
-- [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&t=847s)
-- [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
-- [GitHub Pull Request in 100 Seconds](https://www.youtube.com/watch?v=8lGpZkjnkt4)
+- [Github](https://github.com/)
+- Atlassian alternative [BitBucket](https://bitbucket.org/)
+- YT video.
+  [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&t=847s)
+- YT video.
+  [Git Explained in 100 Seconds](https://www.youtube.com/watch?v=hwP7WQkmECE)
+- YT video.
+  [GitHub Pull Request in 100 Seconds](https://www.youtube.com/watch?v=8lGpZkjnkt4)
+  
+# Reverse Engineering
+- YT list.
+  [Reverse Engineering Tutorials](https://www.youtube.com/playlist?list=PLs-lxQfNn-H1TvgNsNdbMoeD4ZYLig7xY)
 
-# Redes
-- Trabajo para uniovi.
+# Networking
+- GitHub. Project for Uniovi.
   [uo272509/tcpreno](https://github.com/uo272509/tcpreno)
+- YT list. Preparing CCNA.
+  [Free CCNA 200-301](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
 # Hacking
 - Database with malware samples.
   [MalwareBazaar](https://bazaar.abuse.ch/)
-- NIST database of known vulnerabilities
+- NIST database of known vulnerabilities.
   [National Vulnerability Database - NIST](https://nvd.nist.gov/)
+- YT list. Long tutorials by freeCodeCamp.org.
+  [Ethical Hacking](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu)
+- YT list. Hacking tutorials (Spanish).
+  [Curso de Hacking Ético y Ciberseguridad](https://www.youtube.com/playlist?list=PLMd59HZRUmEg539WgqJjbsvto4V3fRwn5)
+- YT list for preparing Security+.
+  [Security+ Exam Cram](https://www.youtube.com/playlist?list=PL7XJSuT7Dq_VD3eHXQf3Ld2ceBSFCayns)
+- YT list. Hacking tutorials (Spanish).
+  [Academia Hacking Etico](https://www.youtube.com/playlist?list=PLFRKQL-FSrHIgob25HRift5VJANZSxjH8)
