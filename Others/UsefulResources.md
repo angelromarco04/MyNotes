@@ -55,7 +55,11 @@
 
 # Networking
 - GitHub. Project for Uniovi.
+  
   [uo272509/tcpreno](https://github.com/uo272509/tcpreno)
+  
+  [version web](https://tcpreno.pages.dev/)
+  
 - YT list. Preparing CCNA.
   [Free CCNA 200-301](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
