@@ -1,4 +1,8 @@
-# Linux
+# Useful resources
+![](UsefulResources1.jpeg)
+---
+
+## Linux
 - YT profile. Annual conference with a focus on Linux.
   [YT linux.conf.au](https://www.youtube.com/@linuxconfau/)
 - YT list. Linux tutorials (Spanish).
@@ -6,12 +10,12 @@
 - YT list. Bash scripting (Spanish).
   [Scripts en Bash](https://www.youtube.com/playlist?list=PL3lTiK2rXrUGkLL8Iz1KT5y5rddUvGeYv)
 
-# Operating Systems
+## Operating Systems
 - Conference.
   ["What UNIX Cost Us" - Benno Rice (LCA 2020)](https://www.youtube.com/watch?v=9-IWMbJXoLM)
 
-# Programming
-## General
+## Programming
+### General
 - YT profile. Short videos.
   [Fireship](https://www.youtube.com/@Fireship)
 - YT profile. Long videos.
@@ -21,25 +25,25 @@
 - YT list. Data structures (Spanish).
   [Estructuras de datos](https://www.youtube.com/playlist?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT)
 
-## Java
+### Java
 - YT profile. Short videos.
   [Coding with John](https://www.youtube.com/@CodingWithJohn)
 - YT list. Java tutorials (Spanish).
   [Curso de Java desde 0](https://www.youtube.com/playlist?list=PLU8oAlHdN5BktAXdEVCLUYzvDyqRQJ2lk)
 
-## C
+### C
 - C documentation.
   [The GNU C Library](https://www.gnu.org/software/libc/manual/html_node/index.html)
 - YT list. Tutorial of C (Spanish)
   [Tutorial de C](https://www.youtube.com/playlist?list=PLTd5ehIj0goOAWdpCpghXiRCmEOrJJLEW)
 
-## C++
+### C++
 
-## Python
+### Python
 - YT list. Tutorial (Spanish).
   [Curso de Python desde cero para principiantes versión 2021](https://www.youtube.com/playlist?list=PL2Z95CSZ1N4EPXOoufjj2uw8mCndbKHLs)
 
-# Git - Github
+## Git - Github
 - [Github](https://github.com/)
 - Atlassian alternative [BitBucket](https://bitbucket.org/)
 - YT video.
@@ -49,21 +53,32 @@
 - YT video.
   [GitHub Pull Request in 100 Seconds](https://www.youtube.com/watch?v=8lGpZkjnkt4)
   
-# Reverse Engineering
+## Reverse Engineering
 - YT list.
   [Reverse Engineering Tutorials](https://www.youtube.com/playlist?list=PLs-lxQfNn-H1TvgNsNdbMoeD4ZYLig7xY)
 
-# Networking
+## Networking
 - GitHub. Project for Uniovi.
   [uo272509/tcpreno](https://github.com/uo272509/tcpreno)
 - YT list. Preparing CCNA.
   [Free CCNA 200-301](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ)
 
-# Hacking
+## Hacking
+
+### Database
 - Database with malware samples.
   [MalwareBazaar](https://bazaar.abuse.ch/)
+- Google database with exploits.
+  [Exploit DataBase](https://www.exploit-db.com/google-hacking-database)
 - NIST database of known vulnerabilities.
   [National Vulnerability Database - NIST](https://nvd.nist.gov/)
+
+### Malware development
+- Malware development guide by crow
+  [Web - full guide](https://www.crow.rip/crows-nest/mal/dev/getting-started)
+  [YT list](https://www.youtube.com/playlist?list=PL_z_ep2nxC57sHAlCcvvaYRrpdMIQXri1)
+
+### General
 - YT list. Long tutorials by freeCodeCamp.org.
   [Ethical Hacking](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu)
 - YT list. Hacking tutorials (Spanish).
