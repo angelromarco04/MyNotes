@@ -1,5 +1,6 @@
 # MyNotes
-Here I will store my notes.  :D
+I am currently a Computer Science student.
+Here I will upload all my notes. :D
 
 ---
 
