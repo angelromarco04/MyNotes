@@ -1,15 +1,32 @@
 # MyNotes
-Here I will store my notes.  :D
+I am currently a Computer Science student.
+Here I will upload all my notes. :D
 
 ---
 
 # List of topics
-- [Programming](Programming/index.md)
-  - [Java](Programming/Java/index.md)
-  - [Python](Programming/Python/index.md) (TODO)
-  - [C](Programming/C/index.md) (TODO)
-  - [C++](Programming/C++/index.md) (TODO)
-- [Other](/Others/)
-    - [UsefulResources](/Others/UsefulResources.md)
-    - [Markdown](/Others/Markdown.md)
-    - [ANSI Codes](/Others/ANSI_codes.md)
+
+### Programming
+- [Java](Programming/Java/index.md) (INCOMPLETE)
+- [Python](Programming/Python/index.md) (INCOMPLETE)
+
+### Other
+- [UsefulResources](/Others/UsefulResources.md)
+- [Markdown](/Others/Markdown.md)
+- [ANSI codes](/Others/ANSI_codes.md)
+
+# Planned notes
+
+### Programming
+- C
+- C++
+- Rust
+
+### Computers
+- Computers Fundamentals
+- Computers Architecture
+- Networking
+
+### Linux
+- Basic OS concepts
+- Bash scripting

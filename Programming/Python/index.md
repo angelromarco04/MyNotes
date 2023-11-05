@@ -18,7 +18,7 @@ print("Hello World")
 6. [Files](Intro/06_Files.md)
 
 ## OOP
-7. TODO
+TODO
 
 ## Modules
 - [Subprocess]() (TODO)
