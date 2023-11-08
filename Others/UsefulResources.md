@@ -39,6 +39,12 @@
 
 ### C++
 
+### Rust
+- YT list. Tutorial.
+  [Rust Programming Tutorial](https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ)
+  - YT list. Tutorial (Spanish).
+  [Curso de RUST desde CERO](https://www.youtube.com/playlist?list=PLAMfQH2NKM_tyKzBV1iJf5L8j7oJl6KHl)
+
 ### Python
 - YT list. Tutorial (Spanish).
   [Curso de Python desde cero para principiantes versión 2021](https://www.youtube.com/playlist?list=PL2Z95CSZ1N4EPXOoufjj2uw8mCndbKHLs)
@@ -69,7 +75,7 @@
 
 ## Hacking
 
-### Database
+### Malware Databases
 - Database with malware samples.
   [MalwareBazaar](https://bazaar.abuse.ch/)
 - Google database with exploits.
