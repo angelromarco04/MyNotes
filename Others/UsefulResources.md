@@ -83,10 +83,18 @@
 - NIST database of known vulnerabilities.
   [National Vulnerability Database - NIST](https://nvd.nist.gov/)
 
-### Malware development
+### Malware development guides
 - Malware development guide by crow
   [Web - full guide](https://www.crow.rip/crows-nest/mal/dev/getting-started)
   [YT list](https://www.youtube.com/playlist?list=PL_z_ep2nxC57sHAlCcvvaYRrpdMIQXri1)
+
+### Useful websites
+- Find information about a domain
+  [who.is](https://who.is/)
+- Read and remove image metadata
+  [jimpl.com](https://jimpl.com/)
+- Modify image metadata
+  [thexifer.net](https://www.thexifer.net/)
 
 ### General
 - YT list. Long tutorials by freeCodeCamp.org.
