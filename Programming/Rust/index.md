@@ -17,3 +17,6 @@ fn main() {
 2. **Common Programming Concepts**
    1. [Variables and Mutability](files/03-1_Variables.md)
    2. [Data types](files/03-2_DataTypes.md)
+   3. [Functions](files/03-3_Functions.md)
+   4. [Comments](files/03-4_Comments.md)
+   5. [Control Flow](files/03-5_ControlFlow.md)
