@@ -2,6 +2,14 @@
 This codes are used in any programming languaje for displaying the text in the terminal in a determined color and format.
 This is used as any other text variable.
 
+```Python
+# Python example of ANSI code usage.
+regularRed = "\033[0;31m"
+reset = "\033[0m"
+
+print(regularRed +"Hello World!" + reset)
+```
+
 ## Reset
 Reset to the default format of the terminal: ``\033[0m``
 

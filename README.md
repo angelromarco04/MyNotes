@@ -9,6 +9,7 @@ Here I will upload all my notes. :D
 ### Programming
 - [Java](Programming/Java/index.md) (INCOMPLETE)
 - [Python](Programming/Python/index.md) (INCOMPLETE)
+- [Rust](Programming/Rust/index.md) (INCOMPLETE)
 
 ### Other
 - [UsefulResources](/Others/UsefulResources.md)
@@ -20,7 +21,6 @@ Here I will upload all my notes. :D
 ### Programming
 - C
 - C++
-- Rust
 
 ### Computers
 - Computers Fundamentals
@@ -28,5 +28,5 @@ Here I will upload all my notes. :D
 - Networking
 
 ### Linux
-- Basic OS concepts
+- Basic concepts
 - Bash scripting
