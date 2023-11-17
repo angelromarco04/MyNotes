@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a6978ca1b0c4346b",
+        "id": "9e9ca89b15593b2d",
         "type": "tabs",
         "children": [
           {
-            "id": "75d6d495e4cb2b7b",
+            "id": "b818b477d7afaf41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -112,10 +112,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75d6d495e4cb2b7b",
+  "active": "b818b477d7afaf41",
   "lastOpenFiles": [
-    "Assets/UsefulResources1.jpeg",
+    "MyNotes/Assets/UsefulResources1.jpeg.md",
     "Others/UsefulResources.md",
+    "MyNotes/Assets",
+    "MyNotes",
+    "Assets/UsefulResources1.jpeg",
     "Others/Markdown.md",
     "Others/ANSI_codes.md",
     "README.md",

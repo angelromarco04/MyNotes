@@ -1,5 +1,5 @@
 # Useful resources
-!()[/MyNotes/Assets/UsefulResources1.jpeg]
+![[/Assets/UsefulResources1.jpeg]]
 ---
 
 ## Linux

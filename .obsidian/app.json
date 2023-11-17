@@ -2,5 +2,7 @@
   "livePreview": true,
   "spellcheck": true,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "Assets"
+  "attachmentFolderPath": "Assets",
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }
