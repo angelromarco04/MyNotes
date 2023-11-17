@@ -1,6 +1,6 @@
 # MyNotes
-I am currently a Computer Science student.
-Here I will upload all my notes. :D
+I am a Computer Science student. Here I will upload all my notes. 
+Hope you like it!  :D
 
 ---
 

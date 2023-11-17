@@ -1,0 +1,146 @@
+{
+  "main": {
+    "id": "b46c9c9370c5df5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd1de6af70faf9d7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72ec7d08a65bf92f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Rust/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f79acd54b72d898",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd90797ee9d2fc98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ef3911002ae6c65",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c396e2d6e3dc45a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2a96e26cd3ff37c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0352c6c151f35fb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "81a109a6dcf815ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a6c26493d8321b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming/Rust/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e226da9a590b5a2d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming/Rust/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7dda2a50eefadada",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming/Rust/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "72ec7d08a65bf92f",
+  "lastOpenFiles": [
+    "Programming/Rust/index.md",
+    "Programming/Rust/files/04-3_SliceType.md",
+    "Programming/Rust/files/04-2_Ref&Borrow.md",
+    "Programming/Rust/files/04-1_Intro.md",
+    "files",
+    "README.md"
+  ]
+}
