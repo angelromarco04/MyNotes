@@ -1,17 +1,10 @@
 [
   "file-explorer",
   "global-search",
-  "switcher",
-  "graph",
   "backlink",
-  "canvas",
   "outgoing-link",
   "page-preview",
-  "daily-notes",
-  "note-composer",
   "command-palette",
   "editor-status",
-  "bookmarks",
-  "outline",
   "file-recovery"
 ]
