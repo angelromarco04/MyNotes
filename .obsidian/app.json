@@ -1,5 +1,5 @@
 {
   "livePreview": true,
-  "spellcheck": false,
+  "spellcheck": true,
   "newLinkFormat": "relative"
 }

@@ -7,7 +7,7 @@
 - Variables are defined with the keyword `let`.
 - By default they are inmmutable.
 - They are made mutable with the keyword `mut`.
-- By convention they are writen in lower case but the first letter of each word (instead the first).
+- By convention they are written in lower case but the first letter of each word (instead the first).
 
 ```Rust
 let myVariable = 5;    // It should be let mut myVariable = 5
