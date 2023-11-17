@@ -21,6 +21,6 @@ fn main() {
 	4. [Comments](files/03-4_Comments.md)
 	5. [Control Flow](files/03-5_ControlFlow.md)
 4. **Understanding Ownership**
-	1. [What is Ownership?](04-1_Intro.md)
-	2. [References and Borrowing](04-2_Ref&Borrow.md)
-	3. [The Slice Type](04-3_SliceType.md)
+	1. [What is Ownership?](files/04-1_Intro.md)
+	2. [References and Borrowing](files/04-2_Ref&Borrow.md)
+	3. [The Slice Type](files/04-3_SliceType.md)
