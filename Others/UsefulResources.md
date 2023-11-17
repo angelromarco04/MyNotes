@@ -1,5 +1,5 @@
 # Useful resources
-![](https://github.com/angelromarco04/MyNotes/blob/main/Images/Others/UsefulResources1.jpeg)
+![[../Assets/UsefulResources1.jpeg]]
 ---
 
 ## Linux

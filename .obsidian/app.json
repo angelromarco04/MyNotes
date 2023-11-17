@@ -1,5 +1,6 @@
 {
   "livePreview": true,
   "spellcheck": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "Assets"
 }
