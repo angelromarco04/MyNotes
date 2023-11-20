@@ -1,5 +1,5 @@
 # Useful resources
-![](/Assets/UsefulResources1.jpeg)
+![](/Assets/Others/UsefulResources1.jpeg)
 ---
 
 ## Linux

@@ -30,3 +30,6 @@ Hope you like it!  :D
 ### Linux
 - Basic concepts
 - Bash scripting
+
+### Other
+- Git
