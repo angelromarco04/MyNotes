@@ -24,7 +24,7 @@
   [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
 - YT list. Data structures (Spanish).
   [Estructuras de datos](https://www.youtube.com/playlist?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT)
-  
+- YT list. [MIT Introduction to Algorithms]([(22) MIT 6.006 Introduction to Algorithms, Spring 2020 - YouTube](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY))
 
 ### Java
 - YT profile. Short videos.
@@ -103,7 +103,7 @@
   [Ethical Hacking](https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu)
 - YT list. Hacking tutorials (Spanish).
   [Curso de Hacking Ético y Ciberseguridad](https://www.youtube.com/playlist?list=PLMd59HZRUmEg539WgqJjbsvto4V3fRwn5)
-- YT list for preparing Security+.
-  [Security+ Exam Cram](https://www.youtube.com/playlist?list=PL7XJSuT7Dq_VD3eHXQf3Ld2ceBSFCayns)
+- YT [Security+ Exam Cram](https://www.youtube.com/playlist?list=PL7XJSuT7Dq_VD3eHXQf3Ld2ceBSFCayns)
 - YT list. Hacking tutorials (Spanish).
   [Academia Hacking Etico](https://www.youtube.com/playlist?list=PLFRKQL-FSrHIgob25HRift5VJANZSxjH8)
+- YT list. [How To Hack]([(22) How To Hack - YouTube](https://www.youtube.com/playlist?list=PL_dk67mLCSFEwluxIq62nZSLaRFONVRVB)) by Cosmodium CS.
