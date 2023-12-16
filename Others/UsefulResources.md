@@ -24,6 +24,7 @@
   [Programming with Mosh](https://www.youtube.com/@programmingwithmosh/)
 - YT list. Data structures (Spanish).
   [Estructuras de datos](https://www.youtube.com/playlist?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT)
+  
 
 ### Java
 - YT profile. Short videos.
@@ -87,6 +88,7 @@
 - Malware development guide by crow
   [Web - full guide](https://www.crow.rip/crows-nest/mal/dev/getting-started)
   [YT list](https://www.youtube.com/playlist?list=PL_z_ep2nxC57sHAlCcvvaYRrpdMIQXri1)
+- [Malware Development]([(22) Malware Development - YouTube](https://www.youtube.com/playlist?list=PL_dk67mLCSFHa5jDNvEuXuoafMHmTjn32)) by Cosmodium CS.
 
 ### Useful websites
 - Find information about a domain
