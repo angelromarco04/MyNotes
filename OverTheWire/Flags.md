@@ -2,13 +2,13 @@
 ---
 # Bandit
 
-| Level | Flag                              |
+| **Level** | **Password**                          |
 |-------|-----------------------------------|
 |  **00**   | bandit0                           |
 |  01   | NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL  |
-|  02   | - |
-|  03   | - |
-|  04   | - |
+|  02   | rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi  |
+|  03   | aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG  |
+|  04   | 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe  |
 |  05   | - |
 |  06   | - |
 |  07   | - |
