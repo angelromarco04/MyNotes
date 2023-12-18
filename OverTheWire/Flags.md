@@ -4,7 +4,7 @@
 
 | Level | Flag                              |
 |-------|-----------------------------------|
-|  **__00__**   | bandit0                           |
+|  **00**   | bandit0                           |
 |  01   | NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL  |
 |  02   | - |
 |  03   | - |
