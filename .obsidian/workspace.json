@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Cheat-Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Cheat-Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Cheat-Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,12 +114,12 @@
   },
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
+    "Others/Markdown.md",
     "Others/UsefulResources.md",
     "README.md",
     "Linux/OverTheWire_Bandit.md",
     "Linux/Cheat-Sheet.md",
     "Programming/Rust/index.md",
-    "Others/Markdown.md",
     "Linux",
     "().md",
     "MyNotes/Assets/UsefulResources1.jpeg.md",
