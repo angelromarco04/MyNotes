@@ -22,12 +22,12 @@
 
 ## System Info
 
-- ifconfig → Info about network interfaces.
-- lscpu → Info about processor.
-- cat /proc/cpuinfo → Info about processor.
-- cat /proc/meminfo → info about RAM
-- free → Current RAM usage (static).
-- top → Dynamic RAM usage per task.
+- `ifconfig` → Info about network interfaces.
+- `lscpu` → Info about processor.
+- `cat /proc/cpuinfo` → Info about processor.
+- `cat /proc/meminfo` → info about RAM
+- `free` → Current RAM usage (static).
+- `top` → Dynamic RAM usage per task.
 
 ## Help & others
 
