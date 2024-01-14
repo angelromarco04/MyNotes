@@ -31,6 +31,7 @@
 
 ## System Info
 
+- `uptime` → Shows how much time the system has been running.
 - `ifconfig` → Info about network interfaces.
 - `lscpu` → Info about processor.
 - `cat /proc/cpuinfo` → Info about processor.
