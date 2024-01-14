@@ -47,3 +47,6 @@
 - `reboot` → Reboot the system.
 - `shutdown` → Shut down the system.
 - `poweroff` → Power off the system.
+- `echo <x>` → Displays x in the terminal.
+- `<x> > <y>` → Stores output of command `x` to file `y`.
+- `clear` → Cleans the terminal.
