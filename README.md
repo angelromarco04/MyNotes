@@ -11,6 +11,9 @@ Hope you like it!  :D
 - [Python](Programming/Python/index.md) (INCOMPLETE)
 - [Rust](Programming/Rust/index.md) (INCOMPLETE)
 
+### Linux
+-  [Linux Cheat Sheet](Linux/Cheat-Sheet.md) (INCOMPLETE)
+- [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md) (INCOMPLETE)
 ### Other
 - [UsefulResources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
@@ -28,7 +31,6 @@ Hope you like it!  :D
 - Networking
 
 ### Linux
-- Basic concepts
 - Bash scripting
 
 ### Other

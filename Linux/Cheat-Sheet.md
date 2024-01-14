@@ -16,9 +16,9 @@
 
 - `whoami`
 
-## Permisions
+## Permissions
 
-- `sudo` → Super User do (priviledged level)
+- `sudo` → Super User do (privileged level)
 
 ## System Info
 
