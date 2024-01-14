@@ -15,6 +15,9 @@
 - `rm <x>` → Remove the file `x`.
 - `touch <x>` → Create an empty file called `x`.
 - `cp <x> <y>` → Copy file `x` to a new one called `y`.
+- `mv <x> <y>` → Move or/and rename file `x` to `y`.
+
+## Modifying contents of a file
 
 ## Managing users
 
