@@ -1,16 +1,18 @@
 # Basic
 ## Managing Directories
 - `pwd` → Print Working Directory.
-- `ls` → List (show files inside current directory)
+- `ls` → List (show files inside a directory)
 - `cd` → Change Directory.
 - `mkdir` → Make Directory.
 - `rmdir` → Remove Directory.
 
 ## Managing files
+(Note that everything is considered a file, including directories)
 
-- `cat` → Displays contents of a file in the terminal.
-- `nano` → Opens a in-terminal editor.
-- `rm`
+- `cat <x>` → Displays contents of file `x` in the terminal.
+- `nano <x>` → Opens a in-terminal editor for `x`.
+- `rm <x>` → Remove the file 
+- `file <x>` → Displays the type of file of `x`.
 
 ## Managing users
 
