@@ -22,8 +22,12 @@
 
 ## System Info
 
-- ifconfig
-- cat
+- ifconfig → Info about network interfaces
+- lscpu → Info about processor
+- cat /proc/cpuinfo
+- cat /proc/meminfo
+- free
+- top
 
 ## Help & others
 
