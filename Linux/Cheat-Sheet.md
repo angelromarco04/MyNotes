@@ -9,10 +9,12 @@
 ## Managing files
 (Note that everything is considered a file, including directories)
 
+- `file <x>` → Displays the type of file of `x`.
 - `cat <x>` → Displays contents of file `x` in the terminal.
 - `nano <x>` → Opens a in-terminal editor for `x`.
-- `rm <x>` → Remove the file 
-- `file <x>` → Displays the type of file of `x`.
+- `rm <x>` → Remove the file `x`.
+- `touch <x>` → Create an empty file called `x`.
+- `cp <x> <y>` → Copy file `x` to a new one called `y`.
 
 ## Managing users
 
