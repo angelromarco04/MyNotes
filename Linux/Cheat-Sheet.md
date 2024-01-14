@@ -44,7 +44,10 @@
 
 ## Networking
 - `ifconfig` → Info about network interfaces.
-- 
+- `ip` → Newer version of `ifconfig`.
+
+## Package Manager
+- `apt` → Advanced Package Manager (Debian)
 
 ## Help & others
 
