@@ -33,14 +33,18 @@
 
 - `uptime` → Shows how much time the system has been running.
 - `ps` → Shows running processes.
-- `ifconfig` → Info about network interfaces.
 - `lscpu` → Info about processor.
 - `cat /proc/cpuinfo` → Info about processor.
 - `cat /proc/meminfo` → info about RAM
 - `free` → Current RAM usage (static).
 - `top` → Dynamic RAM usage per task.
+- `htop` → Better representation of `top` command.
 - `df` → Shows disk usage.
 - `lsblk` → Shows block devices (disk partitions).
+
+## Networking
+- `ifconfig` → Info about network interfaces.
+- 
 
 ## Help & others
 
