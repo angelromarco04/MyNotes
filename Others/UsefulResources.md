@@ -50,7 +50,7 @@
 - YT list. Tutorial (Spanish).
   [Curso de Python desde cero para principiantes versión 2021](https://www.youtube.com/playlist?list=PL2Z95CSZ1N4EPXOoufjj2uw8mCndbKHLs)
 
-## Git - Github
+## Git - GitHub
 - YT video.
   [Git Tutorial for Beginners: Learn Git in 1 Hour](https://www.youtube.com/watch?v=8JJ101D3knE&t=847s)
 - YT video.
