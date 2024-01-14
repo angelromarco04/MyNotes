@@ -10,14 +10,16 @@
 (Note that everything is considered a file, including directories)
 
 - `file <x>` → Displays the type of file of `x`.
-- `cat <x>` → Displays contents of file `x` in the terminal.
-- `nano <x>` → Opens a in-terminal editor for `x`.
 - `rm <x>` → Remove the file `x`.
 - `touch <x>` → Create an empty file called `x`.
 - `cp <x> <y>` → Copy file `x` to a new one called `y`.
 - `mv <x> <y>` → Move or/and rename file `x` to `y`.
 
-## Modifying contents of a file
+## Read/Write files
+- `head <x>` → Displays the first lines of the file `x`.
+- `tail <x>` → Displays the last lines of the file `x`.
+- `cat <x>` → Displays contents of file `x` in the terminal.
+- `nano <x>` → Opens a in-terminal editor for `x`.
 
 ## Managing users
 
