@@ -6,12 +6,16 @@
 ## Variables
 - Variables are defined with the keyword `let`.
 - By default they are inmmutable.
+```Rust
+let myVariable = 5;    // It should be let mut myVariable = 5
+myVariable = 6;        // Error, immutable variable.
+```
 - They are made mutable with the keyword `mut`.
 - By convention they are written in lower case but the first letter of each word (camelCase).
 
 ```Rust
-let myVariable = 5;    // It should be let mut myVariable = 5
-    myVariable = 6;    // Error, immutable variable.
+let mut myVariable = 5;
+myVariable = 6;    // now the value has changed
 ```
 
 ## Shadowing
