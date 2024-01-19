@@ -14,7 +14,7 @@
 - There are two main types: scalar and compound.
 
 ## Scalar
-Are tipes that represent a single value
+Are tupes that represent a single value
 
 ### Integer
 |Length   | Signed | Unsigned |
