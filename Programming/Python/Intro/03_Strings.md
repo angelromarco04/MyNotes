@@ -34,7 +34,7 @@ myStr.method()
 
 ### Uppercase and lowercase
 
-Input :  `heLLo WorLd`.
+Input :  `"heLLo WorLd"`.
 
 | Method | Description | Output |
 | ---- | ---- | ---- |
@@ -52,13 +52,5 @@ Input :  `"    Hello World    "`.
 | `rstrip()` | Remove right space | `"    Hello World"` |
 | `lstrip()` | Remove left  space | `"Hello World    "` |
 | `strip()` | Remove left and right spaces | `"Hello World"` |
-|  |  |  |
+| `center(int n, char c)` | Centers a string<br>Uses n characters at maximum.<br>Fills with character c.<br> |  |
 
-
-```python
-# BLANK SPACES
-myStr = " Python "   
-myStr.rstrip()       # " Python"   Remove right space
-myStr.lstrip()       # "Python "   Remove left  space
-myStr.strip()        # "Python"    Remove both spaces
-```
