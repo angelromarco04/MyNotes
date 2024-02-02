@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Python/Intro/03_Strings.md",
+                "file": "Programming/Python/tmp/Exceptions.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Python/Intro/03_Strings.md",
+                "file": "Programming/Python/tmp/Exceptions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Python/Intro/03_Strings.md",
+                "file": "Programming/Python/tmp/Exceptions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,9 +115,11 @@
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
     "Programming/Python/Intro/05_Arrays.md",
-    "Programming/Python/Intro/06_Files.md",
     "Programming/Python/tmp/Exceptions.md",
     "Programming/Python/Intro/03_Strings.md",
+    "Programming/Python/Intro/02_IO.md",
+    "Programming/Python/Intro/01_Basics.md",
+    "Programming/Python/Intro/06_Files.md",
     "Programming/Python/index.md",
     "Programming/Python/tmp",
     "Programming/Rust/index.md",
