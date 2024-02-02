@@ -36,7 +36,7 @@ Input :  `str = "heLLo WorLd"`.
 | ``str.capitalize()`` | First letter uppercase | ``"Hello World"`` |
 | ``str.upper()`` | All uppercase | ``"HELLO WORLD"`` |
 | ``str.lower()`` | All lowercase | ``"hello world"`` |
-| str.swa |  |  |
+| `str.swapcase()` | Swaps cases of all letters. | `"HEllO wORlD"` |
 
 ### Blank Spaces
 
@@ -64,5 +64,7 @@ Input :  `str = "    Hello World    "`.
 | Method | Description |
 | ---- | ---- |
 | `str.join(list)` | Joins all elements of a list.<br>Uses `str` as the separator. |
-| str.replace(a, b, num) | Replaces a number `num` occurrences of `a` by `b`.<br>If `num = None`, replaces all . |
+| `str.replace(a, b, num)` | Replaces a number `num` occurrences of `a` by `b`.<br>If `num = None`, replaces all . |
 | `str.split(a)` | Splits into a list using `a` as separator.<br>By default uses blank spaces. |
+| `str.count(char)` | Counts occurrences of a given `char`. |
+|  |  |
