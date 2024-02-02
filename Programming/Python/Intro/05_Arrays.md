@@ -47,7 +47,8 @@ myArr.pop(2)
 myArr.remove(5)
 # myArr = [29, 2,    4,    6]     Remove given value from the list.
 
-sortted(myArr)
+sorted(myArr)
+# myArr = [2, 4, 6, 29]           Array is now sorted.
 ```
 
 ## For
