@@ -30,7 +30,7 @@ myArr = [[1, 2], [3, 4], [5, 6]]
 ## Arrays methods
 
 ```python
-# myArr = [ 1, 2, 3         ]
+  myArr = [ 1, 2, 3         ]
 
 myArr.append(4)
 # myArr = [ 1, 2, 3, 4      ]     Add to the end a single item.
@@ -46,6 +46,8 @@ myArr.pop(2)
 
 myArr.remove(5)
 # myArr = [29, 2,    4,    6]     Remove given value from the list.
+
+sortted(myArr)
 ```
 
 ## For

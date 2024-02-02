@@ -67,4 +67,4 @@ Input :  `str = "    Hello World    "`.
 | `str.replace(a, b, num)` | Replaces a number `num` occurrences of `a` by `b`.<br>If `num = None`, replaces all . |
 | `str.split(a)` | Splits into a list using `a` as separator.<br>By default uses blank spaces. |
 | `str.count(char)` | Counts occurrences of a given `char`. |
-|  |  |
+
