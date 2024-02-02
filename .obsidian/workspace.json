@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/UsefulResources.md",
+                "file": "Linux/Cheat-Sheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/UsefulResources.md",
+                "file": "Linux/Cheat-Sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/UsefulResources.md",
+                "file": "Linux/Cheat-Sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,6 +114,9 @@
   },
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
+    "Linux/OverTheWire_Bandit.md",
+    "Linux/Cheat-Sheet.md",
+    "Others/UsefulResources.md",
     "Others/Markdown.md",
     "Programming/Java/index.md",
     "Programming/Java/OOP/08_OOP.md",
@@ -139,9 +142,6 @@
     "Programming/Rust/files/04-3_SliceType.md",
     "Programming/Rust/files/04-2_Ref&Borrow.md",
     "Programming/Rust/files/03-5_ControlFlow.md",
-    "Programming/Rust/files/03-4_Comments.md",
-    "Programming/Rust/files/03-3_Functions.md",
-    "Programming/Rust/files/03-2_DataTypes.md",
     "Linux",
     "MyNotes/Assets",
     "MyNotes",
