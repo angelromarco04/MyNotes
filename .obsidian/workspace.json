@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/index.md",
+                "file": "Others/UsefulResources.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Java/index.md",
+                "file": "Others/UsefulResources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Java/index.md",
+                "file": "Others/UsefulResources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,15 +114,18 @@
   },
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
-    "Programming/Java/IP/08_OOP.md",
+    "Others/Markdown.md",
     "Programming/Java/index.md",
-    "Programming/Java/IP/07_String.md",
-    "Programming/Java/IP/06_Arrays.md",
-    "Programming/Java/IP/05_Loops.md",
-    "Programming/Java/IP/04_Conditionals.md",
-    "Programming/Java/IP/03_Formatting.md",
-    "Programming/Java/IP/02_IO.md",
-    "Programming/Java/IP/01_Basics.md",
+    "Programming/Java/OOP/08_OOP.md",
+    "Programming/Java/OOP",
+    "().md",
+    "Programming/Java/Basics/07_String.md",
+    "Programming/Java/Basics/06_Arrays.md",
+    "Programming/Java/Basics/05_Loops.md",
+    "Programming/Java/Basics/04_Conditionals.md",
+    "Programming/Java/Basics/03_Formatting.md",
+    "Programming/Java/Basics/02_IO.md",
+    "Programming/Java/Basics/01_Basics.md",
     "Programming/Python/Intro/01_Basics.md",
     "Programming/Python/index.md",
     "Programming/Python/tmp/Exceptions.md",
@@ -139,8 +142,6 @@
     "Programming/Rust/files/03-4_Comments.md",
     "Programming/Rust/files/03-3_Functions.md",
     "Programming/Rust/files/03-2_DataTypes.md",
-    "Programming/Rust/files/03-1_Variables.md",
-    "Linux/Cheat-Sheet.md",
     "Linux",
     "MyNotes/Assets",
     "MyNotes",
