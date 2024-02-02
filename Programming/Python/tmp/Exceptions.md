@@ -51,8 +51,12 @@ assert expresion
 ## Commonly used exceptions
 
 - `Exception` (general one)
-	- `AssertionError` (Always raised by a `assert`)
-	- `ValueError` ()
-	- `IndexError`
-	- `ArithmeticError` (Invalid domain for a arithmetic operation)
-		- `ZeroDivisionErrror`
+	- `AssertionError`: Always raised by a `assert`.
+	- `LookuoError`: 
+		- `ValueError`: 
+		- `IndexError`: Try to access non-existent element in a sequence.
+		- `KeyError`: Try to access non-existent key of a dictionary.
+	- `ArithmeticError`: Invalid domain for a arithmetic operation
+		- `ZeroDivisionErrror`:
+		- `OverflowError`: Number to big to be stored.
+	- `MemoryError`: Lack of free memory.
