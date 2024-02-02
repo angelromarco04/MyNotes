@@ -26,43 +26,40 @@ myStr = f" text {variable1} text {variable2} text"
 
 ## Other Methods
 
-```python
-# Method application
-myStr= "heLLo WorLd"
-myStr.method()
-```
-
 ### Uppercase and lowercase
 
-Input :  `"heLLo WorLd"`.
+Input :  `str = "heLLo WorLd"`.
 
 | Method | Description | Output |
 | ---- | ---- | ---- |
-| ``title()`` | first letter of each word uppercase | ``"Hello World"`` |
-| ``capitalize()`` | first letter uppercase | ``"Hello World"`` |
-| ``upper()`` | all uppercase | ``"HELLO WORLD"`` |
-| ``lower()`` | all lowercase | ``"hello world"`` |
+| ``str.title()`` | first letter of each word uppercase | ``"Hello World"`` |
+| ``str.capitalize()`` | first letter uppercase | ``"Hello World"`` |
+| ``str.upper()`` | all uppercase | ``"HELLO WORLD"`` |
+| ``str.lower()`` | all lowercase | ``"hello world"`` |
 
 ### Blank Spaces
 
-Input :  `"    Hello World    "`.
+Input :  `str = "    Hello World    "`.
 
-| Method | Description | Output |
-| ---- | ---- | ---- |
-| `rstrip()` | Remove right space | `"    Hello World"` |
-| `lstrip()` | Remove left  space | `"Hello World    "` |
-| `strip()` | Remove left and right spaces | `"Hello World"` |
-| `center(int n, char c)` | Centers a string<br>Uses n characters at maximum.<br>Fills with character c.<br> |  |
+| Method | Description |
+| ---- | ---- |
+| `str.rstrip(cha)` | Remove characters from right. |
+| `str.lstrip()` | Remove characters from left. |
+| `str.strip()` | Remove characters from left and right. |
+| `str.center(int n, char c)` | Centers a string.<br>Uses `n` characters at maximum.<br>Fills with character `c` (Blank space by default).<br> |
 
 ### Boolean methods
 
 | Method | Description |
 | ---- | ---- |
-| `isalnum()` | true if only alpha-numerical characters. |
-| `isalpha()` | true if  letters only. |
-| `isdigit()` | true if numbers only. |
-| `islower()` | true if lowercase letters only |
-| `isupper` | true if uppercase only |
-| `isspace()` | true if spaces only |
+| `str.isalnum()` | true if only alpha-numerical characters. |
+| `str.isalpha()` | true if  letters only. |
+| `str.isdigit()` | true if numbers only. |
+| `str.islower()` | true if lowercase letters only |
+| `str.isupper` | true if uppercase only |
+| `str.isspace()` | true if spaces only |
 
-###
+### Other
+| Method | Description |
+| ---- | ---- |
+| `str.join(list)` | Joins all elements of a list<br>Uses `str` as the separator. |
