@@ -54,3 +54,15 @@ Input :  `"    Hello World    "`.
 | `strip()` | Remove left and right spaces | `"Hello World"` |
 | `center(int n, char c)` | Centers a string<br>Uses n characters at maximum.<br>Fills with character c.<br> |  |
 
+### Boolean methods
+
+| Method | Description |
+| ---- | ---- |
+| `isalnum()` | true if only alpha-numerical characters. |
+| `isalpha()` | true if  letters only. |
+| `isdigit()` | true if numbers only. |
+| `islower()` | true if lowercase letters only |
+| `isupper` | true if uppercase only |
+| `isspace()` | true if spaces only |
+
+###
