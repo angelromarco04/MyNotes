@@ -1,6 +1,6 @@
 # 08 Classes & Objects
 
-[Back to Java index](..\index.md)
+[Back to Java index](../index.md)
 
 ---
 

@@ -11,7 +11,7 @@ public class myClass{
 
 ---
 
-## 1S1 **Intoduction to Programing**
+## Introduction to Programing
 1.  [Basics](IP/01_Basics.md)
 2.  [Input and Output](IP/02_IO.md)
 3.  [Formatting](IP/03_Formatting.md)
@@ -19,16 +19,13 @@ public class myClass{
 5.  [Loops](IP/05_Loops.md)
 6.  [Arrays](IP/06_Arrays.md)
 7.  [String](IP/07_String.md)
+
+## OOP
 8.  [Classes & Objects](IP/08_OOP.md)
-
-
-## Methodology of Programing
 9.  [Inheritance]() (TODO)
 10. [Polymorphism]() (TODO)
 11. [Exceptions]() (TODO)
 12. [Files & Serialization]() (TODO)
-
----
 
 ## Data Structures
 13. [Generics]() (TODO)

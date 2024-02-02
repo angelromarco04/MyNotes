@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Python/tmp/Exceptions.md",
+                "file": "Programming/Java/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Python/tmp/Exceptions.md",
+                "file": "Programming/Java/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Python/tmp/Exceptions.md",
+                "file": "Programming/Java/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,13 +114,22 @@
   },
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
-    "Programming/Python/Intro/05_Arrays.md",
+    "Programming/Java/IP/08_OOP.md",
+    "Programming/Java/index.md",
+    "Programming/Java/IP/07_String.md",
+    "Programming/Java/IP/06_Arrays.md",
+    "Programming/Java/IP/05_Loops.md",
+    "Programming/Java/IP/04_Conditionals.md",
+    "Programming/Java/IP/03_Formatting.md",
+    "Programming/Java/IP/02_IO.md",
+    "Programming/Java/IP/01_Basics.md",
+    "Programming/Python/Intro/01_Basics.md",
+    "Programming/Python/index.md",
     "Programming/Python/tmp/Exceptions.md",
+    "Programming/Python/Intro/05_Arrays.md",
     "Programming/Python/Intro/03_Strings.md",
     "Programming/Python/Intro/02_IO.md",
-    "Programming/Python/Intro/01_Basics.md",
     "Programming/Python/Intro/06_Files.md",
-    "Programming/Python/index.md",
     "Programming/Python/tmp",
     "Programming/Rust/index.md",
     "Programming/Rust/files/04-1_Intro.md",
@@ -132,19 +141,11 @@
     "Programming/Rust/files/03-2_DataTypes.md",
     "Programming/Rust/files/03-1_Variables.md",
     "Linux/Cheat-Sheet.md",
-    "README.md",
-    "Others/Markdown.md",
-    "Others/UsefulResources.md",
-    "Linux/OverTheWire_Bandit.md",
     "Linux",
-    "().md",
-    "MyNotes/Assets/UsefulResources1.jpeg.md",
     "MyNotes/Assets",
     "MyNotes",
     "Assets/UsefulResources1.jpeg",
-    "Others/ANSI_codes.md",
     "Assets",
-    "Programming/Rust/files/01_Intro.md",
     "files"
   ]
 }
