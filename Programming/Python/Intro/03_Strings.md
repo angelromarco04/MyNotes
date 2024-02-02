@@ -26,15 +26,20 @@ myStr = f" text {variable1} text {variable2} text"
 
 ## Other Methods
 
-``
-### Uppercase and lowercase
 ```python
+# Method application
 myStr= "heLLo WorLd"
-myStr.title()       # "Hello World"  (first letter of each word uppercase)
-myStr.capitalize()  # "Hello World"  (first letter uppercase)
-myStr.upper()       # "HELLO WORLD"  (all uppercase)
-myStr.lower()       # "hello world"  (all lowercase)
+myStr.method()
 ```
+
+### Uppercase and lowercase
+| Method | Description | Output |
+| ---- | ---- | ---- |
+| ``title()`` | first letter of each word uppercase | ``"Hello World"`` |
+| ``capitalize()`` | first letter uppercase | ``"Hello World"`` |
+| ``upper()`` | all uppercase | ``"HELLO WORLD"`` |
+| ``lower()`` | all lowercase | ``"hello world"`` |
+
 
 ```python
 # BLANK SPACES
