@@ -33,12 +33,26 @@ myStr.method()
 ```
 
 ### Uppercase and lowercase
+
+Input :  `heLLo WorLd`.
+
 | Method | Description | Output |
 | ---- | ---- | ---- |
 | ``title()`` | first letter of each word uppercase | ``"Hello World"`` |
 | ``capitalize()`` | first letter uppercase | ``"Hello World"`` |
 | ``upper()`` | all uppercase | ``"HELLO WORLD"`` |
 | ``lower()`` | all lowercase | ``"hello world"`` |
+
+### Blank Spaces
+
+Input :  `"    Hello World    "`.
+
+| Method | Description | Output |
+| ---- | ---- | ---- |
+| `rstrip()` | Remove right space | `"    Hello World"` |
+| `lstrip()` | Remove left  space | `"Hello World    "` |
+| `strip()` | Remove left and right spaces | `"Hello World"` |
+|  |  |  |
 
 
 ```python
