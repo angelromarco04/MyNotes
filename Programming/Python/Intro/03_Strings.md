@@ -32,10 +32,10 @@ Input :  `str = "heLLo WorLd"`.
 
 | Method | Description | Output |
 | ---- | ---- | ---- |
-| ``str.title()`` | first letter of each word uppercase | ``"Hello World"`` |
-| ``str.capitalize()`` | first letter uppercase | ``"Hello World"`` |
-| ``str.upper()`` | all uppercase | ``"HELLO WORLD"`` |
-| ``str.lower()`` | all lowercase | ``"hello world"`` |
+| ``str.title()`` | First letter of each word uppercase | ``"Hello World"`` |
+| ``str.capitalize()`` | First letter uppercase | ``"Hello World"`` |
+| ``str.upper()`` | All uppercase | ``"HELLO WORLD"`` |
+| ``str.lower()`` | All lowercase | ``"hello world"`` |
 
 ### Blank Spaces
 
@@ -43,23 +43,24 @@ Input :  `str = "    Hello World    "`.
 
 | Method | Description |
 | ---- | ---- |
-| `str.rstrip(cha)` | Remove characters from right. |
-| `str.lstrip()` | Remove characters from left. |
-| `str.strip()` | Remove characters from left and right. |
+| `str.rstrip(char)` | Remove characters from right.<br>By default blank spaces. |
+| `str.lstrip(char)` | Remove characters from left.<br>By default blank spaces. |
+| `str.strip(char)` | Remove characters from left and right.<br>By default blank spaces. |
 | `str.center(int n, char c)` | Centers a string.<br>Uses `n` characters at maximum.<br>Fills with character `c` (Blank space by default).<br> |
 
 ### Boolean methods
 
 | Method | Description |
 | ---- | ---- |
-| `str.isalnum()` | true if only alpha-numerical characters. |
-| `str.isalpha()` | true if  letters only. |
-| `str.isdigit()` | true if numbers only. |
-| `str.islower()` | true if lowercase letters only |
-| `str.isupper` | true if uppercase only |
-| `str.isspace()` | true if spaces only |
+| `str.isalnum()` | True if only alpha-numerical characters. |
+| `str.isalpha()` | True if  letters only. |
+| `str.isdigit()` | True if numbers only. |
+| `str.islower()` | True if lowercase letters only. |
+| `str.isupper` | True if uppercase only. |
+| `str.isspace()` | True if spaces only. |
 
 ### Other
 | Method | Description |
 | ---- | ---- |
-| `str.join(list)` | Joins all elements of a list<br>Uses `str` as the separator. |
+| `str.join(list)` | Joins all elements of a list.<br>Uses `str` as the separator. |
+| str.replace(a, b) | Replaces every ocurrence of `a` by `b`. |
