@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Rust/files/04-1_Intro.md",
+                "file": "Programming/Rust/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Rust/files/04-1_Intro.md",
+                "file": "Programming/Rust/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Rust/files/04-1_Intro.md",
+                "file": "Programming/Rust/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,6 +114,9 @@
   },
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
+    "Programming/Rust/files/04-1_Intro.md",
+    "Programming/Rust/files/04-3_SliceType.md",
+    "Programming/Rust/files/04-2_Ref&Borrow.md",
     "Programming/Rust/files/03-5_ControlFlow.md",
     "Programming/Rust/files/03-4_Comments.md",
     "Programming/Rust/files/03-3_Functions.md",
@@ -132,10 +135,7 @@
     "MyNotes",
     "Assets/UsefulResources1.jpeg",
     "Others/ANSI_codes.md",
-    "Programming/Rust/files/04-3_SliceType.md",
     "Assets",
-    "Programming/Rust/files/04-2_Ref&Borrow.md",
-    "Programming/Rust/files/04-1_Intro.md",
     "Programming/Rust/files/01_Intro.md",
     "files"
   ]
