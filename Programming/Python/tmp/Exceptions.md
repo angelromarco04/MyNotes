@@ -47,3 +47,12 @@ except:
 assert expresion
 # Raises a AssertionError if the expresion is None, 0, false, "" or []
 ````
+
+## Commonly used exceptions
+
+- `Exception` (general one)
+	- `AssertionError` (Always raised by a `assert`)
+	- `ValueError` ()
+	- `IndexError`
+	- `ArithmeticError` (Invalid domain for a arithmetic operation)
+		- `ZeroDivisionErrror`
