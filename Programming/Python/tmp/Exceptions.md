@@ -27,7 +27,23 @@ except (ErrorType1, ErrorType1):
 ````
 
 ## Raise keyword
+
 ````python
 raise Exception
 # Raises an exception of the specified type.
+````
+
+````python
+try:
+	# Code.
+except:
+	raise
+	# Inside an except it re-raises the handled exception.
+````
+
+## Assert keyword
+
+````python
+assert expresion
+# Raises a AssertionError if the expresion is None, 0, false, "" or []
 ````
