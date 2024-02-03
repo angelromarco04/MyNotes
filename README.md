@@ -1,4 +1,4 @@
-# MyNotes
+# My Notes
 I am a Computer Science student. Here I will upload all my notes. 
 Hope you like it!  :D
 

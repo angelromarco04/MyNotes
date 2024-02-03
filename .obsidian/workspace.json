@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "85882b19d65d1496",
+        "id": "7ae238d23dc4835e",
         "type": "tabs",
         "children": [
           {
-            "id": "80a0bc429ca46d18",
+            "id": "c6745c2c4680da97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,11 +106,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80a0bc429ca46d18",
+  "active": "c6745c2c4680da97",
   "lastOpenFiles": [
+    "Assets/Others/UsefulResources1.jpeg",
+    "Linux/Cheat-Sheet.md",
+    "README.md",
     "Programming/Python/index.md",
     "Others/Markdown.md",
-    "Linux/Cheat-Sheet.md",
     "Linux/OverTheWire_Bandit.md",
     "Others/UsefulResources.md",
     "Programming/Java/index.md",
@@ -140,8 +136,6 @@
     "Programming/Rust/index.md",
     "Programming/Rust/files/04-1_Intro.md",
     "Programming/Rust/files/04-3_SliceType.md",
-    "Programming/Rust/files/04-2_Ref&Borrow.md",
-    "Programming/Rust/files/03-5_ControlFlow.md",
     "Linux",
     "MyNotes/Assets",
     "MyNotes",
