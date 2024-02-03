@@ -53,7 +53,7 @@ Resources:
 ```
 
 ## Link
-```
+```markdown
 [Google](https://www.google.com)
 ```
 
@@ -140,8 +140,9 @@ graph TD;
 
 ## Mathematical expressions
 
-Uses `$` to show show mathematical expressions:
+Uses ``` $` ``` to start a inline mathematical expressions and ``` `$ ``` to end it.
 ```text
 $`\sqrt{3x-1}+(1+x)^2`$
 ```
 
+Uses `$$` to start a math 
