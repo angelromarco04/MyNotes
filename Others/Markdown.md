@@ -48,49 +48,48 @@ Resources:
 ~~~
 
 ## Horizontal Rule
-~~~
+```
 ---
-~~~
+```
 
 ## Link
-~~~
+```
 [Google](https://www.google.com)
-~~~
+```
 
 ## Image
-~~~
+```
 ![alternative text](image.png)
-~~~
+```
 
 ## Table
-~~~
+```markdown
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
-~~~
+```
 
 ## Fenced Code Block
-~~~
-```
+
+```markdown
 {
   "firstName": "John",
   "lastName": "Smith",
   "age": 25
 }
 ```
-~~~
 
 ## Strikethrough
-~~~
+```markdown
 ~~The world is flat.~~
-~~~
+```
 
 ## Task List
-~~~
+```markdown
 - [x] Completed task
 - [ ] Uncompleted task
-~~~
+```
 
 ## Comments
 ```markdown
@@ -130,7 +129,7 @@ Content
 
 ## Creating flow charts
 
-```
+```markdown
 ```mermaid
 graph TD;
     A-->B;
@@ -138,7 +137,11 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+## Mathematical expressions
+
+Uses `$` to show show mathematical expressions:
+```text
+$`\sqrt{3x-1}+(1+x)^2`$
 ```
-
-
 
