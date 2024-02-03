@@ -3,6 +3,7 @@
 Resources:
 [The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+[GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
 ---
 
@@ -140,9 +141,14 @@ graph TD;
 
 ## Mathematical expressions
 
+[MathJax | Beautiful math in all browsers.](https://www.mathjax.org/)
+
 Uses ``` $` ``` to start a inline mathematical expressions and ``` `$ ``` to end it.
-```text
-$`\sqrt{3x-1}+(1+x)^2`$
+```markdown
+$` \sqrt{x}+(1+x)^2 `$
 ```
 
-Uses `$$` to start a math 
+Uses `$$` to start and end a equation block.
+```markdown
+$$ \sqrt{x}+(1+x)^2 $$
+```

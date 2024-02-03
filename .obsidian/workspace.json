@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "51df38556e72ced6",
+        "id": "85882b19d65d1496",
         "type": "tabs",
         "children": [
           {
-            "id": "ee58ad88c290253f",
+            "id": "80a0bc429ca46d18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Markdown.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Markdown.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Markdown.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,12 +112,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee58ad88c290253f",
+  "active": "80a0bc429ca46d18",
   "lastOpenFiles": [
+    "Programming/Python/index.md",
+    "Others/Markdown.md",
     "Linux/Cheat-Sheet.md",
     "Linux/OverTheWire_Bandit.md",
     "Others/UsefulResources.md",
-    "Others/Markdown.md",
     "Programming/Java/index.md",
     "Programming/Java/OOP/08_OOP.md",
     "Programming/Java/OOP",
@@ -130,7 +131,6 @@
     "Programming/Java/Basics/02_IO.md",
     "Programming/Java/Basics/01_Basics.md",
     "Programming/Python/Intro/01_Basics.md",
-    "Programming/Python/index.md",
     "Programming/Python/tmp/Exceptions.md",
     "Programming/Python/Intro/05_Arrays.md",
     "Programming/Python/Intro/03_Strings.md",
