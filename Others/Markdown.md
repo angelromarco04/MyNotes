@@ -2,6 +2,7 @@
 
 Resources:
 [The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+[Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ---
 
@@ -90,3 +91,38 @@ Resources:
 - [x] Completed task
 - [ ] Uncompleted task
 ~~~
+
+---
+
+# Some extra notions
+## Alerts
+
+```markdown
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+
+## Collapsed section
+
+```html
+<details>
+<summary>Title</summary>
+Content
+</details>
+```
+
+```html
+<details open> 
+```

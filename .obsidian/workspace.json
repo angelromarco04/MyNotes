@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Cheat-Sheet.md",
+                "file": "Others/Markdown.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Cheat-Sheet.md",
+                "file": "Others/Markdown.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Cheat-Sheet.md",
+                "file": "Others/Markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,8 +114,8 @@
   },
   "active": "ee58ad88c290253f",
   "lastOpenFiles": [
-    "Linux/OverTheWire_Bandit.md",
     "Linux/Cheat-Sheet.md",
+    "Linux/OverTheWire_Bandit.md",
     "Others/UsefulResources.md",
     "Others/Markdown.md",
     "Programming/Java/index.md",
