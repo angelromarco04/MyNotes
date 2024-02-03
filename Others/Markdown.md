@@ -92,6 +92,11 @@ Resources:
 - [ ] Uncompleted task
 ~~~
 
+## Comments
+```markdown
+<!-- COMMENT -->
+```
+
 ---
 
 # Some extra notions
@@ -117,12 +122,23 @@ Resources:
 ## Collapsed section
 
 ```html
-<details>
+<details open>
 <summary>Title</summary>
 Content
 </details>
 ```
 
-```html
-<details open> 
+## Creating flow charts
+
 ```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+```
+
+
+
