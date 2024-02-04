@@ -43,20 +43,37 @@ x + 3*y;
 ## Predefined functions
 | Function | Description |
 | ---- | ---- |
-| abs(x) | Absolute value |
-| exp(x) | Exponential `e^x` |
-| log(x) | Natural logarithm of `x` |
-| log2(x) | Base 2 logarithm of `x` |
-| log10(x) | Base 10 logarithm of `x` |
-| sqrt(x) | Square root of `x` |
-| cbrt(X) | Cube root of `x` |
-| nthroot(x, n) | n-th root of `x` |
-| sin(x) | Sine of `x` |
-| cos(x) | Cosine of `x` |
-| tan(x) | Tangent of `x` |
-| asin(x) | Inverse sine of `x` |
-| acos(x) |  |
-| atan(x) |  |
+| `abs(x)` | Absolute value |
+| `exp(x)` | Exponential `e^x` |
+| `log(x)` | Natural logarithm of `x` |
+| `log2(x)` | Base 2 logarithm of `x` |
+| `log10(x)` | Base 10 logarithm of `x` |
+| `sqrt(x)` | Square root of `x` |
+| `cbrt(X)` | Cube root of `x` |
+| `nthroot(x, n)` | n-th root of `x` |
+| `sin(x)` | Sine of `x` |
+| `cos(x)` | Cosine of `x` |
+| `tan(x)` | Tangent of `x` |
+| `asin(x)` | Inverse sine of `x` |
+| `acos(x)` | Inverse cosine of `x` |
+| `atan(x)` | Inverse tangent of `x` |
+## Creating functions
+```matlab
+% Symbolic function
+
+>> syms x y
+>> f(x y) = x + y^2;
+>> 
+>> f(2 1)
+ans = 
+	3
+	
+% Anonimus function
+>> f = @(x y) x + y^2;
+>> f(2 1)
+ans = 
+	3
+```
 ## Some basic commands
 | Command | Description |
 | ---- | ---- |
