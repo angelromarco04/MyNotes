@@ -140,7 +140,6 @@ ans =
 
 ## Some Functions
 
-### Creation
 | Function | Description |
 | ---- | ---- |
 | `ones (n , m)` | Creates a `n x m `matrix full of `1`.<br>If `m` is not specified it will have the value of `n`. |
@@ -148,5 +147,5 @@ ans =
 | `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
 | `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere. |
 | `linspace(a, b, n)` | Creates a vector with `n` elements equally spaced between `a` and `b`. |
-### Other
-#TODO
+| `length(V)` | Returns number of elements of a vector or matrix. |
+| `size(A)` | Returns a vector with the dimensions of matrix `A`. |
