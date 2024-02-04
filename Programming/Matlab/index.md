@@ -2,15 +2,13 @@
 Author: AAM
 Date: 2024-02-04
 tags:
-  - "#python"
+  - "#matlab"
   - "#programming"
   - TODO
 ---
 
-# 00 Title
-
-[Back to index](../index.md)
+## Matlab index
 
 ---
-
-Body
+1. [Basics](./data/00_basics.md)
+---
