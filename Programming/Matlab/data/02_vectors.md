@@ -32,6 +32,12 @@ V =
 >> V = [11 : -2 : 3]
 V = 
 	11    9    7    5    3
+
+% Increment by default is 1 or -1
+
+>> V = [1 : 2 : 10]
+V = 
+	1    3    5    7    9
 ```
 
 ## Vector Access
@@ -64,4 +70,27 @@ ans =
 >> V ([3 : 1 : end])
 ans =
 	2    5    4
+```
+
+## Matrix creation
+
+```matlab
+>> A = [0 1 2; 2 3 5; 3 4 6]
+A =
+	0    1    2
+	2    3    5
+	3    4    6
+
+>> B = [6, 7; 7, 8; 8, 9]
+B =
+	6    7
+	7    8
+	8    9
+
+% Matrixes can be concatenated
+>> C = [A B]
+C =
+	0    1    2    6    7
+	2    3    5    7    8
+	3    4    6    8    9
 ```
