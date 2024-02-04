@@ -98,10 +98,10 @@
   },
   "active": "0b18528238ab760d",
   "lastOpenFiles": [
-    "Templates/Matlab template.md",
     "Programming/Matlab/index.md",
-    "Programming/Matlab/data/01_basics.md",
     "Programming/Matlab/data/02_vectors.md",
+    "Templates/Matlab template.md",
+    "Programming/Matlab/data/01_basics.md",
     "Templates/Python template.md",
     "README.md",
     "Others/UsefulResources.md",
