@@ -1,3 +1,10 @@
+---
+Author: AAM
+Date: 2024-02-04
+tags:
+  - "#python"
+  - "#programming"
+---
 # 05 Arrays and `for` loop
 
 [Back to Python3 index](../index.md)

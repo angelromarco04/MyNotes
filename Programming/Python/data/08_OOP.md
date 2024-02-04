@@ -1,0 +1,75 @@
+---
+Author: AAM
+Date: 2024-02-04
+tags:
+  - "#python"
+  - "#programming"
+---
+
+# 07 OOP
+
+[Back to Python3 index](../index.md)
+
+---
+
+## Classes vs Objects
+
+- A **class** is an abstract scheme for storing some data and performing calculations with it.
+	- This data is a set of values called **attributes**.
+	- This operations (inner functions) are called **methods**.
+	- This structure remains the same for every object of a class
+		Example -> Car ( Color, Weight, Dimensions )
+- A object is a particular of a class with its values set.
+	- The attributes have a particular value
+		Example -> My Car ( Red, 400 kg, Small )
+		Example -> Other Car ( Blue, 1000 kg, Big )
+
+## Classes
+
+- Keyword `class` is used for defining a class.
+- Every class needs a `__init__` method that is used for creating a class.
+- The `self` parameter is a reference to the object itself.
+	- It allows accessing and modifying the atributes of the class
+- The class attributes can also be accessed from outside the class.
+	- `objectName._class__attribute`
+
+```python
+class ExampleClass:
+    def __init__(self, param = 1):
+        self.value = val
+
+example_object_1 = ExampleClass()
+# __init__ method is called with param = None -> Now value = 1.
+
+example_object_2 = ExampleClass(2)
+# __init__ method is called with param = 2 -> Now value = 2.
+
+value1 = example_object_1._ExampleClass__value
+# Now value1 = 1
+
+value2 = example_object_1._ExampleClass__value
+# Now value1 = 2
+```
+
+- There also exists static attributes or class variables.
+	- They are a class property that is shared among all objects of that class.
+	
+```python
+class ExampleClass:
+	classCounter = 0
+    def __init__(self, param = 1):
+        self.value = val
+        ExampleClass.classCounter += 1
+      
+example_object_1 = ExampleClass()
+# Object value = 1 | ExampleClass.classCounter = 1
+
+example_object_2 = ExampleClass(5)
+# Object value = 5 | ExampleClass.classCounter = 2
+
+example_object_3 = ExampleClass(46)
+# Object value = 46 | ExampleClass.classCounter = 3
+```
+
+
+`__dict__`

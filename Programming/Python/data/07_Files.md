@@ -1,4 +1,12 @@
-# 07 File I/O
+---
+Author: AAM
+Date: 2024-02-04
+tags:
+  - "#python"
+  - "#programming"
+---
+
+# 06 File I/O
 
 [Back to Python3 index](../index.md)
 

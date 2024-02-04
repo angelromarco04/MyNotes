@@ -13,16 +13,16 @@ public class myClass{
 
 ---
 ## Basics
-1.  [Basics](Basics/01_Basics.md)
-2.  [Input and Output](Basics/02_IO.md)
-3.  [Formatting](Basics/03_Formatting.md)
-4.  [Conditionals](Basics/04_Conditionals.md)
-5.  [Loops](Basics/05_Loops.md)
-6.  [Arrays](Basics/06_Arrays.md)
-7.  [String](Basics/07_String.md)
+1.  [Basics](data/01_Basics.md)
+2.  [Input and Output](data/02_IO.md)
+3.  [Formatting](data/03_Formatting.md)
+4.  [Conditionals](data/04_Conditionals.md)
+5.  [Loops](data/05_Loops.md)
+6.  [Arrays](data/06_Arrays.md)
+7.  [String](data/07_String.md)
 
 ## OOP
-8.  [Classes & Objects](OOP/08_OOP.md)
+8.  [Classes & Objects](data/08_OOP.md)
 9.  [Inheritance]() ( #TODO)
 10. [Polymorphism]() ( #TODO)
 

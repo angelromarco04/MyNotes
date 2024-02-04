@@ -1,3 +1,10 @@
+---
+Author: AAM
+Date: 2024-02-04
+tags:
+  - "#python"
+  - "#programming"
+---
 # Python3 index
 
 ```python
@@ -10,15 +17,16 @@ print("Hello World")
 
 ## Introduction
 
-1. [Basics](Intro/01_Basics.md)
-2. [Console I/O](Intro/02_IO.md)
-3. [Strings](Intro/03_Strings.md)
-4. [Control Structures (if-else / while)](Intro/04_Control.md)
-5. [Arrays (for)](Intro/05_Arrays.md)
-6. [Files](Intro/06_Files.md)
+1. [Basics](./data/01_Basics.md)
+2. [Console I/O](./data/02_IO.md)
+3. [Strings](./data/03_Strings.md)
+4. [Control Structures](./data/04_Control.md)
+5. [Arrays](./data/05_Arrays.md)
+6. [Functions](./data/06_Functions.md)
+7. [Files](./data/07_Files.md)
 
 ## OOP
-7. [OOP](Intro/06_Files.md)
+8. [OOP](./data/08_OOP.md)
 
 ## Modules
 - [Subprocess]() ( #TODO)
