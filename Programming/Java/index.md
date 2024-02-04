@@ -23,23 +23,24 @@ public class myClass{
 
 ## OOP
 8.  [Classes & Objects](OOP/08_OOP.md)
-9.  [Inheritance]() (TODO)
-10. [Polymorphism]() (TODO)
+9.  [Inheritance]() ( #TODO)
+10. [Polymorphism]() ( #TODO)
 
 ## Advanced
-11. [Exceptions]() (TODO)
-12. [Files & Serialization]() (TODO)
-13. [Generics]() (TODO)
-14. [Lambda Expresions]() (TODO)
-15. [Data Abstraction]() (TODO)
-16. [Comparators & Iterators]() (TODO)
+11. [Exceptions]() ( #TODO)
+12. [Files & Serialization]() ( #TODO)
+13. [Generics]() ( #TODO)
+14. [Lambda Expresions]() ( #TODO)
+15. [Data Abstraction]() ( #TODO)
+16. [Comparators & Iterators]() ( #TODO)
 
 ## Data Structures
+ #TODO 
 
 ## EXTRA
-- [Math]() (TODO)
-- [Calendar (gregorian)]() (TODO)
-- [UML Diagrams]() (TODO)
-- [Tests (Jupiter5)]() (TODO)
+- [Math]() ( #TODO)
+- [Calendar (gregorian)]() ( #TODO)
+- [UML Diagrams]() ( #TODO)
+- [Tests (Jupiter5)]() ( #TODO)
 
 ---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Programming/Python/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Programming/Python/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Programming/Python/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,14 +114,21 @@
   },
   "active": "31a09b8fd1fecacf",
   "lastOpenFiles": [
-    "Assets/Others/UsefulResources1.jpeg",
-    "Linux/Cheat-Sheet.md",
-    "README.md",
+    "Programming/Python/Intro/02_IO.md",
     "Programming/Python/index.md",
+    "Programming/Python/tmp/Exceptions.md",
+    "Others/ANSI_codes.md",
+    "Programming/Java/index.md",
+    "README.md",
+    "Programming/Rust/index.md",
+    "Programming/Rust/files/01_Intro.md",
+    "Programming/Rust/files/03-4_Comments.md",
+    "Programming/Rust/files/04-1_Intro.md",
+    "Linux/Cheat-Sheet.md",
+    "Assets/Others/UsefulResources1.jpeg",
     "Others/Markdown.md",
     "Linux/OverTheWire_Bandit.md",
     "Others/UsefulResources.md",
-    "Programming/Java/index.md",
     "Programming/Java/OOP/08_OOP.md",
     "Programming/Java/OOP",
     "().md",
@@ -133,15 +140,9 @@
     "Programming/Java/Basics/02_IO.md",
     "Programming/Java/Basics/01_Basics.md",
     "Programming/Python/Intro/01_Basics.md",
-    "Programming/Python/tmp/Exceptions.md",
     "Programming/Python/Intro/05_Arrays.md",
     "Programming/Python/Intro/03_Strings.md",
-    "Programming/Python/Intro/02_IO.md",
-    "Programming/Python/Intro/06_Files.md",
     "Programming/Python/tmp",
-    "Programming/Rust/index.md",
-    "Programming/Rust/files/04-1_Intro.md",
-    "Programming/Rust/files/04-3_SliceType.md",
     "Linux",
     "MyNotes/Assets",
     "MyNotes",
