@@ -60,7 +60,6 @@ x + 3*y;
 ## Creating functions
 ```matlab
 % Symbolic function
-
 >> syms x y
 >> f(x y) = x + y^2;
 >> 
@@ -73,6 +72,13 @@ ans =
 >> f(2 1)
 ans = 
 	3
+
+% Anonimus -> Symbolic
+>> syms x y
+>> f_simbolic(x y) = f_anonimus(x y)
+
+% Symbolic -> Anonimus
+>> f_anonimus = f_simbolic(x y)
 ```
 ## Some basic commands
 | Command | Description |
@@ -84,3 +90,10 @@ ans =
 ## Use of semicolons
 
 In a Matlab script each operation displays its result in the console. To prevent the console from being illegible, each script line ending with a semicolon will not be displayed when executed.
+
+## Ploting graphs
+#TODO
+
+```matlab
+
+```
