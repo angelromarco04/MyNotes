@@ -39,6 +39,18 @@ V =
 >> V = [1 : 5]
 V = 
 	1    2    3    4    5
+
+% We can also use linspace(a, b, n)
+% Creates a vector with `n` elements equally spaced
+% between `a` and `b`. 
+
+>> linspace(2, 8, 4)
+ans = 
+	2    4    6    8
+
+>> linspace(2, 3, 5)
+ans = 
+	2.00    2.25    2.50    2.75    3.00
 ```
 
 ### Access
@@ -124,21 +136,21 @@ ans =
 ```
 
 
-## Operations
+### Operations
 
 | Symbol | Description |
 | ---- | ---- |
-| + | Matrix addition.  |
-| - | Matrix subtraction.  |
-| * | Standard matrix multiplication. |
-| .* | Elementwise multiplication. |
-| A/B | Equivalent to `A * inv(B)`. |
-| ./ | Elementwise right division. |
-| \ | Equivalent to `inv(A) * B`. |
-| .\ | Elementwise left division. |
-| .^ | Elementwise power. |
+| `A + B` | Matrix addition.  |
+| `A - B` | Matrix subtraction.  |
+| `A * B` | Standard matrix multiplication. |
+| `A .* B` | Elementwise multiplication. |
+| `A / B` | Equivalent to `A * inv(B)`. |
+| `A ./ B` | Elementwise right division. |
+| `A \ B` | Equivalent to `inv(A) * B`. |
+| `A .\ B` | Elementwise left division. |
+| `A .^ B` | Elementwise power. |
 
-## Some Functions
+### Some Functions
 
 | Function | Description |
 | ---- | ---- |
@@ -146,6 +158,5 @@ ans =
 | `zeros (n , m)` | Creates a `n x m` matrix full of `0`.<br>If `m` is not specified it will have the value of `n`. |
 | `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
 | `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere. |
-| `linspace(a, b, n)` | Creates a vector with `n` elements equally spaced between `a` and `b`. |
 | `length(V)` | Returns number of elements of a vector or matrix. |
 | `size(A)` | Returns a vector with the dimensions of matrix `A`. |
