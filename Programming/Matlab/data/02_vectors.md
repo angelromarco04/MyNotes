@@ -175,4 +175,4 @@ ans =
 | `prod(A)` | Returns a vector containing the product of each column of a matrix. |
 | `max(A)` | Returns a vector containing the maximun of each column of a matrix. |
 | `min(A)` | Returns a vector containing the minimun of each column of a matrix. |
-| `inv(A)` | Returns the inverse of A. |
+| `inv(A)` - `A.'` | Returns the inverse of A. |

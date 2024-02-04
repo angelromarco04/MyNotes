@@ -40,6 +40,23 @@ x + 3*y;
 | `i` -  `j` | Imaginary units. |
 | `+inf` -  `-inf` | Infinity. |
 | `NaN` | Not a number. |
+## Predefined functions
+| Function | Description |
+| ---- | ---- |
+| abs(x) | Absolute value |
+| exp(x) | Exponential `e^x` |
+| log(x) | Natural logarithm of `x` |
+| log2(x) | Base 2 logarithm of `x` |
+| log10(x) | Base 10 logarithm of `x` |
+| sqrt(x) | Square root of `x` |
+| cbrt(X) | Cube root of `x` |
+| nthroot(x, n) | n-th root of `x` |
+| sin(x) | Sine of `x` |
+| cos(x) | Cosine of `x` |
+| tan(x) | Tangent of `x` |
+| asin(x) | Inverse sine of `x` |
+| acos(x) |  |
+| atan(x) |  |
 ## Some basic commands
 | Command | Description |
 | ---- | ---- |
