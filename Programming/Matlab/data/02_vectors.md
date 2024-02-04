@@ -124,10 +124,24 @@ ans =
 ```
 
 
+## Operations
+
+| Symbol | Description |
+| ---- | ---- |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+| `*` |  |
+| `/` |  |
+
 ## Some Functions
 
+### Creation
 | Function | Description |
 | ---- | ---- |
-| `ones (n , m)` | Creates a matrix full of `1` of dimension `(n x m)`.<br>If `m` is not specified it will have the value of `n`. |
-| `zeros (n , m)` | Creates a matrix full of `0` of dimension `(n x m)`.<br>If `m` is not specified it will have the value of `n`. |
-| `eye(n , m)` | Creates a n x m matrix with `1` in the main diagonal and `0` |
+| `ones (n , m)` | Creates a `n x m `matrix full of `1`.<br>If `m` is not specified it will have the value of `n`. |
+| `zeros (n , m)` | Creates a `n x m` matrix full of `0`.<br>If `m` is not specified it will have the value of `n`. |
+| `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
+| `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere |
+### Other
