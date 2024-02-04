@@ -130,11 +130,13 @@ ans =
 | ---- | ---- |
 | + |  |
 | - |  |
-| * |  |
-| .* |  |
-| / |  |
-| ./ |  |
-|  |  |
+| * | Matrix multiplication |
+| .* | Elementwise multiplication |
+| A/B | Equivalent to `A * inv(B)` |
+| ./ | Elementwise right division |
+| \ | Equivalent to `inv(A) * B` |
+| .\ | Elementwise left division |
+| .^ | Elementwise power |
 |  |  |
 
 ## Some Functions
