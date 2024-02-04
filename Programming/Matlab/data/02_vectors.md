@@ -146,7 +146,7 @@ ans =
 | `ones (n , m)` | Creates a `n x m `matrix full of `1`.<br>If `m` is not specified it will have the value of `n`. |
 | `zeros (n , m)` | Creates a `n x m` matrix full of `0`.<br>If `m` is not specified it will have the value of `n`. |
 | `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
-| `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere |
-| `linspace(a, y, z)` | Creates a vector with y  |
+| `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere. |
+| `linspace(a, b, n)` | Creates a vector with `n` elements equally spaced between `a` and `b`. |
 ### Other
 #TODO
