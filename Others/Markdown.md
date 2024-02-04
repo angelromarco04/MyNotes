@@ -74,13 +74,23 @@ Resources:
 ## Fenced Code Block
 
 ```markdown
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
+~~~python
+# Some python code
+if __name__ = __main__:
+	print("Hello World")
+~~~
 ```
 
+~~~markdown
+```java
+// Some java code
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello World")
+	}
+}
+```
+~~~
 ## Strikethrough
 ```markdown
 ~~The world is flat.~~
@@ -130,16 +140,15 @@ Content
 
 ## Creating flow charts
 
-```markdown
+~~~markdown
 ```mermaid
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-\```
 ```
-```
+~~~
 
 ## Mathematical expressions
 
