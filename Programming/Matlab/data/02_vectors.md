@@ -99,10 +99,26 @@ C =
 ```
 
 ### Access
+
 ```matlab
 >> A = [0 1 2; 3 4 5; 6 7 8];
 
->> A(2 , 3)
+>> A (2 , 3)
 ans =
 	5
+
+>> A ([1 2] , 1)
+ans =
+	0
+	3
+
+>> A (1 , 2:3)
+ans =
+	1    2
+
+% : can be used to specify the whole row/columm
+
+>> A (1 , :)
+ans =
+	0    1    2
 ```
