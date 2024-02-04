@@ -5,25 +5,36 @@ tags:
   - "#matlab"
   - "#programming"
 ---
-
+---
 # 02 Vectors & Matrices
 
 [Back to index](../index.md)
 
 ---
 
-## Vector Creation & Access
+## Vector Creation
 
 ```matlab
-v1 = [1 2 3];
-v1 = [1, 2, 3];
-% (1, 2, 3)
+>>> V = [1 2 3]
+V = 
+	1    2    3
+    
+>>> V = [1, 2, 3]
+V = 
+	1    2    3
+	
+% initial : increment : end
 
->>> inicio : incremento : fin
->>> v2 = [1:2:10];
->>> (1, 3, 5, 7, 9)
->>> v3 = [1:2:11];
->>> >>> (1, 3, 5, 7, 9, 11)
->>> >>> v4 = [3:2:11];
->>> >>> >>> (3, 5, 7, 9, 11)
+>>> V = [1:2:10]
+V = 
+	1    3    5    7    9
+
+>>> V = [3:2:11]
+V = 
+	3    5    7    9    11
+```
+
+## Vector Access
+```matlab
+
 ```
