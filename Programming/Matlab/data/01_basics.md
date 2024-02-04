@@ -1,6 +1,6 @@
 ---
 Author: AAM
-Date: 04-02-2024
+Date: 2024-02-04
 tags:
   - "#matlab"
   - "#programming"
@@ -13,7 +13,6 @@ tags:
 ---
 
 ### Basic operations
-
 | Name | Symbol |
 | ---- | ---- |
 | Parenthesis | `( )` |
@@ -22,35 +21,29 @@ tags:
 | Substraction | `-` |
 | Multiplication | `*` |
 | Division | `/` |
-
 ## Variables
 
 ```matlab
-% Variables
+% Simple variable
 a1 = 1
 
-% Variables simbolicas
-syms x y a2 = x + 3*y
-
-
+% Symbolic variables
+syms x y
+f(x, y) = x + 3*y
 ```
-## Variables predefinidas
+## Predefined Variables
 | Variable | Description |
 | ---- | ---- |
-| ans |  |
-| pi |  |
-| i j |  |
-| inf |  |
-|  |  |
-ans Ultimo resultado no asignado a variable
-pi Valor pi
-i j Unidades imaginarias
-inf Infinito
-NaN Not a number
-date Fecha
+| `ans` | Last result not assigned to a variable. |
+| `pi` | Value of pi. |
+| `i` -  `j` | Imaginary units. |
+| `+inf` -  `-inf` | Infinity. |
+| `NaN` | Not a number. |
 ## Some basic commands
 
 | Command | Description |
 | ---- | ---- |
 | `whos` | Displays all variables in current session. |
 | `clear` | Remove all variables from current session. |
+| `date` | Current date. |
+| `disp( A )` | Displays contents of A in the console |

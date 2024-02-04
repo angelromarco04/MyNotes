@@ -5,9 +5,9 @@ tags:
   - "#matlab"
   - "#programming"
 ---
-
 ## Matlab index
 
 ---
 1. [Basics](data/01_basics.md)
+2. [Basics](data/01_basics.md)
 ---
