@@ -122,3 +122,12 @@ ans =
 ans =
 	0    1    2
 ```
+
+
+## Some Functions
+
+| Function | Description |
+| ---- | ---- |
+| `ones (n , m)` | Creates a matrix full of `1` of dimension `(n x m)`.<br>If `m` is not specified it will have the value of `n`. |
+| `zeros (n , m)` | Creates a matrix full of `0` of dimension `(n x m)`.<br>If `m` is not specified it will have the value of `n`. |
+| `eye(n , m)` | Creates a n x m matrix with `1` in the main diagonal and `0` |
