@@ -40,10 +40,12 @@ f(x, y) = x + 3*y
 | `+inf` -  `-inf` | Infinity. |
 | `NaN` | Not a number. |
 ## Some basic commands
-
 | Command | Description |
 | ---- | ---- |
 | `whos` | Displays all variables in current session. |
 | `clear` | Remove all variables from current session. |
 | `date` | Current date. |
 | `disp( A )` | Displays contents of A in the console |
+## Use of semicolons
+
+In a Matlab script each operation displays its result in the console. To prevent the console from being illegible, each script line ending with a semicolon will not be displayed when executed.
