@@ -17,7 +17,15 @@ tags:
 | Name | Symbol |
 | ---- | ---- |
 | Parenthesis | `( )` |
-| Power |  |
-| Addition |  |
-| Unary minus |  |
-| Multiplication |  |
+| Power | `^` |
+| Addition | `+` |
+| Substraction | `-` |
+| Multiplication | `*` |
+| Division | `/` |
+
+## Some basic commands
+
+| Command | Description |
+| ---- | ---- |
+| `whos` | Displays all variables in current session. |
+| `clear` | Remove all variables from current session. |
