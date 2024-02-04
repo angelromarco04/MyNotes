@@ -29,12 +29,13 @@ V =
 V = 
 	1    3    5    7    9
 
->> V = [3 : 2 : 11]
+>> V = [11 : -2 : 3]
 V = 
-	3    5    7    9    11
+	11    9    7    5    3
 ```
 
 ## Vector Access
+
 ```matlab
 >> V = [3, 1, 2, 5, 4];
 
@@ -45,4 +46,22 @@ ans =
 >> V ([3 5 1])
 ans =
 	2    4    3
+
+>> V ([1 : 2 : 5])
+ans =
+	3    2    4
+
+% end keyword is substituted by the last index of the vector
+
+>> V(end)
+ans =
+	4
+
+>> V(end - 2)
+ans =
+	2
+
+>> V ([3 : 1 : end])
+ans =
+	2    5    4
 ```
