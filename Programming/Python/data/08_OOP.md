@@ -14,30 +14,36 @@ tags:
 
 ## Classes vs Objects
 
-- A **class** is an abstract scheme for storing some data and performing calculations with it.
-	- This data is a set of values called **attributes**.
-	- This operations (inner functions) are called **methods**.
-	- This structure remains the same for every object of a class
+A **class** is an abstract scheme for storing some data and performing calculations with it.
+- This data is a set of values called **attributes**.
+- This operations (inner functions) are called **methods**.
+- This structure remains the same for every object of a class
 		Example -> Car ( Color, Weight, Dimensions )
-- A object is a particular of a class with its values set.
-	- The attributes have a particular value
-		Example -> My Car ( Red, 400 kg, Small )
-		Example -> Other Car ( Blue, 1000 kg, Big )
 
-## Classes
+A **object** is a particular of a class with its values set.
+- The attributes have a particular value:
+	Example -> My Car ( Red, 400 kg, Small )
+	Example -> Other Car ( Blue, 1000 kg, Big )
+
+## Class Definition
 
 - Keyword `class` is used for defining a class.
 - Every class needs a `__init__` method that is used for creating a class.
 - The `self` parameter is a reference to the object itself.
 	- It allows accessing and modifying the atributes of the class
-- The class attributes can also be accessed from outside the class.
-	- `objectName._class__attribute`
 
 ```python
 class ExampleClass:
     def __init__(self, param = 1):
         self.value = val
+```
 
+## Object Definition
+
+- The class attributes can also be accessed from outside the class.
+	`objectName._class__attribute`
+
+```python
 example_object_1 = ExampleClass()
 # __init__ method is called with param = None -> Now value = 1.
 
@@ -51,8 +57,10 @@ value2 = example_object_1._ExampleClass__value
 # Now value1 = 2
 ```
 
+## Class variables
+
 - There also exists static attributes or class variables.
-	- They are a class property that is shared among all objects of that class.
+- They are a class property that is shared among all objects of that class.
 	
 ```python
 class ExampleClass:
@@ -71,5 +79,12 @@ example_object_3 = ExampleClass(46)
 # Object value = 46 | ExampleClass.classCounter = 3
 ```
 
+## Checking attributes existence
 
+- Python allows objects of the same class to have a different set of attributes
+```python
+class ExampleClass:
+	def __init__(self, value1):
+		value1
+```
 `__dict__`
