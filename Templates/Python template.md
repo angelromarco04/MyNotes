@@ -1,6 +1,6 @@
 ---
 Author: AAM
-Date: 2024-02-04
+Date: "{{date}}"
 tags:
   - "#python"
   - "#programming"

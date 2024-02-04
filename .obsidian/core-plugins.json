@@ -1,11 +1,11 @@
 [
   "file-explorer",
   "global-search",
-  "backlink",
   "outgoing-link",
   "page-preview",
   "templates",
   "command-palette",
   "editor-status",
+  "word-count",
   "file-recovery"
 ]

@@ -1,11 +1,11 @@
 ---
 Author: AAM
-Date: 2024-02-04
+Date: 04-02-2024
 tags:
   - "#matlab"
   - "#programming"
+  - TODO
 ---
-
 # 01 Basics
 
 [Back to index](../index.md)
@@ -32,15 +32,22 @@ a1 = 1
 % Variables simbolicas
 syms x y a2 = x + 3*y
 
-% Variables predefinidas
+
+```
+## Variables predefinidas
+| Variable | Description |
+| ---- | ---- |
+| ans |  |
+| pi |  |
+| i j |  |
+| inf |  |
+|  |  |
 ans Ultimo resultado no asignado a variable
 pi Valor pi
 i j Unidades imaginarias
 inf Infinito
 NaN Not a number
 date Fecha
-```
-
 ## Some basic commands
 
 | Command | Description |
