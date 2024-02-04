@@ -84,7 +84,27 @@ example_object_3 = ExampleClass(46)
 - Python allows objects of the same class to have a different set of attributes
 ```python
 class ExampleClass:
-	def __init__(self, value1):
-		value1
+	def __init__(self, arg = 0):
+		self.value1 = arg
+	def setValue2(self arg = 0):
+		self.value2 = arg
+
+example_object = ExampleClass() # Now only value1 exists.
+print(example_object._ExampleClass__value2) # Error.
+
+example_object.setValue2() # Now value2 is created.
+print(example_object._ExampleClass__value2) # Output -> 0
 ```
+
+- To check if a value exists we can use `hasattr(object, attribute)`
+```python
+example_object = ExampleClass() # Now only value1 exists.
+
+print(hasattr(ExampleClass, "value")) # Outpur -> False
+
+example_object.setValue2() # Now value2 is created.
+print(example_object._ExampleClass__value2) # Output -> 0
+```
+
+
 `__dict__`
