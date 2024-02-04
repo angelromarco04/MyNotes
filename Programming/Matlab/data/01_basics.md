@@ -23,6 +23,24 @@ tags:
 | Multiplication | `*` |
 | Division | `/` |
 
+## Variables
+
+```matlab
+% Variables
+a1 = 1
+
+% Variables simbolicas
+syms x y a2 = x + 3*y
+
+% Variables predefinidas
+ans Ultimo resultado no asignado a variable
+pi Valor pi
+i j Unidades imaginarias
+inf Infinito
+NaN Not a number
+date Fecha
+```
+
 ## Some basic commands
 
 | Command | Description |
