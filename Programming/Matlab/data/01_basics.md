@@ -4,7 +4,7 @@ Date: 2024-02-04
 tags:
   - "#matlab"
   - "#programming"
-  - TODO
+---
 ---
 # 01 Basics
 
@@ -25,7 +25,7 @@ tags:
 
 ```matlab
 % Simple variable
-a1 = 1
+var = 1
 
 % Symbolic variables
 syms x y

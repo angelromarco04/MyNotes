@@ -4,7 +4,6 @@ Date: "{{date}}"
 tags:
   - "#python"
   - "#programming"
-  - TODO
 ---
 
 # 00 Title

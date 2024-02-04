@@ -4,7 +4,6 @@ Date: "{{date}}"
 tags:
   - "#matlab"
   - "#programming"
-  - TODO
 ---
 
 # 00 Title
