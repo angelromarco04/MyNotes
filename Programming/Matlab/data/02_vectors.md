@@ -172,6 +172,7 @@ ans =
 | ---- | ---- |
 | `size(A)` | Returns a vector with the dimensions of matrix `A`. |
 | `sum(A)` | Returns a vector containing the sum of each column of a matrix. |
-| `prod(A)` | Returns the product of all elements of a vector. |
-| `max(A)` | Returns the maximum element of a vector. |
-| `min(A)` | Returns the minimum element of a vector |
+| `prod(A)` | Returns a vector containing the product of each column of a matrix. |
+| `max(A)` | Returns a vector containing the maximun of each column of a matrix. |
+| `min(A)` | Returns a vector containing the minimun of each column of a matrix. |
+| `inv(A)` | Returns the inverse of A. |
