@@ -85,6 +85,16 @@ ans =
 	2    5    4
 ```
 
+### Some functions
+
+| Function | Description |
+| ---- | ---- |
+| `length(V)` | Returns number of elements of a vector. |
+| `sum(V)` | Returns the sum of all elements of a vector. |
+| `prod(V)` | Returns the product of all elements of a vector. |
+| `max(V)` | Returns the maximum element of a vector. |
+| `min(V)` | Returns the minimum element of a vector |
+
 ## Matrix
 ### Creation
 
@@ -110,6 +120,12 @@ C =
 	3    4    6    8    9
 ```
 
+| Function | Description |
+| ---- | ---- |
+| `ones (n , m)` | Creates a `n x m `matrix full of `1`.<br>If `m` is not specified it will have the value of `n`. |
+| `zeros (n , m)` | Creates a `n x m` matrix full of `0`.<br>If `m` is not specified it will have the value of `n`. |
+| `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
+| `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere. |
 ### Access
 
 ```matlab
@@ -154,9 +170,8 @@ ans =
 
 | Function | Description |
 | ---- | ---- |
-| `ones (n , m)` | Creates a `n x m `matrix full of `1`.<br>If `m` is not specified it will have the value of `n`. |
-| `zeros (n , m)` | Creates a `n x m` matrix full of `0`.<br>If `m` is not specified it will have the value of `n`. |
-| `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
-| `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere. |
-| `length(V)` | Returns number of elements of a vector or matrix. |
 | `size(A)` | Returns a vector with the dimensions of matrix `A`. |
+| `sum(A)` | Returns a vector containing the sum of each column of a matrix. |
+| `prod(A)` | Returns the product of all elements of a vector. |
+| `max(A)` | Returns the maximum element of a vector. |
+| `min(A)` | Returns the minimum element of a vector |
