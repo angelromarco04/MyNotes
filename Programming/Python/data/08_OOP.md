@@ -106,5 +106,5 @@ print(hasattr(ExampleClass, "value2")) # Output -> False
 
 ## Other
 
-- We can obtain a set of attributes of an object with `object.__dict__`
-- We can obtain the set of attributes and methods of a class with
+- We can obtain a set of attributes of an object with `object.__dict__`.
+- We can obtain the set of attributes and methods of a class with `class.__dict__`.
