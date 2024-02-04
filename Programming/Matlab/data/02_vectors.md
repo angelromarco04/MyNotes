@@ -128,16 +128,15 @@ ans =
 
 | Symbol | Description |
 | ---- | ---- |
-| + |  |
-| - |  |
-| * | Matrix multiplication |
-| .* | Elementwise multiplication |
-| A/B | Equivalent to `A * inv(B)` |
-| ./ | Elementwise right division |
-| \ | Equivalent to `inv(A) * B` |
-| .\ | Elementwise left division |
-| .^ | Elementwise power |
-|  |  |
+| + | Matrix addition.  |
+| - | Matrix subtraction.  |
+| * | Standard matrix multiplication. |
+| .* | Elementwise multiplication. |
+| A/B | Equivalent to `A * inv(B)`. |
+| ./ | Elementwise right division. |
+| \ | Equivalent to `inv(A) * B`. |
+| .\ | Elementwise left division. |
+| .^ | Elementwise power. |
 
 ## Some Functions
 
@@ -148,4 +147,6 @@ ans =
 | `zeros (n , m)` | Creates a `n x m` matrix full of `0`.<br>If `m` is not specified it will have the value of `n`. |
 | `eye(n , m)` | Creates a `n x m` matrix with `1` in the main diagonal and `0` elsewhere.<br>If `m` is not specified it will have the value of `n`. |
 | `diag(v)` | Creates a matrix with the vector `v` as main diagonal and `0` elsewhere |
+| `linspace(a, y, z)` | Creates a vector with y  |
 ### Other
+#TODO

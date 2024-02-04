@@ -20,16 +20,17 @@ tags:
 | Addition | `+` |
 | Substraction | `-` |
 | Multiplication | `*` |
-| Division | `/` |
+| Regular division | `/` |
+| Left division | `\` |
 ## Variables
 
 ```matlab
 % Simple variable
-var = 1
+var = 1;
 
 % Symbolic variables
-syms x y
-f(x, y) = x + 3*y
+syms x y;
+x + 3*y;
 ```
 ## Predefined Variables
 | Variable | Description |
