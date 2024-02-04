@@ -12,7 +12,8 @@ tags:
 
 ---
 
-## Vector Creation
+## Vectors
+### Creation
 
 ```matlab
 >> V = [1 2 3]
@@ -35,12 +36,12 @@ V =
 
 % Increment by default is 1 or -1
 
->> V = [1 : 2 : 10]
+>> V = [1 : 5]
 V = 
-	1    3    5    7    9
+	1    2    3    4    5
 ```
 
-## Vector Access
+### Access
 
 ```matlab
 >> V = [3, 1, 2, 5, 4];
@@ -72,7 +73,8 @@ ans =
 	2    5    4
 ```
 
-## Matrix creation
+## Matrix
+### Creation
 
 ```matlab
 >> A = [0 1 2; 2 3 5; 3 4 6]
@@ -88,9 +90,19 @@ B =
 	8    9
 
 % Matrixes can be concatenated
+
 >> C = [A B]
 C =
 	0    1    2    6    7
 	2    3    5    7    8
 	3    4    6    8    9
+```
+
+### Access
+```matlab
+>> A = [0 1 2; 3 4 5; 6 7 8];
+
+>> A(2 , 3)
+ans =
+	5
 ```
