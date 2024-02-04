@@ -100,11 +100,11 @@ print(example_object._ExampleClass__value2) # Output -> 0
 ```python
 example_object = ExampleClass() # Now only value1 exists.
 
-print(hasattr(ExampleClass, "value")) # Outpur -> False
-
-example_object.setValue2() # Now value2 is created.
-print(example_object._ExampleClass__value2) # Output -> 0
+print(hasattr(ExampleClass, "value1")) # Output -> True
+print(hasattr(ExampleClass, "value2")) # Output -> False
 ```
 
+## Other
 
-`__dict__`
+- We can obtain a set of attributes of an object with `object.__dict__`
+- We can obtain the set of attributes and methods of a class with
