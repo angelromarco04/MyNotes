@@ -1,6 +1,16 @@
+---
+Author: AAM
+Date: 2024-02-05
+tags:
+---
+
 # Markdown Cheat Sheet
 
-Resources:
+[HOME](/README.md)
+[Back to index](../index.md)
+
+---
+# Resources:
 [The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)

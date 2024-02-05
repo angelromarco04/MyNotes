@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "633bc48caae85ec0",
+        "id": "8b329c009a8d9356",
         "type": "tabs",
         "children": [
           {
-            "id": "74d7c294493183db",
+            "id": "5c5c7092d6eee1c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Others/Markdown.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Others/Markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,10 +97,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "74d7c294493183db",
+  "active": "5c5c7092d6eee1c4",
   "lastOpenFiles": [
-    "Programming/Java/index.md",
+    "Programming/Rust/index.md",
+    "Templates/Base template.md",
     "README.md",
+    "Templates/Python template.md",
+    "Programming/Java/index.md",
     "Others/UsefulResources.md",
     "Linux",
     "Linux/Bash.md",
@@ -117,7 +120,6 @@
     "Programming/Matlab/data/02_vectors.md",
     "data/03_.md",
     "data",
-    "Templates/Python template.md",
     "data/00_basics.md",
     "Programming/Matlab/data",
     "Programming/Matlab",
@@ -128,7 +130,6 @@
     "Programming/Python/data/01_Basics.md",
     "Programming/Python/data/04_Control.md",
     "Programming/Python/data/07_Files.md",
-    "Programming/Python/data/05_Arrays.md",
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",

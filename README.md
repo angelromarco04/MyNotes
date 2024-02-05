@@ -13,6 +13,7 @@ Hope you like it!  :D
 - C++ #TODO
 - [Rust](Programming/Rust/index.md)
 - [Matlab](Programming/Matlab/index.md)
+- Data Structures & Algorithms #TODO
 
 ### Computer Science
 - Computers Fundamentals #TODO
@@ -20,9 +21,12 @@ Hope you like it!  :D
 - [Operating Systems](CS/OS.md)
 ### Linux
 - [Bash Scripting](Linux/Bash.md)
+- Linux ricing #TODO
 - [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md)
 ### Other
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
 - [ANSI codes](/Others/ANSI_codes.md)
 - Git #TODO
+
+---
