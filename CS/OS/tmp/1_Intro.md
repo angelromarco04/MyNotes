@@ -100,7 +100,24 @@ stateDiagram
 ---
 ## Functional blocks of an OS
 
-
+- **Process management**
+	Creation, elimination, suspension, restarting, synchronization and communication of processes.
+	
+- **Main memory management**
+	Keep track of main memory usage and ownership.
+	Allocate and free memory space.
+	
+- **I/O management**
+	Manage peripherical devices.
+	
+- **Secondary memory management**
+	Manage free space and operations on disk.
+	Manage files creation, removal, manipulation and location on disk.
+	
+- **Security and protection**
+	Ensure users 
+- Networks
+- Command prompt
 ---
 ## Booting and halting of the system
 
