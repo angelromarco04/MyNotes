@@ -42,11 +42,24 @@ tags:
 
 ## Definition of an OS
 
-- Computing systems are formed by:
+### Computing System
+
+Formed by:
+- **Hardware**.
+- **Software**:
+	- Application programs.
+	- System programs (OS and other system programs)
+- **Users**.
+
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+stateDiagram
+
+	s1 : Hardware
+	s2 : OS
+	s3 : System and application programs
+	s4 : Users
+	
+	s1 --> s2
+	s2 --> s3
+	s3 --> s4
 ```
