@@ -35,3 +35,18 @@ tags:
 	8. OS halting.
 5. Classification of the operating systems.
 	1. Regarding resource management.
+	2. Regarding interactivity.
+	3. Regarding the number of users.
+
+---
+
+## Definition of an OS
+
+- Computing systems are formed by:
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
