@@ -10,7 +10,7 @@ tags:
 
 [Back to index](../OS.md)
 
-1. [Definition of an operating system (OS)](#definition-of-an-os)
+1. [Definition of an operating system (OS)
 2. [Historic evolution](#historic-evolution)
 3. [Functional blocks of an operating system](#functional-blocks-of-an-os)
 4. [Booting and halting of the system](#booting-and-halting-of-the-system)
@@ -127,7 +127,7 @@ stateDiagram
 ---
 ## Booting and halting of the system #TODO
 
-
+1. 
 ---
 ## Classification of the OS #TODO
 
