@@ -95,5 +95,11 @@ In a Matlab script each operation displays its result in the console. To prevent
 #TODO
 
 ```matlab
+% Plots the points (1,1), (2,2), (3,4), (4,3)
+% and then connects them. 
+>> plot([1 2 3 4],[1 2 4 3])
 
+%% To plot a function f
+% where r is the displayed range
+>> fplot(f, r)
 ```
