@@ -160,6 +160,8 @@ graph TD;
 ```
 ~~~
 
+[Mermaid Docs](https://mermaid.js.org/syntax/examples.html)
+
 ### Mathematical expressions
 
 [MathJax | Beautiful math in all browsers.](https://www.mathjax.org/)
