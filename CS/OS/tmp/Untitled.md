@@ -66,11 +66,30 @@ stateDiagram
 ---
 ## Historic evolution
 
-### No OS
+### 1 - No OS
+- No users.
+- An operator manages a console of switchers, indicators, an input device and a printer.
+- Programs written in machine code.
 
-### Batch processing
+### 2 - Batch processing
+- Ancestor of the OS.
+- Several users give jobs to the operator.
+- Similar jobs grouped in batches.
+- Uses punched cards with fortran code.
+- Monitor slowly reads one card at a time (**mono-programed**).
 
-### Multiprogr
+### 3 - Multi-programed systems
+- First OS
+- I/O times are much higher than CPU ones.
+- Memory stores several programs besides the OS.
+- CPU may switch between tasks when waiting for I/O.
+
+### 4 - Time-sharing systems
+
+
+### 5 - Modern OS
+
+
 ---
 ## Functional blocks of an OS
 
