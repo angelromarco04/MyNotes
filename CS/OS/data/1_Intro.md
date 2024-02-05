@@ -90,7 +90,7 @@ stateDiagram
 - Uses also multi-programming.
 
 ### 5 - Modern OS
-- Uses new technologies
+- Uses new technologies:
 	- Real-time OS.
 	- Multithread.
 	- Symmetric multiprocessing.
@@ -115,15 +115,21 @@ stateDiagram
 	Manage files creation, removal, manipulation and location on disk.
 	
 - **Security and protection**
-	Ensure users 
-- Networks
-- Command prompt
+	Manages users identity and operations allowance for each one.
+	
+- **Networks**
+	Allows communications between different computers.
+	
+- **Command prompt**
+	Can be part of the kernel or a specific program.
+	
+
 ---
-## Booting and halting of the system
+## Booting and halting of the system #TODO
 
 
 ---
-## Classification of the OS
+## Classification of the OS #TODO
 
 
 ---
