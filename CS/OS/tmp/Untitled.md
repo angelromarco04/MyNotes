@@ -79,16 +79,23 @@ stateDiagram
 - Monitor slowly reads one card at a time (**mono-programed**).
 
 ### 3 - Multi-programed systems
-- First OS
+- First OS.
 - I/O times are much higher than CPU ones.
 - Memory stores several programs besides the OS.
 - CPU may switch between tasks when waiting for I/O.
+- Processes can monopolize CPU.
 
 ### 4 - Time-sharing systems
-
+- OS distributes CPU time between processes.
+- Uses also multi-programming.
 
 ### 5 - Modern OS
-
+- Uses new technologies
+	- Real-time OS.
+	- Multithread.
+	- Symmetric multiprocessing.
+	- Distributed OS.
+	- Object-oriented design.
 
 ---
 ## Functional blocks of an OS

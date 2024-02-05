@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/tmp/Untitled.md",
+                "file": "Programming/Java/JAVA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:TODO",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/tmp/Untitled.md",
+                "file": "Programming/Java/JAVA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,13 +100,18 @@
   },
   "active": "13e6cf89b4c7e35c",
   "lastOpenFiles": [
-    "Others/Markdown.md",
-    "CS/OS/tmp/Untitled.md",
+    "Programming/Matlab/MATLAB.md",
+    "Programming/Matlab/data/03_sets.md",
+    "Programming/Rust/data/04-1_Intro.md",
+    "Programming/Rust/data/04-2_Ref&Borrow.md",
+    "Programming/Rust/data/04-3_SliceType.md",
     "CS/OS/OS.md",
+    "README.md",
+    "CS/OS/tmp/Untitled.md",
+    "Others/Markdown.md",
     "Templates/Matlab template.md",
     "CS/OS/tmp",
     "CS/OS/Untitled.md",
-    "README.md",
     "Templates/Java template.md",
     "Programming/Java/data/02_IO.md",
     "Programming/Java/data/08_OOP.md",
@@ -119,14 +124,9 @@
     "Programming/Java/JAVA.md",
     "Programming/Rust/RUST.md",
     "Programming/Python/PYTHON.md",
-    "Programming/Matlab/MATLAB.md",
     "Templates/Base template.md",
-    "Programming/Matlab/data/03_sets.md",
     "Programming/Matlab/data/02_vectors.md",
     "Programming/Matlab/data/01_basics.md",
-    "Programming/Python/tmp/Exceptions.md",
-    "Programming/Python/data/08_OOP.md",
-    "Programming/Python/data/07_Files.md",
     "CS/OS/data",
     "CS/OS",
     "Linux",
