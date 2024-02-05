@@ -33,6 +33,6 @@ fn main() {
 	4. [Comments](data/03-4_Comments.md)
 	5. [Control Flow](data/03-5_ControlFlow.md)
 4. **Understanding Ownership**
-	1. [What is Ownership?](data/04-1_Intro.md)
-	2. [References and Borrowing](data/04-2_Ref&Borrow.md)
-	3. [The Slice Type](data/04-3_SliceType.md)
+	1. [What is Ownership?](data/04-1_Intro.md) #TODO 
+	2. [References and Borrowing](data/04-2_Ref&Borrow.md) #TODO 
+	3. [The Slice Type](data/04-3_SliceType.md) #TODO 
