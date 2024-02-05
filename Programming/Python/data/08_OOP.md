@@ -143,6 +143,7 @@ print(hasattr(ExampleClass, "value2")) # Output -> False
 - We can obtain a set of attributes of an object with `object.__dict__`.
 - We can obtain the set of attributes and methods of a class with `class.__dict__`.
 - We can obtain the name of a class by using `class.__name__`.
+- We can obtain the set of direct super-classes by using `class.__bases__`.
 - We can obtain the name of the module which contains the definition of a class or object by using `class.__module__` or `obj.__module__`.
 
 > [!IMPORTANT]
