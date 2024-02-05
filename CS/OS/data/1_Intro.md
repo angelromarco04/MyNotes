@@ -129,11 +129,23 @@ stateDiagram
 
 1. Press the ON button.
 	- Empty main memory 
+
 2. Uses a booting software (**firmware**).
 	- Some predefined data is loaded to the CPU registers.
 	- In PCs it is also called BIOS (*Basic Input Output System*)
 		- Written and stored by the manufacturer.
-	- 
+		- Not stored in Secondary Memory (difficult to change).
+		- Can be protected or encrypted.
+	- New version of BIOS called UEFI (*Unified Extensible Firmware Interface*)
+		- Provides graphical interface.
+		- Allows GPT partition tables.
+		- Executes directly EFI executables.
+		- Allows secure booting and emulation of BIOS booting.
+
+3. Basic check of hardware.
+	1.
+4. a
+
 ---
 ## Classification of the OS #TODO
 
