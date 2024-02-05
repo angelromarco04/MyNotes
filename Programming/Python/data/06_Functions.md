@@ -8,7 +8,6 @@ tags:
 ---
 # 06 Functions
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

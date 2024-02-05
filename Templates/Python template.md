@@ -8,7 +8,6 @@ tags:
 ---
 # 00 Title
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

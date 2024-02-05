@@ -9,7 +9,6 @@ tags:
 ---
 # 07 Object Oriented Programming
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

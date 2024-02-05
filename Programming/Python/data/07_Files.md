@@ -8,7 +8,6 @@ tags:
 ---
 # 06 File I/O
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

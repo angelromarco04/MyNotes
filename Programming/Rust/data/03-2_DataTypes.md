@@ -7,6 +7,7 @@ tags:
 ---
 ---
 # Data types
+
 [Back to index](../RUST.md)
 
 ---

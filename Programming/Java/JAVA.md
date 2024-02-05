@@ -1,5 +1,16 @@
+---
+Author: AAM
+Date: 2024-02-05
+tags:
+  - programming
+  - java
+---
+---
 # Java index
 
+
+
+---
 ```java
 public class myClass{
 		public static void main(String[] args) {
@@ -8,7 +19,6 @@ public class myClass{
 		}
 }
 ```
-
 ---
 ## Basics
 1.  [Basics](data/01_Basics.md)

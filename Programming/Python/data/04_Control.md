@@ -8,7 +8,6 @@ tags:
 ---
 # 04 Control Structures (if-else / while)
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

@@ -8,7 +8,6 @@ tags:
 ---
 # 01 Basics
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

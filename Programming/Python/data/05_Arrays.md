@@ -8,7 +8,6 @@ tags:
 ---
 # 05 Arrays and `for` loop
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

@@ -8,7 +8,6 @@ tags:
 ---
 # 03 Strings
 
-[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Python/tmp/Exceptions.md",
+                "file": "Programming/Java/JAVA.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Python/tmp/Exceptions.md",
+                "file": "Programming/Java/JAVA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,6 +100,14 @@
   },
   "active": "bf384894d9f6c13f",
   "lastOpenFiles": [
+    "Templates/Base template.md",
+    "Programming/Java/JAVA.md",
+    "Programming/Matlab/data/03_sets.md",
+    "Programming/Matlab/data/02_vectors.md",
+    "Programming/Matlab/data/01_basics.md",
+    "Programming/Matlab/MATLAB.md",
+    "Templates/Matlab template.md",
+    "Programming/Python/tmp/Exceptions.md",
     "Programming/Python/PYTHON.md",
     "Programming/Python/data/08_OOP.md",
     "Programming/Python/data/07_Files.md",
@@ -109,23 +117,15 @@
     "Programming/Python/data/03_Strings.md",
     "Programming/Python/data/02_IO.md",
     "Programming/Python/data/01_Basics.md",
+    "README.md",
     "Programming/Rust/data/04-3_SliceType.md",
     "Programming/Rust/data/04-2_Ref&Borrow.md",
-    "Programming/Rust/data/03-5_ControlFlow.md",
     "Programming/Rust/data/04-1_Intro.md",
+    "Programming/Rust/data/03-5_ControlFlow.md",
     "Programming/Rust/data/03-4_Comments.md",
     "Programming/Rust/data/03-3_Functions.md",
-    "Programming/Rust/RUST.md",
     "Programming/Rust/data/03-2_DataTypes.md",
     "Programming/Rust/data/03-1_Variables.md",
-    "Programming/Rust/data/01_Intro.md",
-    "Templates/Base template.md",
-    "Templates/Rust template.md",
-    "Templates/Python template.md",
-    "Templates/Matlab template.md",
-    "README.md",
-    "Programming/Java/JAVA.md",
-    "Programming/Matlab/MATLAB.md",
     "CS/OS/data",
     "CS/OS",
     "Linux",

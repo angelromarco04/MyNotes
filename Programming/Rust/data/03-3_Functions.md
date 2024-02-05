@@ -7,6 +7,7 @@ tags:
 ---
 ---
 # Functions
+
 [Back to index](../RUST.md)
 
 ---
