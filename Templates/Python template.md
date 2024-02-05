@@ -8,7 +8,7 @@ tags:
 
 # 00 Title
 
-[Back to index](../Programming/Java/JAVA.md)
+[Back to index](../PYTHON.md)
 
 ---
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Base template.md",
+                "file": "CS/OS/OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Base template.md",
+                "file": "CS/OS/OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,21 +98,25 @@
       "graph:Open graph view": false
     }
   },
-  "active": "bf384894d9f6c13f",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
-    "Templates/Matlab template.md",
+    "CS/OS/data",
+    "CS/OS",
     "Templates/Base template.md",
+    "CS/OS/OS.md",
+    "README.md",
+    "Programming/Python/data/01_Basics.md",
+    "Programming/Python/PYTHON.md",
     "Templates/Python template.md",
+    "Templates/Matlab template.md",
     "Others/Markdown.md",
     "Programming/Rust/RUST.md",
-    "README.md",
     "Programming/Java/JAVA.md",
     "Others/UsefulResources.md",
     "Linux",
     "Linux/Bash.md",
     "CS/linux",
     "Programming/Python/data/08_OOP.md",
-    "Programming/Python/PYTHON.md",
     "Programming/Matlab/MATLAB.md",
     "Others/Git.md",
     "().md",
@@ -128,15 +132,11 @@
     "Programming/Python/data/03_Strings.md",
     "Others/ANSI_codes.md",
     "Programming/Python/data/02_IO.md",
-    "Programming/Python/data/01_Basics.md",
-    "Programming/Python/data/04_Control.md",
-    "Programming/Python/data/07_Files.md",
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",
     "Programming/Java/OOP",
     "Programming/Python/tmp",
-    "CS",
     "Assets/UsefulResources1.jpeg"
   ]
 }

@@ -18,7 +18,7 @@ Hope you like it!  :D
 ### Computer Science
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
-- [Operating Systems](CS/OS.md)
+- [Operating Systems](CS/OS/OS.md)
 ### Linux
 - [Bash Scripting](Linux/Bash.md)
 - Linux ricing #TODO
