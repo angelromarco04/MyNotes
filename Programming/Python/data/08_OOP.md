@@ -98,9 +98,24 @@ obj = ExampleClass() # value = 0
 obj.setValue(3) # value = 3
 var = obj.getValue() # var = value = 3
 ```
+
+## Class methods visibility
+- Methods whose name start with `__` are hidden and cannot be accessed directly.
+```python
+class ExampleClass:
+    def visible(self):
+        print("visible")
+    def __hidden(self):
+        print("hidden")
+
+obj = ExampleClass()
+obj.visible() # Output -> "visible"
+obj.__hidden() # Error
+ExampleClass._Classy__hidden() # Output -> "hidden"
+```
 ## Checking attributes existence
 
-- Python allows objects of the same class to have a different set of attributes
+- Python allows objects of the same class to have a different set of attributes.
 ```python
 class ExampleClass:
 	def __init__(self, arg = 0):
@@ -123,7 +138,7 @@ print(hasattr(ExampleClass, "value1")) # Output -> True
 print(hasattr(ExampleClass, "value2")) # Output -> False
 ```
 
-## Other
+## Built-in properties
 
 - We can obtain a set of attributes of an object with `object.__dict__`.
 - We can obtain the set of attributes and methods of a class with `class.__dict__`.
