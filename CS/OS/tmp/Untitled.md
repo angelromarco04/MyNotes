@@ -13,7 +13,7 @@ tags:
 ---
 # Index
 
-1. Definition of an operating system (OS).
+1. [Definition of an operating system (OS)](#Definition of an OS)
 	1. Computing system.
 	2. Definition of operating system.
 	3. Types of users of an operating system.
@@ -63,3 +63,5 @@ stateDiagram
 	s2 --> s3
 	s3 --> s4
 ```
+
+### Definition of an OS
