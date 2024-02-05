@@ -13,7 +13,7 @@ tags:
 ---
 # Index
 
-1. [Definition of an operating system (OS)](##Definition of an OS)
+1. [Definition of an operating system (OS)](#t1)
 	1. Computing system.
 	2. Definition of operating system.
 	3. Types of users of an operating system.
@@ -40,7 +40,7 @@ tags:
 
 ---
 
-## Definition of an OS
+## Definition of an OS <a name="t1"></a>
 
 ### Computing System
 
@@ -66,4 +66,15 @@ stateDiagram
 ```
 
 ### Definition of an OS
+
 - Controls the execution of the application programs.
+- Works as the interface between the user and the hardware.
+- Only program permanently executed in the computer (kernel).
+
+### Types of users
+
+- Command and/or applications user:
+	- Uses application programs.
+	- Uses GUI and/or CLI
+- Programmer user
+	- Uses programming languages, libraries, compilers...
