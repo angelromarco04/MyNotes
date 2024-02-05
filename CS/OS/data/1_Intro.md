@@ -127,7 +127,13 @@ stateDiagram
 ---
 ## Booting and halting of the system #TODO
 
-1. 
+1. Press the ON button.
+	- Empty main memory 
+2. Uses a booting software (**firmware**).
+	- Some predefined data is loaded to the CPU registers.
+	- In PCs it is also called BIOS (*Basic Input Output System*)
+		- Written and stored by the manufacturer.
+	- 
 ---
 ## Classification of the OS #TODO
 
