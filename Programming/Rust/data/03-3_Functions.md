@@ -1,3 +1,11 @@
+---
+Author: AAM
+Date: 2024-02-05
+tags:
+  - "#programming"
+  - "#rust"
+---
+
 # Functions
 [Back to index](../RUST.md)
 

@@ -1,4 +1,16 @@
+---
+Author: AAM
+Date: 2024-02-05
+tags:
+  - "#programming"
+  - "#rust"
+---
+---
 # Rust index
+
+[HOME](/README.md)
+
+---
 
 ```Rust
 fn main() {

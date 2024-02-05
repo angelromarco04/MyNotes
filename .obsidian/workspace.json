@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "Programming/Rust/data/03-3_Functions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "Programming/Rust/data/03-3_Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,26 +98,30 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "bf384894d9f6c13f",
   "lastOpenFiles": [
-    "CS/OS/data",
-    "CS/OS",
+    "Programming/Rust/RUST.md",
+    "Programming/Rust/data/03-2_DataTypes.md",
+    "Programming/Rust/data/03-1_Variables.md",
+    "Programming/Rust/data/01_Intro.md",
     "Templates/Base template.md",
-    "CS/OS/OS.md",
-    "README.md",
-    "Programming/Python/data/01_Basics.md",
-    "Programming/Python/PYTHON.md",
+    "Templates/Rust template.md",
     "Templates/Python template.md",
     "Templates/Matlab template.md",
-    "Others/Markdown.md",
-    "Programming/Rust/RUST.md",
+    "README.md",
     "Programming/Java/JAVA.md",
+    "Programming/Matlab/MATLAB.md",
+    "Programming/Python/PYTHON.md",
+    "CS/OS/OS.md",
+    "CS/OS/data",
+    "CS/OS",
+    "Programming/Python/data/01_Basics.md",
+    "Others/Markdown.md",
     "Others/UsefulResources.md",
     "Linux",
     "Linux/Bash.md",
     "CS/linux",
     "Programming/Python/data/08_OOP.md",
-    "Programming/Matlab/MATLAB.md",
     "Others/Git.md",
     "().md",
     "Programming/Matlab/data/01_basics.md",
@@ -129,14 +133,10 @@
     "Programming/Matlab/data",
     "Programming/Matlab",
     "Programming/Python/data/06_Functions.md",
-    "Programming/Python/data/03_Strings.md",
-    "Others/ANSI_codes.md",
-    "Programming/Python/data/02_IO.md",
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",
     "Programming/Java/OOP",
-    "Programming/Python/tmp",
     "Assets/UsefulResources1.jpeg"
   ]
 }

@@ -10,8 +10,6 @@ public class myClass{
 ```
 
 ---
-
----
 ## Basics
 1.  [Basics](data/01_Basics.md)
 2.  [Input and Output](data/02_IO.md)

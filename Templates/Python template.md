@@ -2,14 +2,14 @@
 Author: AAM
 Date: "{{date}}"
 tags:
-  - "#python"
   - "#programming"
+  - python
 ---
-
+---
 # 00 Title
 
+[HOME](/README.md)
 [Back to index](../PYTHON.md)
 
 ---
 
-Body
