@@ -13,8 +13,8 @@ Hope you like it!  :D
 - [Matlab](Programming/Matlab/index.md)
 
 ### Linux
--  [Linux Cheat Sheet](Linux/Cheat-Sheet.md)
-- [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md)
+-  [Linux Cheat Sheet](CS/Cheat-Sheet.md)
+- [Over The Wire - Bandit CTF](CS/OverTheWire_Bandit.md)
 ### Other
 - [UsefulResources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
