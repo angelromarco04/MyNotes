@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/tmp/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TODO",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/tmp/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +100,7 @@
   },
   "active": "13e6cf89b4c7e35c",
   "lastOpenFiles": [
+    "CS/OS/OS.md",
     "Programming/Rust/RUST.md",
     "Programming/Rust/data/04-1_Intro.md",
     "Programming/Rust/data/04-2_Ref&Borrow.md",
@@ -108,7 +108,6 @@
     "Programming/Java/JAVA.md",
     "Programming/Matlab/MATLAB.md",
     "Programming/Matlab/data/03_sets.md",
-    "CS/OS/OS.md",
     "README.md",
     "CS/OS/tmp/Untitled.md",
     "Others/Markdown.md",
