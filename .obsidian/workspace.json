@@ -99,7 +99,8 @@
   },
   "active": "74d7c294493183db",
   "lastOpenFiles": [
-    "CS/Cheat-Sheet.md",
+    "CS/Bash.md",
+    "CS/linux",
     "README.md",
     "Programming/Python/data/08_OOP.md",
     "Programming/Python/index.md",
@@ -127,7 +128,6 @@
     "Programming/Python/data/04_Control.md",
     "Programming/Python/data/07_Files.md",
     "Programming/Python/data/05_Arrays.md",
-    "Programming/Java/data/08_OOP.md",
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",
@@ -135,7 +135,6 @@
     "Programming/Python/tmp",
     "CS",
     "MyNotes/Assets",
-    "MyNotes",
     "Assets/UsefulResources1.jpeg"
   ]
 }

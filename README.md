@@ -12,8 +12,10 @@ Hope you like it!  :D
 - [Rust](Programming/Rust/index.md)
 - [Matlab](Programming/Matlab/index.md)
 
+### Computer Science
+- [Bash Scripting](CS/Bash.md)
 ### Linux
--  [Linux Cheat Sheet](CS/Cheat-Sheet.md)
+- [Bash Scripting](CS/Bash.md)
 - [Over The Wire - Bandit CTF](CS/OverTheWire_Bandit.md)
 ### Other
 - [UsefulResources](/Others/UsefulResources.md)
