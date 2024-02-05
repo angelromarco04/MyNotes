@@ -28,7 +28,7 @@ A **object** is a particular of a class with its values set.
 ## Class Definition
 
 - Keyword `class` is used for defining a class.
-- Every class needs a `__init__` method that is used for creating a class.
+- Every class needs a `__init__` method that is used for creating a class. Also called constructor method and cannot return a value.
 - The `self` parameter is a reference to the object itself.
 	- It allows accessing and modifying the atributes of the class
 
@@ -82,13 +82,21 @@ example_object_3 = ExampleClass(46)
 ## Class methods
 ```python
 class ExampleClass:
+
 	# Constructor
 	def __init__(self, arg = 0):
 		self.value = arg
+		
+	# Some methods
 	def setValue(self, arg = 0):
 		self.value = arg
-obj = ExampleClass()
-obj.setValue(3)
+		
+	def getValue(self):
+		return self.value
+		
+obj = ExampleClass() # value = 0
+obj.setValue(3) # value = 3
+var = obj.getValue() # var = value = 3
 ```
 ## Checking attributes existence
 
