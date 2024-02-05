@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Matlab/index.md",
+                "file": "Programming/Matlab/data/03_sets.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Matlab/index.md",
+                "file": "Programming/Matlab/data/03_sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,20 +97,21 @@
       "templates:Insert template": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "62b76db66758a6f1",
   "lastOpenFiles": [
-    "Programming/Matlab/data/03_sets.md",
-    "Programming/Matlab/data/01_basics.md",
-    "Programming/Matlab/data/02_vectors.md",
-    "Programming/Matlab/index.md",
-    "Others/Markdown.md",
     "Templates/Matlab template.md",
+    "Programming/Matlab/data/02_vectors.md",
+    "Programming/Matlab/data/03_sets.md",
+    "Programming/Matlab/index.md",
+    "data/03_.md",
+    "data",
+    "Programming/Matlab/data/01_basics.md",
+    "Others/Markdown.md",
     "Templates/Python template.md",
     "README.md",
     "Others/UsefulResources.md",
     "Others/Git.md",
     "data/00_basics.md",
-    "data",
     "Programming/Python/index.md",
     "Programming/Java/index.md",
     "Programming/Matlab/data",
@@ -127,7 +128,6 @@
     "Programming/Java/data/08_OOP.md",
     "().md",
     "Templates/Python template (properties).md",
-    "Programming/Python/tmp/Exceptions.md",
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",
