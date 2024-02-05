@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "16fad10b3f48e845",
+        "id": "04d7c641dac0bbe9",
         "type": "tabs",
         "children": [
           {
-            "id": "62b76db66758a6f1",
+            "id": "ec972041e35957d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Matlab/data/01_basics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -78,7 +73,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Matlab/data/01_basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,15 +91,17 @@
       "templates:Insert template": false
     }
   },
-  "active": "62b76db66758a6f1",
+  "active": "ec972041e35957d8",
   "lastOpenFiles": [
+    "().md",
+    "Programming/Java/index.md",
     "Programming/Matlab/index.md",
+    "Programming/Matlab/data/01_basics.md",
     "Programming/Matlab/data/03_sets.md",
     "Templates/Matlab template.md",
     "Programming/Matlab/data/02_vectors.md",
     "data/03_.md",
     "data",
-    "Programming/Matlab/data/01_basics.md",
     "Others/Markdown.md",
     "Templates/Python template.md",
     "README.md",
@@ -113,7 +109,6 @@
     "Others/Git.md",
     "data/00_basics.md",
     "Programming/Python/index.md",
-    "Programming/Java/index.md",
     "Programming/Matlab/data",
     "Programming/Python/data/08_OOP.md",
     "Programming/Matlab",
@@ -126,7 +121,6 @@
     "Programming/Python/data/07_Files.md",
     "Programming/Python/data/05_Arrays.md",
     "Programming/Java/data/08_OOP.md",
-    "().md",
     "Templates/Python template (properties).md",
     "Templates",
     "Intro",
