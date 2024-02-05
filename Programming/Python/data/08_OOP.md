@@ -79,6 +79,17 @@ example_object_3 = ExampleClass(46)
 # Object value = 46 | ExampleClass.classCounter = 3
 ```
 
+## Class methods
+```python
+class ExampleClass:
+	# Constructor
+	def __init__(self, arg = 0):
+		self.value = arg
+	def setValue(self, arg = 0):
+		self.value = arg
+obj = ExampleClass()
+obj.setValue(3)
+```
 ## Checking attributes existence
 
 - Python allows objects of the same class to have a different set of attributes
@@ -86,7 +97,7 @@ example_object_3 = ExampleClass(46)
 class ExampleClass:
 	def __init__(self, arg = 0):
 		self.value1 = arg
-	def setValue2(self arg = 0):
+	def setValue2(self, arg = 0):
 		self.value2 = arg
 
 example_object = ExampleClass() # Now only value1 exists.

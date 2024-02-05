@@ -7,14 +7,14 @@ Hope you like it!  :D
 # List of topics
 
 ### Programming
-- [Java](Programming/Java/index.md) (INCOMPLETE)
-- [Python](Programming/Python/index.md) (INCOMPLETE)
-- [Rust](Programming/Rust/index.md) (INCOMPLETE)
-- [Matlab](Programming/Matlab/index.md) (INCOMPLETE)
+- [Java](Programming/Java/index.md)
+- [Python](Programming/Python/index.md)
+- [Rust](Programming/Rust/index.md)
+- [Matlab](Programming/Matlab/index.md)
 
 ### Linux
--  [Linux Cheat Sheet](Linux/Cheat-Sheet.md) (INCOMPLETE)
-- [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md) (INCOMPLETE)
+-  [Linux Cheat Sheet](Linux/Cheat-Sheet.md)
+- [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md)
 ### Other
 - [UsefulResources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
@@ -26,9 +26,10 @@ Hope you like it!  :D
 - C
 - C++
 
-### Computers
+### Computer Science
 - Computers Fundamentals
 - Computers Architecture
+- Operating Systems
 - Networking
 
 ### Linux
