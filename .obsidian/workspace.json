@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CS/OS/OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CS/OS/OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,9 @@
   },
   "active": "13e6cf89b4c7e35c",
   "lastOpenFiles": [
-    "Templates/Java template.md",
     "README.md",
+    "Others/Markdown.md",
+    "Templates/Java template.md",
     "Programming/Java/data/02_IO.md",
     "Programming/Java/data/08_OOP.md",
     "Programming/Java/data/07_String.md",
@@ -125,7 +126,6 @@
     "Programming/Python/data/06_Functions.md",
     "Programming/Python/data/05_Arrays.md",
     "Programming/Python/data/04_Control.md",
-    "Programming/Python/data/03_Strings.md",
     "CS/OS/data",
     "CS/OS",
     "Linux",

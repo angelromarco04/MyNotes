@@ -1,5 +1,15 @@
+---
+Author: AAM
+Date: 2024-02-05
+---
+---
 # My Notes
-I am a Computer Science student. Here I will upload all my notes. 
+
+I am a Computer Science student. Here I will upload all my notes.
+
+> [!TIP]
+> This notes are designed to be read with **Obsidian**. For them to work as intended some configurations are included in the repository.
+
 Hope you like it!  :D
 
 ---
