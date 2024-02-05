@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/tmp/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/tmp/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,6 +100,10 @@
   },
   "active": "13e6cf89b4c7e35c",
   "lastOpenFiles": [
+    "CS/OS/OS.md",
+    "CS/OS/tmp/Untitled.md",
+    "CS/OS/tmp",
+    "CS/OS/Untitled.md",
     "README.md",
     "Others/Markdown.md",
     "Templates/Java template.md",
@@ -123,9 +127,6 @@
     "Programming/Python/tmp/Exceptions.md",
     "Programming/Python/data/08_OOP.md",
     "Programming/Python/data/07_Files.md",
-    "Programming/Python/data/06_Functions.md",
-    "Programming/Python/data/05_Arrays.md",
-    "Programming/Python/data/04_Control.md",
     "CS/OS/data",
     "CS/OS",
     "Linux",
@@ -136,7 +137,6 @@
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",
-    "Programming/Java/OOP",
     "Assets/UsefulResources1.jpeg"
   ]
 }
