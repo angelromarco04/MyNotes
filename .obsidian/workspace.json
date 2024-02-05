@@ -99,16 +99,18 @@
   },
   "active": "74d7c294493183db",
   "lastOpenFiles": [
-    "CS/Bash.md",
-    "CS/linux",
+    "Programming/Java/index.md",
     "README.md",
+    "Others/UsefulResources.md",
+    "Linux",
+    "Linux/Bash.md",
+    "CS/linux",
     "Programming/Python/data/08_OOP.md",
     "Programming/Python/index.md",
     "Others/Markdown.md",
     "Programming/Matlab/index.md",
     "Others/Git.md",
     "().md",
-    "Programming/Java/index.md",
     "Programming/Matlab/data/01_basics.md",
     "Programming/Matlab/data/03_sets.md",
     "Templates/Matlab template.md",
@@ -116,7 +118,6 @@
     "data/03_.md",
     "data",
     "Templates/Python template.md",
-    "Others/UsefulResources.md",
     "data/00_basics.md",
     "Programming/Matlab/data",
     "Programming/Matlab",
@@ -134,7 +135,6 @@
     "Programming/Java/OOP",
     "Programming/Python/tmp",
     "CS",
-    "MyNotes/Assets",
     "Assets/UsefulResources1.jpeg"
   ]
 }

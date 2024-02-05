@@ -34,9 +34,6 @@ public class myClass{
 15. [Data Abstraction]() ( #TODO)
 16. [Comparators & Iterators]() ( #TODO)
 
-## Data Structures
- #TODO 
-
 ## EXTRA
 - [Math]() ( #TODO)
 - [Calendar (gregorian)]() ( #TODO)
