@@ -10,33 +10,11 @@ tags:
 
 [Back to index](../OS.md)
 
----
-# Index
-
 1. [Definition of an operating system (OS)](#definition-of-an-os)
-	1. Computing system.
-	2. Definition of operating system.
-	3. Types of users of an operating system.
-2. Historic evolution.
-	1. No operating system.
-	2. Batch processing (monoprogramming).
-	3. Multi programmed systems.
-	4. Timesharing systems.
-	5. Modern operating systems.
-3. Functional blocks of an operating system.
-4. Booting and halting of the system.
-	1. Hardware booting: the firmware.
-	2. Localization of the bootloader in the BIOS.
-	3. Execution of the bootloader in the BIOS.
-	4. UEFI bootloaders.
-	5. Execution with several devices.
-	6. Types of bootloaders.
-	7. OS booting.
-	8. OS halting.
-5. Classification of the operating systems.
-	1. Regarding resource management.
-	2. Regarding interactivity.
-	3. Regarding the number of users.
+2. [Historic evolution](#historic-evolution)
+3. [Functional blocks of an operating system](#functional-blocks-of-an-os)
+4. [Booting and halting of the system](#booting-and-halting-of-the-system)
+5. [Classification of the operating systems](#Classification-of-the-os)
 
 ---
 
@@ -73,18 +51,36 @@ stateDiagram
 
 ### Types of users
 
-**- Applications user:**
+- **Applications user:**
 	- Uses application programs.
 
-**- Programmer user:**
+- **Programmer user:**
 	- Uses utilities (programming languages, libraries, compilers...)
 	- Requires a **system calls library**:
 		- Interface between processes and OS.
 		- Call OS services that are executed with high privilege.
 
-**- Developer of the OS.**
+- **Developer of the OS.**
 	- Interacts with the hardware directly.
 
 ---
 ## Historic evolution
 
+### No OS
+
+### Batch processing
+
+### Multiprogr
+---
+## Functional blocks of an OS
+
+
+---
+## Booting and halting of the system
+
+
+---
+## Classification of the OS
+
+
+---
