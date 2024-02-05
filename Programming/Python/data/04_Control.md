@@ -7,7 +7,7 @@ tags:
 ---
 # 04 Control Structures (if-else / while)
 
-[Back to Python3 index](../index.md)
+[Back to Python3 index](../PYTHON.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # 04 Conditionals
 
-[Back to Java index](../Index.md)
+[Back to Java index](../JAVA.md)
 
 ---
 

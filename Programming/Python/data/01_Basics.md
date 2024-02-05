@@ -7,7 +7,7 @@ tags:
 ---
 # 01 Basics
 
-[Back to Python3 index](../index.md)
+[Back to Python3 index](../PYTHON.md)
 
 ---
 

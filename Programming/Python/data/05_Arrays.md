@@ -7,7 +7,7 @@ tags:
 ---
 # 05 Arrays and `for` loop
 
-[Back to Python3 index](../index.md)
+[Back to Python3 index](../PYTHON.md)
 
 ---
 

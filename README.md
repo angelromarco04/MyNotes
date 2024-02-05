@@ -7,12 +7,12 @@ Hope you like it!  :D
 # List of topics
 
 ### Programming
-- [Java](Programming/Java/index.md)
-- [Python](Programming/Python/index.md)
+- [Java](Programming/Java/JAVA.md)
+- [Python](Programming/Python/PYTHON.md)
 - C #TODO
 - C++ #TODO
-- [Rust](Programming/Rust/index.md)
-- [Matlab](Programming/Matlab/index.md)
+- [Rust](Programming/Rust/RUST.md)
+- [Matlab](Programming/Matlab/MATLAB.md)
 - Data Structures & Algorithms #TODO
 
 ### Computer Science

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8b329c009a8d9356",
+        "id": "47d5c664088d9967",
         "type": "tabs",
         "children": [
           {
-            "id": "5c5c7092d6eee1c4",
+            "id": "bf384894d9f6c13f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Markdown.md",
+                "file": "Templates/Base template.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Markdown.md",
+                "file": "Templates/Base template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -94,29 +94,30 @@
   "left-ribbon": {
     "hiddenItems": {
       "command-palette:Open command palette": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "5c5c7092d6eee1c4",
+  "active": "bf384894d9f6c13f",
   "lastOpenFiles": [
-    "Programming/Rust/index.md",
+    "Templates/Matlab template.md",
     "Templates/Base template.md",
-    "README.md",
     "Templates/Python template.md",
-    "Programming/Java/index.md",
+    "Others/Markdown.md",
+    "Programming/Rust/RUST.md",
+    "README.md",
+    "Programming/Java/JAVA.md",
     "Others/UsefulResources.md",
     "Linux",
     "Linux/Bash.md",
     "CS/linux",
     "Programming/Python/data/08_OOP.md",
-    "Programming/Python/index.md",
-    "Others/Markdown.md",
-    "Programming/Matlab/index.md",
+    "Programming/Python/PYTHON.md",
+    "Programming/Matlab/MATLAB.md",
     "Others/Git.md",
     "().md",
     "Programming/Matlab/data/01_basics.md",
     "Programming/Matlab/data/03_sets.md",
-    "Templates/Matlab template.md",
     "Programming/Matlab/data/02_vectors.md",
     "data/03_.md",
     "data",

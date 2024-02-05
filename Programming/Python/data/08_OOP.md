@@ -8,7 +8,7 @@ tags:
 
 # 07 OOP
 
-[Back to Python3 index](../index.md)
+[Back to Python3 index](../PYTHON.md)
 
 ---
 

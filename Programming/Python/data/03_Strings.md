@@ -7,7 +7,7 @@ tags:
 ---
 # 03 Strings
 
-[Back to Python3 index](../index.md)
+[Back to Python3 index](../PYTHON.md)
 
 ---
 

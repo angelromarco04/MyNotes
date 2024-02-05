@@ -2,15 +2,15 @@
 Author: AAM
 Date: 2024-02-05
 tags:
+  - programming
 ---
-
+---
 # Markdown Cheat Sheet
 
 [HOME](/README.md)
-[Back to index](../index.md)
 
 ---
-# Resources:
+## Resources:
 [The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
@@ -119,8 +119,8 @@ public class Main {
 
 ---
 
-# Some extra Github utilities
-## Alerts
+## Some extra GitHub utilities
+### Alerts
 
 ```markdown
 > [!NOTE]
@@ -139,7 +139,7 @@ public class Main {
 > Advises about risks or negative outcomes of certain actions.
 ```
 
-## Collapsed section
+### Collapsed section
 
 ```html
 <details open>
@@ -148,7 +148,7 @@ Content
 </details>
 ```
 
-## Creating flow charts
+### Creating flow charts
 
 ~~~markdown
 ```mermaid
@@ -160,7 +160,7 @@ graph TD;
 ```
 ~~~
 
-## Mathematical expressions
+### Mathematical expressions
 
 [MathJax | Beautiful math in all browsers.](https://www.mathjax.org/)
 
