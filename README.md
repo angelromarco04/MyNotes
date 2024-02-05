@@ -10,6 +10,7 @@ Hope you like it!  :D
 - [Java](Programming/Java/index.md) (INCOMPLETE)
 - [Python](Programming/Python/index.md) (INCOMPLETE)
 - [Rust](Programming/Rust/index.md) (INCOMPLETE)
+- [Matlab](Programming/Matlab/index.md) (INCOMPLETE)
 
 ### Linux
 -  [Linux Cheat Sheet](Linux/Cheat-Sheet.md) (INCOMPLETE)

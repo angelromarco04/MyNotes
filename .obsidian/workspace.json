@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "04d7c641dac0bbe9",
+        "id": "633bc48caae85ec0",
         "type": "tabs",
         "children": [
           {
-            "id": "ec972041e35957d8",
+            "id": "74d7c294493183db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -91,24 +97,25 @@
       "templates:Insert template": false
     }
   },
-  "active": "ec972041e35957d8",
+  "active": "74d7c294493183db",
   "lastOpenFiles": [
+    "Others/Markdown.md",
+    "README.md",
+    "Others/Git.md",
+    "Linux/Cheat-Sheet.md",
+    "Programming/Matlab/index.md",
+    "Programming/Python/index.md",
     "().md",
     "Programming/Java/index.md",
-    "Programming/Matlab/index.md",
     "Programming/Matlab/data/01_basics.md",
     "Programming/Matlab/data/03_sets.md",
     "Templates/Matlab template.md",
     "Programming/Matlab/data/02_vectors.md",
     "data/03_.md",
     "data",
-    "Others/Markdown.md",
     "Templates/Python template.md",
-    "README.md",
     "Others/UsefulResources.md",
-    "Others/Git.md",
     "data/00_basics.md",
-    "Programming/Python/index.md",
     "Programming/Matlab/data",
     "Programming/Python/data/08_OOP.md",
     "Programming/Matlab",
@@ -121,7 +128,6 @@
     "Programming/Python/data/07_Files.md",
     "Programming/Python/data/05_Arrays.md",
     "Programming/Java/data/08_OOP.md",
-    "Templates/Python template (properties).md",
     "Templates",
     "Intro",
     "Assets/Others/UsefulResources1.jpeg",

@@ -109,7 +109,7 @@ public class Main {
 
 ---
 
-# Some extra notions
+# Some extra Github utilities
 ## Alerts
 
 ```markdown
