@@ -142,3 +142,15 @@ print(hasattr(ExampleClass, "value2")) # Output -> False
 
 - We can obtain a set of attributes of an object with `object.__dict__`.
 - We can obtain the set of attributes and methods of a class with `class.__dict__`.
+- We can obtain the name of a class by using `class.__name__`.
+```python
+class ExampleClass:
+	def __init__(self, arg = 0):
+		self.value = arg
+
+print(ExampleClass.__dict__)
+
+obj = ExampleClass()
+
+print(obj.__dict__) # Output -> {'value': 0}
+```
