@@ -1,13 +1,15 @@
 ---
 Author: AAM
-Date: 2024-02-04
+Date: 2024-02-05
 tags:
-  - "#python"
   - "#programming"
+  - python
+---
 ---
 # 05 Arrays and `for` loop
 
-[Back to Python3 index](../PYTHON.md)
+[HOME](/README.md)
+[Back to index](../PYTHON.md)
 
 ---
 

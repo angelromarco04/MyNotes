@@ -1,12 +1,16 @@
 ---
 Author: AAM
-Date: 2024-02-04
+Date: 2024-02-05
 tags:
-  - "#python"
   - "#programming"
+  - python
+---
 ---
 # Python3 index
 
+[HOME](/README.md)
+
+---
 ```python
 print("Hello World")
 

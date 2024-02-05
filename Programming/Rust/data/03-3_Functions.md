@@ -5,7 +5,7 @@ tags:
   - "#programming"
   - "#rust"
 ---
-
+---
 # Functions
 [Back to index](../RUST.md)
 

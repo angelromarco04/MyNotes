@@ -1,14 +1,16 @@
 ---
 Author: AAM
-Date: 2024-02-04
+Date: 2024-02-05
 tags:
   - "#python"
   - "#programming"
+  - python
 ---
+---
+# 07 Object Oriented Programming
 
-# 07 OOP
-
-[Back to Python3 index](../PYTHON.md)
+[HOME](/README.md)
+[Back to index](../PYTHON.md)
 
 ---
 
