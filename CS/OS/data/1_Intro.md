@@ -101,28 +101,28 @@ stateDiagram
 ## Functional blocks of an OS
 
 - **Process management**
-	Creation, elimination, suspension, restarting, synchronization and communication of processes.
-	
+	- Creation, elimination, suspension and restarting of processes.
+	- Synchronization and communication between processes.
+
 - **Main memory management**
-	Keep track of main memory usage and ownership.
-	Allocate and free memory space.
-	
+	- Keep track of main memory usage and ownership.
+	- Allocate and free memory space.
+
 - **I/O management**
-	Manage peripherical devices.
-	
+	- Manage peripherical devices.
+
 - **Secondary memory management**
-	Manage free space and operations on disk.
-	Manage files creation, removal, manipulation and location on disk.
-	
+	- Manage free space and operations on disk.
+	- Manage files creation, removal, manipulation and location on disk.
+
 - **Security and protection**
-	Manages users identity and operations allowance for each one.
-	
+	- Manages users identity and operations allowance for each one.
+
 - **Networks**
-	Allows communications between different computers.
-	
+	- Allows communications between different computers.
+
 - **Command prompt**
-	Can be part of the kernel or a specific program.
-	
+	- Can be part of the kernel or a specific program.
 
 ---
 ## Booting and halting of the system #TODO

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "CS/OS/data/1_Intro.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "CS/OS/data/1_Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,9 @@
   },
   "active": "3d12468915b9dc68",
   "lastOpenFiles": [
-    "Programming/Rust/RUST.md",
     "CS/OS/OS.md",
+    "README.md",
+    "Programming/Rust/RUST.md",
     "Programming/Python/PYTHON.md",
     "CS/OS/data/1_Intro.md",
     "Programming/Rust/data/04-1_Intro.md",
@@ -110,7 +111,6 @@
     "Programming/Java/JAVA.md",
     "Programming/Matlab/MATLAB.md",
     "Programming/Matlab/data/03_sets.md",
-    "README.md",
     "Others/Markdown.md",
     "Templates/Matlab template.md",
     "CS/OS/tmp",
