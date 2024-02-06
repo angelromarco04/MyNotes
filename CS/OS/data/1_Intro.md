@@ -161,11 +161,21 @@ stateDiagram
 	s1 : Power on
 	s2 : BIOS/UEFI
 	s3 : POST
-	s4 : Boot Devi
+	s4 : Boot Device
+	s5 : Boot Loader
+	s6 : Kernel
+	s7 : Drivers
+	s8 : Resident OS
+	s9 : Daemons
 	
 	s1 --> s2
 	s2 --> s3
-	s3 --> s4
+	s2 --> s4
+	s4 --> s5
+	s5 --> s6
+	s6 --> s7
+	s6 --> s8
+	s6 --> s9
 ```
 
 ### BIOS
