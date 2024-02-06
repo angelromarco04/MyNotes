@@ -152,6 +152,21 @@ stateDiagram
 5. **Execution of the bootloader.**
 	- Firmware cedes absolute control to the bootloader.
 	- Both firmware and bootloader are run in supervisor mode.
+	- Loads to memory and executes the OS kernel.
+
+```mermaid
+stateDiagram
+	direction LR
+
+	s1 : Power on
+	s2 : BIOS/UEFI
+	s3 : POST
+	s4 : Boot Devi
+	
+	s1 --> s2
+	s2 --> s3
+	s3 --> s4
+```
 
 ### BIOS
 
