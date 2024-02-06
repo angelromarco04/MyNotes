@@ -127,7 +127,7 @@ stateDiagram
 ---
 ## Booting and halting of the system #TODO
 
-### Hardware booting
+### Hardware booting steps
 
 1. **Press the ON button.**
 	- Invalid information in main memory.
@@ -157,11 +157,25 @@ stateDiagram
 	- Firmware cedes absolute control to the bootloader.
 	- Both firmware and bootloader are run in supervisor mode.
 
-### Bootloaders in BIOS
+### BIOS
 
 #### Description
-
+- Basic Input Output System (BIOS)
+- Primitive version of firmware for PCs.
+- Written and stored by the manufacturer.
+- Not stored in Secondary Memory (difficult to change).
+- Can be protected or encrypted by the manufacturer.
 #### Bootloaders
+- Located in predefined areas in the disk:
+	- First sector of the disk (MBR: *Master Boot Record*).
+	- First sector of each partition.
+- Have a predefined size and they are OS independent.
+- Can be written by third parties.
+- Loaded to memory by the BIOS.
+- BIOS tries to executes bootloaders in the disk in order.
+	1. Try to execute bootloader in MBR
+	2. Try to execute the one in sector 0 of each partition in order:
+	3. If no bootloader is found, it prompts an error and stops.
 
 #### Limitations
 - Maximum 4 primary partitions.
@@ -170,17 +184,6 @@ stateDiagram
 - Booting flag:
 	- Can only be active in one partition.
 	- Only primary partitions can have it.
-
-- Located in predefined areas in the disk:
-	- First sector of the disk (MBR: *Master Boot Record*).
-	- First sector of each partition.
-- Has a predefined size and it is OS independent.
-- Can be written by third parties.
-- Loaded to memory by the BIOS.
-- BIOS tries to executes bootloaders in the disk in order.
-	1. Try to execute bootloader in MBR
-	2. Try to execute the one in sector 0 of each partition in order:
-	3. If no bootloader is found, it prompts an error and stops.
 
 ### Bootloaders in UEFI
 
