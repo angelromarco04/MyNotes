@@ -153,12 +153,18 @@ stateDiagram
 	- Stored in Secondary Memory (Easy to rewrite).
 	- Can be protected or encrypted by the manufacturer.
 
-### BIOS
+### Bootloader using BIOS
 
-- Located in a predefined area in the disk:
+- Located in predefined areas in the disk:
 	- First sector of the disk (MBR: *Master Boot Record*).
 	- First sector of each partition.
-- 
+- Has a predefined size and it is OS independent.
+- Can be written by third parties.
+- Loaded to memory by the BIOS.
+- Execution
+	1. BIOS tries to executes bootloaders in the disk in order.
+		1. Try to use MBR
+		2. If not
 
 ### UEFI
 
