@@ -133,6 +133,8 @@ stateDiagram
 	- Invalid information in main memory.
 
 2. **Executes firmware (a booting software).**
+	- Stored in a non-volatile memory.
+	- Can be updated under secured conditions.
 	- Some predefined data is loaded to the CPU registers.
 	- Primitive version for PCs is called Basic Input Output System (BIOS).
 	- New version is called UEFI (*Unified Extensible Firmware Interface*)
@@ -153,7 +155,6 @@ stateDiagram
 ### BIOS
 
 #### Description
-- Written and stored by the manufacturer.
 - Not stored in Secondary Memory (difficult to change).
 - Can be protected or encrypted by the manufacturer.
 #### Bootloaders
