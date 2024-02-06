@@ -168,8 +168,13 @@ stateDiagram
 
 ### Bootloaders in UEFI
 
-- The bootloaders are EFI-like executables
-- All of them are stored in a special partition (EFI partition)
+- The bootloaders are EFI-like executables.
+- All bootloaders are stored in a special partition (EFI partition).
+- Uses GPT partition table with:
+	- Unlimited number of partitions.
+	- Partition sizes much bigger than BIOS.
+	- All partitions of the same type.
+- Firmware loads only one bootloader according to an stablished order.
 
 ---
 ## Classification of the OS #TODO
