@@ -159,6 +159,18 @@ stateDiagram
 
 ### Bootloaders in BIOS
 
+#### Description
+
+#### Bootloaders
+
+#### Limitations
+- Maximum 4 primary partitions.
+- Allow 3 primary partitions and one extended
+	- Extended partition cannot be directly used and must be divided in logical units.
+- Booting flag:
+	- Can only be active in one partition.
+	- Only primary partitions can have it.
+
 - Located in predefined areas in the disk:
 	- First sector of the disk (MBR: *Master Boot Record*).
 	- First sector of each partition.
