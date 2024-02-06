@@ -127,10 +127,10 @@ stateDiagram
 ---
 ## Booting and halting of the system #TODO
 
-1. Press the ON button.
+1. **Press the ON button.**
 	- Empty main memory 
 
-2. Uses a booting software (**firmware**).
+2. **Uses a booting software (firmware).**
 	- Some predefined data is loaded to the CPU registers.
 	- In PCs it is also called BIOS (*Basic Input Output System*)
 		- Written and stored by the manufacturer.
@@ -142,11 +142,13 @@ stateDiagram
 		- Executes directly EFI executables.
 		- Allows secure booting and emulation of BIOS booting.
 
-3. Basic check of hardware.
-	- Done by firmware.
-	- Cannot be avoided.
+3. **Basic check of hardware.**
+	- Done by firmware. Cannot be avoided.
 
-4. 
+4. **Load and execute bootloader.**
+	- Done by firmware. Cannot be avoided.
+	- Code used to load an OS.
+	- Stored in Secondary Memory (Easy to rewrite).
 
 ---
 ## Classification of the OS #TODO
