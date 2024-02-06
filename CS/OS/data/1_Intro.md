@@ -125,7 +125,7 @@ stateDiagram
 	- Can be part of the kernel or a specific program.
 
 ---
-## Booting and halting of the system #TODO
+## Booting and halting of the system 
 
 ### Hardware booting steps
 
@@ -191,6 +191,15 @@ stateDiagram
 	- Partition sizes much bigger than BIOS.
 	- All partitions of the same type.
 - Firmware loads only one bootloader according to an stablished order.
+
+### Several devices
+- BIOS/UEFI elaborates an ordered list with the devices.
+- It may not contain all the devices (can be empty).
+- It is editable by the user.
+
+### Types of bootloaders #TODO (p.45)
+- Can be of a specific OS or a booting manager.
+- It can be any kind of software, even a virus.
 
 ---
 ## Classification of the OS #TODO
