@@ -127,15 +127,17 @@ stateDiagram
 ---
 ## Booting and halting of the system #TODO
 
+### Hardware booting
+
 1. **Press the ON button.**
-	- Empty main memory 
+	- Invalid information in main memory.
 
 2. **Uses a booting software (firmware).**
 	- Some predefined data is loaded to the CPU registers.
 	- In PCs it is also called BIOS (*Basic Input Output System*)
 		- Written and stored by the manufacturer.
 		- Not stored in Secondary Memory (difficult to change).
-		- Can be protected or encrypted.
+		- Can be protected or encrypted by the manufacturer.
 	- New version of BIOS called UEFI (*Unified Extensible Firmware Interface*)
 		- Provides graphical interface.
 		- Allows GPT partition tables.
@@ -149,6 +151,17 @@ stateDiagram
 	- Done by firmware. Cannot be avoided.
 	- Code used to load an OS.
 	- Stored in Secondary Memory (Easy to rewrite).
+	- Can be protected or encrypted by the manufacturer.
+
+### BIOS
+
+- Located in a predefined area in the disk:
+	- First sector of the disk (MBR: *Master Boot Record*).
+	- First sector of each partition.
+- 
+
+### UEFI
+
 
 ---
 ## Classification of the OS #TODO
