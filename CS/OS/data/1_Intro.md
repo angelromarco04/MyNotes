@@ -143,8 +143,10 @@ stateDiagram
 		- Allows secure booting and emulation of BIOS booting.
 
 3. Basic check of hardware.
-	1.
-4. a
+	- Done by firmware.
+	- Cannot be avoided.
+
+4. 
 
 ---
 ## Classification of the OS #TODO
