@@ -134,15 +134,8 @@ stateDiagram
 
 2. **Executes firmware (a booting software).**
 	- Some predefined data is loaded to the CPU registers.
-	- In PCs it is also called BIOS (*Basic Input Output System*)
-		- Written and stored by the manufacturer.
-		- Not stored in Secondary Memory (difficult to change).
-		- Can be protected or encrypted by the manufacturer.
-	- New version of BIOS called UEFI (*Unified Extensible Firmware Interface*)
-		- Provides graphical interface.
-		- Allows GPT partition tables.
-		- Executes directly EFI executables.
-		- Allows secure booting and emulation of BIOS booting.
+	- Primitive version for PCs is called Basic Input Output System (BIOS).
+	- New version is called UEFI (*Unified Extensible Firmware Interface*)
 
 3. **Basic check of hardware.**
 	- Done by firmware. Cannot be avoided.
@@ -160,8 +153,6 @@ stateDiagram
 ### BIOS
 
 #### Description
-- Basic Input Output System (BIOS)
-- Primitive version of firmware for PCs.
 - Written and stored by the manufacturer.
 - Not stored in Secondary Memory (difficult to change).
 - Can be protected or encrypted by the manufacturer.
@@ -185,8 +176,14 @@ stateDiagram
 	- Can only be active in one partition.
 	- Only primary partitions can have it.
 
-### Bootloaders in UEFI
+### UEFI
 
+#### Description
+- Provides graphical interface.
+- Allows GPT partition tables.
+- Executes directly EFI executables.
+- Allows secure booting and emulation of BIOS booting.
+#### Bootloaders
 - The bootloaders are EFI-like executables.
 - All bootloaders are stored in a special partition (EFI partition).
 - Uses GPT partition table with:
