@@ -198,13 +198,21 @@ stateDiagram
 - It is editable by the user.
 
 ### Types of bootloaders
-- Types:
-	- Specific OS.
-	- Booting manager.
-		- Presents a menu to select a OS from a partition.
-		- Any partition with a OS could be selected (not need to be active/primary).
-		- Then, it launches the corresponding bootloader.
-- It can be any kind of software, even a virus.
+- Specific for a OS.
+- Booting manager.
+	- Presents a menu to select a OS from a partition.
+	- Any partition with a OS could be selected (not need to be active/primary).
+	- Then, it launches the selected bootloader.
+
+### OS booting
+- Goals
+	- Load the kernel of the OS to the memory.
+	- Perform the initialization step:
+		- Checks the system (Hardware and coherent file system structure tests)
+		- Establish the data structures of the OS (processes, memory tables, I/O...)
+		- Load to memory the resident OS
+			- Is the set of other components always in memory.
+
 
 ---
 ## Classification of the OS #TODO
