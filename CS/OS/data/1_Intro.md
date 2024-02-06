@@ -197,8 +197,13 @@ stateDiagram
 - It may not contain all the devices (can be empty).
 - It is editable by the user.
 
-### Types of bootloaders #TODO (p.45)
-- Can be of a specific OS or a booting manager.
+### Types of bootloaders
+- Types:
+	- Specific OS.
+	- Booting manager.
+		- Presents a menu to select a OS from a partition.
+		- Any partition with a OS could be selected (not need to be active/primary).
+		- Then, it launches the corresponding bootloader.
 - It can be any kind of software, even a virus.
 
 ---
