@@ -215,10 +215,24 @@ stateDiagram
 			- Creates login process.
 			- Prompt welcome message and waits the user to log in.
 		- Create set of auxiliary processes and [daemons](https://es.wikipedia.org/wiki/Daemon_(inform%C3%A1tica)).
+	- OS keeps in memory critical information
+		- Maximizes efficiency.
+		- Controlled shutdown is required to avoid corruptions.
+		- After forced shutdown OS checks if this info. was corrupted.
 
 
 ---
-## Classification of the OS #TODO
+## Classification of the OS
 
-
+- Regarding resource management (overall, CPU):
+	- Mono-programmed systems.
+	- Multi-programmed systems.
+	- Multi-processing systems.
+- Regarding interactivity (response time):
+	- Batch processing systems.
+	- Time-shared systems.
+	- Real-time systems.
+- Regarding the number of users :
+	- Single-user systems.
+	- Multi-user systems.
 ---
