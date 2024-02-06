@@ -132,7 +132,7 @@ stateDiagram
 1. **Press the ON button.**
 	- Invalid information in main memory.
 
-2. **Uses a booting software (firmware).**
+2. **Executes firmware (a booting software).**
 	- Some predefined data is loaded to the CPU registers.
 	- In PCs it is also called BIOS (*Basic Input Output System*)
 		- Written and stored by the manufacturer.
@@ -147,11 +147,15 @@ stateDiagram
 3. **Basic check of hardware.**
 	- Done by firmware. Cannot be avoided.
 
-4. **Load and execute bootloader.**
+4. **Load the bootloader.**
 	- Done by firmware. Cannot be avoided.
 	- Code used to load an OS.
 	- Stored in Secondary Memory (Easy to rewrite).
 	- Can be protected or encrypted by the manufacturer.
+
+5. **Execution of the bootloader.**
+	- Firmware cedes absolute control to the bootloader.
+	- Both firmware and bootloader are run in supervisor mode.
 
 ### Bootloaders in BIOS
 
