@@ -139,7 +139,8 @@ stateDiagram
 	- Primitive version for PCs is called Basic Input Output System (BIOS).
 	- New version is called UEFI (*Unified Extensible Firmware Interface*)
 
-3. **Basic check of hardware.**
+3. **Performs the Power On Self Test (POST)**
+	- Basic check of hardware.
 	- Done by firmware. Cannot be avoided.
 
 4. **Load the bootloader.**
