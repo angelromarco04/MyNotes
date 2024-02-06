@@ -211,7 +211,10 @@ stateDiagram
 		- Checks the system (Hardware and coherent file system structure tests)
 		- Establish the data structures of the OS (processes, memory tables, I/O...)
 		- Load to memory the resident OS
-			- Is the set of other components always in memory.
+			- Is the set of components always in memory.
+			- Creates login process.
+			- Prompt welcome message and waits the user to log in.
+		- Create set of auxiliary processes and [daemons](https://es.wikipedia.org/wiki/Daemon_(inform%C3%A1tica)).
 
 
 ---
