@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/1_Intro.md",
+                "file": "Programming/Scheme/tmp/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/1_Intro.md",
+                "file": "Programming/Scheme/tmp/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +100,16 @@
   },
   "active": "d3ddd2cad50360bd",
   "lastOpenFiles": [
+    "Others/Markdown.md",
+    "Programming/Scheme/tmp/Untitled.md",
+    "Programming/Scheme/SCHEME.md",
+    "Templates/Base template.md",
+    "Programming/Scheme/tmp",
+    "Programming/Scheme/data",
+    "CS/OS/data/1_Intro.md",
+    "Programming/Scheme",
     "CS/OS/OS.md",
     "daemons.md",
-    "CS/OS/data/1_Intro.md",
     "Programming/Python/tmp/Exceptions.md",
     "README.md",
     "Programming/Rust/RUST.md",
@@ -113,7 +120,6 @@
     "Programming/Java/JAVA.md",
     "Programming/Matlab/MATLAB.md",
     "Programming/Matlab/data/03_sets.md",
-    "Others/Markdown.md",
     "Templates/Matlab template.md",
     "CS/OS/tmp",
     "CS/OS/Untitled.md",
@@ -124,18 +130,12 @@
     "Programming/Java/data/06_Arrays.md",
     "Programming/Java/data/05_Loops.md",
     "Programming/Java/data/04_Conditionals.md",
-    "Programming/Java/data/03_Formatting.md",
-    "Programming/Java/data/01_Basics.md",
-    "Templates/Base template.md",
     "CS/OS/data",
     "CS/OS",
     "Linux",
     "CS/linux",
     "data",
     "Programming/Matlab/data",
-    "Programming/Matlab",
-    "Templates",
-    "Intro",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
   ]
