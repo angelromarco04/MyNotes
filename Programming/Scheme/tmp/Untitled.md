@@ -11,9 +11,21 @@ tags:
 ---
 
 
-# Basics
-- S-expressions
-	- Atoms -> Sim
-	- Pairs
+# Data types
+
+- **S-expressions**
+	- **Atoms**
+		- Independent values
+		- Examples: `a`, `B`, `#t`, `#f`
+	- **Pairs**
+		- Grouping of two atoms.
+		- Structure: `(s1 . s2)`
 	
-- 
+- **Lists**
+	- Grouping of atoms.
+	- The empty list `()` is an atom.
+	- Structure: `(s1 . L)` where L is another list.
+
+# Basic functions
+
+- `const(`
