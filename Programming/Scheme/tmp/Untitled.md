@@ -25,7 +25,12 @@ tags:
 	- Grouping of atoms.
 	- The empty list `()` is an atom.
 	- Structure: `(s1 . L)` where L is another list.
+	- Note that `s1` can also be another list.
 
 # Basic functions
 
-- `const(`
+| Function | Return value |
+| ---- | ---- |
+| `const(x, y)` | A pair `(x . y)` |
+| `car(x)` | First element of the S-expression / list `x` |
+| `cdr(x)` | Second element of the S-expression / list `x` |
