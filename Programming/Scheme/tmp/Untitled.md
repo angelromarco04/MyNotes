@@ -34,3 +34,15 @@ tags:
 | `const(x, y)` | A pair `(x . y)` |
 | `car(x)` | First element of the S-expression / list `x` |
 | `cdr(x)` | Second element of the S-expression / list `x` |
+| `atom?(x)` | `#t` if `x` is an atom, `#f` otherwise |
+| `list?(x)` | `#t` if `x` is a list, `#f` otherwise |
+| `pair?(x)` | `#t` if `x` is a pair, `#f` otherwise |
+| `eq?(x, y)` | `#t` if `x` is an atom equal to `y`, `#f` otherwise |
+| `null?(x)` | `#t` if `x` is the empty list, `#f` otherwise |
+
+# Arithmetic, Logic and Relational operations
+
+| Function | Return value |
+| ---- | ---- |
+| (+ z ...) |  |
+|  |  |
