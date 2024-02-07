@@ -39,10 +39,5 @@ tags:
 | `pair?(x)` | `#t` if `x` is a pair, `#f` otherwise |
 | `eq?(x, y)` | `#t` if `x` is an atom equal to `y`, `#f` otherwise |
 | `null?(x)` | `#t` if `x` is the empty list, `#f` otherwise |
-
-# Arithmetic, Logic and Relational operations
-
-| Function | Return value |
-| ---- | ---- |
-| (+ z ...) |  |
-|  |  |
+#### Arithmetic, Logic and Relational operations
+(+ z …) (and z …) (or z …) (not z) (> x y…) (<= x y …) (<> x y…)
