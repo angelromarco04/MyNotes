@@ -16,14 +16,14 @@ Hope you like it!  :D
 
 # List of topics
 
-### Programming languajes
+### Programming languages
 - [Java](Programming/Java/JAVA.md)
 - [Python](Programming/Python/PYTHON.md)
 - C #TODO
 - C++ #TODO
 - [Rust](Programming/Rust/RUST.md)
 - [Matlab](Programming/Matlab/MATLAB.md)
-- [Scheme](Programming/Scheme/SCHEME.md) (Function)
+- [Scheme](Programming/Scheme/SCHEME.md) (Functional programming)
 
 ### Programming thinking
 - Data Structures & Algorithms #TODO
