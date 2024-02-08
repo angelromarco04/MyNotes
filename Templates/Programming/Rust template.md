@@ -8,7 +8,7 @@ tags:
 ---
 # 00 Title
 
-[Back to index](../RUST.md)
+[Back to index](../../Programming/Rust/RUST.md)
 
 ---
 

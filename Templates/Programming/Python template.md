@@ -8,7 +8,7 @@ tags:
 ---
 # 00 Title
 
-[Back to index](../PYTHON.md)
+[Back to index](../../Programming/Python/PYTHON.md)
 
 ---
 

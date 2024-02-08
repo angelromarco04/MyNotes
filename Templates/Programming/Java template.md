@@ -8,7 +8,7 @@ tags:
 ---
 # 00 Title
 
-[Back to Java index](../JAVA.md)
+[Back to Java index](../../Programming/Java/JAVA.md)
 
 ---
 

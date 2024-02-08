@@ -8,7 +8,7 @@ Date: 2024-02-05
 I am a Computer Science student. Here I will upload all my notes.
 
 > [!TIP]
-> This notes are designed to be read with **Obsidian**. For them to work as intended some configurations are included in the repository.
+> This notes are designed to be read with **Obsidian**.
 
 Hope you like it!  :D
 
@@ -16,13 +16,16 @@ Hope you like it!  :D
 
 # List of topics
 
-### Programming
+### Programming languajes
 - [Java](Programming/Java/JAVA.md)
 - [Python](Programming/Python/PYTHON.md)
 - C #TODO
 - C++ #TODO
 - [Rust](Programming/Rust/RUST.md)
 - [Matlab](Programming/Matlab/MATLAB.md)
+- [Scheme](Programming/Scheme/SCHEME.md) (Function)
+
+### Programming thinking
 - Data Structures & Algorithms #TODO
 
 ### Computer Science
