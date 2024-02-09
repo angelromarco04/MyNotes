@@ -83,4 +83,26 @@ CREATE TABLE otherTable (
 	foreign key(exampleTable_id) references exampleTable(exampleTable_id)
 );
 ```
-- Relations many to many
+
+- Relations many to many intermediate tables are created as: `table1_table2`.
+- There is no need to specify a primary key for the table.
+```sql
+CREATE TABLE table1_table2 (
+	primary key(table1_id, table2_id),
+	foreign key(table1_id) references table1(table1_id),
+	foreign key(table2_id) references table2(table2_id),
+);
+```
+
+## Inserting tuples
+
+- `table1` is a table with 3 properties in this example.
+- `value1`, `value2` and `value3` must have the proper datatypes.
+```sql
+insert into table1 values(value1, value2, value3)
+```
+
+## Delete tuples
+```sql
+delete from 
+```
