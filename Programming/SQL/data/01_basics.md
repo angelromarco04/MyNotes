@@ -35,7 +35,16 @@ tags:
 	- `char(n)`: Fixed length of n characters.
 	- `varchar(n)`: Variable length up to n characters.
 	- `text`: Unlimited length of characters
-- 
+- Numeric:
+	- Integer:
+		- `smallint`: 2B signed integer.
+		- `int`: 4B signed integer.
+		- `serial`: Auto resizable integer.
+	- Floating point:
+		- `float(n)`: Variable length up to 8B with at least n precision.
+		- `real` or `float8`: 4B floating point number.
+		- `numeric` or `numeric(p, s)`: real number with p digits and s after decimal point.
+	- 
 
 ## Creating tables
 
