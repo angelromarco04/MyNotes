@@ -44,7 +44,10 @@ tags:
 		- `float(n)`: Variable length up to 8B with at least n precision.
 		- `real` or `float8`: 4B floating point number.
 		- `numeric` or `numeric(p, s)`: real number with p digits and s after decimal point.
-	- 
+- Temporal
+	- date
+	- time
+	- timestamp ()
 
 ## Creating tables
 
