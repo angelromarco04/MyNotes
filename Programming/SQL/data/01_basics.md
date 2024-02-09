@@ -25,7 +25,7 @@ tags:
 - List available views: `\dv`
 - Command history: `\s`
 - Execute psql commands from a file: `\i filename`
-- Switch connection to a new database: `\c dbname username`
+- Connect to a database: `\c dbname username`
 
 
 ## Datatypes
@@ -67,10 +67,20 @@ tags:
 
 ```sql
 CREATE TABLE exampleTable (
-	exampleTable_id serial primary key,
+	exampleTable_id int primary key not null,
 	exampleTable_name varchar(50) unique not null,
 	exampleTable_prop smallint
 );
 ```
 
-- We can make relations by specifying  
+- We can make relations by specifying foreign keys.
+```sql
+CREATE TABLE otherTable (
+	otherTable_id int primary key not null,
+	otherTable_name varchar(50) unique not null,
+
+	primary key(exampleTable_id),
+	foreign key(exampleTable_id) references exampleTable(exampleTable_id)
+);
+```
+- Relations many to many
