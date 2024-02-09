@@ -27,5 +27,23 @@ tags:
 - Execute psql commands from a file: `\i filename`
 - Switch connection to a new database: `\c dbname username`
 
+
+## Datatypes
+
+- Boolean (`true`, `false`, `null`)
+- Character (strings):
+	- `char(n)`: Fixed length of n characters.
+	- `varchar(n)`: Variable length up to n characters.
+	- `text`: Unlimited length of characters
+- 
+
 ## Creating tables
 
+- Repeated table names are not allowed
+
+```sql
+CREATE TABLE table_name (
+	table_name_id serial primary key,
+	other_id 
+);
+```
