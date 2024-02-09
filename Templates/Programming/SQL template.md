@@ -3,12 +3,12 @@ Author: AAM
 Date: "{{date}}"
 tags:
   - "#programming"
-  - python
+  - SQL
 ---
 ---
 # 00 Title
 
-[Back to index](Programming/Python/PYTHON.md)
+[Back to index](Programming/SQL/SQL.md)
 
 ---
 

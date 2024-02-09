@@ -8,7 +8,7 @@ tags:
 ---
 # 00 Title
 
-[Back to index](../../Programming/Matlab/MATLAB.md)
+[Back to index](Programming/Matlab/MATLAB.md)
 
 ---
 

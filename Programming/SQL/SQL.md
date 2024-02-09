@@ -8,10 +8,12 @@ tags:
 ---
 # SQL
 
+> [!WARNING]
+> To write this notes PostgreSQL was used
+
 [HOME](/README.md)
 
 ---
-> [!WARNING]
-> For this t
 
+1. [Basic notions](./data/01_basics.md)
 
