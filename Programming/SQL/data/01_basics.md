@@ -128,3 +128,19 @@ select table1_id, table1_name from table1
 select * from table1 where table1_id = 2
 ```
 
+## Update tuples
+
+- Syntax: `update [table] set [propertie = new value] where [condition]`
+```sql
+-- Set property name of all tuples of table1 to "A"
+update table1 set table1_name = "A"
+
+-- Set property name of second tuple of table1 to "B"
+update table1 set table1_name = "B" where table1_name = 2
+```
+
+## Managing colums
+
+### Add new colums
+
+### Delete colums
