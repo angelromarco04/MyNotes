@@ -42,7 +42,7 @@ tags:
 	- `char(n)`: Fixed length of n characters.
 	- `varchar(n)`: Variable length up to n characters.
 	- `text`: Unlimited length of characters
-- Numeric:
+- **Numeric**:
 	- Integer:
 		- `smallint`: 2B signed integer.
 		- `int`: 4B signed integer.
@@ -51,7 +51,7 @@ tags:
 		- `float(n)`: Variable length up to 8B with at least n precision.
 		- `real` or `float8`: 4B floating point number.
 		- `numeric` or `numeric(p, s)`: real number with p digits and s after decimal point.
-- Temporal
+- **Temporal**
 	- `date`
 	- `time`
 	- `timestamp` (date + time)
