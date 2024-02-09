@@ -103,6 +103,21 @@ insert into table1 values(value1, value2, value3)
 ```
 
 ## Delete tuples
+- Syntax: `delete from table1 where condition`
 ```sql
-delete from 
+-- Delete from table1 the second tuple
+delete from table1 where table1_id = 2;
+
+-- Delete all tuples of table1 
+delete from table1;
+```
+
+## Display tuples
+- Syntax: `select properties from table1 where condition`
+```sql
+-- Displays a list of names
+select table1_name from table1
+
+-- Delete all tuples of table1 
+delete from table1;
 ```
