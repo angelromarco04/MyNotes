@@ -13,25 +13,32 @@ tags:
 
 ---
 
-## Basic PSQL shell commands
+## PSQL shell commands
+
+### Basic
 
 - Get help: `\?`
-- Salir del intérprete: `\q` 
+- Salir del intérprete: `\q`
+- Connect to a database: `\c dbname username`
+- Command history: `\s`
+### Databases
 - List all databases: `\l`
+- List available functions in the current database: `\df`
+- Execute PSQL commands from a file: `\i filename`
 - Remove a database: `drop database database_name`
+
+> [!WARNING]
+> Is not possible to delete the currently active database.
+### Tables
 - List all tables: `\dt`
 - Describe a table: `\d table_name`
-- List available functions in the current database: `\df`
 - List available views: `\dv`
-- Command history: `\s`
-- Execute psql commands from a file: `\i filename`
-- Connect to a database: `\c dbname username`
 
-
+---
 ## Datatypes
 
-- Boolean (`true`, `false`, `null`)
-- Character (strings):
+- **Boolean** (`true`, `false`, `null`)
+- **Character** (strings):
 	- `char(n)`: Fixed length of n characters.
 	- `varchar(n)`: Variable length up to n characters.
 	- `text`: Unlimited length of characters
@@ -51,6 +58,7 @@ tags:
 	- `timestamptz` (date + time + timezone)
 	- `interval` (periods of time)
 
+---
 ## Creating tables
 
 - Repeated table names are not allowed.
@@ -94,7 +102,7 @@ CREATE TABLE table1_table2 (
 );
 ```
 
-
+---
 ## Managing tuples
 
 ### Inserting tuples
@@ -142,6 +150,7 @@ update table1 set table1_name = "A";
 update table1 set table1_name = "B" where table1_name = 2;
 ```
 
+---
 ## Managing columns
 
 ### Add new columns
@@ -162,3 +171,5 @@ update table1 set table1_extra = "text";
 -- Delete property extra from table1.
 alter table table1 drop table1_extra;
 ```
+
+---
