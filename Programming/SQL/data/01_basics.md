@@ -96,14 +96,15 @@ CREATE TABLE table1_table2 (
 
 ## Inserting tuples
 
-- `table1` is a table with 3 properties in this example.
-- `value1`, `value2` and `value3` must have the proper datatypes.
+- Syntax: `insert into [table] values( [values] )`
 ```sql
+-- table1 is a table with 3 properties.
+-- value1, value2 and value3 must have the proper datatypes.
 insert into table1 values(value1, value2, value3)
 ```
 
 ## Delete tuples
-- Syntax: `delete from table1 where condition`
+- Syntax: `delete from [table] where [condition]`
 ```sql
 -- Delete from table1 the second tuple
 delete from table1 where table1_id = 2;
@@ -113,11 +114,17 @@ delete from table1;
 ```
 
 ## Display tuples
-- Syntax: `select properties from table1 where condition`
+
+- Syntax: `select [properties] from [table] where [condition]`
+- We can use `*` as properties to specify all properties in the table.
 ```sql
--- Displays a list of names
+-- Displays a list of names from table1
 select table1_name from table1
 
--- Delete all tuples of table1 
-delete from table1;
+-- Displays a list of IDs and names from table1
+select table1_id, table1_name from table1
+
+-- Displays a all properties of the second tuple in table1
+select * from table1 where table1_id = 2
 ```
+
