@@ -45,17 +45,28 @@ tags:
 		- `real` or `float8`: 4B floating point number.
 		- `numeric` or `numeric(p, s)`: real number with p digits and s after decimal point.
 - Temporal
-	- date
-	- time
-	- timestamp ()
+	- `date`
+	- `time`
+	- `timestamp` (date + time)
+	- `timestamptz` (date + time + timezone)
+	- `interval` (periods of time)
 
 ## Creating tables
 
-- Repeated table names are not allowed
+- Repeated table names are not allowed.
+- By convention properties 
+- Properties are specified as: `name datatype constraints`
+- Types of constraints:
+	- `not null`
+	- `unique`
+	- `primary key`
+	- `check`
+	- `foreign key`
+- Each table should have a primary key.
 
 ```sql
-CREATE TABLE table_name (
-	table_name_id serial primary key,
-	other_id 
+CREATE TABLE example_table (
+	example_table_id serial primary key,
+	
 );
 ```
