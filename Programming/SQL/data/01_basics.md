@@ -54,7 +54,7 @@ tags:
 ## Creating tables
 
 - Repeated table names are not allowed.
-- By convention properties 
+- By convention properties are named: `tableName_propertie`
 - Properties are specified as: `name datatype constraints`
 - Types of constraints:
 	- `not null`
@@ -62,11 +62,15 @@ tags:
 	- `primary key`
 	- `check`
 	- `foreign key`
+	
 - Each table should have a primary key.
 
 ```sql
-CREATE TABLE example_table (
-	example_table_id serial primary key,
-	
+CREATE TABLE exampleTable (
+	exampleTable_id serial primary key,
+	exampleTable_name varchar(50) unique not null,
+	exampleTable_prop smallint
 );
 ```
+
+- We can make relations by specifying  
