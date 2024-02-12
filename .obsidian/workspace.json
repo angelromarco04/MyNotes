@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/SQL/data/01_basics.md",
+                "file": "Programming/Python/data/03_Strings.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/SQL/data/01_basics.md",
+                "file": "Programming/Python/data/03_Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,6 +100,8 @@
   },
   "active": "3a3e59aefa867a0e",
   "lastOpenFiles": [
+    "Programming/Python/PYTHON.md",
+    "Programming/SQL/data/01_basics.md",
     "Templates/Programming/SQL template.md",
     "Templates/Programming/Rust template.md",
     "Templates/Programming/Python template.md",
@@ -107,7 +109,6 @@
     "Templates/Programming/Java template.md",
     "Programming/Java/JAVA.md",
     "Programming/SQL/SQL.md",
-    "Programming/SQL/data/01_basics.md",
     "Programming/SQL/data",
     "Programming/SQL",
     "data/04-2_Ref&Borrow.md",
@@ -126,7 +127,6 @@
     "Programming/Python/tmp/Exceptions.md",
     "README.md",
     "Programming/Rust/RUST.md",
-    "Programming/Python/PYTHON.md",
     "Programming/Rust/data/04-1_Intro.md",
     "Programming/Rust/data/04-2_Ref&Borrow.md",
     "Programming/Rust/data/04-3_SliceType.md",
