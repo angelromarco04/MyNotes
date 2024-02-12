@@ -32,13 +32,16 @@ Replace in a string the variables between curly brackets ( `{` and `}` )
 var1  = 1
 var2  = "text"
 myStr = f"This is {var1} piece of {var2}."
-# myStr -> This is 1 piece of text.
+# myStr -> "This is 1 piece of text."
 
-# It is possible to align the text
+# It is possible to align the text.
 myStr = f"{var2 :  20}."    # myStr -> "text                "
 myStr = f"{var2 : <20}."    # myStr -> "text                "
 myStr = f"{var2 : >20}."    # myStr -> "                text"
-myStr = f"{var2 : ^20}."    # myStr -> "                text"
+myStr = f"{var2 : ^20}."    # myStr -> "        text        "
+
+#It is also possible to specify a character to fill spaces.
+myStr = f"{var2 : _^20}."   # myStr -> "________text________"
 ```
 
 ## Other Methods
