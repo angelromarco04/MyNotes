@@ -28,12 +28,16 @@ tags:
 - A quantity measure is how long does it take to become an expert.
 - Good practices:
 	- Use widespread metaphors and names.
-	- 
+	- Actions must be immediately visible, incremental and reversible.
 
 ## Efficiency
 
 - Measures how fast it is to use once learned.
 - A quantity measure is how many task an expert can perform per time.
+- Good practices:
+	- Define keyboard shortcuts (easy memorable key combinations).
+	- Use accelerators (shortcuts that trigger the effect in the menu-bar or a button)
+	- Use visible buttons/icons (make not visible )
 
 ## Safety
 
