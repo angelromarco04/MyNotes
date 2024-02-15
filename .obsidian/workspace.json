@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CHI/CHI.md",
+                "file": "Programming/CHI/data/1_Usability.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/CHI/CHI.md",
+                "file": "Programming/CHI/data/1_Usability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +100,11 @@
   },
   "active": "be524345b7a92593",
   "lastOpenFiles": [
+    "Programming/CHI/data/0_Intro.md",
+    "Programming/CHI/data/1_Usability.md",
+    "Programming/CHI/CHI.md",
     "Programming/Rust/RUST.md",
     "Programming/Scheme/SCHEME.md",
-    "Programming/CHI/CHI.md",
     "README.md",
     "Programming/CHI/data",
     "Programming/CHI",
@@ -133,7 +135,6 @@
     "Programming/Python/tmp/Exceptions.md",
     "Programming/Rust/data/04-1_Intro.md",
     "Programming/Rust/data/04-2_Ref&Borrow.md",
-    "Programming/Rust/data/04-3_SliceType.md",
     "CS/OS/tmp",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
