@@ -51,10 +51,11 @@ tags:
 - Confort and fatigue
 - Good practices:
 	1. Make actions easy to perform (use alternative ways of interaction).
-	2. 
+	2. Create images/elements that clearly identify the action.
+	3. Give easy to follow instructions to the user on how to continue.
+	4. Use neutral combinations of colors for most visible parts.
 ## Look & Feel
 
 - Feelings caused by the interface
-- Good practices:
-	1. 
-	2. 
+- Try to make user feel satisfied, happy and pleased.
+- 
