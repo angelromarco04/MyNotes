@@ -11,22 +11,18 @@ tags:
 
 ---
 
-## User Interface
+## User Interface Definition
 
 - Is the part of a software application responsible for communicating with the user.
-- We will assume that
-	- The user is always a human (not other software).
-	- The interface communicates also with the Operating System (OS).
-	- This OS is the one responsible of communicating with the hardware.
+- We will assume that this user is always a human (not other software).
 
-```mermaid
-stateDiagram
-	direction LR
+## Types of User Interfaces
 
-	s1 : App
-	s2 : OS
-	s3 : Hardware
-	
-	s1 --> s2
-	s2 --> s3
-```
+- Command Line Interface (CLI)
+	- User introduces the commands to be executed.
+	- Example: Linux Shell, Windows Powershell.
+- Graphical User Interface (GUI)
+	- User interacts with images that represent real elements.
+	- Example: Windows, Mac OS X
+- Virtual Reality (VR) and Augmented Reality (AR)
+	- They provide immersive experiences that simulate (VR) or use physical reality (AR) to interact with the user.
