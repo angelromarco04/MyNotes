@@ -34,6 +34,7 @@ tags:
 
 - Measures how fast it is to use once learned.
 - A quantity measure is how many task an expert can perform per time.
+	- We may also want to measure the ease to remember.
 - Good practices:
 	1. Define keyboard shortcuts or accelerators (easy memorable key combinations that usually trigger the effect in the menu-bar or a button).
 	2. Use visible buttons/icons (and reveal not visible ones through a single action)
@@ -59,5 +60,3 @@ tags:
 - Feelings caused by the interface
 - Try to make user feel satisfied, happy and pleased.
 - User experience design (UX) which focuses on experience rather than visuals (UI design).
-
-## Ease to Remember
