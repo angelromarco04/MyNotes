@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CHI/data/0_Intro.md",
+                "file": "Programming/CHI/data/1_Usability.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/CHI/data/0_Intro.md",
+                "file": "Programming/CHI/data/1_Usability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +100,9 @@
   },
   "active": "be524345b7a92593",
   "lastOpenFiles": [
+    "Programming/CHI/data/0_Intro.md",
     "CS/OS/OS.md",
     "CS/OS/data/1_Intro.md",
-    "Programming/CHI/data/0_Intro.md",
     "Others/Markdown.md",
     "Programming/CHI/CHI.md",
     "Programming/CHI/data/1_Usability.md",
