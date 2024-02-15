@@ -58,4 +58,6 @@ tags:
 
 - Feelings caused by the interface
 - Try to make user feel satisfied, happy and pleased.
-- 
+- User experience design (UX) which focuses on experience rather than visuals (UI design).
+
+## Ease to Remember
