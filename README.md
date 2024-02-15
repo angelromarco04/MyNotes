@@ -16,7 +16,8 @@ Hope you like it!  :D
 
 # List of topics
 
-### Programming languages
+## Programming
+### Languages
 - [Java](Programming/Java/JAVA.md)
 - [Python](Programming/Python/PYTHON.md)
 - C #TODO
@@ -25,18 +26,19 @@ Hope you like it!  :D
 - [Matlab](Programming/Matlab/MATLAB.md)
 - [Scheme](Programming/Scheme/SCHEME.md) (Functional programming)
 
-### Programming thinking
+### Other
 - Data Structures & Algorithms #TODO
+- [Computer-Human Interaction - GUI design](/Programming/CHI/CHI)
 
-### Computer Science
+## Computer Science
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
 - [Operating Systems](CS/OS/OS.md)
-### Linux
+## Linux
 - [Bash Scripting](Linux/Bash.md)
 - Linux ricing #TODO
 - [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md)
-### Other
+## Miscellaneous
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
 - [ANSI codes](/Others/ANSI_codes.md)
