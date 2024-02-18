@@ -26,3 +26,11 @@ graph LR
     A --> F(Attention)
     A --> G(Perception)
 ```
+
+## Steps
+
+First identify a usability criteria (heuristics) and then study them.
+Some common heuristics are:
+- System behaviour is predictable.
+- System behaviour is consistent.
+- Feedback is provided.
