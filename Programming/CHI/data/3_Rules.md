@@ -51,3 +51,13 @@ tags:
 - Avoid surprises or changes in familiar behaviour.
 
 ## 8. Reduce short-term memory load
+
+- Limited short-term memory -> $7 \pm 2$ chunks of information.
+- Prevent users from having to memorize information.
+
+---
+
+# Biography
+
+- [Ben Shneiderman - The Eight Golden Rules of Interface Design](https://www.cs.umd.edu/~ben/goldenrules.html)
+- [An Introduction to Ben Shneiderman's Eight Golden Rules of Interface Design](https://es.slideshare.net/jochen_wolters/an-introduction-to-ben-shneidermans-eight-golden-rules-of-interface-design)
