@@ -40,9 +40,15 @@ A review-based evaluation relies on experimental results and empirical evidence.
 
 ## Types of Evaluation
 
-- **Observational methods**
+- **Observational methods:**
 	- **Think aloud**. Users are asked to describe what they do and why.
 	- **Cooperative evaluation**. Users and evaluator ask questions to each other.
-	- Protocol analysis. Requires expert analysis of re
-- Query techniques
-- Physiological methods
+	- **Protocol analysis**. Requires expert analysis of means of recording.
+	- **Automated analysis**. Videotaping with automated annotation/response (quantitative).
+	- **Post-talk walkthroughs**. Recording is played back to participants for comments.
+- **Query techniques:**
+	- **Interviews**. List of questions asked to the user one-to-one.
+	- **Questionnaires**. List of questions to the users (less personal).
+- **Physiological methods:**
+	- Eye tracking.
+	- Physiological measurements
