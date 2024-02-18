@@ -7,13 +7,13 @@ tags:
 ---
 
 ---
-# Title
+# GUI Evaluation
 
 [Back to index](/Programming/CHI/CHI.md)
 
 ---
 
-## User Interface Evaluation Definition
+## Definition
 
 Based on cognitive psychology, we try to identify potential problems.
 
@@ -27,10 +27,15 @@ graph LR
     A --> G(Perception)
 ```
 
-## Steps
-
 First identify a usability criteria (heuristics) and then study them.
 Some common heuristics are:
 - System behaviour is predictable.
-- System behaviour is consistent.
+- System behaviour is consistent (use conventions).
 - Feedback is provided.
+- System uses "real world" language.
+- User control and freedom (undo & redo)
+- Error prevention.
+
+## Evaluation through user participation
+
+- Observational methods
