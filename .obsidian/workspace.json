@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CHI/data/2_Eval.md",
+                "file": "Programming/CHI/data/3_Rules.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/CHI/data/2_Eval.md",
+                "file": "Programming/CHI/data/3_Rules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +101,7 @@
   "active": "b5affa959fff1d0c",
   "lastOpenFiles": [
     "Programming/CHI/CHI.md",
+    "Programming/CHI/data/3_Rules.md",
     "Programming/CHI/data/2_Eval.md",
     "Others/Markdown.md",
     "Templates/Programming/Other template.md",
@@ -130,7 +131,6 @@
     "Programming/SQL",
     "data/04-2_Ref&Borrow.md",
     "data",
-    "Programming/Scheme/tmp/Untitled.md",
     "Templates/Programming",
     "Programming/Scheme/tmp",
     "Programming/Scheme/data",
