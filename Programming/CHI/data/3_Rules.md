@@ -34,9 +34,20 @@ tags:
 
 - Sequences of actions are organized into groups.
 	- There is a beginning, middle and end.
-	- Feedback 
+	- Feedback at the completion of a group.
+	- Example. Select product -> Checkout -> Confirmation
 
 ## 5. Prevent errors
+
+- Design to avoid serious errors.
+- When made, provide simple, constructive and specific instructions for recovery.
+
 ## 6. Permit easy reversal of actions
+
+- Actions should be reversible.
 ## 7. Keep users in control
+
+- Interface should respond to the user actions.
+- Avoid surprises or changes in familiar behaviour.
+
 ## 8. Reduce short-term memory load
