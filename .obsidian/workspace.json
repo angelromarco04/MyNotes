@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CHI/CHI.md",
+                "file": "Programming/CHI/data/2_Eval.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/CHI/CHI.md",
+                "file": "Programming/CHI/data/2_Eval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,13 @@
   },
   "active": "be524345b7a92593",
   "lastOpenFiles": [
-    "Programming/CHI/CHI.md",
+    "Templates/Programming/Other template.md",
+    "Programming.md",
+    "README.md",
+    "Programming/CHI/data/2_Eval.md",
+    "Templates/Base template.md",
     "Programming/CHI/data/0_Intro.md",
+    "Programming/CHI/CHI.md",
     "Programming/CHI/data/1_Usability.md",
     "CS/OS/OS.md",
     "CS/OS/data/1_Intro.md",
@@ -109,7 +114,6 @@
     "Programming/Python/data/01_Basics.md",
     "Programming/Rust/RUST.md",
     "Programming/Scheme/SCHEME.md",
-    "README.md",
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/Python/data/03_Strings.md",
@@ -128,13 +132,9 @@
     "data",
     "Programming/Scheme/tmp/Untitled.md",
     "Templates/Programming",
-    "Templates/Base template.md",
     "Programming/Scheme/tmp",
     "Programming/Scheme/data",
     "Programming/Scheme",
-    "daemons.md",
-    "Programming/Python/tmp/Exceptions.md",
-    "Programming/Rust/data/04-1_Intro.md",
     "CS/OS/tmp",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
