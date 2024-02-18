@@ -13,7 +13,7 @@ tags:
 
 ---
 
-## Definition
+## Expert-based Evaluation
 
 Based on cognitive psychology, we try to identify potential problems.
 
@@ -38,7 +38,7 @@ Some common heuristics are:
 
 A review-based evaluation relies on experimental results and empirical evidence.
 
-## Types of Evaluation
+## Evaluation though user participation
 
 - **Observational methods:**
 	- **Think aloud**. Users are asked to describe what they do and why.
@@ -76,8 +76,8 @@ Some tools are: Cucumber and Selenium plugin.
 
 Is a strategy to collect feedback and improve future releases of a product after it is released. Some methods are:
 
-- **Interviews**: The interviewer can focus on specific issues of concern and get direct feedback from users.
-- **Data logging**: The system can automatically record user interactions with the UI, such as patterns of usage, speed of performance, rate of errors, and frequency of online help requests.
-- **Online/Telephone Consultants**: Users can contact online or telephone consultants for help or suggestions, which can also provide valuable information for the evaluator and build customer loyalty.
-- **Online suggestions / email**: Users can easily and quickly send their opinions or problems to the evaluator via online suggestion boxes or email.
-- **Discussion groups**: Users can participate in discussion groups or newsgroups to share their experiences and troubleshoot with other users.
+- Interviews.
+- Data logging.
+- Online/Telephone Consultants.
+- Online suggestions / email.
+- Discussion groups.
