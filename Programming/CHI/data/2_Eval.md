@@ -36,6 +36,13 @@ Some common heuristics are:
 - User control and freedom (undo & redo)
 - Error prevention.
 
-## Evaluation through user participation
+A review-based evaluation relies on experimental results and empirical evidence.
 
-- Observational methods
+## Types of Evaluation
+
+- **Observational methods**
+	- **Think aloud**. Users are asked to describe what they do and why.
+	- **Cooperative evaluation**. Users and evaluator ask questions to each other.
+	- Protocol analysis. Requires expert analysis of re
+- Query techniques
+- Physiological methods
