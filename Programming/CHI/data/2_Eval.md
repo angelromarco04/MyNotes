@@ -7,7 +7,7 @@ tags:
 ---
 
 ---
-# GUI Evaluation
+# UI Evaluation
 
 [Back to index](/Programming/CHI/CHI.md)
 
