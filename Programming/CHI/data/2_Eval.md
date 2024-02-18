@@ -56,7 +56,20 @@ A review-based evaluation relies on experimental results and empirical evidence.
 ## Automated acceptance tests
 
 They are tests that can be run in front of a user to verify if the product meets the acceptance criteria.
+### Behaviour-Driven Development (BDD)
+One technique that uses user stories and scenarios to define the features and expected outcomes of the product.
 
-- **Behaviour-Driven Development (BDD)** is a method that uses user stories and scenarios to define the features and expected outcomes of the product.
+```text
+As a [role]
+I want [feature]
+So that [benefict]
+
+Scenarios:
+  - Given [context]
+  - when [event]
+  - then [outcome]
+```
+
+
 - **Cucumber** is a tool that allows writing user stories in a language called Gherkin and linking them to step definitions that can be executed to validate the user stories.
 - **Selenium** is a tool that enables browser-based testing with JavaScript and can be integrated with Cucumber.
