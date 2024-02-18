@@ -20,10 +20,22 @@ tags:
 - Example. Same terminology, color, layout, fonts...
 ## 2. Seek universal usability
 
-- 
+- Recognise the needs of diverse users and designed for all of them.
+- Examples:
+	- Add explanations for novices.
+	- Add shortcuts for experts.
 
 ## 3. Offer informative feedback
+
+- There is feedback for every action.
+	- Modest for frequent/minor actions.
+	- Substantial for infrequent/major actions.
 ## 4. Design dialogs to yield closure
+
+- Sequences of actions are organized into groups.
+	- There is a beginning, middle and end.
+	- Feedback 
+
 ## 5. Prevent errors
 ## 6. Permit easy reversal of actions
 ## 7. Keep users in control
