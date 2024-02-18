@@ -16,4 +16,4 @@ tags:
 
 0. [Introduction](/Programming/CHI/data/0_Intro.md)
 1. [Usability](/Programming/CHI/data/1_Usability)
-2. GUI Evaluation #TODO 
+2. GUI Evaluation(/Programming/CHI/data/1_Usability)
