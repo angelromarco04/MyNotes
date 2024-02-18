@@ -56,8 +56,8 @@ A review-based evaluation relies on experimental results and empirical evidence.
 ## Automated acceptance tests
 
 They are tests that can be run in front of a user to verify if the product meets the acceptance criteria.
-### Behaviour-Driven Development (BDD)
-One technique that uses user stories and scenarios to define the features and expected outcomes of the product.
+
+One technique is **Behaviour-Driven Development (BDD)** that uses user stories and scenarios to define the features and expected outcomes of the product.
 
 ```text
 As a [role]
@@ -70,6 +70,14 @@ Scenarios:
   - then [outcome]
 ```
 
+Some tools are: Cucumber and Selenium plugin.
 
-- **Cucumber** is a tool that allows writing user stories in a language called Gherkin and linking them to step definitions that can be executed to validate the user stories.
-- **Selenium** is a tool that enables browser-based testing with JavaScript and can be integrated with Cucumber.
+## Evaluation during active use
+
+Is a strategy to collect feedback and improve future releases of a product after it is released. Some methods are:
+
+- **Interviews**: The interviewer can focus on specific issues of concern and get direct feedback from users.
+- **Data logging**: The system can automatically record user interactions with the UI, such as patterns of usage, speed of performance, rate of errors, and frequency of online help requests.
+- **Online/Telephone Consultants**: Users can contact online or telephone consultants for help or suggestions, which can also provide valuable information for the evaluator and build customer loyalty.
+- **Online suggestions / email**: Users can easily and quickly send their opinions or problems to the evaluator via online suggestion boxes or email.
+- **Discussion groups**: Users can participate in discussion groups or newsgroups to share their experiences and troubleshoot with other users.
