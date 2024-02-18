@@ -19,9 +19,10 @@ Based on cognitive psychology, we try to identify potential problems.
 
 ```mermaid
 graph LR
-	A : ((a))
-    A --> B
-    A --> C
-    A --> D
-    A --> E
+	A((Cognitive Psycology)) --> B(Human Intelligence)
+    A --> C(Language)
+    A --> D(Thinking & Problem Solving)
+    A --> E(Memory)
+    A --> F(Attention)
+    A --> G(Perception)
 ```
