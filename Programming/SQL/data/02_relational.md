@@ -41,5 +41,12 @@ select module, degree from university where year = 1;
 
 
 ## Union (∪)
+
+- Done with the keyword `[query1] union [query2]`.
+```SQL
+-- All people in the campus. Both students and professors.
+(select * from students) union (select * from professors)
+```
+
 ## Difference (-)
 ## Natural Join (⋈)
