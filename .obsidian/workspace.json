@@ -11,8 +11,13 @@
             "id": "ceaed86354a7b611",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Others/UsefulResources.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -73,6 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Others/UsefulResources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

@@ -10,9 +10,13 @@
 - YT list. Bash scripting (Spanish).
   [Scripts en Bash](https://www.youtube.com/playlist?list=PL3lTiK2rXrUGkLL8Iz1KT5y5rddUvGeYv)
 
-## Operating Systems
-- Conference.
-  ["What UNIX Cost Us" - Benno Rice (LCA 2020)](https://www.youtube.com/watch?v=9-IWMbJXoLM)
+## Computer Science
+
+## Computer architecture
+- [YT channel About hardware, assembly & C](https://www.youtube.com/@BenEater)
+
+### Operating Systems
+- Conference.["What UNIX Cost Us" - Benno Rice (LCA 2020)](https://www.youtube.com/watch?v=9-IWMbJXoLM)
 
 ## Programming
 ### General
