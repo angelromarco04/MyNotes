@@ -38,7 +38,9 @@ select module, degree from university where year = 1;
 ```
 ## Cartesian Product (x)
 
-
+- Done in two ways:
+	- With the keyword
+		`select [properties] from [table1] inner join [] on [relation]`
 
 ## Union (∪)
 
@@ -49,4 +51,10 @@ select module, degree from university where year = 1;
 ```
 
 ## Difference (-)
+
+- Done with keyword `[query1] except [query2]`.
+```SQL
+-- Modules which are not teach by any teacher.
+(select module from university) except (select module from professors)
+```
 ## Natural Join (⋈)
