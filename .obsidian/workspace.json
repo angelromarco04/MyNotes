@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/CHI/CHI.md",
+                "file": "Programming/Rust/RUST.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/CHI/CHI.md",
+                "file": "Programming/Rust/RUST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,11 @@
   },
   "active": "b5affa959fff1d0c",
   "lastOpenFiles": [
-    "README.md",
+    "Programming/Rust/data/03-2_DataTypes.md",
+    "Programming/Rust/RUST.md",
     "Programming/CHI/CHI.md",
+    "data/04-2_Ref&Borrow.md",
+    "README.md",
     "Programming/CHI/data/3_Rules.md",
     "Programming/CHI/data/2_Eval.md",
     "Programming/CHI/data/1_Usability.md",
@@ -113,7 +116,6 @@
     "CS/OS/OS.md",
     "CS/OS/data/1_Intro.md",
     "Programming/Python/data/01_Basics.md",
-    "Programming/Rust/RUST.md",
     "Programming/Scheme/SCHEME.md",
     "Programming/CHI/data",
     "Programming/CHI",
@@ -126,10 +128,8 @@
     "Templates/Programming/Matlab template.md",
     "Templates/Programming/Java template.md",
     "Programming/Java/JAVA.md",
-    "Programming/SQL/SQL.md",
     "Programming/SQL/data",
     "Programming/SQL",
-    "data/04-2_Ref&Borrow.md",
     "data",
     "Templates/Programming",
     "Programming/Scheme/tmp",

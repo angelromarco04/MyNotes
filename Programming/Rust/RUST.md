@@ -24,11 +24,11 @@ fn main() {
 ## Introduction
 
 1. **Getting started**
-	-  [Compiler and cargo](data/01_Intro.md)
+	-  [Compiler and cargo](Programming/Rust/data/01_Intro.md)
 
 3. **Common Programming Concepts**
-	1. [Variables and Mutability](data/03-1_Variables.md)
-	2. [Data types](data/03-2_DataTypes.md)
+	1. [Variables and Mutability](Programming/Rust/data/03-1_Variables.md)
+	2. [Data types](Programming/Rust/data/03-2_DataTypes.md)
 	3. [Functions](data/03-3_Functions.md)
 	4. [Comments](data/03-4_Comments.md)
 	5. [Control Flow](data/03-5_ControlFlow.md)
