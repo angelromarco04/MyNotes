@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/UsefulResources.md",
+                "file": "Programming/SQL/data/02_relational.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/UsefulResources.md",
+                "file": "Programming/SQL/data/02_relational.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,6 +100,10 @@
   },
   "active": "ceaed86354a7b611",
   "lastOpenFiles": [
+    "Programming/SQL/data/01_basics.md",
+    "Programming/SQL/data/02_relational.md",
+    "Programming/SQL/SQL.md",
+    "Others/UsefulResources.md",
     "Programming/Rust/RUST.md",
     "Programming/Rust/data/04-1_Intro.md",
     "data/04-2_Ref&Borrow.md",
@@ -123,12 +127,8 @@
     "Programming/CHI",
     "Programming/Python/data/03_Strings.md",
     "Programming/Python/PYTHON.md",
-    "Programming/SQL/data/01_basics.md",
     "Templates/Programming/SQL template.md",
     "Templates/Programming/Rust template.md",
-    "Templates/Programming/Python template.md",
-    "Templates/Programming/Matlab template.md",
-    "Templates/Programming/Java template.md",
     "Programming/SQL/data",
     "Programming/SQL",
     "Templates/Programming",

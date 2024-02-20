@@ -15,5 +15,6 @@ tags:
 
 ---
 
-1. [Basic notions](./data/01_basics.md)
+1. [Basic notions](Programming/SQL/data/01_basics.md)
+2. [Relational Algebra](Programming/SQL/data/02_relational.md)
 
