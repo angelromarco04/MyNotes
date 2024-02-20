@@ -28,7 +28,7 @@ Hope you like it!  :D
 
 ### Other
 - Data Structures & Algorithms #TODO
-- [Computer-Human Interaction - GUI design](/Programming/CHI/CHI)
+- [Computer-Human Interaction - GUI design](/Programming/CHI/CHI.md)
 
 ## Computer Science
 - Computers Fundamentals #TODO
