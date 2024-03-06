@@ -34,11 +34,22 @@ test $var -eq 0
 
 ### Numerical values
 - `N -eq M` → $N = M$`
-- `N -ne` →
-- `N -gt` →
-- `N -lt` →
-- `N -ge` →
-- `N -le` →
+- `N -ne M` →  $N \ne M$
+- `N -gt M` → $N > M$`
+- `N -lt M` → $N < M$`
+- `N -ge M` → $N \ge M$`
+- `N -le M` → $N \le M$`
+
+### File types
+- `-s file` → Check if file exists and if it is non-empty.
+- `-f file` → Check if file exists and if it is normal.
+- `-d file` → Check if file is a directory.
+- `-w file` → Check if file is writable.
+- `-r file` → Check if file is readable.
+- `-x file` → Check if file is executable.
+### String values
+- `S = R` → Check if S is equal to R.
+- - `S = R` → Check if S is equal to R.
 # Parameters
 ```sh
 $promt> <filename> <arg1> <arg2> ...
