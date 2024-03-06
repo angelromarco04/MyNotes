@@ -9,11 +9,10 @@ tags:
 # Variables
 - There are no datatypes.
 - Accessing a non-existing value returns `null`.
-- There are some global variables
-	- `$HOME` working directory of the user.
-	- `$PATH` path where the shell looks for commands.
+- Spaces can break the script.
 ```sh
-var1= "abc"
+var="abc"        # var <- abc
+var=$(command)   # var <- Output of command
 ```
 
  - Note that things between single quotes are not evaluated.
@@ -23,9 +22,15 @@ echo '$var'    # >>> var
 echo "$var"    # >>> A
 ```
 
-# Special Characters
+# Special Variables
 - `$?` exit status of last command
 - `$$` process number of current shell
+- `$HOME` working directory of the user.
+- `$PATH` path where the shell looks for commands.
+- `$USER` current user.
+- `$HOSTNAME` hostname of the computer running the script.
+- `$SECONDS` number of seconds the current script has been running.
+- `$RANDOM` random number.
 # Comments
 ```sh
 # This is a comment
@@ -68,12 +73,11 @@ test $var -eq 0
 # If-else
 
 ```sh
-if text $var -eq 3
+if test condition
 then ...
 elif ...
 else ...
 fi
-
 ```
 # Parameters
 ```sh
