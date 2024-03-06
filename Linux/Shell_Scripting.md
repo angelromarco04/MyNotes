@@ -73,7 +73,7 @@ test $var -eq 0
 # If-else
 
 ```sh
-if test condition
+if expression
 then ...
 elif ...
 else ...
@@ -93,3 +93,45 @@ $promt> <filename> <arg1> <arg2> ...
 	- `$@` must be instead.
 
 
+# For
+- General expression
+```sh
+for i in list
+do
+    # Code
+done
+```
+
+- Other
+```sh
+# Print the arguments
+for i
+do
+	echo i
+done
+
+# Print numbers from 1 to 5
+for i in 1 2 3 4 5
+do
+    echo "Number: $i"
+done
+
+# Print numbers from 2 to 10
+for i in {2..10}
+do
+    echo "Output: $i"
+done
+
+# List all files in the current directory
+for file in *
+do
+    echo "File: $file"
+done
+
+# Print each character of a string
+for char in "Hello, World!"
+do
+    echo "Character: $char"
+done
+
+```
