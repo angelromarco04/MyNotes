@@ -49,7 +49,9 @@ test $var -eq 0
 - `-x file` → Check if file is executable.
 ### String values
 - `S = R` → Check if S is equal to R.
-- - `S = R` → Check if S is equal to R.
+- `S != R` → Check if S is not equal to R.
+- `-z S` → Check if length of S is `0`.
+- `-n S` → Check if length of S is not `0`.
 # Parameters
 ```sh
 $promt> <filename> <arg1> <arg2> ...
