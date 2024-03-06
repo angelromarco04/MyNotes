@@ -5,7 +5,7 @@
 - `cd` → Change Directory.
 - `mkdir` → Make Directory.
 - `rmdir` → Remove Directory.
-- `find <folder>`
+- `find <folder>` → Searches for a folder
 
 ## Managing files
 (Note that everything is considered a file, including directories)
@@ -26,8 +26,13 @@
 ## Managing strings
 - `echo <string>` → Displays `string` in the terminal.
 - `grep <string> <file>` → Searches `string` in the `file`.
-## Managing users
 
+## Metacharacters
+- `?` → Represents any char (a single one)
+- `*` → Represents any sequence of characters
+- `[ ]` → Represents any char contained between the brackets.
+- `[! ]`→ Represents any char NOT contained between the brackets.
+## Managing users
 - `whoami`
 
 ## Managing processes
@@ -35,8 +40,9 @@
 - `ps` → Shows running processes.
 - `kill <pid>` → Kills processes by its Process ID.
 ## Permissions
-
+(owner, group, others → `rwx` each)
 - `sudo` → Super User do (privileged level)
+- chmod <permisi> <>
 
 ## System Info
 
