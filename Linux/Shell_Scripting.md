@@ -8,9 +8,29 @@ tags:
 
 # Variables
 - There are no datatypes.
-- Accessing a non-existing v
+- Accessing a non-existing value returns `null`.
+- There are some global variables
+	- `$HOME` working directory of the user.
+	- `$PATH` path where the shell looks for commands.
+
+# Comments
+```sh
+# This is a comment
+# This is also a comment
+echo Hello World # This is a another comment
+```
+
+# Expressions
+
+- Expressions return a boolean value
+
+```sh
+# Alternative 1
+test 
+# Alternative 1
+```
 # Parameters
-```bash
+```sh
 $promt> <filename> <arg1> <arg2> ...
 ```
 
