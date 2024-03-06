@@ -39,8 +39,16 @@ select module, degree from university where year = 1;
 ## Cartesian Product (x)
 
 - Done in two ways:
-	- With the keyword
-		`select [properties] from [table1] inner join [] on [relation]`
+	- With the keyword `inner join ... on`:
+		`select [properties] from [table1] inner join [table2] on [relation]`
+	- With the keyword `where`:
+		`select [properties] from [table1], [table2] where [relation]`
+
+```SQL
+select u.module, t.name from university u, teacher t where u.code = t.code; 2
+
+select u.module, t.name from university u inner join teacher t on u.code = t.code;
+```
 
 ## Union (∪)
 
@@ -58,3 +66,6 @@ select module, degree from university where year = 1;
 (select module from university) except (select module from professors)
 ```
 ## Natural Join (⋈)
+
+
+p18 - renaming
