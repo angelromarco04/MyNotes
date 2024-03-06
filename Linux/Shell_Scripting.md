@@ -12,6 +12,9 @@ tags:
 - There are some global variables
 	- `$HOME` working directory of the user.
 	- `$PATH` path where the shell looks for commands.
+```sh
+var1= "abc"
+```
 
 # Comments
 ```sh
@@ -52,6 +55,16 @@ test $var -eq 0
 - `S != R` → Check if S is not equal to R.
 - `-z S` → Check if length of S is `0`.
 - `-n S` → Check if length of S is not `0`.
+# If-else
+
+```sh
+if text $var -eq 3
+then ...
+elif ...
+else ...
+fi
+
+```
 # Parameters
 ```sh
 $promt> <filename> <arg1> <arg2> ...
