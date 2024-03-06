@@ -5,6 +5,7 @@
 - `cd` → Change Directory.
 - `mkdir` → Make Directory.
 - `rmdir` → Remove Directory.
+- `find <folder>`
 
 ## Managing files
 (Note that everything is considered a file, including directories)
@@ -20,23 +21,27 @@
 - `tail <file>` → Displays the last lines of the file.
 - `cat <file>` → Displays contents of file in the terminal.
 - `nano <file>` → Opens a in-terminal editor.
-
+- `cut <file>` → Each line of the file is cut using a delimiter.
+- `wc <file>` → Counts lines, bytes, characters... in a file.
 ## Managing strings
 - `echo <string>` → Displays `string` in the terminal.
 - `grep <string> <file>` → Searches `string` in the `file`.
-- `cut <file>` → Cuts the file using a delimiter (by default spaces).
 ## Managing users
 
 - `whoami`
 
+## Managing processes
+
+- `ps` → Shows running processes.
+- `kill <pid>` → Kills processes by its Process ID.
 ## Permissions
 
 - `sudo` → Super User do (privileged level)
 
 ## System Info
 
+- `date` → Shows current date.
 - `uptime` → Shows how much time the system has been running.
-- `ps` → Shows running processes.
 - `lscpu` → Info about processor.
 - `cat /proc/cpuinfo` → Info about processor.
 - `cat /proc/meminfo` → info about RAM
