@@ -22,13 +22,23 @@ echo Hello World # This is a another comment
 
 # Expressions
 
-- Expressions return a boolean value
+- Expressions return `0` as `true` or any other value as `false`.
 
 ```sh
 # Alternative 1
-test 
-# Alternative 1
+test $var -eq 0
+
+# Alternative 2
+[$var -eq 0]
 ```
+
+### Numerical values
+- `N -eq M` → $N = M$`
+- `N -ne` →
+- `N -gt` →
+- `N -lt` →
+- `N -ge` →
+- `N -le` →
 # Parameters
 ```sh
 $promt> <filename> <arg1> <arg2> ...
