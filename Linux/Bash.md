@@ -32,6 +32,10 @@
 - `*` → Represents any sequence of characters
 - `[ ]` → Represents any char contained between the brackets.
 - `[! ]`→ Represents any char NOT contained between the brackets.
+
+## I/O Redirection
+- Output redirection
+	- `command > file`
 ## Managing users
 - `whoami`
 
@@ -42,7 +46,9 @@
 ## Permissions
 (owner, group, others → `rwx` each)
 - `sudo` → Super User do (privileged level)
-- chmod <permisi> <>
+- `chmod <permisions> <file>` → Modify permissions.
+- `chown <user> <file>` → Change owner of a file.
+- `chgrp <user> <file>` → Change group of a file.
 
 ## System Info
 
@@ -68,10 +74,9 @@
 
 (Usually the inline argument `--help` is provided)
 
-- `man <x>` → Obtain help about `x` command.
-- `man 3 <x>` → Obtain help about `x` function in c.
+- `man <command>` → Obtain help about a command.
+- `man 3 <func>` → Obtain help about a function in C.
 - `reboot` → Reboot the system.
 - `shutdown` → Shut down the system.
 - `poweroff` → Power off the system.
-- `<x> > <y>` → Stores output of command `x` to file `y`.
 - `clear` → Cleans the terminal.
