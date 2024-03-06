@@ -9,20 +9,22 @@
 ## Managing files
 (Note that everything is considered a file, including directories)
 
-- `file <x>` → Displays the type of file of `x`.
-- `rm <x>` → Remove the file `x`.
-- `touch <x>` → Create an empty file called `x`.
-- `cp <x> <y>` → Copy file `x` to a new one called `y`.
-- `mv <x> <y>` → Move or/and rename file `x` to `y`.
+- `file <file>` → Displays the type of the file.
+- `rm <file>` → Remove the file.
+- `touch <file>` → Create an empty file.
+- `cp <file1> <file2>` → Copy `file1` to a new one called `file2`.
+- `mv <file1> <file2>` → Move or/and rename file1 to file2.
 
 ## Read/Write files
-- `head <file>` → Displays the first lines of the file `x`.
-- `tail <file>` → Displays the last lines of the file `x`.
-- `cat <file>` → Displays contents of file `x` in the terminal.
-- `nano <file>` → Opens a in-terminal editor for `x`.
+- `head <file>` → Displays the first lines of the file.
+- `tail <file>` → Displays the last lines of the file.
+- `cat <file>` → Displays contents of file in the terminal.
+- `nano <file>` → Opens a in-terminal editor.
 
 ## Managing strings
+- `echo <string>` → Displays `string` in the terminal.
 - `grep <string> <file>` → Searches `string` in the `file`.
+- `cut <file>` → Cuts the file using a delimiter (by default spaces).
 ## Managing users
 
 - `whoami`
@@ -60,6 +62,5 @@
 - `reboot` → Reboot the system.
 - `shutdown` → Shut down the system.
 - `poweroff` → Power off the system.
-- `echo <x>` → Displays x in the terminal.
 - `<x> > <y>` → Stores output of command `x` to file `y`.
 - `clear` → Cleans the terminal.
