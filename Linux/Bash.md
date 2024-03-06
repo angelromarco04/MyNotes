@@ -30,7 +30,7 @@
 ## Metacharacters
 - `?` → Represents any char (a single one).
 - `*` → Represents any sequence of characters.
-- `.*` → Represents any sequence of characters but newline.
+- `.*` → Represents any sequence of characters but newline (usually used with `grep`).
 - `[ ]` → Represents any char contained between the brackets.
 - `[! ]`→ Represents any char NOT contained between the brackets.
 

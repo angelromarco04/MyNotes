@@ -16,6 +16,16 @@ tags:
 var1= "abc"
 ```
 
+ - Note that things between single quotes are not evaluated.
+```sh
+var="A"
+echo '$var'    # >>> var
+echo "$var"    # >>> A
+```
+
+# Special Characters
+- `$?` exit status of last command
+- `$$` process number of current shell
 # Comments
 ```sh
 # This is a comment
@@ -79,6 +89,3 @@ $promt> <filename> <arg1> <arg2> ...
 	- `$@` must be instead.
 
 
-
-- `$?` exit status of last command
-- `$$` process number of current shell
