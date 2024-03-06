@@ -13,6 +13,7 @@ tags:
 ```sh
 var="abc"        # var <- abc
 var=$(command)   # var <- Output of command
+var=$((math))    # var <- Result of a mathematical ecuation
 ```
 
  - Note that things between single quotes are not evaluated.
