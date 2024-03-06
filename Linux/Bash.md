@@ -16,11 +16,13 @@
 - `mv <x> <y>` → Move or/and rename file `x` to `y`.
 
 ## Read/Write files
-- `head <x>` → Displays the first lines of the file `x`.
-- `tail <x>` → Displays the last lines of the file `x`.
-- `cat <x>` → Displays contents of file `x` in the terminal.
-- `nano <x>` → Opens a in-terminal editor for `x`.
+- `head <file>` → Displays the first lines of the file `x`.
+- `tail <file>` → Displays the last lines of the file `x`.
+- `cat <file>` → Displays contents of file `x` in the terminal.
+- `nano <file>` → Opens a in-terminal editor for `x`.
 
+## Managing strings
+- `grep <string> <file>` → Searches `string` in the `file`.
 ## Managing users
 
 - `whoami`

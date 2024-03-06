@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/SQL/data/02_relational.md",
+                "file": "Linux/Bash.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/SQL/data/02_relational.md",
+                "file": "Linux/Bash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,8 @@
   },
   "active": "ceaed86354a7b611",
   "lastOpenFiles": [
-    "Programming/SQL/data/01_basics.md",
     "Programming/SQL/data/02_relational.md",
+    "Programming/SQL/data/01_basics.md",
     "Programming/SQL/SQL.md",
     "Others/UsefulResources.md",
     "Programming/Rust/RUST.md",
