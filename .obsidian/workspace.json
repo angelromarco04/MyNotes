@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Linux/Shell_Scripting.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Linux/Shell_Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,6 +100,9 @@
   },
   "active": "ceaed86354a7b611",
   "lastOpenFiles": [
+    "Linux/Over_The_Wire.md",
+    "Linux/Shell_Scripting.md",
+    "Linux/Bash.md",
     "Programming/SQL/data/02_relational.md",
     "Programming/SQL/data/01_basics.md",
     "Programming/SQL/SQL.md",
@@ -126,9 +129,6 @@
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/Python/data/03_Strings.md",
-    "Programming/Python/PYTHON.md",
-    "Templates/Programming/SQL template.md",
-    "Templates/Programming/Rust template.md",
     "Programming/SQL/data",
     "Programming/SQL",
     "Templates/Programming",

@@ -35,7 +35,12 @@
 
 ## I/O Redirection
 - Output redirection
-	- `command > file`
+	- `command > file` → Output of the command is written to a file (overwritten).
+	- `command >> file` → Output of the command is concatenated to the end of a file.
+- Input redirection
+	- `command < file` → Uses file content as input of the command
+- Pipes
+	- `command1 | command2` → Output of command 1 is the input of command2
 ## Managing users
 - `whoami`
 

@@ -37,7 +37,7 @@ Hope you like it!  :D
 ## Linux
 - [Bash Scripting](Linux/Bash.md)
 - Linux ricing #TODO
-- [Over The Wire - Bandit CTF](Linux/OverTheWire_Bandit.md)
+- [Over The Wire - Bandit CTF](Linux/Over_The_Wire.md)
 ## Miscellaneous
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
