@@ -83,6 +83,8 @@ tags:
 - null?
 - equal?
 - eq?
+- if
+- cond
 ## Function Definition
 - define
 
@@ -105,9 +107,12 @@ tags:
 
 - lambda
 
-## More functions
-- if
-- cond
+## Higher Order Functions (HOF)
+
+- map
+- curry
+- curryr
+- compose
 
 
 
