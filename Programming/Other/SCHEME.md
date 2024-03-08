@@ -3,17 +3,17 @@ Author: AAM
 Date: 2024-02-07
 tags:
   - programming
-  - scheme
+  - other
 ---
+
 ---
-# Title
+# SCHEME
 
 [HOME](/README.md)
 
 ---
 
-
-# Data types
+## Data types
 
 - **S-expressions**
 	- **Atoms**
@@ -30,7 +30,7 @@ tags:
 	- Structure: `(s1 . L)` where L is another list.
 	- Note that `s1` can also be another list.
 
-# Functions
+## Functions
 
 - `atom? X`
 	- Returns `#t` if `X` is an atom.
@@ -68,11 +68,12 @@ tags:
 	- (cons 'a 'b) -> (a . b)
 	- (cons '(a b) '((c d) e)) -> ((a b) (c d) e)
 
-- a
-- a
-- a
-- a
-- a
-- a
-- 
+- null?
+- equal?
+- eq?
+- if
+- cond
+
+
+- define
 

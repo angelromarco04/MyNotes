@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Scheme/tmp/Untitled.md",
+                "file": "Programming/Other/SCHEME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Scheme/tmp/Untitled.md",
+                "file": "Programming/Other/SCHEME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,10 +98,10 @@
       "graph:Open graph view": false
     }
   },
-  "active": "eb99dc79878fcc00",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
-    "Programming/Scheme/SCHEME.md",
     "Programming/Scheme/tmp/Untitled.md",
+    "Programming/Other/SCHEME.md",
     "Linux/Shell_Scripting.md",
     "Linux/Bash.md",
     "Others/Markdown.md",
@@ -134,7 +134,7 @@
     "Templates/Programming",
     "Programming/Scheme/tmp",
     "Programming/Scheme/data",
-    "Programming/Scheme",
+    "Programming/Other",
     "CS/OS/tmp",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"

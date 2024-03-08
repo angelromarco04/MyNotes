@@ -24,7 +24,7 @@ Hope you like it!  :D
 - C++ #TODO
 - [Rust](Programming/Rust/RUST.md)
 - [Matlab](Programming/Matlab/MATLAB.md)
-- [Scheme](Programming/Scheme/SCHEME.md) (Functional programming)
+- [Scheme](Programming/Other/SCHEME.md) (Functional programming)
 
 ### Other
 - Data Structures & Algorithms #TODO
