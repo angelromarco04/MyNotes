@@ -68,6 +68,16 @@ tags:
 	- (cons 'a 'b) -> (a . b)
 	- (cons '(a b) '((c d) e)) -> ((a b) (c d) e)
 
+- `list X Y ...`
+	- Returns a list containing given args.
+	- `(list 'a)` -> `(a)`
+	- `(list 'a 'b)` -> `(a b)`
+
+> [!NOTE]
+> `cons` and `list` are not the same
+> `(cons 'a '(b c) )` -> `(a b c)`
+> `(list 'a '(b c) )` -> `(a (b c) )`
+
 - null?
 - equal?
 - eq?
