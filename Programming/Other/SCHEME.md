@@ -30,7 +30,7 @@ tags:
 	- Structure: `(s1 . L)` where L is another list.
 	- Note that `s1` can also be another list.
 
-## Functions
+## Basic Functions
 
 - `atom? X`
 	- Returns `#t` if `X` is an atom.
@@ -71,9 +71,32 @@ tags:
 - null?
 - equal?
 - eq?
+## Function Definition
+- define
+
+(recursive)
+```scheme
+(define (compare a b)
+  (if (null? a)
+      '()
+      (cons
+       (cond
+         ((< (car a) (car b)) -1)
+         ((= (car a) (car b)) 0)
+         ((> (car a) (car b)) 1)
+         )
+       (compare (cdr a) (cdr b))
+       )
+      )
+  )
+```
+
+- lambda
+
+## More functions
 - if
 - cond
 
 
-- define
+
 

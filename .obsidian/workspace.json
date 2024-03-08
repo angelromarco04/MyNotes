@@ -98,10 +98,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
-    "Programming/Scheme/tmp/Untitled.md",
+    "README.md",
     "Programming/Other/SCHEME.md",
+    "Programming/Scheme/tmp/Untitled.md",
     "Linux/Shell_Scripting.md",
     "Linux/Bash.md",
     "Others/Markdown.md",
@@ -116,7 +117,6 @@
     "data",
     "Programming/Rust/data/03-2_DataTypes.md",
     "Programming/CHI/CHI.md",
-    "README.md",
     "Programming/CHI/data/3_Rules.md",
     "Programming/CHI/data/2_Eval.md",
     "Programming/CHI/data/1_Usability.md",
