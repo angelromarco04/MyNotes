@@ -18,7 +18,7 @@ tags:
 		- Independent values
 		- Examples: `a`, `B`, `#t`, `#f`
 	- **Pairs**
-		- Grouping of two atoms.
+		- Grouping of two s-expressions.
 		- Structure: `(s1 . s2)`
 	
 - **Lists**

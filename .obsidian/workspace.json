@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Shell_Scripting.md",
+                "file": "Programming/Scheme/tmp/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Shell_Scripting.md",
+                "file": "Programming/Scheme/tmp/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,8 @@
   },
   "active": "ceaed86354a7b611",
   "lastOpenFiles": [
-    "Linux/Bash.md",
     "Linux/Shell_Scripting.md",
+    "Linux/Bash.md",
     "Others/Markdown.md",
     "Linux/Over_The_Wire.md",
     "Programming/SQL/data/02_relational.md",
