@@ -19,6 +19,7 @@ tags:
 		- Examples: `a`, `B`, `#t`, `#f`
 	- **Pairs**
 		- Grouping of two s-expressions.
+			- Can be atoms or another pairs.
 		- Structure: `(s1 . s2)`
 	
 - **Lists**
@@ -28,10 +29,15 @@ tags:
 	- Note that `s1` can also be another list.
 
 # Functions
-- quote (`'`)
-- car X
-	- 
-	- (car '(a b c)) -> a
+- `(quote X)`
+	- Returns X as an atom.
+	- `(quote a)` -> `a`
+	- `'a` -> `a`
+- `(car X)`
+	- Returns first element of a pair.
+	- `(car '(a . b))` -> `a`
+	- `(car '(a b c))` -> `a`
+	- `(car '((a b) c))` -> `(a b)`
 - cdr X
 - cons X, Y.
 	- Returns the pair (X . Y)
