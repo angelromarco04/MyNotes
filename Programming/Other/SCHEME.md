@@ -43,9 +43,11 @@ tags:
 
 - `(quote X)`
 	- Returns X as an s-expression.
-	- `(X)` is a function, not an s-expression
 	- `(quote a)` -> `a`
 	- `'a` -> `a`
+
+> [!NOTE]
+> For the compiler `(X)` is a function, not an s-expression
 
 - `(car X)`
 	- Returns first element of a pair.
@@ -74,7 +76,7 @@ tags:
 	- `(list 'a 'b)` -> `(a b)`
 
 > [!NOTE]
-> `cons` and `list` are not the same
+> `cons` and `list` are not the same:
 > `(cons 'a '(b c) )` -> `(a b c)`
 > `(list 'a '(b c) )` -> `(a (b c) )`
 
