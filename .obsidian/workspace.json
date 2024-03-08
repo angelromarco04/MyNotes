@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "edcf04621f9c8dad",
+        "id": "70c1a86eef663ba4",
         "type": "tabs",
         "children": [
           {
-            "id": "ceaed86354a7b611",
+            "id": "eb99dc79878fcc00",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,8 +98,10 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ceaed86354a7b611",
+  "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
+    "Programming/Scheme/SCHEME.md",
+    "Programming/Scheme/tmp/Untitled.md",
     "Linux/Shell_Scripting.md",
     "Linux/Bash.md",
     "Others/Markdown.md",
@@ -125,10 +127,8 @@
     "CS/OS/OS.md",
     "CS/OS/data/1_Intro.md",
     "Programming/Python/data/01_Basics.md",
-    "Programming/Scheme/SCHEME.md",
     "Programming/CHI/data",
     "Programming/CHI",
-    "Programming/Python/data/03_Strings.md",
     "Programming/SQL/data",
     "Programming/SQL",
     "Templates/Programming",

@@ -2,6 +2,8 @@
 Author: AAM
 Date: 2024-02-07
 tags:
+  - programming
+  - scheme
 ---
 ---
 # Title
@@ -30,6 +32,9 @@ tags:
 
 # Functions
 
+- `list? X`
+	- Returns `#t` if X is a list.
+
 - `(quote X)`
 	- Returns X as an s-expression.
 	- `(X)` is a function, not an s-expression
@@ -42,13 +47,13 @@ tags:
 	- `(car '(a b c))` -> `a`
 	- `(car '((a b) c))` -> `(a b)`
 
-- `cdr X`
+- `(cdr X)`
 	- Returns second element of a pair.
 	- `(cdr '(a . b))` -> `b`
 	- `(cdr '(a b c))` -> `(b c)`
 	- `(cdr '((a b) c))` -> `(c)` (NOT `c`)
 
-- `cons X Y`
+- `(cons X Y)`
 	- Returns the pair `(X . Y)`
 	- (cons 'a 'b) -> (a . b)
 	- (cons '(a b) '((c d) e)) -> ((a b) (c d) e)
