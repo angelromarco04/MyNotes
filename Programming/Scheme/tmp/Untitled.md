@@ -27,17 +27,15 @@ tags:
 	- Structure: `(s1 . L)` where L is another list.
 	- Note that `s1` can also be another list.
 
-# Basic functions
+# Functions
+- quote (`'`)
+- car X
+	- 
+	- (car '(a b c)) -> a
+- cdr X
+- cons X, Y.
+	- Returns the pair (X . Y)
+	- (cons 'a 'b) -> (a . b)
+	- (cons '(a b) '((c d) e)) -> ((a b) (c d) e)
+- 
 
-| Function | Return value |
-| ---- | ---- |
-| `const(x, y)` | A pair `(x . y)` |
-| `car(x)` | First element of the S-expression / list `x` |
-| `cdr(x)` | Second element of the S-expression / list `x` |
-| `atom?(x)` | `#t` if `x` is an atom, `#f` otherwise |
-| `list?(x)` | `#t` if `x` is a list, `#f` otherwise |
-| `pair?(x)` | `#t` if `x` is a pair, `#f` otherwise |
-| `eq?(x, y)` | `#t` if `x` is an atom equal to `y`, `#f` otherwise |
-| `null?(x)` | `#t` if `x` is the empty list, `#f` otherwise |
-#### Arithmetic, Logic and Relational operations
-(+ z …) (and z …) (or z …) (not z) (> x y…) (<= x y …) (<> x y…)
