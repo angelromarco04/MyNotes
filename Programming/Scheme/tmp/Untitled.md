@@ -32,8 +32,14 @@ tags:
 
 # Functions
 
+- `atom? X`
+	- Returns `#t` if `X` is an atom.
+
+- `pair? X`
+	- Returns `#t` if `X` is a pair.
+
 - `list? X`
-	- Returns `#t` if X is a list.
+	- Returns `#t` if `X` is a list.
 
 - `(quote X)`
 	- Returns X as an s-expression.
@@ -52,6 +58,10 @@ tags:
 	- `(cdr '(a . b))` -> `b`
 	- `(cdr '(a b c))` -> `(b c)`
 	- `(cdr '((a b) c))` -> `(c)` (NOT `c`)
+
+> [!NOTE]
+> `car` and `cdr` can be combined.
+> `(car (car (cdr X)))` = `(caadr X)`
 
 - `(cons X Y)`
 	- Returns the pair `(X . Y)`
