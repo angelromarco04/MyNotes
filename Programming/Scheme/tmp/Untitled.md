@@ -29,19 +29,35 @@ tags:
 	- Note that `s1` can also be another list.
 
 # Functions
+
 - `(quote X)`
-	- Returns X as an atom.
+	- Returns X as an s-expression.
+	- `(X)` is a function, not an s-expression
 	- `(quote a)` -> `a`
 	- `'a` -> `a`
+
 - `(car X)`
 	- Returns first element of a pair.
 	- `(car '(a . b))` -> `a`
 	- `(car '(a b c))` -> `a`
 	- `(car '((a b) c))` -> `(a b)`
-- cdr X
-- cons X, Y.
-	- Returns the pair (X . Y)
+
+- `cdr X`
+	- Returns second element of a pair.
+	- `(cdr '(a . b))` -> `b`
+	- `(cdr '(a b c))` -> `(b c)`
+	- `(cdr '((a b) c))` -> `(c)` (NOT `c`)
+
+- `cons X Y`
+	- Returns the pair `(X . Y)`
 	- (cons 'a 'b) -> (a . b)
 	- (cons '(a b) '((c d) e)) -> ((a b) (c d) e)
+
+- a
+- a
+- a
+- a
+- a
+- a
 - 
 
