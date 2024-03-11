@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Shell_Scripting.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Linux/Shell_Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,10 +100,10 @@
   },
   "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
+    "README.md",
     "Linux/Shell_Scripting.md",
     "Nuevo documento de texto.txt",
     "push.bat",
-    "README.md",
     "Linux/Bash.md",
     "Linux/Over_The_Wire.md",
     "Programming/Other/SCHEME.md",
