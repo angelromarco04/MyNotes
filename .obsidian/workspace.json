@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Shell_Scripting.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -58,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Shell_Scripting.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,10 +100,10 @@
   },
   "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
+    "Linux/Shell_Scripting.md",
     "Nuevo documento de texto.txt",
     "push.bat",
     "README.md",
-    "Linux/Shell_Scripting.md",
     "Linux/Bash.md",
     "Linux/Over_The_Wire.md",
     "Programming/Other/SCHEME.md",
@@ -136,7 +135,6 @@
     "Templates/Programming",
     "Programming/Scheme/tmp",
     "Programming/Scheme/data",
-    "Programming/Other",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
   ]

@@ -36,7 +36,7 @@ Hope you like it!  :D
 - [Operating Systems](CS/OS/OS.md)
 ## Linux
 - [Bash](/Linux/Bash.md)
-- [Shell Scripting](/Linux/Shell_Scripting)
+- [Shell Scripting](/Linux/Shell_Scripting.md)
 - Linux ricing #TODO
 - [Over The Wire - Bandit CTF](Linux/Over_The_Wire.md)
 ## Miscellaneous
