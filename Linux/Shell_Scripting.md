@@ -87,7 +87,12 @@ fi
 
 ```sh
 case "$var" in
-1)
+1) ...    # If var == 1
+;;
+2) ...    # If var == 2
+;;
+*) ...    # Else
+esac
 ```
 # Parameters
 ```sh
