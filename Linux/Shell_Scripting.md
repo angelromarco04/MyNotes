@@ -6,7 +6,8 @@ tags:
 ---
 ---
 
-# Variables
+# Basics
+## Variables
 - There are no datatypes.
 - Accessing a non-existing value returns `null`.
 - Spaces can break the script.
@@ -23,7 +24,7 @@ echo '$var'    # >>> var
 echo "$var"    # >>> A
 ```
 
-# Special Variables
+## Special Variables
 - `$?` exit status of last command
 - `$$` process number of current shell
 - `$HOME` working directory of the user.
@@ -32,14 +33,14 @@ echo "$var"    # >>> A
 - `$HOSTNAME` hostname of the computer running the script.
 - `$SECONDS` number of seconds the current script has been running.
 - `$RANDOM` random number.
-# Comments
+## Comments
 ```sh
 # This is a comment
 # This is also a comment
 echo Hello World # This is a another comment
 ```
 
-# Expressions
+## Expressions
 
 - Expressions return `0` as `true` or any other value as `false`.
 
@@ -71,7 +72,11 @@ test $var -eq 0
 - `S != R` → Check if S is not equal to R.
 - `-z S` → Check if length of S is `0`.
 - `-n S` → Check if length of S is not `0`.
-# If-else
+
+
+---
+# Conditional Structures
+## If-else
 
 ```sh
 if expression
@@ -83,7 +88,7 @@ else
 fi
 ```
 
-# Case (switch)
+## Case (switch)
 
 ```sh
 case "$var" in
@@ -94,6 +99,8 @@ case "$var" in
 *) ...    # Else
 esac
 ```
+
+---
 # Parameters
 ```sh
 $promt> <filename> <arg1> <arg2> ...
@@ -107,8 +114,9 @@ $promt> <filename> <arg1> <arg2> ...
 	- Unexpected behaviour if special characters or spaces.
 	- `$@` must be instead.
 
-
-# For
+---
+# Repetitive Structures
+## For
 - General expression
 ```sh
 for i in list
@@ -150,3 +158,15 @@ do
 done
 
 ```
+
+## While
+```sh
+while expression
+do
+    # Code
+done
+```
+
+## Loop keywords
+- `continue` jumps to the next loop iteration.
+- `break` jumps out of the loop
