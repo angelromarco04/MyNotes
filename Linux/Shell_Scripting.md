@@ -174,3 +174,15 @@ done
 
 ---
 # Console I/O
+## Input
+```sh
+```
+## Output
+```sh
+# Standard Output (STDOUT)
+echo "Something"
+echo "Something" >&1
+
+# Standard Error (STDERR)
+echo "Something" >&2
+```
