@@ -176,6 +176,12 @@ done
 # Console I/O
 ## Input
 ```sh
+# Basic usage
+read var       # Ask for an input
+echo "$var"    # Access and display the input
+
+# Provide custom message
+read -p "Introduce data: " data
 ```
 ## Output
 ```sh
