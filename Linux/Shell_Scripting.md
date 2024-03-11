@@ -180,8 +180,17 @@ done
 read var       # Ask for an input
 echo "$var"    # Access and display the input
 
-# Provide custom message
+# Provide custom message (-s)
 read -p "Introduce data: " data
+
+# Hide input (-s)
+read -sp "Introduce password: " password
+
+# Limitting input length (-n)
+read -n 3 var
+
+# Timeout for input (-t)
+read -t 5 var
 ```
 ## Output
 ```sh
