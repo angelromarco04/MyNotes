@@ -6,4 +6,4 @@ git add .
 git commit -m %mydate%_%mytime%
 git push
 
-wait
+pause
