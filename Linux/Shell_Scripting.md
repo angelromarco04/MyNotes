@@ -75,10 +75,19 @@ test $var -eq 0
 
 ```sh
 if expression
-then ...
-elif ...
-else ...
+	then ...
+elif expression
+	then ...
+else 
+	...
 fi
+```
+
+# Case (switch)
+
+```sh
+case "$var" in
+1)
 ```
 # Parameters
 ```sh
