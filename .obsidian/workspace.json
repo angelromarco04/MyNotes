@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,6 +101,8 @@
   },
   "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
+    "Nuevo documento de texto.txt",
+    "push.bat",
     "README.md",
     "Linux/Shell_Scripting.md",
     "Linux/Bash.md",
@@ -127,7 +129,6 @@
     "Templates/Base template.md",
     "CS/OS/OS.md",
     "CS/OS/data/1_Intro.md",
-    "Programming/Python/data/01_Basics.md",
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/SQL/data",
@@ -136,7 +137,6 @@
     "Programming/Scheme/tmp",
     "Programming/Scheme/data",
     "Programming/Other",
-    "CS/OS/tmp",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
   ]
