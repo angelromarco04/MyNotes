@@ -35,7 +35,8 @@ Hope you like it!  :D
 - Computers Architecture #TODO
 - [Operating Systems](CS/OS/OS.md)
 ## Linux
-- [Bash Scripting](Linux/Bash.md)
+- [Bash](/Linux/Bash.md)
+- [Shell Scripting](/Linux/Shell_Scripting)
 - Linux ricing #TODO
 - [Over The Wire - Bandit CTF](Linux/Over_The_Wire.md)
 ## Miscellaneous

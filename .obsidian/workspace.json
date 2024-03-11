@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Other/SCHEME.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0352c6c151f35fb6",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Other/SCHEME.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,15 +98,15 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
+    "Linux/Shell_Scripting.md",
     "README.md",
+    "Linux/Bash.md",
+    "Linux/Over_The_Wire.md",
     "Programming/Other/SCHEME.md",
     "Programming/Scheme/tmp/Untitled.md",
-    "Linux/Shell_Scripting.md",
-    "Linux/Bash.md",
     "Others/Markdown.md",
-    "Linux/Over_The_Wire.md",
     "Programming/SQL/data/02_relational.md",
     "Programming/SQL/data/01_basics.md",
     "Programming/SQL/SQL.md",

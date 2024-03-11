@@ -11,7 +11,7 @@ tags:
 - Accessing a non-existing value returns `null`.
 - Spaces can break the script.
 ```sh
-var="abc"        # var <- abc
+var="abc"        # var <- abc    (Always use double quotes)
 var=$(command)   # var <- Output of command
 var=$((math))    # var <- Result of a mathematical ecuation
 ```
