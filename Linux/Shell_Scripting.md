@@ -40,9 +40,13 @@ echo "$var"    # >>> A
 echo Hello World # This is a another comment
 ```
 
+
+---
+# Conditional Structures
 ## Expressions
 
 - Expressions return `0` as `true` or any other value as `false`.
+- Keywords `true` and `false` return its respective value
 
 ```sh
 # Alternative 1
@@ -73,9 +77,6 @@ test $var -eq 0
 - `-z S` → Check if length of S is `0`.
 - `-n S` → Check if length of S is not `0`.
 
-
----
-# Conditional Structures
 ## If-else
 
 ```sh
@@ -170,3 +171,6 @@ done
 ## Loop keywords
 - `continue` jumps to the next loop iteration.
 - `break` jumps out of the loop
+
+---
+# Console I/O
