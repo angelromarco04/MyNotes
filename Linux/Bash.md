@@ -26,7 +26,7 @@
 ## Managing strings
 - `echo <string>` → Displays `string` in the terminal.
 - `grep <string> <file>` → Searches `string` in the `file`.
-- `tr <char1> <char2>` → Replaces each char
+- `tr <char1> <char2>` → Replaces each `char1` by the `char2` (`-s` to squeeze).
 
 ## Metacharacters
 - `?` → Represents any char (a single one).
