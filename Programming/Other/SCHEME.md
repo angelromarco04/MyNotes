@@ -127,9 +127,11 @@ tags:
 - `map func X Y ...`
 	- Applies given function to each element of one or more lists IN ORDER.
 	- `(map max '(1 2) '(3 4) '(5 6))` -> `(list (max 1 3 5) (max 2 4 6))`
+
 - `apply func X Y`
 	- Applies given function to all elements. If a list is provided it unpacks it.
 	- `(apply * 5 '(2 3))` -> 5 x 2 x 3 = 30
+
 - `(lambda X func)`
 	- Creates a function that does something with a set of variables `X`.
 	- `((lambda (x y) (+ x y)) 2 3)` -> `(x y)` = `(2 3)` -> 5
@@ -138,15 +140,21 @@ tags:
 > In lambdas the arguments are passed as a list. For example:
 > `(lambda (x y) ... )` is explicitly asking for 2 arguments.
 > `(lambda (x . y) ... )` is asking for 1 or more args. (y = rest of args)
+
+
 - `((curry func X) Y)`
 	- Allows creating a function without an argument.
 	- Same as doing `(func X Y)`+
 	- `((curry / 2) 3)` -> `(/ 2 3)` -> `2/3`
+
 - `((curryr func X) Y)`
 	- Similar to curry but the argument is inserted the first.
 	- Same as doing `(func Y X)`
 	- `((curryr / 2) 3)` -> `(/ 3 2)` -> `3/2`
-- `(compose func1 func2)`
+
+- `(compose func1 func2 ...)`
+	- Allows to apply functions one after another.
+	- `((compose add1 *) 2 3)` -> `(add1 (* 2 3))` -> (2 x 3) + 1 = 7
 
 
 
