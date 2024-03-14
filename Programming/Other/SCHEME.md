@@ -44,6 +44,9 @@ tags:
 - `(list? X)`
 	- Returns `#t` if `X` is a list.
 
+- `(equal? X Y)`
+	- Returns `#t` if `X` is equal to `Y`.
+
 - `(quote X)`
 	- Returns `X` as an s-expression (data).
 	- `(quote a)` -> `a`
