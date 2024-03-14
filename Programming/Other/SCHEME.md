@@ -32,13 +32,13 @@ tags:
 
 ## Basic Functions
 
-- `atom? X`
+- `(atom? X)`
 	- Returns `#t` if `X` is an atom.
 
-- `pair? X`
+- `(pair? X)`
 	- Returns `#t` if `X` is a pair.
 
-- `list? X`
+- `(list? X)`
 	- Returns `#t` if `X` is a list.
 
 - `(quote X)`
@@ -70,7 +70,7 @@ tags:
 	- (cons 'a 'b) -> (a . b)
 	- (cons '(a b) '((c d) e)) -> ((a b) (c d) e)
 
-- `list X Y ...`
+- `(list X Y ...)`
 	- Returns a list containing given args.
 	- `(list 'a)` -> `(a)`
 	- `(list 'a 'b)` -> `(a b)`
@@ -109,9 +109,10 @@ tags:
 
 ## Higher Order Functions (HOF)
 
-- `map`
-	- Applies given function to each element of one or more lists
+- `map func X Y ...`
+	- Applies given function to each element of one or more lists IN ORDER.
 	- `(map max '(1 2) '(3 4) '(5 6))` -> (max 1 3 5) (max 2 4 6)
+- `apply`
 - curry
 - curryr
 - compose
