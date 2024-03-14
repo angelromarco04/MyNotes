@@ -113,6 +113,7 @@ tags:
 	- Applies given function to each element of one or more lists IN ORDER.
 	- `(map max '(1 2) '(3 4) '(5 6))` -> (max 1 3 5) (max 2 4 6)
 - `apply`
+	- 
 - curry
 - curryr
 - compose
