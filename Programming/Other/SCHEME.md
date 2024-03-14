@@ -93,9 +93,13 @@ tags:
 	- To use sequential binding use `let*`.
 	- `(let [(a 3) (b 2)] (* a b))` -> 3 x 2 = 6
 	- `(let [(a 3) (b (+ a 1))] (* a b))` -> ERROR. `a` not defined
-	- `(let* [(a 3) (b (+ a 1))] (* a b))` -> 3 x (3 + 1) = 12
 
 - `(let* [(a X) (b Y)] (func a b))`
+	- Same as `let` but with sequential binding.
+	- `(let* [(a 3) (b (+ a 1))] (* a b))` -> 3 x (3 + 1) = 12
+
+- `(letrec [(a X) (b Y)] (func a b))`
+	- Same as `let` but allows recursive calls
 ## Function Definition
 - define
 
@@ -134,9 +138,15 @@ tags:
 > In lambdas the arguments are passed as a list. For example:
 > `(lambda (x y) ... )` is explicitly asking for 2 arguments.
 > `(lambda (x . y) ... )` is asking for 1 or more args. (y = rest of args)
-- curry
-- curryr
-- compose
+- `((curry func X) Y)`
+	- Allows creating a function without an argument.
+	- Same as doing `(func X Y)`+
+	- `((curry / 2) 3)` -> `(/ 2 3)` -> `2/3`
+- `((curryr func X) Y)`
+	- Similar to curry but the argument is inserted the first.
+	- Same as doing `(func Y X)`
+	- `((curryr / 2) 3)` -> `(/ 3 2)` -> `3/2`
+- `(compose func1 func2)`
 
 
 
