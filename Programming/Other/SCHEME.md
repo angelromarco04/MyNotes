@@ -115,6 +115,10 @@ tags:
 - `apply func X Y`
 	- Applies given function to all elements. If a list is provided it unpacks it.
 	- `(apply * 5 '(2 3))` -> 5 x 2 x 3 = 30
+- `(lambda X func)`
+	- Creates a function that does something with a set of variables `X`.
+	- `(lambda (x y) (+ x y))` -> 
+	- 
 - curry
 - curryr
 - compose
