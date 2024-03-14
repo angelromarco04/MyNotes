@@ -136,6 +136,7 @@ tags:
 	- Creates a function that does something with a set of variables `X`.
 	- `((lambda (x y) (+ x y)) 2 3)` -> `(x y)` = `(2 3)` -> 5
 	- `((lambda (x . y) (apply + x y)) 2 3 4)` -> `(x . y)` = `(2 . (3 4))` -> 9
+
 > [!NOTE]
 > In lambdas the arguments are passed as a list. For example:
 > `(lambda (x y) ... )` is explicitly asking for 2 arguments.
@@ -143,7 +144,10 @@ tags:
 
 - `(filter func X)`
 	- Filters a list by a provided boolean function
-	- `(filter (lambda x (list? x)) '(1 (2) 3))` -> `(1 3)`
+	- `(filter (lambda x (atom? (car x))) '(1 (2) 3))` -> `(1 3)`
+	- Note that the arguments are encapsulated inside another list
+	- `(filter (lambda x (list? x)) '(1 (2) 3))`
+		`(list? '((1 (2) 3)) ))` = `#t` -> `(1 (2) 3)`
 
 - `((curry func X) Y)`
 	- Allows creating a function without an argument.
