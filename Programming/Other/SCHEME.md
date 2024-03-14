@@ -85,6 +85,8 @@ tags:
 - eq?
 - if
 - cond
+
+## Variable Definition & let
 - `(let [(a X) (b Y)] (func a b))`
 	- Let us define some variables in a local scope. `a=X` and `b=Y`.
 	- The binding is done in parallel (all at the same time)
@@ -92,6 +94,8 @@ tags:
 	- `(let [(a 3) (b 2)] (* a b))` -> 3 x 2 = 6
 	- `(let [(a 3) (b (+ a 1))] (* a b))` -> ERROR. `a` not defined
 	- `(let* [(a 3) (b (+ a 1))] (* a b))` -> 3 x (3 + 1) = 12
+
+- `(let* [(a X) (b Y)] (func a b))`
 ## Function Definition
 - define
 
