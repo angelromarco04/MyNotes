@@ -84,7 +84,12 @@ tags:
 - equal?
 - eq?
 
-## Variable Keyword
+## List funtions
+- list
+- sort
+- length
+
+## Variable Definition
 - `(let [(a X) (b Y)] (func a b))`
 	- Let us define some variables in a local scope. `a=X` and `b=Y`.
 	- The binding is done in parallel (all at the same time)
@@ -98,7 +103,9 @@ tags:
 
 - `(letrec [(a X) (b Y)] (func a b))`
 	- Same as `let` but allows recursive calls
-## Define Keyword
+
+- `lambda`
+## Constants & Functions definition
 - define
 
 (recursive)
