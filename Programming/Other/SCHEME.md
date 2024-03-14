@@ -26,7 +26,7 @@ tags:
 	
 - **Lists**
 	- Grouping of atoms.
-	- The empty list `()` is an atom.
+	- The empty list `()` is an atom (In scheme, `'()` or `null`).
 	- Structure: `(s1 . L)` where L is another list.
 	- Note that `s1` can also be another list.
 
@@ -35,6 +35,9 @@ tags:
 - `(atom? X)`
 	- Returns `#t` if `X` is an atom.
 
+- `(null? X)`
+	- Returns true if `X` is the empty list.
+
 - `(pair? X)`
 	- Returns `#t` if `X` is a pair.
 
@@ -42,12 +45,12 @@ tags:
 	- Returns `#t` if `X` is a list.
 
 - `(quote X)`
-	- Returns X as an s-expression.
+	- Returns `X` as an s-expression (data).
 	- `(quote a)` -> `a`
 	- `'a` -> `a`
 
 > [!NOTE]
-> For the compiler `(X)` is a function, not an s-expression
+> For the compiler `(X)` is a procedures, not an s-expression
 
 - `(car X)`
 	- Returns first element of a pair.
@@ -80,7 +83,6 @@ tags:
 > `(cons 'a '(b c) )` -> `(a b c)`
 > `(list 'a '(b c) )` -> `(a (b c) )`
 
-- null?
 - equal?
 - eq?
 
