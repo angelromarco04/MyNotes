@@ -108,20 +108,28 @@ tags:
 - `(define (name X Y ...) (func))`
 	- Creates a reusable function (or constant).
 
-(recursive)
 ```scheme
+; This is a recursive functio
+; 1. Base: Whats the case to stop?
+; 2. Recurrence: If not the base case, what is it?
+;    Hypothesis: assume we know f(cdr(l)) = H
+;;;        Thesis:
 (define (compare a b)
 	(if (null? a)
 		'()
-		(cons (cond (
-	     [< (car a) (car b)) -1]
-         [(= (car a) (car b)) 0]
-         [(> (car a) (car b)) 1]
+		(cons
+			(cond (
+				[< (car a) (car b)) -1]
+				[(= (car a) (car b)) 0]
+		        [(> (car a) (car b)) 1]
+		    )
+			(compare (cdr a) (cdr b))
+		)
     )
-       (compare (cdr a) (cdr b))
-       )
-      )
-  )
+)
+
+; This is a constant
+(define my-list '(1 2 3))
 ```
 
 ## Control flow
