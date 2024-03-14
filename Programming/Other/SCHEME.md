@@ -83,10 +83,8 @@ tags:
 - null?
 - equal?
 - eq?
-- if
-- cond
 
-## Variable Definition & let
+## Variable Keyword
 - `(let [(a X) (b Y)] (func a b))`
 	- Let us define some variables in a local scope. `a=X` and `b=Y`.
 	- The binding is done in parallel (all at the same time)
@@ -100,7 +98,7 @@ tags:
 
 - `(letrec [(a X) (b Y)] (func a b))`
 	- Same as `let` but allows recursive calls
-## Function Definition
+## Define Keyword
 - define
 
 (recursive)
@@ -120,7 +118,17 @@ tags:
   )
 ```
 
-- lambda
+## Control flow
+- `if cond val_true val_false`
+	- If the condition is true it returns val_true, otherwise it returns val_false.
+
+```scheme
+(define (abs x)
+  (if (< x 0) (- x) x)
+)
+```
+
+- cond
 
 ## Higher Order Functions (HOF)
 
