@@ -124,11 +124,11 @@ tags:
 
 ## Higher Order Functions (HOF)
 
-- `map func X Y ...`
+- `(map func X Y ...)`
 	- Applies given function to each element of one or more lists IN ORDER.
 	- `(map max '(1 2) '(3 4) '(5 6))` -> `(list (max 1 3 5) (max 2 4 6))`
 
-- `apply func X Y`
+- `(apply func X Y)`
 	- Applies given function to all elements. If a list is provided it unpacks it.
 	- `(apply * 5 '(2 3))` -> 5 x 2 x 3 = 30
 
@@ -141,6 +141,9 @@ tags:
 > `(lambda (x y) ... )` is explicitly asking for 2 arguments.
 > `(lambda (x . y) ... )` is asking for 1 or more args. (y = rest of args)
 
+- `(filter func X)`
+	- Filters a list by a provided boolean function
+	- `(filter (lambda x (list? x)) '(1 (2) 3))` -> `(1 3)`
 
 - `((curry func X) Y)`
 	- Allows creating a function without an argument.
