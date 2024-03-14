@@ -112,8 +112,8 @@ tags:
 ; This is a recursive functio
 ; 1. Base: Whats the case to stop?
 ; 2. Recurrence: If not the base case, what is it?
-;    Hypothesis: assume we know f(cdr(l)) = H
-;;;        Thesis:
+;        Hypothesis: assume you know the recursive case. Next step?
+;        Thesis:
 (define (compare a b)
 	(if (null? a)
 		'()
