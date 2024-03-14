@@ -89,7 +89,7 @@ tags:
 - sort
 - length
 
-## Variable Definition
+## Let Keyword
 - `(let [(a X) (b Y)] (func a b))`
 	- Let us define some variables in a local scope. `a=X` and `b=Y`.
 	- The binding is done in parallel (all at the same time)
@@ -103,22 +103,21 @@ tags:
 
 - `(letrec [(a X) (b Y)] (func a b))`
 	- Same as `let` but allows recursive calls
-
-- `lambda`
 ## Constants & Functions definition
-- define
+
+- `(define (name X Y ...) (func))`
+	- Creates a reusable function (or constant).
 
 (recursive)
 ```scheme
 (define (compare a b)
-  (if (null? a)
-      '()
-      (cons
-       (cond
-         ((< (car a) (car b)) -1)
-         ((= (car a) (car b)) 0)
-         ((> (car a) (car b)) 1)
-         )
+	(if (null? a)
+		'()
+		(cons (cond (
+	     [< (car a) (car b)) -1]
+         [(= (car a) (car b)) 0]
+         [(> (car a) (car b)) 1]
+    )
        (compare (cdr a) (cdr b))
        )
       )
