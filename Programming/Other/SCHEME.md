@@ -85,9 +85,15 @@ tags:
 - eq?
 
 ## List funtions
-- list
-- sort
-- length
+- `(list X Y ...)`
+	- Returns a list containing the arguments provided.
+	- `(list 1 2 3)` -> `'(1 2 3)`
+- `(sort X criteria)`
+	- Returns the list sorted by a criteria.
+	- `(sort '(1 4 3 2) <)` -> `'(1 2 3 4)`
+- `(length X)`
+	- Returns the length of a list.
+	- `(length '(1 2 3 4)` -> 4
 
 ## Let Keyword
 - `(let [(a X) (b Y)] (func a b))`
@@ -109,11 +115,15 @@ tags:
 	- Creates a reusable function (or constant).
 
 ```scheme
-; This is a recursive functio
-; 1. Base: Whats the case to stop?
-; 2. Recurrence: If not the base case, what is it?
-;        Hypothesis: assume you know the recursive case. Next step?
-;        Thesis:
+; This is a recursive function definition
+; 1. Base: Whats the case to stop? Output?
+; 2. Recurrence: l is not the empty list
+;                l = cons(car(l), cdr(l))
+;
+;      - Hipothesis: assume we know func(cdr(l)) = H
+;      - Thesis    : my-func(l) ::= ?
+
+
 (define (compare a b)
 	(if (null? a)
 		'()
