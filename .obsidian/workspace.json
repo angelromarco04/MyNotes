@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Programming/Other/SCHEME.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0352c6c151f35fb6",
@@ -78,7 +79,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Programming/Other/SCHEME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,13 +99,13 @@
       "graph:Open graph view": false
     }
   },
-  "active": "eb99dc79878fcc00",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
+    "Linux/Bash.md",
     "Linux/Shell_Scripting.md",
     "README.md",
     "Nuevo documento de texto.txt",
     "push.bat",
-    "Linux/Bash.md",
     "Linux/Over_The_Wire.md",
     "Programming/Other/SCHEME.md",
     "Programming/Scheme/tmp/Untitled.md",
