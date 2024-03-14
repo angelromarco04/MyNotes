@@ -50,7 +50,8 @@ tags:
 	- `'a` -> `a`
 
 > [!NOTE]
-> For the compiler `(X)` is a procedures, not an s-expression
+> `X` is a procedures and `'X` is a s-expression.
+> The parenthesis are used to evaluate procedures. `(X)`
 
 - `(car X)`
 	- Returns first element of a pair.
@@ -82,9 +83,6 @@ tags:
 > `cons` and `list` are not the same:
 > `(cons 'a '(b c) )` -> `(a b c)`
 > `(list 'a '(b c) )` -> `(a (b c) )`
-
-- equal?
-- eq?
 
 ## List funtions
 - `(list X Y ...)`
