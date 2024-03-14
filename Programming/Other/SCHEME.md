@@ -85,6 +85,7 @@ tags:
 - eq?
 - if
 - cond
+- let [(a x) (b y)]
 ## Function Definition
 - define
 
@@ -120,8 +121,9 @@ tags:
 	- `((lambda (x y) (+ x y)) 2 3)` -> `(x y)` = `(2 3)` -> 5
 	- `((lambda (x . y) (apply + x y)) 2 3 4)` -> `(x . y)` = `(2 . (3 4))` -> 9
 > [!NOTE]
-> In lambdas the arguments are passed as a list.
-> (lambda (x y)( ... )) is askingthat (lambda (x . y)( ... ))
+> In lambdas the arguments are passed as a list. For example:
+> `(lambda (x y) ... )` is explicitly asking for 2 arguments.
+> `(lambda (x . y) ... )` is asking for 1 or more args. (y = rest of args)
 - curry
 - curryr
 - compose
