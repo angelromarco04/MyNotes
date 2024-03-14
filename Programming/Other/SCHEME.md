@@ -117,8 +117,11 @@ tags:
 	- `(apply * 5 '(2 3))` -> 5 x 2 x 3 = 30
 - `(lambda X func)`
 	- Creates a function that does something with a set of variables `X`.
-	- `(lambda (x y) (+ x y))` -> 
-	- 
+	- `((lambda (x y) (+ x y)) 2 3)` -> `(x y)` = `(2 3)` -> 5
+	- `((lambda (x . y) (apply + x y)) 2 3 4)` -> `(x . y)` = `(2 . (3 4))` -> 9
+> [!NOTE]
+> In lambdas the arguments are passed as a list.
+> (lambda (x y)( ... )) is askingthat (lambda (x . y)( ... ))
 - curry
 - curryr
 - compose
