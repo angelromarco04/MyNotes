@@ -58,7 +58,7 @@ tags:
 
 - `(equal? X Y)`
 	- Returns `#t` if `X` is equal to `Y`.
-	- ``
+	- `(eq? X Y)` does the same but only for atoms.
 
 - `(quote X)`
 	- Returns `X` as an s-expression (data).
