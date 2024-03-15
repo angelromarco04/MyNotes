@@ -57,7 +57,7 @@ tags:
 	- Returns `#t` if `X` is a list.
 
 - `(equal? X Y)`
-	- Returns `#t` if `X` is equal to `Y`.
+	- Returns `#t` if  the s-expression `X` is equal to `Y`.
 	- `(eq? X Y)` does the same but only for atoms.
 
 - `(quote X)`
@@ -100,7 +100,7 @@ tags:
 > `(cons 'a '(b c) )` -> `(a b c)`
 > `(list 'a '(b c) )` -> `(a (b c) )`
 
-## List funtions
+## List functions
 
 - `(list X Y ...)`
 	- Returns a list containing the arguments provided.
@@ -119,6 +119,11 @@ tags:
 	- `(member 1 '(2 3 4))` -> `#f`
 	- Note that instead of true, it returns the sub-list starting at `X`.
 	- `(member 1 '(2 1 4))` -> `(1 4)`
+
+- `(reverse X)`
+	- Reverses list `X`. (Not recursively)
+	- `(reverse '(1 2 3) )` -> `(3 2 1)`
+	- `(reverse '(1 2 (3 4) ) )` -> `( (3 4) 2 1)`
 
 ## Let Keyword
 - `(let [(a X) (b Y)] (func a b))`
