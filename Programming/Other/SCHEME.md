@@ -101,15 +101,24 @@ tags:
 > `(list 'a '(b c) )` -> `(a (b c) )`
 
 ## List funtions
+
 - `(list X Y ...)`
 	- Returns a list containing the arguments provided.
 	- `(list 1 2 3)` -> `'(1 2 3)`
+
 - `(sort X criteria)`
 	- Returns the list sorted by a criteria.
 	- `(sort '(1 4 3 2) <)` -> `'(1 2 3 4)`
+
 - `(length X)`
 	- Returns the length of a list.
 	- `(length '(1 2 3 4)` -> 4
+
+- `(member X Y)`
+	- Checks if `X` is inside list `Y`.
+	- `(member 1 '(2 3 4))` -> `#f`
+	- Note that instead of true, it returns the sub-list starting at `X`.
+	- `(member 1 '(2 1 4))` -> `(1 4)`
 
 ## Let Keyword
 - `(let [(a X) (b Y)] (func a b))`
