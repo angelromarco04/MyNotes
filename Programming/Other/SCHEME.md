@@ -190,9 +190,13 @@ tags:
 	- Applies given function to each element of one or more lists IN ORDER.
 	- `(map max '(1 2) '(3 4) '(5 6))` -> `(list (max 1 3 5) (max 2 4 6))`
 
-- `(apply func X Y ...)`
-	- Applies given function to all elements of a list.
-	- `(apply * 5 '(2 3))` -> 5 x 2 x 3 = 30
+- `(apply func X Y ... L)`
+	- Applies given function to all elements passed.
+	- The last element should be always a list (that will be unpacked).
+	- `(apply * '(5 2 3))` -> 5 x 2 x 3 = 30
+	- `(apply *  5 '(2 3))` -> 5 x 2 x 3 = 30
+	- `(apply * 5 2 '(3))` -> 5 x 2 x 3 = 30
+	- `(apply * 5 2 3)` -> ERROR. `3` is not a list.
 
 - `(lambda X func)`
 	- Creates a function that does something with a set of variables `X`.
