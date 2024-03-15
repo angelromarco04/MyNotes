@@ -13,6 +13,15 @@ tags:
 
 ---
 
+# THEORY
+## Functional Programming
+- Datatypes: s-expressions or functions (procedures)
+- Function-based:
+	- **Function composition** -> No assignments.
+	- **Loops through recursion** -> Not iteration.
+	- **Higher Order Functions (HOF)** -> Functions receive other functions.
+- Scheme
+	- Based in LISP (List Proccessing)
 ## Data types
 
 - **S-expressions**
