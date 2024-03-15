@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Other/SCHEME.md",
+                "file": "Linux/tutorials/How to mount disks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0352c6c151f35fb6",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Other/SCHEME.md",
+                "file": "Linux/tutorials/How to mount disks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,15 +98,17 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "eb99dc79878fcc00",
   "lastOpenFiles": [
     "Linux/Bash.md",
+    "Linux/tutorials/How to mount disks.md",
+    "Linux/tutorials",
+    "Programming/Other/SCHEME.md",
     "Linux/Shell_Scripting.md",
     "README.md",
     "Nuevo documento de texto.txt",
     "push.bat",
     "Linux/Over_The_Wire.md",
-    "Programming/Other/SCHEME.md",
     "Programming/Scheme/tmp/Untitled.md",
     "Others/Markdown.md",
     "Programming/SQL/data/02_relational.md",
@@ -135,7 +136,6 @@
     "Programming/SQL",
     "Templates/Programming",
     "Programming/Scheme/tmp",
-    "Programming/Scheme/data",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
   ]
