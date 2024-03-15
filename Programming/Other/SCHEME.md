@@ -21,10 +21,11 @@ tags:
 	- **Loops through recursion** -> Not iteration.
 	- **Higher Order Functions (HOF)** -> Functions receive other functions.
 - Scheme
-	- Based in LISP (List Proccessing)
+	- Based in LISP (List Processing)
+	- Pure functional
 ## Data types
 
-- **S-expressions**
+- **S-expressions** (symbolic data)
 	- **Atoms**
 		- Independent values
 		- Examples: `a`, `B`, `#t`, `#f`
@@ -39,6 +40,8 @@ tags:
 	- Structure: `(s1 . L)` where L is another list.
 	- Note that `s1` can also be another list.
 
+---
+# Function summary
 ## Basic Functions
 
 - `(atom? X)`
@@ -55,6 +58,7 @@ tags:
 
 - `(equal? X Y)`
 	- Returns `#t` if `X` is equal to `Y`.
+	- ``
 
 - `(quote X)`
 	- Returns `X` as an s-expression (data).
