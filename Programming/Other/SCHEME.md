@@ -41,8 +41,8 @@ tags:
 	- Note that `s1` can also be another list.
 
 ---
-# Function summary
-## Basic Functions
+# Basic Functions summary
+## Managing s-expressions
 
 - `(atom? X)`
 	- Returns `#t` if `X` is an atom.
@@ -139,7 +139,7 @@ tags:
 
 - `(letrec [(a X) (b Y)] (func a b))`
 	- Same as `let` but allows recursive calls
-## Constants & Functions definition
+## Constants & Functions Definition
 
 - `(define (name X Y ...) (func))`
 	- Creates a reusable function (or constant).
@@ -184,7 +184,9 @@ tags:
 
 - cond
 
-## Higher Order Functions (HOF)
+---
+# Higher Order Functions (HOF)
+## Basic HOF Functions
 
 - `(map func X Y ...)`
 	- Applies given function to each element of one or more lists IN ORDER.
@@ -212,13 +214,20 @@ tags:
 > - In `(lambda (x . y) ... )` x is mandatory and y is the list with the rest of arguments.
 > - In `(lambda x ... )` x is a list with all the arguments passed.
 
-
 - `(filter func X)`
 	- Filters a list by a provided boolean function
 	- `(filter (lambda x (atom? (car x))) '(1 (2) 3))` -> `(1 3)`
 	- Note that the arguments are encapsulated inside another list
 	- `(filter (lambda x (list? x)) '(1 (2) 3))`
 		`(list? '((1 (2) 3)) ))` = `#t` -> `(1 (2) 3)`
+
+## Composition & Curryfication
+
+- `(compose func1 func2 ...)`
+	- Allows to apply functions one after another.
+	- `((compose add1 *) 2 3)` -> `(add1 (* 2 3))` -> (2 x 3) + 1 = 7
+
+- `(foldl f base (list e1 e2 ... en))`
 
 - `((curry func X) Y)`
 	- Allows creating a function without an argument.
@@ -230,9 +239,7 @@ tags:
 	- Same as doing `(func Y X)`
 	- `((curryr / 2) 3)` -> `(/ 3 2)` -> `3/2`
 
-- `(compose func1 func2 ...)`
-	- Allows to apply functions one after another.
-	- `((compose add1 *) 2 3)` -> `(add1 (* 2 3))` -> (2 x 3) + 1 = 7
+
 
 
 
