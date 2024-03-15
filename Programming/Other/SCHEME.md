@@ -40,6 +40,12 @@ tags:
 	- Structure: `(s1 . L)` where L is another list.
 	- Note that `s1` can also be another list.
 
+## Environments
+
+- The **General Environment** are the functions/constants defined by Scheme
+- The **User Environment** are the functions defined by the user
+- The **Function Environment** are the arguments and local definitions.
+
 ---
 # Basic Functions summary
 ## Managing s-expressions
@@ -229,11 +235,11 @@ tags:
 
 - `(foldl func base X )`
 	- Applies recursively a function to all the elem. of a list from left to right.
-	- `(foldl f base '(e1 e2 e3))` = `(f e1 (f e2 (f e3 base)))`
+	- `(foldl f base '(e1 e2 e3))` = `(f e3 (f e2 (f e1 base)))`
 
 - `(foldr func base X )`
 	- Applies recursively a function to all the elem. of a list from right to left.
-	- `(foldl f base '(e1 e2 e3))` = `(f e3 (f e2 (f e1 base)))`
+	- `(foldl f base '(e1 e2 e3))` = `(f e1 (f e2 (f e3 base)))`
 
 - `((curry func X) Y)`
 	- Allows creating a function without an argument.
