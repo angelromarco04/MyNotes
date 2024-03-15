@@ -145,6 +145,16 @@ tags:
 
 - `(letrec [(a X) (b Y)] (func a b))`
 	- Same as `let` but allows recursive calls
+
+```scheme
+(letrec
+	(
+		(even? (lambda (n) (if (= n 0) #t (odd? (- n 1)))))
+	    (odd? (lambda (n) (if (= n 0) #f (even? (- n 1)))))
+    )
+  (even? 6))
+```
+```
 ## Constants & Functions Definition
 
 - `(define (name X Y ...) (func))`
