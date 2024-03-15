@@ -227,7 +227,13 @@ tags:
 	- Allows to apply functions one after another.
 	- `((compose add1 *) 2 3)` -> `(add1 (* 2 3))` -> (2 x 3) + 1 = 7
 
-- `(foldl f base (list e1 e2 ... en))`
+- `(foldl func base X )`
+	- Applies recursively a function to all the elem. of a list from left to right.
+	- `(foldl f base '(e1 e2 e3))` = `(f e1 (f e2 (f e3 base)))`
+
+- `(foldr func base X )`
+	- Applies recursively a function to all the elem. of a list from right to left.
+	- `(foldl f base '(e1 e2 e3))` = `(f e3 (f e2 (f e1 base)))`
 
 - `((curry func X) Y)`
 	- Allows creating a function without an argument.
