@@ -192,11 +192,13 @@ tags:
 
 - `(apply func X Y ... L)`
 	- Applies given function to all elements passed.
-	- The last element should be always a list (that will be unpacked).
-	- `(apply * '(5 2 3))` -> 5 x 2 x 3 = 30
-	- `(apply *  5 '(2 3))` -> 5 x 2 x 3 = 30
-	- `(apply * 5 2 '(3))` -> 5 x 2 x 3 = 30
-	- `(apply * 5 2 3)` -> ERROR. `3` is not a list.
+	- All elements but last one should be numbers.
+	- Last one should always be a list (that will be unpacked).
+	- `(apply * '(5   2   3) )` -> 5 x 2 x 3 = 30
+	- `(apply *   5 '(2   3) )` -> 5 x 2 x 3 = 30
+	- `(apply *   5   2 '(3) )` -> 5 x 2 x 3 = 30
+	- `(apply * '(5)  2 '(3) )` -> ERROR. `(5)` is not a number.
+	- `(apply *   5   2   3  )` -> ERROR. `3` is not a list.
 
 - `(lambda X func)`
 	- Creates a function that does something with a set of variables `X`.
