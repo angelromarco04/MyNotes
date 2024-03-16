@@ -28,13 +28,13 @@ Leaf3(Leaf)
 Leaf4(Leaf)
 Leaf5(Leaf)
 
-subgraph
+subgraph 1 [ ]
 Composite1 --> Leaf1
 Composite1 --> Leaf2
 Composite1 --> Composite2
 Composite1 --> Leaf3
 
-subgraph
+subgraph 2 [ ]
 Composite2 --> Leaf4
 Composite2 --> Leaf5
 end
@@ -71,7 +71,7 @@ class Composite {
 ## Code
 
 ```java
-public class Class { 
-
+public class Component { 
+	public void operation()
 }
 ```
