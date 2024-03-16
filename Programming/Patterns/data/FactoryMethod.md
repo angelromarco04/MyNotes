@@ -15,7 +15,7 @@ tags:
 
 ## Description
 
-Encapsulates the instantiation  of classes of the same type.
+Encapsulates the instantiation of classes of the same type.
 Use a method instead of direct instantiation.
 
 ## Characteristics
@@ -26,12 +26,18 @@ Use a method instead of direct instantiation.
 
 ```mermaid
 classDiagram
-Class_A 
+Common <|.. Class_A
+Common <|.. Class_B
+Common <|.. Class_C
+
+class Common {
+	<<interface>>
+}
 ```
 ## Code
 
 ```java
 public class Class { 
-
+ 
 }
 ```
