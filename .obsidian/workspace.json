@@ -100,10 +100,10 @@
   },
   "active": "5736eb99209d752c",
   "lastOpenFiles": [
-    "README.md",
     "Programming/Patterns/PATTERNS.md",
-    "Programming/Patterns/data/Singleton.md",
     "Templates/Programming template.md",
+    "Programming/Patterns/data/Singleton.md",
+    "README.md",
     "Templates/Base template.md",
     "Templates/Programming/SQL template.md",
     "Templates/Programming/Other template.md",

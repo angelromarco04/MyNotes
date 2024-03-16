@@ -4,8 +4,6 @@ Date: 2024-03-16
 tags:
   - programming
   - other
-  - "#programming"
-  - python
 ---
 ---
 # Singleton
@@ -20,19 +18,26 @@ Guaranties only one instance of a class and provide global access to it.
 
 ## Characteristics
 
+- Private constructor.
+- Static variable: `instance`.
+- Static function `getInstance()`
+
+## UML
+
 ```mermaid
 classDiagram
 class Singleton {
-	Singleton : - Singleton instance$
-	Singleton : - Singleton()$
-	Singleton : + getInstance()
+	- Singleton instance $
+	- Singleton()$
+	+ getInstance() Singleton
+}
 ```
 ## Code
 
 ```java
 public class Singleton { 
 
-	private Singleton() {}
+	private Singleton() { ... }
 	
 	private static Singleton instance = null;
 	
