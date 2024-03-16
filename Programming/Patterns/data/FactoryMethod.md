@@ -15,7 +15,8 @@ tags:
 
 ## Description
 
-Create 
+Encapsulates the instantiation  of classes of the same type.
+Use a method instead of direct instantiation.
 
 ## Characteristics
 
@@ -25,11 +26,7 @@ Create
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
-}
+Class_A 
 ```
 ## Code
 
