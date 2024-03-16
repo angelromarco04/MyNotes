@@ -22,11 +22,11 @@ flowchart TD
 
 Composite1[Composite]
 Composite2[Composite]
-Leaf1(Leaf)
-Leaf2(Leaf)
-Leaf3(Leaf)
-Leaf4(Leaf)
-Leaf5(Leaf)
+Leaf1((Leaf))
+Leaf2((Leaf))
+Leaf3((Leaf))
+Leaf4((Leaf))
+Leaf5((Leaf))
 
 subgraph 1 [ ]
 Composite1 --> Leaf1
