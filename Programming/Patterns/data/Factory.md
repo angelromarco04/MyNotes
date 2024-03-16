@@ -11,7 +11,9 @@ tags:
 
 [Back to index](../PATTERNS.md)
 
-- 
+1. [Factory Method](#factory-method)
+2. [Simple Factory](#simple-factory)
+3. [Abstract Factory](abstract-factory)
 
 ---
 

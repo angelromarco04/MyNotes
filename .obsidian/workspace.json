@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "54301cd6aa61e3c8",
+        "id": "0c3234226d702d22",
         "type": "tabs",
         "children": [
           {
-            "id": "9a980014062c9c7b",
+            "id": "d6ce17892dbb1e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0352c6c151f35fb6",
@@ -99,14 +98,15 @@
       "graph:Open graph view": false
     }
   },
-  "active": "9a980014062c9c7b",
+  "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
     "Programming/Patterns/PATTERNS.md",
+    "Templates/a.md",
+    "abstract-factory.md",
     "Programming/Patterns/data/Factory.md",
     "Programming/Patterns/data/Singleton.md",
     "Programming/Other/SCHEME.md",
     "README.md",
-    "Templates/a.md",
     "Templates/Base template.md",
     "data",
     "Templates/Programming template.md",
