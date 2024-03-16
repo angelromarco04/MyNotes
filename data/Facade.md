@@ -13,20 +13,28 @@ tags:
 ---
 ## Description
 
-
-
-## Characteristics
-
-- 
+Provides a unified interface to facilitate the use of one or more subsystems.
 
 ## UML
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
+direction TB
+
+Facade
+
+class Facade {
+	<< I >>
+	+ Subsystem_A 
+	+ Subsystem_B
+}
+
+class Subsystem_A {
+	<< I >>
+}
+
+class Subsystem_B {
+	<< I >>
 }
 ```
 ## Code
