@@ -18,8 +18,8 @@ Guaranties only one instance of a class and provide global access to it.
 
 ## Characteristics
 
-- Private constructor.
 - Static variable: `instance`.
+- Private constructor.
 - Static function `getInstance()`
 
 ## UML
@@ -28,8 +28,8 @@ Guaranties only one instance of a class and provide global access to it.
 classDiagram
 class Singleton {
 	- Singleton instance $
-	- Singleton()$
-	+ getInstance() Singleton
+	- Singleton()
+	+ getInstance() Singleton $
 }
 ```
 ## Code
