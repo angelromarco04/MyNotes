@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/FactoryMethod.md",
+                "file": "Programming/Patterns/PATTERNS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -79,7 +79,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/FactoryMethod.md",
+                "file": "Programming/Patterns/PATTERNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,8 +101,8 @@
   },
   "active": "9a980014062c9c7b",
   "lastOpenFiles": [
-    "Programming/Patterns/data/Singleton.md",
     "Programming/Patterns/data/FactoryMethod.md",
+    "Programming/Patterns/data/Singleton.md",
     "Programming/Patterns/PATTERNS.md",
     "Programming/Other/SCHEME.md",
     "README.md",
