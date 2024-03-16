@@ -55,8 +55,8 @@ class Product_C {
 }
 
 class Creator {
-	<<class>>
-	+createProduct() Product
+	<<abstract class>>
+	+createProduct() Product$
 }
 
 class Creator_A {
