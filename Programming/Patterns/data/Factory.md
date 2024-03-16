@@ -42,8 +42,8 @@ direction LR
 Product <|--  Product_A
 Product <|-- Product_B
 
-Product_A .. Creator_A
-Product_B .. Creator_B
+Product_A <-- Creator_A
+Product_B <-- Creator_B
 
 Creator_A --|> Creator
 Creator_B --|> Creator
