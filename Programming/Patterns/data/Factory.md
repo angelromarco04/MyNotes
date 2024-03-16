@@ -11,6 +11,8 @@ tags:
 
 [Back to index](../PATTERNS.md)
 
+- 
+
 ---
 
 ## Description
