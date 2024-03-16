@@ -21,7 +21,8 @@ Use a method instead of direct instantiation.
 ## Characteristics
 
 - We have some concrete classes (products) of the same type.
-- We create an abstract
+- We implement a creator class that contains the Factory Method (`createProduct()`).
+- We implement a specific  
 
 ## UML
 
