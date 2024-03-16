@@ -11,9 +11,11 @@ tags:
 
 [Back to index](../PATTERNS.md)
 
-1. [Factory Method](#factory-method)
-2. [Simple Factory](#simple-factory)
-3. [Abstract Factory](abstract-factory)
+1. [Description](#description)
+2. [Factory Method](#factory-method)
+3. [Simple Factory](#simple-factory)
+4. [Abstract Factory](abstract-factory)
+5. [Summary](#summary)
 
 ---
 
@@ -251,14 +253,16 @@ class ConcreteProductB2 {
 ```
 
 ---
-## Use cases
+## Summary
 
-- Factory Method
+- **Factory Method**
 	- Encapsulate object creation logic.
 	- Easily extensible code.
 	- Addition without existing code modification.
-- Simple Factory
+- **Simple Factory**
 	- Encapsulate object creation logic.
 	- Easy hierarchy of objects.
 	- Addition with existing code modification.
-- Abstract Factory
+- **Abstract Factory**
+	- Families of objects.
+	- Restrictions present.
