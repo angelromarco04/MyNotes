@@ -22,10 +22,12 @@ Use a method instead of direct instantiation.
 
 - We have some concrete classes (products) of the same type.
 - We implement a creator class
-	- Contains the Factory Method (`createProduct()`).
+	- Contains the **abstract** Factory Method (`createProduct()`).
+	- Should have no logic. Only a structure.
 	- Can be abstract.
 - We implement a specific creators
-	- One for each concrete product
+	- One for each concrete product.
+	- It have its specific implementation of `createProduct()`.
 
 ## UML
 
