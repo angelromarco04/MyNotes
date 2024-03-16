@@ -17,9 +17,8 @@ tags:
 Allows to treat groups of objects as if they were a single object.
 Similar to a tree data structure.
 
-## Characteristics
-
-- 
+```mermaid
+```
 
 ## UML
 
@@ -32,18 +31,20 @@ Composite *--> Component : 1..n
 
 class Component {
 	<< I >>
-	+ operation void
+	+ operation() void
 }
 
 class Leaf {
 	<< C >>
-	+ operation void
+	+ operation() void
 }
 
 class Composite {
 	<< C >>
 	- List~Component~ children
-	+ operation void
+	+ add() void
+	+ remove(int pos) void
+	+ operation() void
 }
 ```
 ## Code
