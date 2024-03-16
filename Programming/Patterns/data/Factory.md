@@ -16,7 +16,10 @@ tags:
 # Description
 
 Encapsulates the instantiation of classes of the same type.
-Use a method instead of direct instantiation.
+Use a creator class instead of direct instantiation.
+
+> [!WARNING]
+> Note that the creator class contains most of the programs logic.
 
 # Factory Method
 
@@ -37,18 +40,15 @@ Use a method instead of direct instantiation.
 
 ```mermaid
 classDiagram
-direction TB
+direction LR
 Product <|--  Product_A
 Product <|-- Product_B
-Product <|-- Product_C
 
 Product_A .. Creator_A
 Product_B .. Creator_B
-Product_C .. Creator_C
 
 Creator_A --|> Creator
 Creator_B --|> Creator
-Creator_C --|> Creator
 
 class Product {
 	<<interface>>
@@ -64,14 +64,9 @@ class Product_B {
 	~Product_B()
 }
 
-class Product_C {
-	<<class>>
-	~Product_C()
-}
-
 class Creator {
 	<<class>>
-	+createProduct() Product$
+	+createProduct() Product*
 }
 
 class Creator_A {
@@ -84,20 +79,20 @@ class Creator_B {
 	+createB() Product_B
 }
 
-class Creator_C {
-	<<class>>
-	+createC() Product_C
-}
-
 ```
 
 ## Use
 
 ```java
-public void main(String[] args) {
+public class Main {
+	public void main(String[] args) {
+		Creator creator1 = new Creator_A();
+		Product product1 = creator1.createProduct();
+	}
+}
 
-	Creator creator1 = new Creator_A();
-	Product product1 = creator1.createProduct();
+public class Creator {
+	
 }
 ```
 
@@ -105,7 +100,7 @@ public void main(String[] args) {
 
 ## Characteristics
 
-- Similar to Factory Method
+- Similar to Factory Method.
 - Has no specific creators but a general one.
 
 ## UML
@@ -119,6 +114,7 @@ Product <|-- Product_B
 
 class Product {
 	<<interface>>
+	+makeProduct() Product$
 }
 
 class Product_A {
@@ -133,6 +129,5 @@ class Product_B {
 
 class Creator {
 	<<class>>
-	+createProduct() Product$
 }
 ```
