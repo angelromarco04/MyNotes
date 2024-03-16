@@ -108,9 +108,10 @@ public class Creator {
 ```mermaid
 classDiagram
 direction LR
-Creator .. Product
-Product <|--  Product_A
-Product <|-- Product_B
+
+Product_A --> Product
+Product_B <|--| Product
+Product .. Creator
 
 class Product {
 	<<interface>>
