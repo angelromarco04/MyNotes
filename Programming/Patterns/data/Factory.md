@@ -105,4 +105,34 @@ public void main(String[] args) {
 
 ## Characteristics
 
-- Similar to factory method
+- Similar to Factory Method
+- Has no specific creators but a general one.
+
+## UML
+
+```mermaid
+classDiagram
+direction LR
+Creator .. Product
+Product <|--  Product_A
+Product <|-- Product_B
+
+class Product {
+	<<interface>>
+}
+
+class Product_A {
+	<<class>>
+	~Product_A()
+}
+
+class Product_B {
+	<<class>>
+	~Product_B()
+}
+
+class Creator {
+	<<class>>
+	+createProduct() Product$
+}
+```
