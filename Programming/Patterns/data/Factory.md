@@ -7,13 +7,13 @@ tags:
   - programming
 ---
 ---
-# Factory
+# Factory Patterns
 
 [Back to index](../PATTERNS.md)
 
 ---
 
-# Description
+## Description
 
 The objective is to encapsulate the instantiation of classes of the same type by using a creator class instead of direct instantiation.
 
@@ -21,9 +21,9 @@ The objective is to encapsulate the instantiation of classes of the same type by
 > Note that the creator class can contain most of the program logic.
 
 ---
-# Factory Method
+## Factory Method
 
-## Characteristics
+### Characteristics
 
 - We implement a `Creator` class
 	- Contains the **abstract** Factory Method (`createProduct()`).
@@ -34,7 +34,7 @@ The objective is to encapsulate the instantiation of classes of the same type by
 	- Contains all the logic for that product creation.
 	- Contains a specific implementation of `createProduct()`.
 
-## UML
+### UML
 
 ```mermaid
 classDiagram
@@ -81,7 +81,7 @@ class Creator_B {
 
 ```
 
-## Use
+### Use
 
 ```java
 public class Main {
@@ -113,14 +113,14 @@ public class Creator_A extends Creator{
 ```
 
 ---
-# Simple Factory
+## Simple Factory
 
-## Characteristics
+### Characteristics
 
 - Similar to Factory Method.
 - Has no specific creators but a general one.
 
-## UML
+### UML
 
 ```mermaid
 classDiagram
@@ -151,7 +151,7 @@ class Creator {
 }
 ```
 
-## Code
+### Code
 
 ```java
 abstract class Product {
@@ -176,7 +176,39 @@ class Creator {
 ```
 
 ---
-# Abstract Factory
-## Characteristics
+## Abstract Factory
+### Characteristics
 
-- Relations
+- Similar to the Factory Method but with families of objects.
+- We implement creators for groups of objects.
+
+### UML
+
+```mermaid
+classDiagram
+direction LR
+
+Creator .. Product
+Product <|-- Product_A
+Product <|-- Product_B
+
+class Product {
+	<<interface>>
+	+makeProduct() Product$
+}
+
+class Product_A {
+	<<class>>
+	~Product_A()
+}
+
+class Product_B {
+	<<class>>
+	~Product_B()
+}
+
+class Creator {
+	<<class>>
+	+ operation() void*
+}
+```
