@@ -28,6 +28,7 @@ classDiagram
 direction TB
 Component <|-- Leaf
 Component <|-- Composite
+Composite *--> Component : 1..n
 
 class Component {
 	<< I >>
@@ -41,6 +42,7 @@ class Leaf {
 
 class Composite {
 	<< C >>
+	- List~Component~ children
 	+ operation void
 }
 ```

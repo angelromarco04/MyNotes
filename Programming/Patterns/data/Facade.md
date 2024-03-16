@@ -22,8 +22,8 @@ classDiagram
 direction LR
 
 Main .. Facade
-Facade --* Subsystem_A
-Facade --* Subsystem_B
+Facade *--> Subsystem_A
+Facade *--> Subsystem_B
 
 class Facade {
 	<< I >>
