@@ -20,7 +20,8 @@ Use a method instead of direct instantiation.
 
 ## Characteristics
 
-- 
+- We have some concrete classes (products) of the same type.
+- We create an abstract
 
 ## UML
 
@@ -41,17 +42,17 @@ class Product {
 
 class Product_A {
 	<<class>>
-	+Product_A()
+	~Product_A()
 }
 
 class Product_B {
 	<<class>>
-	+Product_B()
+	~Product_B()
 }
 
 class Product_C {
 	<<class>>
-	+Product_C()
+	~Product_C()
 }
 
 class Creator {
@@ -75,10 +76,11 @@ class Creator_C {
 }
 
 ```
+
 ## Code
 
 ```java
-public class Class { 
- 
+public void main(String[] args) {
+
 }
 ```
