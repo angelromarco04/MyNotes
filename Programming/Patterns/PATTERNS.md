@@ -4,25 +4,41 @@ Date: 2024-03-16
 tags:
   - programming
 ---
----
-# Creational Patterns
+------
+# Design Patters
 
-- [Abstract factory (KIT)]
+[HOME](/README.md)
+
+---
+
+## Creational Patterns
+
+- [Abstract Factory (KIT)]
 - Builder
 - [Factory Method]
 - Prototype
-- [Singleton]
+- [Singleton](data/Singleton.md)
 
-# Structural Patterns
+## Structural Patterns
 
 - [Adapter]
 - Bridge
 - [Composite]
 - Decorator
-- Facade
-- Fly
+- [Facade]
+- Flyweight
+- Proxy
 
-# Behavioural Patterns
+## Behavioural Patterns
 
-- 
+- Chain of Responsibility
+- [Command]
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- [Observer]
+- [State]
+- Template Method
+- Visitor
 

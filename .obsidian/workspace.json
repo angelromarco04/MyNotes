@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d596d876a1fb6378",
+        "id": "6731e95c84eac362",
         "type": "tabs",
         "children": [
           {
-            "id": "50d06f97b491a18f",
+            "id": "5736eb99209d752c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/PATTERNS.md",
+                "file": "Programming/Patterns/data/Singleton.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/PATTERNS.md",
+                "file": "Programming/Patterns/data/Singleton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,17 +98,25 @@
       "graph:Open graph view": false
     }
   },
-  "active": "50d06f97b491a18f",
+  "active": "5736eb99209d752c",
   "lastOpenFiles": [
-    "Others/Markdown.md",
+    "README.md",
     "Programming/Patterns/PATTERNS.md",
+    "Programming/Patterns/data/Singleton.md",
+    "Templates/Programming template.md",
+    "Templates/Base template.md",
+    "Templates/Programming/SQL template.md",
+    "Templates/Programming/Other template.md",
+    "Templates/Programming/Rust template.md",
+    "Templates/Programming/Matlab template.md",
+    "Templates/Programming/Java template.md",
+    "Others/Markdown.md",
     "Programming/Rust/RUST.md",
     "Programming/Python/PYTHON.md",
     "Programming/CHI/data/0_Intro.md",
     "Programming/CHI/data/3_Rules.md",
     "Programming/Patterns/data",
     "Programming/CHI/CHI.md",
-    "README.md",
     "Programming/Patterns",
     "Linux/tutorials/How to mount disks.md",
     "Linux/Bash.md",
@@ -123,15 +131,7 @@
     "Programming/SQL/data/01_basics.md",
     "Programming/SQL/SQL.md",
     "Others/UsefulResources.md",
-    "Programming/Rust/data/04-1_Intro.md",
-    "data/04-2_Ref&Borrow.md",
     "data",
-    "Programming/Rust/data/03-2_DataTypes.md",
-    "Programming/CHI/data/2_Eval.md",
-    "Programming/CHI/data/1_Usability.md",
-    "Templates/Programming/Other template.md",
-    "Programming.md",
-    "Templates/Base template.md",
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/SQL/data",
