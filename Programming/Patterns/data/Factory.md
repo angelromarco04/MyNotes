@@ -20,6 +20,7 @@ The objective is to encapsulate the instantiation of classes of the same type by
 > [!WARNING]
 > Note that the creator class can contain most of the program logic.
 
+---
 # Factory Method
 
 ## Characteristics
@@ -110,6 +111,7 @@ public class Creator_A extends Creator{
 }
 ```
 
+---
 # Simple Factory
 
 ## Characteristics
