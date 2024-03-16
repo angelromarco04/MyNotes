@@ -15,22 +15,19 @@ tags:
 
 # Description
 
-Encapsulates the instantiation of classes of the same type.
-Use a creator class instead of direct instantiation.
+The objective is to encapsulate the instantiation of classes of the same type by using a creator class instead of direct instantiation.
 
 > [!WARNING]
-> Note that the creator class contains most of the programs logic.
+> Note that the creator class can contain most of the program logic.
 
 # Factory Method
 
 ## Characteristics
 
-- We have some concrete classes (products) of the same type.
-- We implement a creator class
-	- Contains most of the program logic.
+- We implement a `Creator` class
 	- Contains the **abstract** Factory Method (`createProduct()`).
 	- Should have no logic **FOR CREATION**.
-	- Can be abstract.
+	- Can be an abstract class.
 - We implement a specific creators
 	- One for each concrete product.
 	- Contains all the logic for that product creation.
@@ -66,7 +63,8 @@ class Product_B {
 
 class Creator {
 	<<class>>
-	+createProduct() Product*
+	+ createProduct() Product*
+	+ operation() void
 }
 
 class Creator_A {
@@ -86,13 +84,29 @@ class Creator_B {
 ```java
 public class Main {
 	public void main(String[] args) {
-		Creator creator1 = new Creator_A();
-		Product product1 = creator1.createProduct();
+		Creator cA = new Creator_A();
+		
+		// If we want to use the creator
+		cA.operation();
+
+		// If we want to use a product
+		cA.createProduct();
 	}
 }
 
 public class Creator {
+	public abstract Product createProduct();
 	
+	public void operation() {
+		Product p = createProduct();
+		// Do something with p
+	}
+}
+
+public class Creator_A extends Creator{
+	public Product createProduct() {
+		return new Product_A()
+	}
 }
 ```
 
@@ -109,8 +123,8 @@ public class Creator {
 classDiagram
 direction LR
 
-Product_A --> Product
-Product_B <|--| Product
+Product_A --|> Product
+Product_B --|> Product
 Product .. Creator
 
 class Product {
@@ -130,5 +144,30 @@ class Product_B {
 
 class Creator {
 	<<class>>
+	+ operation() void*
+}
+```
+
+## Code
+
+```java
+abstract class Product {
+	static Product makeProduct(char type) {
+		switch(type)
+		{
+			case 'A' -> return new Product_A();
+			case 'B' -> return new Product_B();
+		}
+	}
+}
+
+class Product_A extends Product { ... }
+class Product_B extends Product { ... }
+
+class Creator {
+	public void operation() {
+		Product pA = Product.CreateProduct('A');
+		Product pB = Product.CreateProduct('B');
+	}
 }
 ```

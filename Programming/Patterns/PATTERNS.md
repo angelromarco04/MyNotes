@@ -14,9 +14,7 @@ tags:
 
 ## Creational Patterns
 
-
-- [Factory Method (Virtual Constructor)](data/Factory.md)
-- [Abstract Factory (KIT)]
+- [Factory Patterns](data/Factory.md)
 - [Singleton](data/Singleton.md)
 - Builder
 - Prototype
