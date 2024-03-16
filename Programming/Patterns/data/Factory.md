@@ -39,14 +39,15 @@ The objective is to encapsulate the instantiation of classes of the same type by
 ```mermaid
 classDiagram
 direction LR
-Product <|--  Product_A
-Product <|-- Product_B
 
-Product_A <-- Creator_A
-Product_B <-- Creator_B
+Creator --|> Creator_A
+Creator --|> Creator_B
 
-Creator_A --|> Creator
-Creator_B --|> Creator
+Creator_A --> Product_A
+Creator_B --> Product_B
+
+Product_A --|> Product
+Product_B --|> Product
 
 class Product {
 	<<interface>>
