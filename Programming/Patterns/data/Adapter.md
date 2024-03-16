@@ -8,7 +8,7 @@ tags:
 
 ## Description
 
-
+Allows the use of one or more classes as if they were of another class.
 
 ## Characteristics
 
@@ -18,10 +18,11 @@ tags:
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
+direction LR
+
+
+class Objective {
+	
 }
 ```
 ## Code
