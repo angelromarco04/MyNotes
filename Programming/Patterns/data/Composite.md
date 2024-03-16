@@ -63,7 +63,7 @@ class Leaf {
 class Composite {
 	<< C >>
 	- List~Component~ children
-	+ add() void
+	+ add(Component c) void
 	+ remove(int pos) void
 	+ operation() void
 }
@@ -72,6 +72,38 @@ class Composite {
 
 ```java
 public class Component { 
-	public void operation()
+	public abstract void operation();
+}
+
+public class Leaf {
+	public Leaf() { ... }
+	public void operation() { ... }
+}
+
+public class Composite {
+
+	private List<Component> children;
+	
+	public Composite() { ... }
+
+	/***************************************
+	 *  Children management
+	 */
+	public void add(Component c) {
+		children.add(c);
+	}
+	
+	public void remove(int pos) {
+		children.remove(pos);
+	}
+	
+	/***************************************
+	 *  Recursive operations
+	 */
+	public void operation() {
+		for(Component c : children)
+			c.operation();
+	}
+	
 }
 ```
