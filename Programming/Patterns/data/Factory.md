@@ -249,3 +249,8 @@ class ConcreteProductB2 {
 	<< C >>
 }
 ```
+
+---
+## Summary
+
+- 

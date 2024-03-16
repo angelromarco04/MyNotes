@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/PATTERNS.md",
+                "file": "Programming/Patterns/data/Factory.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/PATTERNS.md",
+                "file": "Programming/Patterns/data/Factory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,11 +100,11 @@
   },
   "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
+    "Programming/Patterns/PATTERNS.md",
     "Programming/Patterns/data/Adapter.md",
     "Programming/Patterns/data/Singleton.md",
     "Programming/Patterns/data/Factory.md",
     "data/Facade.md",
-    "Programming/Patterns/PATTERNS.md",
     "Programming/Patterns/data/Facade.md",
     "data",
     "Templates/a.md",
