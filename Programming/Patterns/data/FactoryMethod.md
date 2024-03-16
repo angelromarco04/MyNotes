@@ -27,31 +27,31 @@ Use a method instead of direct instantiation.
 ```mermaid
 classDiagram
 direction TB
-concreteProduct_A --|> Product
-concreteProduct_B --|> Product
-concreteProduct_C --|> Product
+Product_A --|> Product
+Product_B --|> Product
+Product_C --|> Product
 Product .. Creator
-Creator <|-- ConcreteCreator_A
-Creator <|-- ConcreteCreator_B
-Creator <|-- ConcreteCreator_C
+Creator <|-- Creator_A
+Creator <|-- Creator_B
+Creator <|-- Creator_C
 
 class Product {
 	<<interface>>
 }
 
-class concreteProduct_A {
+class Product_A {
 	<<class>>
-	+concreteProduct_A()
+	+Product_A()
 }
 
-class ConcreteProduct_B {
+class Product_B {
 	<<class>>
-	+concreteProduct_B()
+	+Product_B()
 }
 
-class ConcreteProduct_C {
+class Product_C {
 	<<class>>
-	+concreteProduct_C()
+	+Product_C()
 }
 
 class Creator {
@@ -59,19 +59,19 @@ class Creator {
 	+createProduct() Product
 }
 
-class ConcreteCreator_A {
+class Creator_A {
 	<<class>>
-	+createA()
+	+createA() Product_A
 }
 
-class ConcreteCreator_B {
+class Creator_B {
 	<<class>>
-	+createB()
+	+createB() Product_B
 }
 
-class ConcreteCreator_C {
+class Creator_C {
 	<<class>>
-	+createC()
+	+createC() Product_C
 }
 
 ```
