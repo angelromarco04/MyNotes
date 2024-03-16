@@ -15,6 +15,7 @@ tags:
 ## Description
 
 Guaranties only one instance of a class and provide global access to it.
+Uses lazy instance initialization.
 
 ## Characteristics
 

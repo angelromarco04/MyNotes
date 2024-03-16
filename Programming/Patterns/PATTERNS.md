@@ -15,7 +15,7 @@ tags:
 
 - [Abstract Factory (KIT)]
 - Builder
-- [Factory Method]
+- [Factory Method (Virtual Constructor)](data/FactoryMethod.md)
 - Prototype
 - [Singleton](data/Singleton.md)
 

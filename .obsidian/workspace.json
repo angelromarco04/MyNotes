@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/Singleton.md",
+                "file": "Programming/Patterns/data/FactoryMethod.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/Singleton.md",
+                "file": "Programming/Patterns/data/FactoryMethod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,8 +101,10 @@
   "active": "5736eb99209d752c",
   "lastOpenFiles": [
     "Programming/Patterns/PATTERNS.md",
-    "Templates/Programming template.md",
+    "Programming/Patterns/data/FactoryMethod.md",
+    "data",
     "Programming/Patterns/data/Singleton.md",
+    "Templates/Programming template.md",
     "README.md",
     "Templates/Base template.md",
     "Templates/Programming/SQL template.md",
@@ -130,8 +132,6 @@
     "Programming/SQL/data/02_relational.md",
     "Programming/SQL/data/01_basics.md",
     "Programming/SQL/SQL.md",
-    "Others/UsefulResources.md",
-    "data",
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/SQL/data",
