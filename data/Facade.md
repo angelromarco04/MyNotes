@@ -19,14 +19,16 @@ Provides a unified interface to facilitate the use of one or more subsystems.
 
 ```mermaid
 classDiagram
-direction TB
+direction LR
 
-Facade
+Main .. Facade
+Facade --* Subsystem_A
+Facade --* Subsystem_B
 
 class Facade {
 	<< I >>
-	+ Subsystem_A 
-	+ Subsystem_B
+	+ Subsystem_A sysA
+	+ Subsystem_B sysB
 }
 
 class Subsystem_A {
@@ -40,7 +42,29 @@ class Subsystem_B {
 ## Code
 
 ```java
-public class Class { 
+public class Subsystem_A { 
+	public Subsystem_A() { ... }
+	public void operation() { ... }
+}
 
+public class Subsystem_B { 
+	public Subsystem_B() { ... }
+	public void operation() { ... }
+}
+
+public class Facade {
+
+	private Subsystem_A sysA;
+	private Subsystem_B sysB;
+
+	public Facade() {
+		sysA = new Subsystem_A();
+		sysB = new Subsystem_B();
+	}
+	
+	public operation() {
+		sysA.operation();
+		sysB.operation();
+	}
 }
 ```
