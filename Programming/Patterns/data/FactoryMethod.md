@@ -21,8 +21,11 @@ Use a method instead of direct instantiation.
 ## Characteristics
 
 - We have some concrete classes (products) of the same type.
-- We implement a creator class that contains the Factory Method (`createProduct()`).
-- We implement a specific  
+- We implement a creator class
+	- Contains the Factory Method (`createProduct()`).
+	- Can be abstract.
+- We implement a specific creators
+	- One for each concrete product
 
 ## UML
 
@@ -38,8 +41,8 @@ Product_B .. Creator_B
 Product_C .. Creator_C
 
 Creator_A --|> Creator
-Creator --|> Creator
-Creator --|> Creator
+Creator_B --|> Creator
+Creator_C --|> Creator
 
 class Product {
 	<<interface>>
@@ -87,5 +90,7 @@ class Creator_C {
 ```java
 public void main(String[] args) {
 
+	Creator creator1 = new Creator_A();
+	Product product1 = creator1.createProduct();
 }
 ```
