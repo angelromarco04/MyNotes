@@ -46,11 +46,25 @@ class Adaptable {
 
 ```java
 public class Objective { 
+	public Objective() { ... }
 	public void operation() { ... }
 }
 
-public class Adapter { 
-	public void operation() { ... }
+public class Adaptable { 
+	public Adaptable() { ... }
+	public void otherOperation() { ... }
 }
 
+public class Adapter {
+
+	private Adaptable adaptable;
+
+	public Adapter(Adaptable tmp) {
+		adaptable = tmp;
+	}
+	
+	public void operation() {
+		adaptable.otherOperation();
+	}
+}
 ```
