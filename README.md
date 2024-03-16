@@ -24,14 +24,15 @@ Hope you like it!  :D
 - C++ #TODO
 - [Rust](Programming/Rust/RUST.md)
 - [Matlab](Programming/Matlab/MATLAB.md)
-- [Scheme](Programming/Other/SCHEME.md) (Functional programming)
+- [Scheme](Programming/Other/SCHEME.md)
 
 ### Other
 - Data Structures & Algorithms #TODO
 - [Design Patterns](/Programming/Patterns/PATTERNS.md)
 - [Computer-Human Interaction - GUI design](/Programming/CHI/CHI.md)
+- Clean code #TODO 
 
-## Computer Science
+## Computer Science Theory
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
 - [Operating Systems](CS/OS/OS.md)
@@ -40,10 +41,16 @@ Hope you like it!  :D
 - [Shell Scripting](/Linux/Shell_Scripting.md)
 - Linux ricing #TODO
 - [Over The Wire - Bandit CTF](Linux/Over_The_Wire.md)
+
+## Cibersecurity
+- Reverse Engineering #TODO 
+- Malware Creation #TODO
+- Malware Analysis #TODO
 ## Miscellaneous
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
 - [ANSI codes](/Others/ANSI_codes.md)
 - Git #TODO
+
 
 ---
