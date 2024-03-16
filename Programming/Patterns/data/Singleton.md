@@ -22,11 +22,10 @@ Guaranties only one instance of a class and provide global access to it.
 
 ```mermaid
 classDiagram
-class Singleton
-	BankAccount : -Instance
-	BankAccount : -Singleton()
-	BankAccount : +deposit(amount)
-	BankAccount : +withdrawal(amount)
+class Singleton {
+	Singleton : - Singleton instance$
+	Singleton : - Singleton()$
+	Singleton : + getInstance()
 ```
 ## Code
 
