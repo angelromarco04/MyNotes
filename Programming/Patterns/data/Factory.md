@@ -126,9 +126,9 @@ public class Creator_A extends Creator{
 classDiagram
 direction LR
 
-Product_A --|> Product
-Product_B --|> Product
-Product .. Creator
+Creator .. Product
+Product <|-- Product_A
+Product <|-- Product_B
 
 class Product {
 	<<interface>>
@@ -174,3 +174,7 @@ class Creator {
 	}
 }
 ```
+
+---
+
+# Abstract Factory
