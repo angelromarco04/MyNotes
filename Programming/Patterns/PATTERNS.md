@@ -24,8 +24,8 @@ tags:
 
 - [Adapter](data/Adapter.md)
 - [Facade](data/Facade.md)
+- [Composite](data/Composite.md)
 - Bridge
-- [Composite]
 - Decorator
 - Flyweight
 - Proxy

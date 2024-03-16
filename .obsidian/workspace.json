@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/Factory.md",
+                "file": "Programming/CHI/CHI.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/Factory.md",
+                "file": "Programming/CHI/CHI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,10 +100,11 @@
   },
   "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
+    "Programming/Patterns/data/Composite.md",
     "Programming/Patterns/PATTERNS.md",
+    "Programming/Patterns/data/Factory.md",
     "Programming/Patterns/data/Adapter.md",
     "Programming/Patterns/data/Singleton.md",
-    "Programming/Patterns/data/Factory.md",
     "data/Facade.md",
     "Programming/Patterns/data/Facade.md",
     "data",
@@ -129,7 +130,6 @@
     "Linux/tutorials/How to mount disks.md",
     "Linux/Bash.md",
     "Linux/tutorials",
-    "Linux/Shell_Scripting.md",
     "Nuevo documento de texto.txt",
     "push.bat",
     "Programming/CHI/data",
