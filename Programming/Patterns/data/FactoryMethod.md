@@ -23,7 +23,7 @@ Use a method instead of direct instantiation.
 - We have some concrete classes (products) of the same type.
 - We implement a creator class
 	- Contains the **abstract** Factory Method (`createProduct()`).
-	- Should have no logic. Only a structure.
+	- Should have no logic **FOR CREATION**. Only a structure.
 	- Can be abstract.
 - We implement a specific creators
 	- One for each concrete product.
@@ -94,5 +94,31 @@ public void main(String[] args) {
 
 	Creator creator1 = new Creator_A();
 	Product product1 = creator1.createProduct();
+}
+```
+
+## Example
+
+```java
+abstract class Animal {
+	// Factory Method
+    public Animal abstract createAnimal($);
+
+    public void noise() {
+	    createAnimal();
+	    
+    }
+}
+
+class ITDepartment extends Department {
+    public function createEmployee($id) {
+        return new Programmer($id);
+    }
+}
+
+class AccountingDepartment extends Department {
+    public function createEmployee($id) {
+        return new Accountant($id);
+    }
 }
 ```
