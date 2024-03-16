@@ -42,6 +42,9 @@ class Subsystem_B {
 ## Code
 
 ```java
+/***************************************
+ *  SUBSYSTEMS
+ */
 public class Subsystem_A { 
 	public Subsystem_A() { ... }
 	public void operation() { ... }
@@ -52,6 +55,9 @@ public class Subsystem_B {
 	public void operation() { ... }
 }
 
+/***************************************
+ *  FACADE PATTERN
+ */
 public class Facade {
 
 	private Subsystem_A sysA;
