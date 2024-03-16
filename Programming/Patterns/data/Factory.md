@@ -7,27 +7,31 @@ tags:
   - programming
 ---
 ---
-# Factory Method
+# Factory
 
 [Back to index](../PATTERNS.md)
 
 ---
 
-## Description
+# Description
 
 Encapsulates the instantiation of classes of the same type.
 Use a method instead of direct instantiation.
+
+# Factory Method
 
 ## Characteristics
 
 - We have some concrete classes (products) of the same type.
 - We implement a creator class
+	- Contains most of the program logic.
 	- Contains the **abstract** Factory Method (`createProduct()`).
-	- Should have no logic **FOR CREATION**. Only a structure.
+	- Should have no logic **FOR CREATION**.
 	- Can be abstract.
 - We implement a specific creators
 	- One for each concrete product.
-	- It have its specific implementation of `createProduct()`.
+	- Contains all the logic for that product creation.
+	- Contains a specific implementation of `createProduct()`.
 
 ## UML
 
@@ -87,7 +91,7 @@ class Creator_C {
 
 ```
 
-## Code
+## Use
 
 ```java
 public void main(String[] args) {
@@ -96,3 +100,9 @@ public void main(String[] args) {
 	Product product1 = creator1.createProduct();
 }
 ```
+
+# Simple Factory
+
+## Characteristics
+
+- Similar to factory method
