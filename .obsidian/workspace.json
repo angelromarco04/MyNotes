@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "92810b42e930095d",
+        "id": "54301cd6aa61e3c8",
         "type": "tabs",
         "children": [
           {
-            "id": "f36eed9a0828065b",
+            "id": "9a980014062c9c7b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/a.md",
+                "file": "Programming/Patterns/data/FactoryMethod.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/a.md",
+                "file": "Programming/Patterns/data/FactoryMethod.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,12 +98,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "9a980014062c9c7b",
   "lastOpenFiles": [
     "Programming/Patterns/data/Singleton.md",
     "Templates/a.md",
     "Templates/Base template.md",
-    "Templates/a.md",
     "Programming/Patterns/data/FactoryMethod.md",
     "Programming/Patterns/PATTERNS.md",
     "data",

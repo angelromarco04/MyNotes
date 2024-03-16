@@ -6,7 +6,7 @@ tags:
   - other
 ---
 ---
-# Singleton
+# Title
 
 [Back to index](../PATTERNS.md)
 
@@ -14,38 +14,26 @@ tags:
 
 ## Description
 
-Guaranties only one instance of a class and provide global access to it.
-Uses lazy instance initialization.
+
 
 ## Characteristics
 
-- Static variable: `instance`.
-- Private constructor.
-- Static function `getInstance()`
+- 
 
 ## UML
 
 ```mermaid
 classDiagram
-class Singleton {
-	- Singleton instance $
-	- Singleton()
-	+ getInstance() Singleton $
+class Class {
+	- datatype attribute1
+	- Class()
+	+ method() returntype
 }
 ```
 ## Code
 
 ```java
-public class Singleton { 
+public class Class { 
 
-	private Singleton() { ... }
-	
-	private static Singleton instance = null;
-	
-	public static Singleton getInstance() {
-		if (instance == null)
-			instance = new Singleton();
-		return instance;
-	}
 }
 ```
