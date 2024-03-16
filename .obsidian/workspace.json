@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/Factory.md",
+                "file": "Programming/Patterns/data/Adapter.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/Factory.md",
+                "file": "Programming/Patterns/data/Adapter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,9 +101,10 @@
   "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
     "Programming/Patterns/PATTERNS.md",
+    "Programming/Patterns/data/Adapter.md",
+    "Programming/Patterns/data/Factory.md",
     "Templates/a.md",
     "abstract-factory.md",
-    "Programming/Patterns/data/Factory.md",
     "Programming/Patterns/data/Singleton.md",
     "Programming/Other/SCHEME.md",
     "README.md",
@@ -131,7 +132,6 @@
     "push.bat",
     "Linux/Over_The_Wire.md",
     "Programming/Scheme/tmp/Untitled.md",
-    "Programming/SQL/data/02_relational.md",
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/SQL/data",

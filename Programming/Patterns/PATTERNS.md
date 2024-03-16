@@ -22,7 +22,7 @@ tags:
 
 ## Structural Patterns
 
-- [Adapter]
+- [Adapter](data/Adapter.md)
 - Bridge
 - [Composite]
 - Decorator
