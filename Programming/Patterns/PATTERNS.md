@@ -3,6 +3,7 @@ Author: AAM
 Date: 2024-03-16
 tags:
   - programming
+  - other
 ---
 ------
 # Design Patters
