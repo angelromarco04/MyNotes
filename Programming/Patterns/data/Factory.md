@@ -251,6 +251,14 @@ class ConcreteProductB2 {
 ```
 
 ---
-## Summary
+## Use cases
 
-- 
+- Factory Method
+	- Encapsulate object creation logic.
+	- Easily extensible code.
+	- Addition without existing code modification.
+- Simple Factory
+	- Encapsulate object creation logic.
+	- Easy hierarchy of objects.
+	- Addition with existing code modification.
+- Abstract Factory
