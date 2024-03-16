@@ -96,29 +96,3 @@ public void main(String[] args) {
 	Product product1 = creator1.createProduct();
 }
 ```
-
-## Example
-
-```java
-abstract class Animal {
-	// Factory Method
-    public Animal abstract createAnimal($);
-
-    public void noise() {
-	    createAnimal();
-	    
-    }
-}
-
-class ITDepartment extends Department {
-    public function createEmployee($id) {
-        return new Programmer($id);
-    }
-}
-
-class AccountingDepartment extends Department {
-    public function createEmployee($id) {
-        return new Accountant($id);
-    }
-}
-```
