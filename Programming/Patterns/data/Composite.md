@@ -14,7 +14,8 @@ tags:
 
 ## Description
 
-
+Allows to treat groups of objects as if they were a single object.
+Similar to a tree data structure.
 
 ## Characteristics
 
