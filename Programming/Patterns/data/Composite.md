@@ -25,10 +25,23 @@ Similar to a tree data structure.
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
+direction TB
+Component <|-- Leaf
+Component <|-- Composite
+
+class Component {
+	<< I >>
+	+ operation void
+}
+
+class Leaf {
+	<< C >>
+	+ operation void
+}
+
+class Composite {
+	<< C >>
+	+ operation void
 }
 ```
 ## Code
