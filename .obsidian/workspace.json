@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/Adapter.md",
+                "file": "data/Facade.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/Adapter.md",
+                "file": "data/Facade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,16 +100,18 @@
   },
   "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
-    "Programming/Patterns/data/Factory.md",
-    "Programming/Patterns/data/Adapter.md",
-    "Programming/Patterns/data/Singleton.md",
     "Programming/Patterns/PATTERNS.md",
+    "data/Facade.md",
+    "data",
+    "Programming/Patterns/data/Facede.md",
+    "Programming/Patterns/data/Adapter.md",
     "Templates/a.md",
+    "Programming/Patterns/data/Singleton.md",
+    "Programming/Patterns/data/Factory.md",
     "abstract-factory.md",
     "Programming/Other/SCHEME.md",
     "README.md",
     "Templates/Base template.md",
-    "data",
     "Templates/Programming template.md",
     "Templates/Programming/SQL template.md",
     "Templates/Programming/Other template.md",
@@ -130,8 +132,6 @@
     "Linux/Shell_Scripting.md",
     "Nuevo documento de texto.txt",
     "push.bat",
-    "Linux/Over_The_Wire.md",
-    "Programming/Scheme/tmp/Untitled.md",
     "Programming/CHI/data",
     "Programming/CHI",
     "Programming/SQL/data",

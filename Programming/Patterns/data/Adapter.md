@@ -5,7 +5,12 @@ tags:
   - programming
   - other
 ---
+---
+# Adapter
 
+[Back to index](../PATTERNS.md)
+
+---
 ## Description
 
 Allows the use of one or more classes as if they were of another class.

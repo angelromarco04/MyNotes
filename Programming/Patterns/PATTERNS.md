@@ -23,10 +23,10 @@ tags:
 ## Structural Patterns
 
 - [Adapter](data/Adapter.md)
+- [Facade](data/Facade.md)
 - Bridge
 - [Composite]
 - Decorator
-- [Facade]
 - Flyweight
 - Proxy
 
