@@ -26,12 +26,32 @@ Use a method instead of direct instantiation.
 
 ```mermaid
 classDiagram
-Common <|.. Class_A
-Common <|.. Class_B
-Common <|.. Class_C
+Product <|.. A
+Product <|.. B
+Product <|.. C
 
-class Common {
+class Product {
 	<<interface>>
+}
+
+class A {
+	<<class>>
+	-A()
+}
+
+class B {
+	<<class>>
+	-B()
+}
+
+class C {
+	<<class>>
+	-C()
+}
+
+class Factory {
+	<<class>>
+	-createProduct()
 }
 ```
 ## Code
