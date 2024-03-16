@@ -50,32 +50,32 @@ Product_A --|> Product
 Product_B --|> Product
 
 class Product {
-	<<interface>>
+	<< I >>
 }
 
 class Product_A {
-	<<class>>
+	<< C >>
 	~Product_A()
 }
 
 class Product_B {
-	<<class>>
+	<< C >>
 	~Product_B()
 }
 
 class Creator {
-	<<class>>
+	<< C >>
 	+ createProduct() Product*
 	+ operation() void
 }
 
 class Creator_A {
-	<<class>>
+	<< C >>
 	+createA() Product_A
 }
 
 class Creator_B {
-	<<class>>
+	<< C >>
 	+createB() Product_B
 }
 
@@ -131,22 +131,22 @@ Product <|-- Product_A
 Product <|-- Product_B
 
 class Product {
-	<<interface>>
+	<< I >>
 	+makeProduct() Product$
 }
 
 class Product_A {
-	<<class>>
+	<< C >>
 	~Product_A()
 }
 
 class Product_B {
-	<<class>>
+	<< C >>
 	~Product_B()
 }
 
 class Creator {
-	<<class>>
+	<< C >>
 	+ operation() void*
 }
 ```
@@ -180,35 +180,68 @@ class Creator {
 ### Characteristics
 
 - Similar to the Factory Method but with families of objects.
-- We implement creators for groups of objects.
+- We implement creators for groups of objects with certain restrictions.
 
 ### UML
 
 ```mermaid
 classDiagram
-direction LR
+direction TB
 
-Creator .. Product
-Product <|-- Product_A
-Product <|-- Product_B
+AbstractFactory <|-- ConcreteFactory1
+AbstractFactory <|-- ConcreteFactory2
 
-class Product {
-	<<interface>>
-	+makeProduct() Product$
+ConcreteFactory1 --> ConcreteProductA1
+ConcreteFactory1 --> ConcreteProductB1
+
+ConcreteFactory2 --> ConcreteProductA2
+ConcreteFactory2 --> ConcreteProductB2
+
+ConcreteProductA1 --|> AbstractProductA
+ConcreteProductA2 --|> AbstractProductA
+
+ConcreteProductB1 --|> AbstractProductB
+ConcreteProductB2 --|> AbstractProductB
+
+class AbstractFactory {
+	<< I >>
+	+ createProductA() ProductA *
+	+ createProductB() ProductB *
 }
 
-class Product_A {
-	<<class>>
-	~Product_A()
+class ConcreteFactory1 {
+	<< C >>
+	+ createProductA() ProductA
+	+ createProductB() ProductB
 }
 
-class Product_B {
-	<<class>>
-	~Product_B()
+class ConcreteFactory2 {
+	<< C >>
+	+ createProductA() ProductA
+	+ createProductB() ProductB
 }
 
-class Creator {
-	<<class>>
-	+ operation() void*
+class AbstractProductA {
+	<< I >>
+}
+
+class ConcreteProductA1 {
+	<< C >>
+}
+
+class ConcreteProductA2 {
+	<< C >>
+}
+
+class AbstractProductB {
+	<< I >>
+}
+
+class ConcreteProductB1 {
+	<< C >>
+}
+
+class ConcreteProductB2 {
+	<< C >>
 }
 ```
