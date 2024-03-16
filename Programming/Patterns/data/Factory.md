@@ -43,8 +43,8 @@ direction LR
 Creator --|> Creator_A
 Creator --|> Creator_B
 
-Creator_A --> Product_A
-Creator_B --> Product_B
+Creator_A --> Product_A :  creates 
+Creator_B --> Product_B :  creates 
 
 Product_A --|> Product
 Product_B --|> Product
@@ -176,5 +176,7 @@ class Creator {
 ```
 
 ---
-
 # Abstract Factory
+## Characteristics
+
+- Relations
