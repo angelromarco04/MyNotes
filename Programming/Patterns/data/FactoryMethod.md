@@ -26,9 +26,14 @@ Use a method instead of direct instantiation.
 
 ```mermaid
 classDiagram
-Product <|.. A
-Product <|.. B
-Product <|.. C
+direction TB
+A --|> Product
+B --|> Product
+C --|> Product
+Product .. Factory
+Factory <|-- ConcreteCreatorA
+Factory <|-- ConcreteCreatorB
+Factory <|-- ConcreteCreatorC
 
 class Product {
 	<<interface>>
@@ -53,6 +58,22 @@ class Factory {
 	<<class>>
 	-createProduct()
 }
+
+class ConcreteCreatorA {
+	<<class>>
+	-createA()
+}
+
+class ConcreteCreatorB {
+	<<class>>
+	-createB()
+}
+
+class ConcreteCreatorC {
+	<<class>>
+	-createC()
+}
+
 ```
 ## Code
 
