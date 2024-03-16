@@ -7,11 +7,20 @@ tags:
 ---
 # Creational Patterns
 
-- 
+- [Abstract factory (KIT)]
+- Builder
+- [Factory Method]
+- Prototype
+- [Singleton]
 
 # Structural Patterns
 
-- 
+- [Adapter]
+- Bridge
+- [Composite]
+- Decorator
+- Facade
+- Fly
 
 # Behavioural Patterns
 

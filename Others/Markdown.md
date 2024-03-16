@@ -11,8 +11,11 @@ tags:
 
 ---
 ## Resources:
+
 [The Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+
 [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
 ---
