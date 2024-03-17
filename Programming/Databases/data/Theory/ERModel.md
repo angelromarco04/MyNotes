@@ -37,9 +37,16 @@ flowchart TD
 
 ## Relations
 
+```mermaid
+flowchart LR
+	id1-- ". . teaches . ." ---id2
+	id2-- ". . is teached by . ."-->id3
 
+	id1["`**Teacher**`"]
+	id2{"`**teach**`"}
+	id3["`**Class**`"]
+```
 ### Characteristics
-
 - Rol: Description
 - Degree:
 	- Binary (Two entity association. Common one)
