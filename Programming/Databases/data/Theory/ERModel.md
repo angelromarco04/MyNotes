@@ -61,6 +61,23 @@ flowchart LR
 
 ## Keys
 
-- Superkey
-- Candidate
-- 
+- Primary key - Unique, does not change.
+- Foreign key - Primary key of another entity.
+
+## Restrictions
+
+```mermaid
+flowchart LR
+	E1---R1---E2
+	E1---R2---E2
+
+	E1["`**Entity 1**`"]
+	E2["`**Entity 2**`"]
+	R1{R1}
+	R2{R2}
+```
+
+- **Exclusivity**. Entity can participate in R1 OR R2 (one at a time).
+- **Exclusion**. 
+- **Inclusivity**.
+- **Inclusion**.
