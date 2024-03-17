@@ -57,7 +57,6 @@ class ConcreteSubject {
 
 class ConcreteObserver {
 	<< C >>
-	- State observerState
 	- Subject subject
 }
 
@@ -67,7 +66,7 @@ class ConcreteObserver {
 ```java
 public class ConcreteSubject implements Subject{
 	private List<Observer> observers;
-	private boolean changed
+	private boolean changed; //Subject state
 
 	public ConcreteSubject() { ... }
 
@@ -83,6 +82,17 @@ public class ConcreteSubject implements Subject{
 	public void notify() {
 		for(Observer o : observers)
 			o.update();
+		changed = false;
 	}
+}
+
+public class ConcreteObserver implements Observer{
+	private Subject subject;
+	
+	public void setSubject(Subject s) {
+		this.subject = s;
+	}
+
+	public void update() { ... }
 }
 ```
