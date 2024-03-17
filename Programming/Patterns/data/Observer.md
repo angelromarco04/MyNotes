@@ -18,18 +18,20 @@ Allows to modify several objects (Observers) based on changes in other object (s
 
 ## Characteristics
 
-- 
+- Subject notifies Observers when there is a change.
+- Notified Observers change accordingly to its associated Subject
 
 ## UML
 
 ```mermaid
 classDiagram
+direction TB
 
+Main .. Subject
+Main .. Observer
 
 Subject <|-- ConcreteSubject
 Observer <|-- ConcreteObserver
-Subject ..> Observer : notify
-ConcreteObserver ..> ConcreteSubject
 
 namespace Interfaces {
 
@@ -47,11 +49,21 @@ namespace Interfaces {
 	}
 }
 
+class ConcreteSubject {
+		<< C >>
+		- subjectState
+	}
+
+class ConcreteObserver {
+	<< C >>
+	- observerState
+}
+
 ```
 ## Code
 
 ```java
-public class Class { 
+public class ConcreteSubject { 
 
 }
 ```
