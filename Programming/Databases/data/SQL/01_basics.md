@@ -9,7 +9,7 @@ tags:
 ---
 # 01 Basic notions
 
-[Back to index](Programming/SQL/SQL.md)
+[Back to index](../../DATABASES.md)
 
 ---
 

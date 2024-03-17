@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/PATTERNS.md",
+                "file": "Programming/Databases/data/SQL/01_basics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92e13a45840e1285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Databases/data/Theory/ERModel.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/PATTERNS.md",
+                "file": "Programming/Databases/data/Theory/ERModel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,11 +112,18 @@
       "graph:Open graph view": false
     }
   },
-  "active": "d6ce17892dbb1e31",
+  "active": "92e13a45840e1285",
   "lastOpenFiles": [
+    "Programming/Databases/DATABASES.md",
+    "Programming/Databases/data/Theory/ERModel.md",
+    "Programming/Databases/data/SQL/02_relational.md",
+    "Programming/Databases/data/SQL/01_basics.md",
+    "Programming/Databases/data/Theory",
+    "Programming/Databases/data/SQL",
+    "README.md",
+    "Programming/Patterns/PATTERNS.md",
     "Programming/Patterns/data/State.md",
     "Programming/Patterns/data/Command.md",
-    "Programming/Patterns/PATTERNS.md",
     "Programming/Patterns/data/Observer.md",
     "Programming/Patterns/data/Adapter.md",
     "Programming/Patterns/data/Factory.md",
@@ -114,7 +135,6 @@
     "Templates/a.md",
     "abstract-factory.md",
     "Programming/Other/SCHEME.md",
-    "README.md",
     "Templates/Base template.md",
     "Templates/Programming template.md",
     "Templates/Programming/SQL template.md",
@@ -123,10 +143,6 @@
     "Templates/Programming/Matlab template.md",
     "Templates/Programming/Java template.md",
     "Others/Markdown.md",
-    "Programming/Rust/RUST.md",
-    "Programming/Python/PYTHON.md",
-    "Programming/CHI/data/0_Intro.md",
-    "Programming/CHI/data/3_Rules.md",
     "Programming/Patterns/data",
     "Programming/Patterns",
     "Linux/tutorials",
@@ -134,8 +150,6 @@
     "push.bat",
     "Programming/CHI/data",
     "Programming/CHI",
-    "Programming/SQL/data",
-    "Programming/SQL",
     "Assets/Others/UsefulResources1.jpeg",
     "Assets/UsefulResources1.jpeg"
   ]

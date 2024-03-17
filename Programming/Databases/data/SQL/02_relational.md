@@ -9,7 +9,7 @@ tags:
 ---
 # 02 Relational Algebra
 
-[Back to index](Programming/SQL/SQL.md)
+[Back to index](../../DATABASES.md)
 
 ---
 
