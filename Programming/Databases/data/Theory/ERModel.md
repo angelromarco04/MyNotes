@@ -100,7 +100,7 @@ Used to form relations.
 
 ## Generalization
 
-Joins two or more entities into a general entity.
+Joins two or more entities (children) into a general entity (parent).
 - No restrictions
-- Disjoint (Parents belong to only one child)
+- Disjoint (Children cannot belong to more than one class)
 - Total (Parents belong to only one child)
