@@ -84,6 +84,11 @@ public class ConcreteSubject implements Subject{
 			o.update();
 		changed = false;
 	}
+
+	public void operation() {
+		changed = true;
+		notify();
+	}
 }
 
 public class ConcreteObserver implements Observer{

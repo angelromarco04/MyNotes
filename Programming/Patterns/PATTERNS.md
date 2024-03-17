@@ -34,13 +34,12 @@ tags:
 
 - [Command](data/Command.md)
 - [Observer](data/Observer.md)
+- [State](data/State.md)
 - Chain of Responsibility
 - Interpreter
 - Iterator
 - Mediator
 - Memento
-
-- [State]
 - Template Method
 - Visitor
 

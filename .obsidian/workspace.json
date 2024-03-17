@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/Observer.md",
+                "file": "Programming/Patterns/data/State.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/Observer.md",
+                "file": "Programming/Patterns/data/State.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +100,10 @@
   },
   "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
-    "Programming/Patterns/data/Command.md",
-    "Programming/Patterns/data/Observer.md",
     "Programming/Patterns/PATTERNS.md",
+    "Programming/Patterns/data/State.md",
+    "Programming/Patterns/data/Observer.md",
+    "Programming/Patterns/data/Command.md",
     "Programming/Patterns/data/Adapter.md",
     "Programming/Patterns/data/Factory.md",
     "Programming/Patterns/data/Facade.md",
@@ -128,7 +129,6 @@
     "Programming/CHI/data/3_Rules.md",
     "Programming/Patterns/data",
     "Programming/Patterns",
-    "Linux/tutorials/How to mount disks.md",
     "Linux/tutorials",
     "Nuevo documento de texto.txt",
     "push.bat",
