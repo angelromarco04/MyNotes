@@ -112,8 +112,9 @@
       "graph:Open graph view": false
     }
   },
-  "active": "92e13a45840e1285",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
+    "Assets/Untitled",
     "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/Theory/ERModel.md",
     "Programming/Databases/data/SQL/02_relational.md",
@@ -142,7 +143,6 @@
     "Templates/Programming/Rust template.md",
     "Templates/Programming/Matlab template.md",
     "Templates/Programming/Java template.md",
-    "Others/Markdown.md",
     "Programming/Patterns/data",
     "Programming/Patterns",
     "Linux/tutorials",
