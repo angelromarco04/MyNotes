@@ -101,6 +101,9 @@ Used to form relations.
 ## Generalization
 
 Joins two or more entities (children) into a general entity (parent).
-- No restrictions
-- Disjoint (Children cannot belong to more than one class)
-- Total (Parents belong to only one child)
+- **No restrictions**
+	![](/Assets/Programming/Databases/DB_3.png)
+- **Disjoint** (Children cannot belong to more than one class)
+	![](/Assets/Programming/Databases/DB_4.png)
+- **Total** (Children must belong to at least one class)
+	![](/Assets/Programming/Databases/DB_5.png)

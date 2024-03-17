@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0c3234226d702d22",
+        "id": "380a7d00e8602753",
         "type": "tabs",
         "children": [
           {
-            "id": "d6ce17892dbb1e31",
+            "id": "b002458c13590539",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Databases/data/SQL/01_basics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92e13a45840e1285",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Databases/data/Theory/ERModel.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Databases/data/Theory/ERModel.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,20 +98,23 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "b002458c13590539",
   "lastOpenFiles": [
+    "Programming/Databases/DATABASES.md",
+    "README.md",
+    "Programming/Databases/data/SQL/01_basics.md",
+    "Programming/Databases/data/Theory/ERModel.md",
+    "Assets/Programming/Databases/DB_4.png",
+    "Assets/Programming/Databases/DB_5.png",
+    "Assets/Programming/Databases/DB_3.png",
     "Assets/Programming/Databases/DB_2.png",
     "Assets/Programming/Databases/DB_1.png",
-    "Programming/Databases/data/Theory/ERModel.md",
     "abstract-factory.md",
     "Assets/Programming/Databases",
     "Assets/Programming",
-    "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/SQL/02_relational.md",
-    "Programming/Databases/data/SQL/01_basics.md",
     "Programming/Databases/data/Theory",
     "Programming/Databases/data/SQL",
-    "README.md",
     "Programming/Patterns/PATTERNS.md",
     "Programming/Patterns/data/State.md",
     "Programming/Patterns/data/Command.md",
