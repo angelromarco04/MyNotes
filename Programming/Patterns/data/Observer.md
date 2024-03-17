@@ -25,8 +25,27 @@ Allows to modify several objects (Observers) based on changes in other object (s
 ```mermaid
 classDiagram
 
+
 Subject <|-- ConcreteSubject
 Observer <|-- ConcreteObserver
+Subject ..> Observer : notify
+ConcreteObserver ..> ConcreteSubject
+
+namespace Interfaces {
+
+	class Subject {
+		<< I >>
+		+ add(Observer)
+		+ remove(Observer)
+		+ notify()
+	}
+
+	class Observer {
+		<< I >>
+		+ setSubject(Subject)
+		+ update()
+	}
+}
 
 ```
 ## Code
