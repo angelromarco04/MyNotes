@@ -85,3 +85,8 @@ flowchart LR
 - **Inclusion**. If E1 have R1 with E2, it must have R2 with E2 also.
 
 ## Types of Entities
+
+- **Weak Entity**.
+	- Its existence depends on another entity
+	- It is represented with a double rectangle.
+	- It has an **identifying relation** (double diamond) with another entity.
