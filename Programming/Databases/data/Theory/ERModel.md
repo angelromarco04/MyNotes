@@ -39,12 +39,12 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-	id1-- ". . teaches . ." ---id2
-	id2-- ". . is teached by . ."-->id3
+	id1-- ". . does . ." ---id2
+	id2-- ". . is done by . ."---id3
 
-	id1["`**Teacher**`"]
-	id2{"`**teach**`"}
-	id3["`**Class**`"]
+	id1["`**Twitter**`"]
+	id2{"`**post**`"}
+	id3["`**Tweet**`"]
 ```
 ### Characteristics
 - Rol: Description
