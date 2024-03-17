@@ -25,13 +25,12 @@ tags:
 classDiagram
 direction TB
 
-Client .. Receiver :use
-Client .. ICommand :use
+Client .. Receiver 
+Client .. ICommand 
 
-namespace a {
-	ICommand <|-- Order1
-	ICommand <|-- Order2
-}
+
+ICommand <|-- Order1
+ICommand <|-- Order2
 
 class Receiver {
 	<< C >>
@@ -39,30 +38,35 @@ class Receiver {
 	+ operation2() 
 }
 
-class ICommand {
-	<< I >>
-	+ execute()
+namespace Operations {
+	class ICommand {
+		<< I >>
+		+ execute()
+	}
+	
+	class Order1 {
+		<< C >>
+		+ Order1(Receiver r)
+		+ execute()
+	}
+	
+	class Order2 {
+		<< C >>
+		+ Order2(Receiver r)
+		+ execute()
+	}
 }
-
-class Order1 {
-	<< C >>
-	+ Order1(Receiver r)
-	+ execute()
-}
-
-class Order2 {
-	<< C >>
-	+ Order2(Receiver r)
-	+ execute()
-}
-
 ```
 ## Code
 
 ```java
 public class Client { 
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		Receiver receiver = new Receiver();
+	}
+
+	public static void executeAll(List<Command> commands) {
+		for(Command command : comman)
 	}
 }
 ```
