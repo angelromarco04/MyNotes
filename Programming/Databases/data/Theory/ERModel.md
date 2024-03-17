@@ -71,13 +71,13 @@ flowchart LR
 	E1---R1---E2
 	E1---R2---E2
 
-	E1["`**Entity 1**`"]
-	E2["`**Entity 2**`"]
+	E1["`**Entity 1** (E1)`"]
+	E2["`**Entity 2** (E2)`"]
 	R1{R1}
 	R2{R2}
 ```
 
-- **Exclusivity**. Entity can participate in R1 OR R2 (one at a time).
-- **Exclusion**. 
-- **Inclusivity**.
-- **Inclusion**.
+- **Exclusivity**. E1 can participate in R1 or R2 (one at a time).
+- **Exclusion**. E1 can participate in R1 and R2 but with different E2.
+- **Inclusivity**. If E1 have R1 with E2, it must have R2 (with any E2).
+- **Inclusion**. If E1 have R1 with E2, it must have R2 with E2 also
