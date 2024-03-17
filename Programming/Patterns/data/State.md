@@ -14,7 +14,7 @@ tags:
 
 ## Description
 
-Allows to modify the behaviour 
+Allows to modify the behaviour of an object depending on a internal state.
 
 ## Characteristics
 
@@ -24,10 +24,20 @@ Allows to modify the behaviour
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
+Context --o State
+State <|-- State1
+State <|-- State2
+
+class Context {
+	<< C >>
+	- State state
+	+ goNext() void
+	+ setState(State) void
+}
+
+class State {
+	<< I >>
+	+ goNext() void
 }
 ```
 ## Code
