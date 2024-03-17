@@ -57,7 +57,9 @@ flowchart LR
 	- One to one (1:1)
 	- One to many (1:N or N:1)
 	- Many to many (N:N)
+
 	(Specify `min:max` for each side of a relation)
+	(Specify `maxL:maxR` for a relation)
 
 ## Keys
 
