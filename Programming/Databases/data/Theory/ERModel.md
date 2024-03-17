@@ -37,8 +37,19 @@ flowchart TD
 
 ## Relations
 
-- Represented with a diamond shape.
+
+### Characteristics
+
+- Rol: Description
 - Degree:
-	- Binary (Two entities. Common one)
+	- Binary (Two entity association. Common one)
 	- Reflexive (Entity associated with itself)
-	- N-ary ()
+	- N-ary (#N entity association)
+- Cardinality
+	- One to one
+	- One to many
+	- Many to many
+
+### Representation
+- Represented with a diamond shape.
+- 
