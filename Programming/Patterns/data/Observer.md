@@ -37,33 +37,52 @@ namespace Interfaces {
 
 	class Subject {
 		<< I >>
-		+ add(Observer)
-		+ remove(Observer)
-		+ notify()
+		+ add(Observer) void
+		+ remove(Observer) void
+		+ notify() void
 	}
 
 	class Observer {
 		<< I >>
-		+ setSubject(Subject)
-		+ update()
+		+ setSubject(Subject) void
+		+ update() void
 	}
 }
 
 class ConcreteSubject {
 		<< C >>
-		- subjectState
+		- State subjectState
+		- List~Observer~ observers
 	}
 
 class ConcreteObserver {
 	<< C >>
-	- observerState
+	- State observerState
+	- Subject subject
 }
 
 ```
 ## Code
 
 ```java
-public class ConcreteSubject { 
+public class ConcreteSubject implements Subject{
+	private List<Observer> observers;
+	private boolean changed
 
+	public ConcreteSubject() { ... }
+
+	public void add(Observer o) {
+		observers.add(o);
+		o.setSubject(this)
+	}
+	
+	public void remove(Observer o) {
+		observers.remove(o);
+	}
+
+	public void notify() {
+		for(Observer o : observers)
+			o.update();
+	}
 }
 ```
