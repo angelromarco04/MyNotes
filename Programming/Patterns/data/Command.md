@@ -15,10 +15,9 @@ tags:
 ## Description
 
 
-
 ## Characteristics
 
-- 
+- The receiver is the object that contains all the actions.
 
 ## UML
 
@@ -26,10 +25,12 @@ tags:
 classDiagram
 direction TB
 
+Client .. Receiver :use
+Client .. ICommand :use
+subdiagram
 ICommand <|-- Order1
 ICommand <|-- Order2
-
-class Main {}
+end
 
 class Receiver {
 	<< C >>
@@ -58,7 +59,9 @@ class Order2 {
 ## Code
 
 ```java
-public class Class { 
-
+public class Client { 
+	public void main(String[] args) {
+		Receiver receiver = new Receiver();
+	}
 }
 ```
