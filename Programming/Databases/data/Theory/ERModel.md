@@ -33,14 +33,15 @@ flowchart TD
 - Simple or Composite.
 ```mermaid
 flowchart TD
-	id2---id3
-	id2---id4
-
-	id1(["`**Hour** *(Simple)*`"])
-	id2(("`**Day** *(Composite)*`"))
-	id1(["`**Hour** *(Simple)*`"])
-	id1(["`**Hour** *(Simple)*`"])
+	id1---id2
+	id1---id3
+	id1---id4
+	
+	id1(["`**Date** *(Composite)*`"])
+	id2(["`**Day** *(Simple)*`"])
+	id3(["`**Month** *(Simple)*`"])
+	id4(["`**Year** *(Simple)*`"])
 ```
 - Single-valued (Simple circle) or Multi-valued (Double circle).
-- Derived or not.
+- Derived (Dot) or not.
 - Null or not.
