@@ -61,13 +61,7 @@ flowchart LR
 	(Specify `min:max` for each side of a relation)
 	(Specify `maxL:maxR` for a relation)
 
-## Keys
-
-- Primary key - Unique, does not change.
-- Foreign key - Primary key of another entity.
-
-## Restrictions
-
+### Restrictions
 ```mermaid
 flowchart LR
 	E1---R1---E2
@@ -84,6 +78,14 @@ flowchart LR
 - **Inclusivity**. If E1 have R1 with E2, it must have R2 (with any E2).
 - **Inclusion**. If E1 have R1 with E2, it must have R2 with E2 also.
 
+![](/Assets/Programming/Databases/DB_1.png)
+
+### Keys
+Used to form relations.
+- Primary key - Unique, does not (usually) change.
+- Foreign key - Primary key of another entity (establishes a relation).
+
+
 ## Weak Entities
 - Its existence depends on another entity
 - It is represented with a double rectangle.
@@ -93,3 +95,12 @@ flowchart LR
 
 - We consider relations as if they were entities.
 - We can establish a relation between an entity and another relation.
+
+![](/Assets/Programming/Databases/DB_2.png)
+
+## Generalization
+
+Is 
+- No restrictions
+- Total
+- Disjoint
