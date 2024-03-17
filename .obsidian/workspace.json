@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Patterns/data/Command.md",
+                "file": "Programming/Patterns/data/Composite.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Patterns/data/Command.md",
+                "file": "Programming/Patterns/data/Composite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,13 +100,13 @@
   },
   "active": "d6ce17892dbb1e31",
   "lastOpenFiles": [
+    "Programming/Patterns/data/Command.md",
     "Programming/Patterns/PATTERNS.md",
     "Programming/Patterns/data/Singleton.md",
     "Programming/Patterns/data/Factory.md",
     "Programming/Patterns/data/Facade.md",
     "Programming/Patterns/data/Composite.md",
     "Programming/Patterns/data/Adapter.md",
-    "Programming/Patterns/data/Command.md",
     "Programming/CHI/CHI.md",
     "data",
     "Templates/a.md",

@@ -18,6 +18,7 @@ tags:
 ## Characteristics
 
 - The receiver is the object that contains all the actions.
+- The Client creates a list of Commands and then executes them one by one.
 
 ## UML
 
@@ -62,11 +63,22 @@ namespace Operations {
 ```java
 public class Client { 
 	public static void main(String[] args) {
+
+		// Create a receiver object
 		Receiver receiver = new Receiver();
+		
+		// Create a sequence of actions for the receiver
+		List<ICommand> commands = new ArrayList<ICommand>();
+		commands.add(new Order1(receiver));
+		commands.add(new Order2(receiver));
+
+		// Execute all the actions
+		executeAll(commands);
 	}
 
-	public static void executeAll(List<Command> commands) {
-		for(Command command : comman)
+	public static void executeAll(List<ICommand> commands) {
+		for(ICommand command : commands)
+			command.execute();
 	}
 }
 ```
