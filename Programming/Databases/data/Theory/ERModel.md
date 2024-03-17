@@ -31,6 +31,16 @@ flowchart TD
 ## Types of Attributes
 
 - Simple or Composite.
-- Single-valued or Multi-valued.
+```mermaid
+flowchart TD
+	id2---id3
+	id2---id4
+
+	id1(["`**Hour** *(Simple)*`"])
+	id2(("`**Day** *(Composite)*`"))
+	id1(["`**Hour** *(Simple)*`"])
+	id1(["`**Hour** *(Simple)*`"])
+```
+- Single-valued (Simple circle) or Multi-valued (Double circle).
 - Derived or not.
 - Null or not.
