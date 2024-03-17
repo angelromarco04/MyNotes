@@ -13,7 +13,7 @@ tags:
 
 ---
 
-## Entity vs Attribute
+## Entities vs Attributes
 
 - Entries are defined by a set of attributes.
 
@@ -57,7 +57,7 @@ flowchart LR
 	- One to one (1:1)
 	- One to many (1:N or N:1)
 	- Many to many (N:N)
-	(Specify min:max for each side)
+	(Specify `min:max` for each side of a relation)
 
 ## Keys
 
@@ -77,7 +77,9 @@ flowchart LR
 	R2{R2}
 ```
 
-- **Exclusivity**. E1 can participate in R1 or R2 (one at a time).
-- **Exclusion**. E1 can participate in R1 and R2 but with different E2.
+- **Exclusivity**. Each E1 can participate in R1 or R2 (one at a time).
+- **Exclusion**. Each E1 can participate in R1 and R2 but with different E2.
 - **Inclusivity**. If E1 have R1 with E2, it must have R2 (with any E2).
-- **Inclusion**. If E1 have R1 with E2, it must have R2 with E2 also
+- **Inclusion**. If E1 have R1 with E2, it must have R2 with E2 also.
+
+## Types of Entities
