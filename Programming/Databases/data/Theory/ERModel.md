@@ -17,7 +17,8 @@ tags:
 
 - Entries are defined by a set of attributes
 
-```memaid
-
+```mermaid
+flowchart TD
+	id1[ENtity]
 ```
 ## Types of Attributes
