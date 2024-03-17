@@ -48,7 +48,7 @@ classDiagram
 direction TB
 Component <|-- Leaf
 Component <|-- Composite
-Composite *--> Component : 1..n
+Composite --o Component : 1..n
 
 class Component {
 	<< I >>

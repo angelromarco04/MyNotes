@@ -29,7 +29,7 @@ classDiagram
 direction LR
 
 Objective <|-- Adapter
-Adapter *--> Adaptable : 1
+Adapter --o Adaptable : 1
 
 class Objective {
 	<< I >>

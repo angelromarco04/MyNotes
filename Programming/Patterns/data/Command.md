@@ -27,10 +27,11 @@ direction TB
 
 Client .. Receiver :use
 Client .. ICommand :use
-subdiagram
-ICommand <|-- Order1
-ICommand <|-- Order2
-end
+
+namespace a {
+	ICommand <|-- Order1
+	ICommand <|-- Order2
+}
 
 class Receiver {
 	<< C >>
