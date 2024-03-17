@@ -24,11 +24,36 @@ tags:
 
 ```mermaid
 classDiagram
+direction TB
 
+ICommand <|-- Order1
+ICommand <|-- Order2
+
+class Main {}
 
 class Receiver {
-	+operation 
+	<< C >>
+	+ operation1()
+	+ operation2() 
 }
+
+class ICommand {
+	<< I >>
+	+ execute()
+}
+
+class Order1 {
+	<< C >>
+	+ Order1(Receiver r)
+	+ execute()
+}
+
+class Order2 {
+	<< C >>
+	+ Order2(Receiver r)
+	+ execute()
+}
+
 ```
 ## Code
 
