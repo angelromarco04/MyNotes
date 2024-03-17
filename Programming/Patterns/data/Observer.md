@@ -14,7 +14,7 @@ tags:
 
 ## Description
 
-
+Allows to modify several objects (Observers) based on changes in other object (subject).
 
 ## Characteristics
 
@@ -24,11 +24,10 @@ tags:
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
-}
+
+Subject <|-- ConcreteSubject
+Observer <|-- ConcreteObserver
+
 ```
 ## Code
 
