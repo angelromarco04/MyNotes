@@ -100,7 +100,9 @@ Used to form relations.
 
 ## Generalization
 
-Is 
-- No restrictions
-- Total
-- Disjoint
+Joins two or more entities into a general entity.
+
+### No restrictions
+
+### Total
+### Disjoint
