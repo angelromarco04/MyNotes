@@ -32,8 +32,8 @@ tags:
 
 ## Behavioural Patterns
 
+- [Command](data/Command.md)
 - Chain of Responsibility
-- [Command]
 - Interpreter
 - Iterator
 - Mediator
