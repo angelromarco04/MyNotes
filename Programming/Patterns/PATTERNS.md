@@ -33,12 +33,13 @@ tags:
 ## Behavioural Patterns
 
 - [Command](data/Command.md)
+- [Observer](data/Observer.md)
 - Chain of Responsibility
 - Interpreter
 - Iterator
 - Mediator
 - Memento
-- [Observer]
+
 - [State]
 - Template Method
 - Visitor

@@ -14,6 +14,7 @@ tags:
 
 ## Description
 
+Used to execute sequences of instructions in different orders to an object.
 
 ## Characteristics
 
@@ -32,6 +33,10 @@ Client .. ICommand
 
 ICommand <|-- Order1
 ICommand <|-- Order2
+
+class Client {
+	- executeAll(List<ICommand>) void
+}
 
 class Receiver {
 	<< C >>
@@ -76,7 +81,7 @@ public class Client {
 		executeAll(commands);
 	}
 
-	public static void executeAll(List<ICommand> commands) {
+	private static void executeAll(List<ICommand> commands) {
 		for(ICommand command : commands)
 			command.execute();
 	}
