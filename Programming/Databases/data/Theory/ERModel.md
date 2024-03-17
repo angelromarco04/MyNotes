@@ -39,10 +39,10 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-	id1-- ". . does . ." ---id2
-	id2-- ". . is done by . ."---id3
+	id1-- ". is posted by ." ---id2
+	id2-- ". posts ."---id3
 
-	id1["`**Twitter**`"]
+	id1["`**Twitterer**`"]
 	id2{"`**post**`"}
 	id3["`**Tweet**`"]
 ```
