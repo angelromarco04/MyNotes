@@ -47,16 +47,20 @@ flowchart LR
 	id3["`**Tweet**`"]
 ```
 ### Characteristics
+- Represented with a diamond shape.
 - Rol: Description
 - Degree:
 	- Binary (Two entity association. Common one)
 	- Reflexive (Entity associated with itself)
 	- N-ary (#N entity association)
 - Cardinality
-	- One to one
-	- One to many
-	- Many to many
+	- One to one (1:1)
+	- One to many (1:N or N:1)
+	- Many to many (N:N)
+	(Specify min:max for each side)
 
-### Representation
-- Represented with a diamond shape.
+## Keys
+
+- Superkey
+- Candidate
 - 
