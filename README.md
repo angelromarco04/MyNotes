@@ -30,6 +30,7 @@ Hope you like it!  :D
 - Data Structures & Algorithms #TODO
 - [Design Patterns](/Programming/Patterns/PATTERNS.md)
 - [Computer-Human Interaction - GUI design](/Programming/CHI/CHI.md)
+- [Databases](Programming/Databases/DATABASES.md)
 - Clean code #TODO 
 
 ## Computer Science Theory
