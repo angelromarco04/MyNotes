@@ -99,12 +99,8 @@ Used to form relations.
 ![](/Assets/Programming/Databases/DB_2.png)
 
 ## Generalization
-Joins two or more entities into a general entity (parent).
 
-### Types
-- Disjoint/Overlap
-	- Disjoint. Every 
-	- Overlap
-- Total/Partial
-	- Total
-	- Partial
+Joins two or more entities into a general entity.
+- No restrictions
+- Disjoint (Parents belong to only one child)
+- Total (Parents belong to only one child)
