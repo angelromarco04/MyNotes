@@ -23,10 +23,10 @@ flowchart TD
 	id1---id3
 	id1---id4
 
-	id1["Entity"]
-	id2(("Attribute1"))
-	id3(("Attribute2"))
-	id4(("Attribute3"))
+	id1["`**Car** *(Entity)*`"]
+	id2(("`**ID** *(Attribute)*`"))
+	id3(("`**Brand** *(Attribute)*`"))
+	id4(("`**Model** *(Attribute)*`"))
 ```
 ## Types of Attributes
 
