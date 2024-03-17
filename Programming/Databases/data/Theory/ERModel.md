@@ -30,18 +30,15 @@ flowchart TD
 ```
 ## Types of Attributes
 
-- Simple or Composite.
-```mermaid
-flowchart TD
-	id1---id2
-	id1---id3
-	id1---id4
-	
-	id1(["`**Date** *(Composite)*`"])
-	id2(["`**Day** *(Simple)*`"])
-	id3(["`**Month** *(Simple)*`"])
-	id4(["`**Year** *(Simple)*`"])
-```
+- Simple or Composite (Formed by several simple ones).
 - Single-valued (Simple circle) or Multi-valued (Double circle).
-- Derived (Dot) or not.
+- Derived (Dotted circle) or not.
 - Null or not.
+
+## Relations
+
+- Represented with a diamond shape.
+- Degree:
+	- Binary (Two entities. Common one)
+	- Reflexive (Entity associated with itself)
+	- N-ary ()
