@@ -24,10 +24,10 @@ tags:
 
 ```mermaid
 classDiagram
-class Class {
-	- datatype attribute1
-	- Class()
-	+ method() returntype
+
+
+class Receiver {
+	+operation 
 }
 ```
 ## Code
