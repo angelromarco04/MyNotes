@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Databases/data/SQL/02_relational.md",
+                "file": "Programming/Databases/data/SQL/02_tables.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Databases/data/SQL/02_relational.md",
+                "file": "Programming/Databases/data/SQL/02_tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,10 @@
   },
   "active": "b002458c13590539",
   "lastOpenFiles": [
-    "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/SQL/01_basics.md",
+    "Programming/Databases/data/SQL/02_relational.md",
+    "Programming/Databases/data/SQL/02_tables.md",
+    "Programming/Databases/DATABASES.md",
     "Programming/Matlab/MATLAB.md",
     "Programming/Databases/data/Theory/ERModel.md",
     "Programming/Other/SCHEME.md",
@@ -114,7 +116,6 @@
     "abstract-factory.md",
     "Assets/Programming/Databases",
     "Assets/Programming",
-    "Programming/Databases/data/SQL/02_relational.md",
     "Programming/Databases/data/Theory",
     "Programming/Databases/data/SQL",
     "Programming/Patterns/PATTERNS.md",
@@ -135,7 +136,6 @@
     "Templates/Programming/Other template.md",
     "Templates/Programming/Rust template.md",
     "Templates/Programming/Matlab template.md",
-    "Templates/Programming/Java template.md",
     "Programming/Patterns/data",
     "Programming/Patterns",
     "Linux/tutorials",

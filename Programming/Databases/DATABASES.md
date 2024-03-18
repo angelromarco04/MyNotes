@@ -19,6 +19,10 @@ tags:
 1. [Entity/Relationship Model](data/Theory/ERModel.md)
 
 ## SQL
-1. [Basic notions](data/SQL/01_basics.md)
-2. [Relational Algebra](data/SQL/02_relational.md)
+1. Shell Usage
+2. [Table Creation](data/SQL/02_tables.md)
+
+
+3. [Basic notions](data/SQL/01_basics.md)
+4. [Relational Algebra](data/SQL/02_relational.md)
 
