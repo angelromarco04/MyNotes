@@ -108,12 +108,16 @@ CREATE TABLE orders (
 ```
 2. **Many to many**
 ```sql
-CREATE TABLE Enrollments (
-    student_id INT not null,
-    course_id INT not null,
-    FOREIGN KEY (student_id) REFERENCES Students(student_id),
-    FOREIGN KEY (course_id) REFERENCES Courses(course_id),
-    PRIMARY KEY (student_id, course_id)
+CREATE TABLE teach (
+
+    id_bachelor int not null,
+    id_teacher int not null,
+
+    FOREIGN KEY (idbachelor) REFERENCES bachelor(id_bachelor),
+	FOREIGN KEY (id_teacher) REFERENCES teacher(id_teacher),
+
+    PRIMARY KEY (id_academic_bachelor, id_teacher)
+
 );
 ```
 3. **Aggregation**
@@ -123,11 +127,21 @@ CREATE TABLE practice (
     id_teacher int not null,
     id_enterprise int,
     
-    foreign key (id_bachelor, id_teacher) references teach(id_academic_bachelor, id_teacher),
+    FOREIGN KEY (id_bachelor, id_teacher)
+	    REFERENCES teach(id_academic_bachelor, id_teacher),
+	    
+    FOREIGN KEY (id_enterprise) REFERENCES enterprise(id_enterprise),
 
-    foreign key (id_enterprise) references enterprise(id_enterprise),
+    PRIMARY KEY (id_academic_bachelor, id_teacher, id_enterprise)
 
-    primary key (id_academic_bachelor, id_teacher, id_enterprise)
+);
+```
 
+## Specification
+
+```SQL
+CREATE TABLE student (
+    id_student int PRIMARY KEY not null,
+    FOREIGN KEY (id_student) references university(id_member),
 );
 ```
