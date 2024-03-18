@@ -54,11 +54,19 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 - Table constraints can reference any column.
 ## Types of Constraints
 
-1. **Primary Key** (Identifies a row in the table).
+1. **Primary Key** (Identifies a row in the table. Usually one).
 ```sql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
 	-- More...
+);
+
+CREATE TABLE book (
+	book_ISBN int,
+	book_version int,
+	-- More...
+
+	PRIMARY KEY (book_ISBN, book_version)
 );
 ```
 
@@ -82,20 +90,22 @@ CREATE TABLE student (
 
 4. **Check** (Validates data based on a condition)
 ```sql
-CREATE TABLE gradua (
-	student_id SERIAL PRIMARY KEY,
-	student_name VARCHAR(100) NOT NULL,
+CREATE TABLE bachellor (
+	bachellor_id SERIAL PRIMARY KEY,
+	bachellor_credits int CHECK (bachellor_credits > 240),
 	-- Other columns...
 );
 ```
 
 5. **Foreign Key** (Establishes a relationship between two tables)
 ```sql
-CREATE TABLE orders (
-	order_id SERIAL PRIMARY KEY,
-	customer_id INT,
-	FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
-	-- Other columns...
+CREATE TABLE classroom (
+
+    id_classroom int PRIMARY KEY not null,
+    id_location int not null,
+    -- Other columns...
+    
+    FOREIGN KEY (id_location) REFERENCES location(id_location),
 );
 ```
 
