@@ -114,7 +114,6 @@ CREATE TABLE student (
 6. ***Foreign Key** (Establishes a relationship between two tables)
 ```sql
 CREATE TABLE classroom (
-
     id_classroom int PRIMARY KEY not null,
     id_location int not null,
     -- Other columns...
@@ -122,6 +121,18 @@ CREATE TABLE classroom (
     FOREIGN KEY (id_location) REFERENCES location(id_location),
 );
 ```
+
+7. **On update cascade** (Values are updated when modified in the relation)
+```sql
+CREATE TABLE classroom (
+    id_classroom int PRIMARY KEY not null,
+    id_location int not null,
+    -- Other columns...
+    
+    FOREIGN KEY (id_location) REFERENCES location(id_location),
+);
+```
+
 
 
 ## Relations
