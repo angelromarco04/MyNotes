@@ -5,7 +5,13 @@ tags:
   - "#programming"
 ---
 
-### Inserting tuples
+---
+# 03 Tuples Management
+
+[Back to index](../../DATABASES.md)
+
+---
+## Inserting tuples
 
 - Syntax: `insert into [table] values( [values] )`
 ```sql
@@ -14,7 +20,7 @@ tags:
 insert into table1 values(value1, value2, value3);
 ```
 
-### Delete tuples
+## Delete tuples
 - Syntax: `delete from [table] where [condition]`
 ```sql
 -- Delete from table1 the second tuple
@@ -24,7 +30,7 @@ delete from table1 where table1_id = 2;
 delete from table1;
 ```
 
-### Display tuples
+## Display tuples
 
 - Syntax: `select [properties] from [table] where [condition]`
 - We can use `*` as properties to specify all properties in the table.
@@ -46,7 +52,7 @@ select * from table1 where table1_id = 2;
 select table1_name from table1 order by table1_name asc;
 ```
 
-### Update tuples
+## Update tuples
 
 - Syntax: `update [table] set [propertie = new value] where [condition]`
 ```sql

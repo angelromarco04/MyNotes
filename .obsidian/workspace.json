@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Databases/data/SQL/03_tuples.md",
+                "file": "Programming/Databases/DATABASES.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Databases/data/SQL/03_tuples.md",
+                "file": "Programming/Databases/DATABASES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,9 +100,9 @@
   },
   "active": "b002458c13590539",
   "lastOpenFiles": [
+    "Programming/Databases/data/SQL/01_shell.md",
     "Programming/Databases/data/SQL/02_tables.md",
     "Programming/Databases/data/SQL/03_tuples.md",
-    "Programming/Databases/data/SQL/01_basics.md",
     "Programming/Databases/data/SQL/02_relational.md",
     "Programming/Databases/DATABASES.md",
     "Programming/Matlab/MATLAB.md",

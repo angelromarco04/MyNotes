@@ -23,6 +23,6 @@ tags:
 2. [Table Creation](data/SQL/02_tables.md)
 
 
-3. [Basic notions](data/SQL/01_basics.md)
+3. [Basic notions](data/SQL/01_shell.md)
 4. [Relational Algebra](data/SQL/02_relational.md)
 

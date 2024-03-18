@@ -7,7 +7,7 @@ tags:
 ---
 
 ---
-# 02 Tables Creation
+# 02 Tables Management
 
 [Back to index](../../DATABASES.md)
 
@@ -36,7 +36,7 @@ tags:
 	- `timestamptz` (date + time + timezone)
 	- `interval` (periods of time)
 
-## Creating Simple Tables
+## Creating Tables
 
 - Repeated table names are not allowed.
 - By convention properties are named: `tableName_propertie`
@@ -106,7 +106,7 @@ CREATE TABLE book (
 ```sql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
-	student_erasmus bool DEFAULT 'no',
+	student_erasmus boolean DEFAULT 'no',
 	-- Other columns...
 );
 ```
@@ -196,4 +196,23 @@ CREATE TABLE student (
     id_student int PRIMARY KEY not null,
     FOREIGN KEY (id_student) references university(id_member),
 );
+```
+
+## Add new columns
+
+- Syntax: `alter table [table] add column [new property] [datatype]`
+```sql
+-- Add property erasmus to student.
+alter table student add column student_erasmus boolean;
+
+-- Usually we set a new value to all collumn.
+update student set student_erasmus = 'no';
+```
+
+## Delete columns
+
+- Syntax: `alter table [table] drop[property]`
+```sql
+-- Delete property erasmus from student.
+alter table student drop student_erasmus;
 ```
