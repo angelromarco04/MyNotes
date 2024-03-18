@@ -86,42 +86,16 @@ CREATE TABLE products (
 	-- Other columns...
 );
 ```
-        
+
 5. **Foreign Key** (Establishes a relationship between two tables)
 ```sql
 CREATE TABLE orders (
-order_id SERIAL PRIMARY KEY,
-customer_id INT,
-FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
--- Other columns...
-);
-```
-        
-
-Remember to adjust these constraints based on your specific use case. Each constraint ensures data consistency and helps maintain the integrity of your database. 🛡️🔍
-
-
-
-
-
-
-- We can make relations by specifying foreign keys.
-```sql
-CREATE TABLE otherTable (
-	otherTable_id int primary key not null,
-	otherTable_name varchar(50) unique not null,
-
-	primary key(exampleTable_id),
-	foreign key(exampleTable_id) references exampleTable(exampleTable_id)
+	order_id SERIAL PRIMARY KEY,
+	customer_id INT,
+	FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+	-- Other columns...
 );
 ```
 
-- Relations many to many intermediate tables are created as: `table1_table2`.
-- There is no need to specify a primary key for the table.
-```sql
-CREATE TABLE table1_table2 (
-	primary key(table1_id, table2_id),
-	foreign key(table1_id) references table1(table1_id),
-	foreign key(table2_id) references table2(table2_id),
-);
-```
+
+## Relations
