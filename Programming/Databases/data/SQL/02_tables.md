@@ -90,9 +90,10 @@ CREATE TABLE student (
 
 4. **Check** (Validates data based on a condition)
 ```sql
-CREATE TABLE bachellor (
-	bachellor_id SERIAL PRIMARY KEY,
-	bachellor_credits int CHECK (bachellor_credits > 240),
+CREATE TABLE book (
+	book_id SERIAL PRIMARY KEY,
+	book_price int CHECK (book_price > 0),
+	classroom_seats int CHECK (classroom_seats > 0),
 	-- Other columns...
 );
 ```
