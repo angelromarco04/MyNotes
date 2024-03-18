@@ -56,35 +56,35 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 
 1. **Primary Key** (Identifies a row in the table).
 ```sql
-CREATE TABLE employees (
-employee_id SERIAL PRIMARY KEY,
--- Other columns...
+CREATE TABLE student (
+	student_id SERIAL PRIMARY KEY,
+	-- More...
 );
 ```
 
 2. **Unique** (Column values are unique).
 ```sql
-CREATE TABLE students (
+CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
-	email VARCHAR(100) UNIQUE,
-	-- Other columns...
+	student_email VARCHAR(100) UNIQUE,
+	-- More...
 );
 ```
 
 3. **Not Null** (Column cannot  be empty)
 ```sql
-CREATE TABLE orders (
-	order_id SERIAL PRIMARY KEY,
-	customer_id INT NOT NULL,
+CREATE TABLE student (
+	student_id SERIAL PRIMARY KEY,
+	student_name VARCHAR(100) NOT NULL,
 	-- Other columns...
 );
 ```
 
 4. **Check** (Validates data based on a condition)
 ```sql
-CREATE TABLE products (
-	product_id SERIAL PRIMARY KEY,
-	price DECIMAL CHECK (price > 0),
+CREATE TABLE gradua (
+	student_id SERIAL PRIMARY KEY,
+	student_name VARCHAR(100) NOT NULL,
 	-- Other columns...
 );
 ```
@@ -104,7 +104,13 @@ CREATE TABLE orders (
 
 1. **One to many**
 ```sql
+CREATE TABLE classroom (
 
+    id_classroom int PRIMARY KEY not null,
+    id_location int not null,
+    
+    FOREIGN KEY (id_location) REFERENCES location(id_location),
+);
 ```
 2. **Many to many**
 ```sql
