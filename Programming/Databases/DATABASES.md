@@ -19,10 +19,10 @@ tags:
 1. [Entity/Relationship Model](data/Theory/ERModel.md)
 
 ## SQL
-1. Shell Usage
-2. [Table Creation](data/SQL/02_tables.md)
+1. [Shell Usage](data/SQL/01_shell.md)
+2. [Table Management](data/SQL/02_tables.md)
+3. [Tuple Management](data/SQL/03_tuples.md)
 
 
-3. [Basic notions](data/SQL/01_shell.md)
-4. [Relational Algebra](data/SQL/02_relational.md)
+[Relational Algebra](data/SQL/02_relational.md)
 
