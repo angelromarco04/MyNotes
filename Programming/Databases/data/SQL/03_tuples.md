@@ -1,40 +1,9 @@
 ---
 Author: AAM
-Date: 2024-02-09
+Date: 2024-03-18
 tags:
   - "#programming"
-  - SQL
 ---
-
----
-# 01 Basic notions
-
-[Back to index](../../DATABASES.md)
-
----
-
-## PSQL shell commands
-
-### Basic
-
-- Get help: `\?`
-- Salir del intérprete: `\q`
-- Connect to a database: `\c dbname username`
-- Command history: `\s`
-### Databases
-- List all databases: `\l`
-- List available functions in the current database: `\df`
-- Execute PSQL commands from a file: `\i filename`
-- Remove a database: `drop database database_name`
-
-> [!WARNING]
-> Is not possible to delete the currently active database.
-### Tables
-- List all tables: `\dt`
-- Describe a table: `\d table_name`
-- List available views: `\dv`
-
-## Managing tuples
 
 ### Inserting tuples
 
@@ -87,27 +56,3 @@ update table1 set table1_name = "A";
 -- Set property name of second tuple of table1 to "B"
 update table1 set table1_name = "B" where table1_name = 2;
 ```
-
----
-## Managing columns
-
-### Add new columns
-
-- Syntax: `alter table [table] add column [new property] [datatype]`
-```sql
--- Add property extra to table1.
-alter table table1 add column table1_extra varchar(30);
-
--- Usually we set a value to all collumn.
-update table1 set table1_extra = "text";
-```
-
-### Delete columns
-
-- Syntax: `alter table [table] drop[property]`
-```sql
--- Delete property extra from table1.
-alter table table1 drop table1_extra;
-```
-
----

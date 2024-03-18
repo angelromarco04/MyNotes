@@ -122,18 +122,29 @@ CREATE TABLE classroom (
 );
 ```
 
-7. **On update cascade** (Values are updated when modified in the relation)
+7. **On update cascade** (Tuples are updated when modified in the relation)
 ```sql
-CREATE TABLE classroom (
-    id_classroom int PRIMARY KEY not null,
-    id_location int not null,
+CREATE TABLE student (
+    id_student int PRIMARY KEY not null,
+    lecture_name int,
     -- Other columns...
     
-    FOREIGN KEY (id_location) REFERENCES location(id_location),
+    FOREIGN KEY (lecture_name)
+	    REFERENCES lecture(lecture_name) ON UPDATE CASCADE,
 );
 ```
 
-
+8. **On delete cascade** (Tuples are removed when deleted in the relation)
+```sql
+CREATE TABLE student (
+    id_student int PRIMARY KEY not null,
+    lecture_name int,
+    -- Other columns...
+    
+    FOREIGN KEY (lecture_name)
+	    REFERENCES lecture(lecture_name) ON DELETE CASCADE,
+);
+```
 
 ## Relations
 
