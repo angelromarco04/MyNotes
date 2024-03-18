@@ -24,7 +24,7 @@ tags:
 	- Integer:
 		- `smallint`: 2B signed integer.
 		- `int`: 4B signed integer.
-		- `serial`: Auto resizable integer.
+		- `serial`: Auto incrementable integer.
 	- Floating point:
 		- `float(n)`: Variable length up to 8B with at least n precision.
 		- `real` or `float8`: 4B floating point number.
@@ -50,7 +50,9 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 );
 ```
 
-## Constraints
+- Column constraints can only reference the value of that column.
+- Table constraints can reference any column.
+## Types of Constraints
 
 1. **Primary Key** (Identifies a row in the table).
 ```sql
@@ -99,3 +101,16 @@ CREATE TABLE orders (
 
 
 ## Relations
+
+1. **One to many**
+```sql
+
+```
+2. **Many to many**
+```sql
+
+```
+3. **Aggregation**
+```sql
+
+```
