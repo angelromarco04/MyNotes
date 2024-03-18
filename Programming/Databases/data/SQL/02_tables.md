@@ -50,7 +50,59 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 );
 ```
 
-## Column Constraints
+## Constraints
+
+1. **Primary Key** (Identifies a row in the table).
+```sql
+CREATE TABLE employees (
+employee_id SERIAL PRIMARY KEY,
+-- Other columns...
+);
+```
+
+2. **Unique** (Column values are unique).
+```sql
+CREATE TABLE students (
+	student_id SERIAL PRIMARY KEY,
+	email VARCHAR(100) UNIQUE,
+	-- Other columns...
+);
+```
+
+3. **Not Null** (Column cannot  be empty)
+```sql
+CREATE TABLE orders (
+	order_id SERIAL PRIMARY KEY,
+	customer_id INT NOT NULL,
+	-- Other columns...
+);
+```
+
+4. **Check** (Validates data based on a condition)
+```sql
+CREATE TABLE products (
+	product_id SERIAL PRIMARY KEY,
+	price DECIMAL CHECK (price > 0),
+	-- Other columns...
+);
+```
+        
+5. **Foreign Key** (Establishes a relationship between two tables)
+```sql
+CREATE TABLE orders (
+order_id SERIAL PRIMARY KEY,
+customer_id INT,
+FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+-- Other columns...
+);
+```
+        
+
+Remember to adjust these constraints based on your specific use case. Each constraint ensures data consistency and helps maintain the integrity of your database. 🛡️🔍
+
+
+
+
 
 
 - We can make relations by specifying foreign keys.
