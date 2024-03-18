@@ -93,12 +93,25 @@ CREATE TABLE student (
 CREATE TABLE book (
 	book_id SERIAL PRIMARY KEY,
 	book_price int CHECK (book_price > 0),
-	classroom_seats int CHECK (classroom_seats > 0),
+	book_discount int,
+	-- Other columns...
+	
+	CHECK (book_price > book_discount),
+	-- Other way
+	CONSTRAINT valid_discount CHECK (book_price > book_discount)
+);
+```
+
+5. **Default** (Sets a default value)
+```sql
+CREATE TABLE student (
+	student_id SERIAL PRIMARY KEY,
+	student_erasmus bool DEFAULT 'no',
 	-- Other columns...
 );
 ```
 
-5. **Foreign Key** (Establishes a relationship between two tables)
+6. ***Foreign Key** (Establishes a relationship between two tables)
 ```sql
 CREATE TABLE classroom (
 
