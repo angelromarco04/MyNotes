@@ -34,11 +34,11 @@ DELETE FROM table1;
 
 ## Update tuples
 
-- Syntax: `update [table] set [propertie = new value] where [condition]`
+- Syntax: `UPDATE [table] SET [propertie = new value] WHERE [condition]`
 ```sql
 -- Set property name of all tuples of table1 to "A"
-update table1 set table1_name = "A";
+UPDATE table1 SET table1_name = "A";
 
 -- Set property name of second tuple of table1 to "B"
-update table1 set table1_name = "B" where table1_name = 2;
+UPDATE table1 SET table1_name = "B" WHERE table1_name = 2;
 ```
