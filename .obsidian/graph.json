@@ -34,6 +34,20 @@
         "a": 1,
         "rgb": 6084188
       }
+    },
+    {
+      "query": "tag:#DB  ",
+      "color": {
+        "a": 1,
+        "rgb": 7265527
+      }
+    },
+    {
+      "query": "tag:#other  ",
+      "color": {
+        "a": 1,
+        "rgb": 11508237
+      }
     }
   ],
   "collapse-display": true,
@@ -46,6 +60,6 @@
   "repelStrength": 15.5208333333333,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.13168724279835547,
+  "scale": 0.25883865621816643,
   "close": true
 }

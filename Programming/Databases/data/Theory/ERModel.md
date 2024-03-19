@@ -95,13 +95,14 @@ Used to form relations.
 
 - We consider relations as if they were entities.
 - We can establish a relation between an entity and another relation.
-- 
+- Now relations always implies ONLY two parties.
 
 ![](/Assets/Programming/Databases/DB_2.png)
 
 ## Generalization
 
 Joins two or more entities (children) into a general entity (parent).
+
 - **No restrictions**
 	![](/Assets/Programming/Databases/DB_3.png)
 - **Disjoint** (Children cannot belong to more than one class)
