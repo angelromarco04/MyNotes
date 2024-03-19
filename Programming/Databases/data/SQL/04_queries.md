@@ -75,5 +75,23 @@ WHERE s.id = b.id;
 ![](/Assets/Programming/Databases/SQL_2.png)
 
 ```SQL
-SELECT student.name, bachellor.name FROM (student )
+-- INNER JOIN.
+-- (Tuples not related will not be displayed)
+SELECT s.name, b.name FROM
+(student s INNER JOIN bachellor b ON s.id = b.id);
+
+-- LEFT JOIN.
+-- (Bachellors not related will not be displayed, but students will)
+SELECT s.name, b.name FROM
+(student s LEFT JOIN bachellor b ON s.id = b.id);
+
+-- RIGHT JOIN.
+-- (Students not related will not be displayed, but bachellors will)
+SELECT s.name, b.name FROM
+(student s RIGHT JOIN bachellor b ON s.id = b.id);
+
+-- FULL JOIN.
+-- (Not related tuples will also be displayed)
+SELECT s.name, b.name FROM
+(student s FULL JOIN bachellor b ON s.id = b.id);
 ```
