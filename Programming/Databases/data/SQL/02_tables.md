@@ -63,8 +63,8 @@ CREATE TABLE student (
 );
 
 CREATE TABLE book (
-	book_ISBN int,
-	book_version int,
+	book_ISBN INT,
+	book_version INT,
 	-- More...
 
 	PRIMARY KEY (book_ISBN, book_version)
@@ -93,8 +93,8 @@ CREATE TABLE student (
 ```sql
 CREATE TABLE book (
 	book_id SERIAL PRIMARY KEY,
-	book_price int CHECK (book_price > 0),
-	book_discount int,
+	book_price INT CHECK (book_price > 0),
+	book_discount INT,
 	-- Other columns...
 	
 	CHECK (book_price > book_discount),
@@ -107,7 +107,7 @@ CREATE TABLE book (
 ```sql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
-	student_erasmus boolean DEFAULT 'no',
+	student_erasmus BOOLEAN DEFAULT 'no',
 	-- Other columns...
 );
 ```
@@ -115,8 +115,8 @@ CREATE TABLE student (
 6. ***Foreign Key** (Establishes a relationship between two tables)
 ```sql
 CREATE TABLE classroom (
-    id_classroom int PRIMARY KEY not null,
-    id_location int not null,
+    id_classroom INT PRIMARY KEY NOT NULL,
+    id_location INT NOT NULL,
     -- Other columns...
     
     FOREIGN KEY (id_location) REFERENCES location(id_location),
@@ -126,8 +126,8 @@ CREATE TABLE classroom (
 7. **On update cascade** (Tuples are updated when modified in the relation)
 ```sql
 CREATE TABLE student (
-    id_student int PRIMARY KEY not null,
-    lecture_name int,
+    id_student INT PRIMARY KEY NOT NULL,
+    lecture_name INT,
     -- Other columns...
     
     FOREIGN KEY (lecture_name)
@@ -138,8 +138,8 @@ CREATE TABLE student (
 8. **On delete cascade** (Tuples are removed when deleted in the relation)
 ```sql
 CREATE TABLE student (
-    id_student int PRIMARY KEY not null,
-    lecture_name int,
+    id_student INT PRIMARY KEY NOT NULL,
+    lecture_name INT,
     -- Other columns...
     
     FOREIGN KEY (lecture_name)
@@ -153,8 +153,8 @@ CREATE TABLE student (
 ```sql
 CREATE TABLE classroom (
 
-    id_classroom int PRIMARY KEY not null,
-    id_location int not null,
+    id_classroom INT PRIMARY KEY NOT NULL,
+    id_location INT NOT NULL,
     
     FOREIGN KEY (id_location) REFERENCES location(id_location),
 );
@@ -163,8 +163,8 @@ CREATE TABLE classroom (
 ```sql
 CREATE TABLE teach (
 
-    id_bachelor int not null,
-    id_teacher int not null,
+    id_bachelor INT NOT NULL,
+    id_teacher INT NOT NULL,
 
     FOREIGN KEY (idbachelor) REFERENCES bachelor(id_bachelor),
 	FOREIGN KEY (id_teacher) REFERENCES teacher(id_teacher),
@@ -176,9 +176,9 @@ CREATE TABLE teach (
 3. **Aggregation**
 ```sql
 CREATE TABLE practice (
-    id_bachelor int not null,
-    id_teacher int not null,
-    id_enterprise int,
+    id_bachelor INT NOT NULL,
+    id_teacher INT NOT NULL,
+    id_enterprise INT,
     
     FOREIGN KEY (id_bachelor, id_teacher)
 	    REFERENCES teach(id_academic_bachelor, id_teacher),
@@ -194,26 +194,26 @@ CREATE TABLE practice (
 
 ```SQL
 CREATE TABLE student (
-    id_student int PRIMARY KEY not null,
+    id_student INT PRIMARY KEY NOT NULL,
     FOREIGN KEY (id_student) references university(id_member),
 );
 ```
 
 ## Add new columns
 
-- Syntax: `alter table [table] add column [new property] [datatype]`
+- Syntax: `ALTER TABLE [table] ADD COLUMN [new property] [datatype]`
 ```sql
 -- Add property erasmus to student.
-alter table student add column student_erasmus boolean;
+ALTER TABLE student ADD COLUMN student_erasmus BOOLEAN;
 
 -- Usually we set a new value to all collumn.
-update student set student_erasmus = 'no';
+UPDATE student SET student_erasmus = 'no';
 ```
 
 ## Delete columns
 
-- Syntax: `alter table [table] drop[property]`
+- Syntax: `ALTER TABLE [table] DROP [property]`
 ```sql
 -- Delete property erasmus from student.
-alter table student drop student_erasmus;
+ALTER TABLE student DROP student_erasmus;
 ```

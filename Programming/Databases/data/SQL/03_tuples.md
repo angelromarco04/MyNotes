@@ -15,43 +15,21 @@ tags:
 ---
 ## Inserting tuples
 
-- Syntax: `insert into [table] values( [values] )`
+- Syntax: `INSERT INTO [table] VALUES( [values ...] )`
 ```sql
 -- table1 is a table with 3 properties.
 -- value1, value2 and value3 must have the proper datatypes.
-insert into table1 values(value1, value2, value3);
+INSERT INTO table1 VALUES(value1, value2, value3);
 ```
 
 ## Delete tuples
-- Syntax: `delete from [table] where [condition]`
+- Syntax: `DELETE FROM [table] WHERE [condition]`
 ```sql
 -- Delete from table1 the second tuple
-delete from table1 where table1_id = 2;
+DELETE FROM table1 WHERE table1_id = 2;
 
 -- Delete all tuples of table1 
-delete from table1;
-```
-
-## Display tuples
-
-- Syntax: `select [properties] from [table] where [condition]`
-- We can use `*` as properties to specify all properties in the table.
-- Elements can be ordered:
-	- Ascending order with `order by [property] asc`.
-	- Descending order with `order by [property] desc`.
-
-```sql
--- Displays a list of names from table1
-select table1_name from table1;
-
--- Displays a list of IDs and names from table1
-select table1_id, table1_name from table1;
-
--- Displays a all properties of the second tuple in table1
-select * from table1 where table1_id = 2;
-
--- Displays a list of names from table1 in ascending order.
-select table1_name from table1 order by table1_name asc;
+DELETE FROM table1;
 ```
 
 ## Update tuples
