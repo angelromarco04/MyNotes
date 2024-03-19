@@ -41,15 +41,16 @@ SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 ![](/Assets/Programming/Databases/SQL_1.png)
 
 ```SQL
--- Display all the erasmus AND student.
+-- Display all names in erasmus AND student.
 -- A x B : erasmus x student
 (SELECT name FROM erasmus) INTERSECT (SELECT name FROM student)
 
--- Display all the students OR teachers in the campus.
+-- Display all names in student OR teacher.
 -- A + B : teacher + student
 (SELECT name FROM teacher) UNION (SELECT name FROM student)
 
--- Display all the people BUT the students.
--- A - B : people - student
-(SELECT name FROM people) EXCEPT (SELECT name FROM student)
+-- Display all names in student NOT IN erasmus.
+-- A - B : student - erasmus
+(SELECT name FROM student) EXCEPT (SELECT name FROM erasmus)
 ```
+
