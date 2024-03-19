@@ -36,6 +36,17 @@ SELECT * FROM table1 WHERE table1_id = 2;
 SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 ```
 
-## Union, intersection and minus
+## Intersection, Union and Minus
 
 ![](/Assets/Programming/Databases/SQL_1.png)
+
+```SQL
+-- From all the people display only the students.
+(SELECT name FROM people) INTERSECT (SELECT name FROM student)
+
+-- Display all the students OR teachers in the campus.
+(SELECT name FROM teacher) UNION (SELECT name FROM student)
+
+-- Display all the people BUT the students.
+(SELECT name FROM people) EXCEPT (SELECT name FROM student)
+```
