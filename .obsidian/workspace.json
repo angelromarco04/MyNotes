@@ -98,8 +98,9 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b18126a6f6c44127",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
+    "Assets/Programming/Databases/SQL_1.png",
     "Programming/Databases/data/SQL/02_tables.md",
     "Programming/Databases/data/SQL/01_shell.md",
     "Programming/Databases/data/SQL/04_queries.md",
@@ -134,7 +135,6 @@
     "Programming/Patterns/data/Factory.md",
     "Programming/Patterns/data/Facade.md",
     "Programming/Patterns/data/Composite.md",
-    "Programming/Patterns/data/Singleton.md",
     "data",
     "Programming/Patterns/data",
     "Programming/Patterns",

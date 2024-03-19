@@ -36,6 +36,6 @@ SELECT * FROM table1 WHERE table1_id = 2;
 SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 ```
 
-## Set operations
+## Union, intersection and minus
 
-### Union, intersection and minus
+![](/Assets/Programming/Databases/SQL_1.png)
