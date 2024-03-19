@@ -38,7 +38,7 @@ SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 
 ## Intersection, Union and Minus
 
-- Syntax: `SELECT [table]`
+- Syntax: `[query 1] [operation] [query 2]`
 
 ![](/Assets/Programming/Databases/SQL_1.png)
 
@@ -57,6 +57,8 @@ SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 ```
 
 ## Joining Queries
+
+- Syntax: `SELECT [properties] FROM ( [table 1] JOIN [table 2] ON [condition] )`
 
 ![](/Assets/Programming/Databases/SQL_2.png)
 
