@@ -38,6 +38,8 @@ SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 
 ## Intersection, Union and Minus
 
+- Syntax: `SELECT [table]`
+
 ![](/Assets/Programming/Databases/SQL_1.png)
 
 ```SQL
@@ -54,3 +56,10 @@ SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 (SELECT name FROM student) EXCEPT (SELECT name FROM erasmus)
 ```
 
+## Joining Queries
+
+![](/Assets/Programming/Databases/SQL_2.png)
+
+```SQL
+SELECT name FROM ()
+```
