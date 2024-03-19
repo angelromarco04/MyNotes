@@ -1,3 +1,16 @@
+---
+Author: AAM
+Date: 2024-03-19
+tags:
+  - linux
+---
+
+---
+# Bash
+
+[HOME](/README.md)
+
+---
 # Basic
 ## Managing Directories
 - `pwd` → Print Working Directory.

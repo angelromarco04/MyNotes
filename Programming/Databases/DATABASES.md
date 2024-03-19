@@ -22,5 +22,5 @@ tags:
 1. [Shell Usage](data/SQL/01_shell.md)
 2. [Table Management](data/SQL/02_tables.md)
 3. [Tuple Management](data/SQL/03_tuples.md)
-4. [Queries](data/SQL/05_queries.md)
+4. [Queries](data/SQL/04_queries.md)
 

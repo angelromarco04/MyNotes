@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Over_The_Wire.md",
+                "file": "Programming/Databases/data/SQL/04_queries.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Over_The_Wire.md",
+                "file": "Programming/Databases/data/SQL/04_queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,19 +100,22 @@
   },
   "active": "b18126a6f6c44127",
   "lastOpenFiles": [
-    "Others/UsefulResources.md",
-    "Others/Markdown.md",
-    "Others/ANSI_codes.md",
     "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/Theory/ERModel.md",
     "Programming/Databases/data/SQL/01_shell.md",
     "Programming/Databases/data/SQL/02_tables.md",
     "Programming/Databases/data/SQL/03_tuples.md",
-    "Programming/Databases/data/SQL/05_queries.md",
+    "Programming/Databases/data/SQL/04_queries.md",
+    "README.md",
+    "Linux/Shell_Scripting.md",
+    "Linux/Over_The_Wire.md",
+    "Linux/Bash.md",
+    "Others/ANSI_codes.md",
+    "Others/Markdown.md",
+    "Others/UsefulResources.md",
     "Programming/Databases/data/SQL/02_relational.md",
     "Programming/Matlab/MATLAB.md",
     "Programming/Other/SCHEME.md",
-    "README.md",
     "Assets/Programming/Databases/DB_4.png",
     "Assets/Programming/Databases/DB_5.png",
     "Assets/Programming/Databases/DB_3.png",
@@ -132,10 +135,7 @@
     "Programming/Patterns/data/Facade.md",
     "Programming/Patterns/data/Composite.md",
     "Programming/Patterns/data/Singleton.md",
-    "Programming/CHI/CHI.md",
     "data",
-    "Templates/a.md",
-    "Templates/Base template.md",
     "Programming/Patterns/data",
     "Programming/Patterns",
     "Linux/tutorials",
