@@ -23,17 +23,29 @@ tags:
 	- Descending order with `ORDER BY [property] DESC`.
 
 ```sql
--- Displays a list of names from table1
-SELECT table1_name FROM table1;
+-- Displays a list of names from student
+SELECT name FROM student;
 
--- Displays a list of IDs and names from table1
-SELECT table1_id, table1_name FROM table1;
+-- Displays a list of IDs and names from student
+SELECT id, name FROM student;
 
--- Displays a all properties of the second tuple in table1
-SELECT * FROM table1 WHERE table1_id = 2;
+-- Displays a all properties of the second tuple in student
+SELECT * FROM students WHERE id = 2;
 
--- Displays a list of names from table1 in ascending order.
-SELECT table1_name FROM table1 ORDER BY table1_name ASC;
+-- Displays a list of names from student in ascending order.
+SELECT name FROM student ORDER BY name ASC;
+```
+
+## Multiple tables
+
+```SQL
+-- Display all the students name and they bachellor name.
+SELECT student.name, bachellor.name FROM student, bachellor
+WHERE student.id = bachellor.id;
+
+-- Can be reduced.
+SELECT s.name, b.name FROM student s, bachellor b
+WHERE s.id = b.id;
 ```
 
 ## Intersection, Union and Minus
@@ -63,5 +75,5 @@ SELECT table1_name FROM table1 ORDER BY table1_name ASC;
 ![](/Assets/Programming/Databases/SQL_2.png)
 
 ```SQL
-SELECT name FROM ()
+SELECT student.name, bachellor.name FROM (student )
 ```
