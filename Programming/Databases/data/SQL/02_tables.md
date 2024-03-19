@@ -4,6 +4,7 @@ Date: 2024-03-18
 tags:
   - "#programming"
   - SQL
+  - DB
 ---
 
 ---

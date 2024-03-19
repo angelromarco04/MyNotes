@@ -95,6 +95,7 @@ Used to form relations.
 
 - We consider relations as if they were entities.
 - We can establish a relation between an entity and another relation.
+- 
 
 ![](/Assets/Programming/Databases/DB_2.png)
 
