@@ -36,7 +36,7 @@ SELECT * FROM students WHERE id = 2;
 SELECT name FROM student ORDER BY name ASC;
 ```
 
-## Multiple tables
+## Queries with Multiple Tables
 
 ```SQL
 -- Display all the students name and they bachellor name.
@@ -48,9 +48,13 @@ SELECT s.name, b.name FROM student s, bachellor b
 WHERE s.id = b.id;
 ```
 
-## Intersection, Union and Minus
+## Set Theory with Queries
 
 - Syntax: `[query 1] [operation] [query 2]`
+- Where `[operation]` can be 
+	- Intersection: `INTERSECT`
+	- Union: `UNION`
+	- Minus: `EXCEPT`
 
 ![](/Assets/Programming/Databases/SQL_1.png)
 
