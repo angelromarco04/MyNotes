@@ -11,9 +11,12 @@
             "id": "b18126a6f6c44127",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Assets/Programming/Databases/SQL_2.png"
+                "file": "Programming/Databases/data/SQL/04_queries.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -75,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/Programming/Databases/SQL_2.png",
+                "file": "Programming/Databases/data/SQL/04_queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,13 +100,13 @@
   },
   "active": "b18126a6f6c44127",
   "lastOpenFiles": [
-    "Programming/Databases/data/SQL/04_queries.md",
+    "Programming/Databases/DATABASES.md",
     "Assets/Programming/Databases/SQL_2.png",
+    "Programming/Databases/data/SQL/04_queries.md",
     "Assets/Programming/Databases/SQL_1.png",
     "Programming/Databases/data/SQL/02_tables.md",
     "Programming/Databases/data/SQL/01_shell.md",
     "Programming/Databases/data/SQL/03_tuples.md",
-    "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/Theory/ERModel.md",
     "README.md",
     "Linux/Shell_Scripting.md",
