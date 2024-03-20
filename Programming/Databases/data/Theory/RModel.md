@@ -13,11 +13,23 @@ tags:
 
 ---
 
-## Entities
+## Basic Notions
 
-- Simple. PK start with an `@`.
-```Relatio
-```
+- Both attributes and relations are represented by tuples.
+- Tuples are represented with parenthesis.
+- Values are separated by commas.
+
+## Attributes
+
+- Primary Keys start with an `@`.
 - Composite
 - Multi-valued
 - Derived
+
+```Relational
+# Primary Keys
+Student = (@id, name)
+Book = (@[ISBN, version], name)
+
+# Composite
+```
