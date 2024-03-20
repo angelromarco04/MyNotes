@@ -49,7 +49,6 @@ flowchart LR
 	id2{"`*have*`"}
 	id3["`**Account**`"]
 ```
-
 ```Relational
 # Option 1
 Student = (@idStudent, idAccount (FK to Account) (Unique))
@@ -71,7 +70,6 @@ flowchart LR
 	id2{"`*enroll*`"}
 	id3["`**Bachellor**`"]
 ```
-
 ```Relational
 Student = (@idStudent, idBachellor (FK to Bachellor))
 Bachellor = (@idBachellor)
@@ -88,7 +86,6 @@ flowchart LR
 	id2{"`*takes*`"}
 	id3["`**Course**`"]
 ```
-
 ```Relational
 Student = (@idStudent)
 Bachellor = (@idBachellor)
@@ -225,3 +222,23 @@ Teaches = (
 ```
 
 ## Weak entities
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. 1 ) --> id3
+
+	id1["`**Classroom**`"]
+	id2{"`*in*`"}
+	id3["`**Building**`"]
+```
+```Relational
+Classroom = (@idClassroom)
+Building = ( @[
+	idBuilding,
+	idClassroom (FK to Classroom)
+])
+```
+
+## Aggregation
+
+
