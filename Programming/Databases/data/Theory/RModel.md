@@ -11,6 +11,13 @@ tags:
 
 [Back to index](../../DATABASES.md)
 
+1. Basic Notions
+2. Attributes
+3. Relations
+4. Weak Entities
+5. Aggregation
+6. Generalization
+
 ---
 
 ## Basic Notions
@@ -342,17 +349,8 @@ Use = (
 
 ## Generalization
 Having Student and Teacher be Members.
-- **No Restrictions**
 ```Relational
 Member = (@idMember, ...)
 Student = (@idMember (FK to Member), ...)
 Teacher = (@idMember (FK to Member), ...)
-```
-- **Disjoint**
-```Relational
-
-```
-- **Total**
-```Relational
-
 ```
