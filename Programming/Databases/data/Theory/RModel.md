@@ -50,5 +50,13 @@ flowchart LR
 ```
 
 ```Relational
-Student = ()
+Student = (@idStudent, name)
+Account = (@idAccount, info)
+
+# Option 1
+Have = (@idStudent (FK to Student), idAccount(FK to Account)(Unique))
+
+# Option 2
+Have = (@idAccount(FK to Account), idStudent (FK to Student)(Unique))
 ```
+
