@@ -98,3 +98,30 @@ Bachellor = (@idBachellor, description)
 
 Enroll = (@ [ idStudent (FK to Student), idBachellor(FK to Bachellor) ] )
 ```
+
+## Reflexive 1:1 Relations
+```mermaid
+flowchart LR
+	id2 ---> id1
+	id2 ---> id1
+
+	id1["`**Category**`"]
+	id2{"`**has**`"}
+```
+```Relational
+Category = (@idCategory, idCategory (FK to Category) (Unique) )
+```
+
+
+## Reflexive 1:N Relations
+```mermaid
+flowchart LR
+	id2 -- ( 0 .. º ) --- id1
+	id2 -- ( 1 .. N ) --- id1
+
+	id1["`**Category**`"]
+	id2{"`**has**`"}
+```
+```Relational
+Category = (@idCategory, idCategory (FK to Category) (Unique) )
+```
