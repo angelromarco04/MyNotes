@@ -26,9 +26,14 @@ tags:
 Student = (@id, name)
 Book = (@[ISBN, version], name)
 
+# Foreign Keys must be specified
+Student = (@id, )
+
 # Composite attributes do not appear.
 # date -> day, month, year
 Course = (@id, day, month, year)
 
-# 
+#  Multi value attributes are represented apart
+Course = (@id)
+Places = (@[idDate, idCourse (FK to Course)], name)
 ```
