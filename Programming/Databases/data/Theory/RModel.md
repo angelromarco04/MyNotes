@@ -60,3 +60,25 @@ Have = (@idStudent (FK to Student), idAccount(FK to Account)(Unique))
 Have = (@idAccount(FK to Account), idStudent (FK to Student)(Unique))
 ```
 
+## 1:N Relations
+
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 0 .. 1 ) --> id3
+
+	id1["`**Student**`"]
+	id2{"`**enroll**`"}
+	id3["`**Bachellor**`"]
+```
+
+```Relational
+Student = (@idStudent, name)
+Bachellor = (@idBachellor, description)
+
+# Option 1
+Have = (@idStudent (FK to Student), idAccount(FK to Account)(Unique))
+
+# Option 2
+Have = (@idAccount(FK to Account), idStudent (FK to Student)(Unique))
+```
