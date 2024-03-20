@@ -21,16 +21,6 @@
             }
           },
           {
-            "id": "ef7c915fd19c55aa",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
             "id": "88ac41b0948a9a20",
             "type": "leaf",
             "state": {
@@ -43,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +111,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ef7c915fd19c55aa",
+  "active": "b18126a6f6c44127",
   "lastOpenFiles": [
     "Others/Markdown.md",
     "Programming/Databases/data/Theory/RModel.md",
