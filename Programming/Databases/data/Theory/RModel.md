@@ -229,15 +229,15 @@ flowchart LR
 	id2 -- ( 1 .. N ) --- id1
 	id2 -- ( 1 .. 1 ) --> id3
 
-	id1["`**Classroom**`"]
+	id1["`**Classroom** (weak)`"]
 	id2{"`*in*`"}
 	id3["`**Building**`"]
 ```
 ```Relational
-Classroom = (@idClassroom)
-Building = ( @[
-	idBuilding,
-	idClassroom (FK to Classroom)
+Building = (@idBuilding)
+Classroom = ( @[
+	idClassroom
+	idBuilding (FK to Building)
 ])
 ```
 
@@ -305,3 +305,38 @@ Use = (
 	idClassroom (FK to Classroom)
 )
 ```
+
+## Aggregation (N:N + 1:1)
+- The 1 relation is no more a PK.
+
+```mermaid
+flowchart LR
+	id5 -- ( 1 .. 1 ) --> id2
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. N ) --- id3
+	id5 -- ( 1 .. 1 ) --> id4
+
+
+	id1["`**Teacher**`"]
+	id2{"`*teach*`"}
+	id3["`**Bachellor**`"]
+	id4["`**Classroom**`"]
+	id5{"`*use*`"}
+```
+```Relational
+Teacher = (@idTeacher)
+Bachellor = (@idBachellor)
+Classroom = (@idClassroom)
+
+Teach = ( @[
+	idTeacher (FK to Teacher),
+	idBachellor (FK to Bachellor)
+])
+
+Use = (
+	@[ (idTeacher, idBachellor) ] (FK to Teach),
+	idClassroom (FK to Classroom) (Unique)
+)
+```
+
+## Specialisation
