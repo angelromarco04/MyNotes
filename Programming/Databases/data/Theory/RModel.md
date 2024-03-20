@@ -37,5 +37,15 @@ Course = (@id)
 Places = (@[idDate, idCourse (FK to Course)], name)
 ```
 
-## Relations
+## 1:1 Relations
+
+```mermaid
+flowchart LR
+	id2 --> id1
+	id2 --> id3
+
+	id1["`**Student**`"]
+	id2{"`**have**`"}
+	id3["`**Account**`"]
+```
 
