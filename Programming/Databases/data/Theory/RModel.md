@@ -65,7 +65,7 @@ Have = (@idAccount(FK to Account), idStudent (FK to Student)(Unique))
 ```mermaid
 flowchart LR
 	id2 -- ( 1 .. N ) --- id1
-	id2 -- ( 0 .. 1 ) --> id3
+	id2 -- ( 1 .. 1 ) --> id3
 
 	id1["`**Student**`"]
 	id2{"`**enroll**`"}
@@ -73,11 +73,8 @@ flowchart LR
 ```
 
 ```Relational
-Student = (@idStudent, name)
-Bachellor = (@idBachellor, description)
-
-# Option 1
-Enroll = (@idStudent (FK to Student), idBachellor(FK to Bachellor))
+Student = (@idStudent, idBachellor (FK to Bachellor))
+Bachellor = (@idBachellor)
 ```
 
 ## N:N Relations
@@ -96,7 +93,10 @@ flowchart LR
 Student = (@idStudent, name)
 Bachellor = (@idBachellor, description)
 
-Enroll = (@ [ idStudent (FK to Student), idBachellor(FK to Bachellor) ] )
+Enroll = ( @[
+	idStudent (FK to Student),
+	idBachellor(FK to Bachellor)
+])
 ```
 
 ## Reflexive 1:1 Relations
@@ -116,12 +116,29 @@ Category = (@idCategory, idCategory (FK to Category) (Unique) )
 ## Reflexive 1:N Relations
 ```mermaid
 flowchart LR
-	id2 -- ( 0 .. º ) --- id1
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. 1 ) --> id1
+
+	id1["`**Category**`"]
+	id2{"`**has**`"}
+```
+```Relational
+Category = (@idCategory, idCategory (FK to Category) )
+```
+
+## Reflexive N:N Relations
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
 	id2 -- ( 1 .. N ) --- id1
 
 	id1["`**Category**`"]
 	id2{"`**has**`"}
 ```
 ```Relational
-Category = (@idCategory, idCategory (FK to Category) (Unique) )
+Category = (@idCategory)
+Has = ( @[
+	idCategory (FK to Category),
+	idCategory (FK to Category)
+])
 ```
