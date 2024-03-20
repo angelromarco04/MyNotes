@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Databases/data/Theory/ERModel.md",
+                "file": "Programming/Databases/data/Theory/RModel.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -91,7 +91,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Databases/data/Theory/ERModel.md",
+                "file": "Programming/Databases/data/Theory/RModel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -113,9 +113,9 @@
   },
   "active": "b18126a6f6c44127",
   "lastOpenFiles": [
+    "Programming/Databases/data/Theory/ERModel.md",
     "Programming/Databases/data/Theory/RModel.md",
     "Others/Markdown.md",
-    "Programming/Databases/data/Theory/ERModel.md",
     "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/SQL/04_queries.md",
     "Assets/Programming/Databases/SQL_2.png",

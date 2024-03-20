@@ -340,4 +340,19 @@ Use = (
 )
 ```
 
-## Specialisation
+## Generalization
+Having Student and Teacher be Members.
+- **No Restrictions**
+```Relational
+Member = (@idMember, ...)
+Student = (@idMember (FK to Member), ...)
+Teacher = (@idMember (FK to Member), ...)
+```
+- **Disjoint**
+```Relational
+
+```
+- **Total**
+```Relational
+
+```
