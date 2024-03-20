@@ -21,15 +21,14 @@ tags:
 
 ## Attributes
 
-- Primary Keys start with an `@`.
-- Composite
-- Multi-valued
-- Derived
-
 ```Relational
-# Primary Keys
+# Primary Keys start with @
 Student = (@id, name)
 Book = (@[ISBN, version], name)
 
-# Composite
+# Composite attributes do not appear.
+# date -> day, month, year
+Course = (@id, day, month, year)
+
+# 
 ```
