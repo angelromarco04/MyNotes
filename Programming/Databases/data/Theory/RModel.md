@@ -272,13 +272,14 @@ Use = ( @[
 ```
 
 ## Aggregation (N:N + N:1)
+- The 1 relation is no more a PK.
 
 ```mermaid
 flowchart LR
 	id5 -- ( 1 .. N ) --- id2
 	id2 -- ( 1 .. N ) --- id1
 	id2 -- ( 1 .. N ) --- id3
-	id5 -- ( 1 .. N ) --- id4
+	id5 -- ( 1 .. 1 ) --> id4
 
 
 	id1["`**Teacher**`"]
@@ -297,8 +298,8 @@ Teach = ( @[
 	idBachellor (FK to Bachellor)
 ])
 
-Use = ( @[
-	(idTeacher, idBachellor) (FK to Teach),
+Use = (
+	@[ (idTeacher, idBachellor) ] (FK to Teach),
 	idClassroom (FK to Classroom)
-])
+)
 ```
