@@ -149,7 +149,7 @@ flowchart LR
 
 
 	id1["`**Teacher**`"]
-	id2{"`*teaches*`"}
+	id2{"`*teach*`"}
 	id3["`**Bachellor**`"]
 	id4["`**Classroom**`"]
 ```
@@ -158,7 +158,7 @@ Teacher = (@idTeacher)
 Bachellor = (@idBachellor)
 Classroom = (@idClassroom)
 
-Teaches = (
+Teach = (
 	@[
 		idTeacher (FK to Teacher)
 		idClassroom (FK to Classroom)
@@ -176,7 +176,7 @@ flowchart LR
 	id2 -- ( 1 .. 1 ) --> id3
 
 	id1["`**Teacher**`"]
-	id2{"`*teaches*`"}
+	id2{"`*teach*`"}
 	id3["`**Bachellor**`"]
 	id4["`**Classroom**`"]
 ```
@@ -185,7 +185,7 @@ Teacher = (@idTeacher)
 Bachellor = (@idBachellor)
 Classroom = (@idClassroom)
 
-Teaches = (
+Teach = (
 	@[
 		idTeacher (FK to Teacher)
 		idClassroom (FK to Classroom)
@@ -203,7 +203,7 @@ flowchart LR
 
 
 	id1["`**Teacher**`"]
-	id2{"`*teaches*`"}
+	id2{"`*teach*`"}
 	id3["`**Bachellor**`"]
 	id4["`**Classroom**`"]
 ```
@@ -212,7 +212,7 @@ Teacher = (@idTeacher)
 Bachellor = (@idBachellor)
 Classroom = (@idClassroom)
 
-Teaches = (
+Teach = (
 	@[
 		idTeacher (FK to Teacher)
 		idClassroom (FK to Classroom)
@@ -239,6 +239,40 @@ Building = ( @[
 ])
 ```
 
-## Aggregation
+## Aggregation (N:N + N:N)
+
+```mermaid
+flowchart LR
+	id5 -- ( 1 .. N ) --- id2
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. N ) --- id3
+	id5 -- ( 1 .. N ) --- id4
 
 
+	id1["`**Teacher**`"]
+	id2{"`*teach*`"}
+	id3["`**Bachellor**`"]
+	id4["`**Classroom**`"]
+	id5{"`*use*`"}
+```
+```Relational
+Teacher = (@idTeacher)
+Bachellor = (@idBachellor)
+Classroom = (@idClassroom)
+
+Teaches = (
+	@[
+		idTeacher (FK to Teacher)
+		idClassroom (FK to Classroom)
+	] (Unique),
+	idBachellor (FK to Bachellor)
+)
+
+Use = (
+	@[
+		idTeacher (FK to Teacher)
+		idClassroom (FK to Classroom)
+	] (Unique),
+	idBachellor (FK to Bachellor)
+)
+```
