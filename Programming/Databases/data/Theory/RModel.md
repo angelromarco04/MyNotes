@@ -241,7 +241,8 @@ Classroom = ( @[
 ])
 ```
 
-## Aggregation (N:N + N:N)
+## Aggregation 
+### Aggregation N:N + N:N
 
 ```mermaid
 flowchart LR
@@ -273,7 +274,7 @@ Use = ( @[
 ])
 ```
 
-## Aggregation (N:N + N:1)
+### Aggregation N:N + N:1
 - The 1 relation is no more a PK.
 
 ```mermaid
@@ -306,7 +307,7 @@ Use = (
 )
 ```
 
-## Aggregation (N:N + 1:1)
+### Aggregation N:N + 1:1
 - The 1 relation is no more a PK.
 
 ```mermaid
