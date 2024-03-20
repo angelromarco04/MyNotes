@@ -160,8 +160,8 @@ Classroom = (@idClassroom)
 
 Teach = (
 	@[
-		idTeacher (FK to Teacher)
-		idClassroom (FK to Classroom)
+		idTeacher (FK to Teacher),
+		idClassroom (FK to Classroom),
 		idBachellor (FK to Bachellor)
 	],
 )
@@ -187,7 +187,7 @@ Classroom = (@idClassroom)
 
 Teach = (
 	@[
-		idTeacher (FK to Teacher)
+		idTeacher (FK to Teacher),
 		idClassroom (FK to Classroom)
 	],
 	idBachellor (FK to Bachellor)
@@ -214,7 +214,7 @@ Classroom = (@idClassroom)
 
 Teach = (
 	@[
-		idTeacher (FK to Teacher)
+		idTeacher (FK to Teacher),
 		idClassroom (FK to Classroom)
 	] (Unique),
 	idBachellor (FK to Bachellor)
@@ -260,19 +260,45 @@ Teacher = (@idTeacher)
 Bachellor = (@idBachellor)
 Classroom = (@idClassroom)
 
-Teaches = (
-	@[
-		idTeacher (FK to Teacher)
-		idClassroom (FK to Classroom)
-	] (Unique),
+Teach = ( @[
+	idTeacher (FK to Teacher),
 	idBachellor (FK to Bachellor)
-)
+])
 
-Use = (
-	@[
-		idTeacher (FK to Teacher)
-		idClassroom (FK to Classroom)
-	] (Unique),
+Use = ( @[
+	(idTeacher, idBachellor) (FK to Teach),
+	idClassroom (FK to Classroom)
+])
+```
+
+## Aggregation (N:N + N:1)
+
+```mermaid
+flowchart LR
+	id5 -- ( 1 .. N ) --- id2
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. N ) --- id3
+	id5 -- ( 1 .. N ) --- id4
+
+
+	id1["`**Teacher**`"]
+	id2{"`*teach*`"}
+	id3["`**Bachellor**`"]
+	id4["`**Classroom**`"]
+	id5{"`*use*`"}
+```
+```Relational
+Teacher = (@idTeacher)
+Bachellor = (@idBachellor)
+Classroom = (@idClassroom)
+
+Teach = ( @[
+	idTeacher (FK to Teacher),
 	idBachellor (FK to Bachellor)
-)
+])
+
+Use = ( @[
+	(idTeacher, idBachellor) (FK to Teach),
+	idClassroom (FK to Classroom)
+])
 ```
