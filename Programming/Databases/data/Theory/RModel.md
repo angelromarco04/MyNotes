@@ -13,3 +13,11 @@ tags:
 
 ---
 
+## Entities
+
+- Simple. PK start with an `@`.
+```Relatio
+```
+- Composite
+- Multi-valued
+- Derived
