@@ -22,7 +22,6 @@ tags:
 ## Attributes
 
 - In composite attributes only appears the values that compose the attribute.
-- Derived attributes are omitted.
 
 ```Relational
 # Primary Keys start with @
@@ -32,9 +31,12 @@ Book = (@[ISBN, version], name)
 # Foreign Keys must be specified
 Student = (@id, idCourse (FK to Course))
 
-#  Multi value attributes are represented apart
+#  Multi-value attributes are represented apart
 Course = (@id)
 Places = (@[idDate, idCourse (FK to Course)], name)
+
+# Derivated are represented with a *
+Student = (@id, birthdate, age*)
 ```
 
 ## Relations
