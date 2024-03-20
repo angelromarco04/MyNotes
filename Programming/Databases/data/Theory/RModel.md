@@ -45,7 +45,7 @@ flowchart LR
 	id2 --> id3
 
 	id1["`**Student**`"]
-	id2{"`**have**`"}
+	id2{"`*have*`"}
 	id3["`**Account**`"]
 ```
 
@@ -67,7 +67,7 @@ flowchart LR
 	id2 -- ( 1 .. 1 ) --> id3
 
 	id1["`**Student**`"]
-	id2{"`**enroll**`"}
+	id2{"`*enroll*`"}
 	id3["`**Bachellor**`"]
 ```
 
@@ -84,7 +84,7 @@ flowchart LR
 	id2 -- ( 1 .. N ) --- id3
 
 	id1["`**Student**`"]
-	id2{"`**takes**`"}
+	id2{"`*takes*`"}
 	id3["`**Course**`"]
 ```
 
@@ -105,7 +105,7 @@ flowchart LR
 	id2 ---> id1
 
 	id1["`**Category**`"]
-	id2{"`**has**`"}
+	id2{"`*has*`"}
 ```
 ```Relational
 Category = (@idCategory, idCategory (FK to Category) (Unique) )
@@ -119,7 +119,7 @@ flowchart LR
 	id2 -- ( 1 .. 1 ) --> id1
 
 	id1["`**Category**`"]
-	id2{"`**has**`"}
+	id2{"`*has*`"}
 ```
 ```Relational
 Category = (@idCategory, idCategory (FK to Category) )
@@ -132,7 +132,7 @@ flowchart LR
 	id2 -- ( 1 .. N ) --- id1
 
 	id1["`**Category**`"]
-	id2{"`**has**`"}
+	id2{"`*has*`"}
 ```
 ```Relational
 Category = (@idCategory)
@@ -142,7 +142,7 @@ Has = ( @[
 ])
 ```
 
-## Multidirectional
+## Multidirectional N:1:N
 - The N related are considered PK.
 - The 1 related are considered just FK
 ```mermaid
@@ -152,10 +152,20 @@ flowchart LR
 	id2 -- ( 1 .. N ) --- id4
 
 	id1["`**Teacher**`"]
-	id2{"`**takes**`"}
+	id2{"`*teaches*`"}
 	id3["`**Bachellor**`"]
 	id4["`**Classroom**`"]
 ```
 ```Relational
-Teacher = ()
+Teacher = (@idTeacher)
+Bachellor = (@idBachellor)
+Classroom = (@idClassroom)
+
+Teaches = (
+	@[
+		idTeacher (FK to Teacher)
+		idClassroom (FK to Classroom)
+	],
+	idBachellor (FK to Bachellor)
+)
 ```
