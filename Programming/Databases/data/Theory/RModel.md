@@ -49,3 +49,6 @@ flowchart LR
 	id3["`**Account**`"]
 ```
 
+```Relational
+Student = ()
+```
