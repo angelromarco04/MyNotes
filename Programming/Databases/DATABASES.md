@@ -17,6 +17,7 @@ tags:
 
 ## Database Theory
 1. [Entity/Relationship Model](data/Theory/ERModel.md)
+2. [Relational Model](data/Theory/RModel.md)
 
 ## SQL
 1. [Shell Usage](data/SQL/01_shell.md)
