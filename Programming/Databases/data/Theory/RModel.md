@@ -37,7 +37,8 @@ Course = (@id)
 Places = (@[idDate, idCourse (FK to Course)], name)
 ```
 
-## 1:1 Relations
+## Relations
+### 1:1 Relations
 
 ```mermaid
 flowchart LR
@@ -59,7 +60,7 @@ Student = (@idStudent)
 Account = (@idAccount, idStudent (FK to Student) (Unique))
 ```
 
-## 1:N Relations
+### 1:N Relations
 
 ```mermaid
 flowchart LR
@@ -76,7 +77,7 @@ Student = (@idStudent, idBachellor (FK to Bachellor))
 Bachellor = (@idBachellor)
 ```
 
-## N:N Relations
+### N:N Relations
 
 ```mermaid
 flowchart LR
@@ -98,7 +99,7 @@ Enroll = ( @[
 ])
 ```
 
-## Reflexive 1:1 Relations
+### Reflexive 1:1 Relations
 ```mermaid
 flowchart LR
 	id2 ---> id1
@@ -112,7 +113,7 @@ Category = (@idCategory, idCategory (FK to Category) (Unique) )
 ```
 
 
-## Reflexive 1:N Relations
+### Reflexive 1:N Relations
 ```mermaid
 flowchart LR
 	id2 -- ( 1 .. N ) --- id1
@@ -125,7 +126,7 @@ flowchart LR
 Category = (@idCategory, idCategory (FK to Category) )
 ```
 
-## Reflexive N:N Relations
+### Reflexive N:N Relations
 ```mermaid
 flowchart LR
 	id2 -- ( 1 .. N ) --- id1
@@ -142,14 +143,40 @@ Has = ( @[
 ])
 ```
 
-## Multidirectional N:1:N
+### Multidirectional N:N:N Relations
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. N ) --- id4
+	id2 -- ( 1 .. N ) --- id3
+
+
+	id1["`**Teacher**`"]
+	id2{"`*teaches*`"}
+	id3["`**Bachellor**`"]
+	id4["`**Classroom**`"]
+```
+```Relational
+Teacher = (@idTeacher)
+Bachellor = (@idBachellor)
+Classroom = (@idClassroom)
+
+Teaches = (
+	@[
+		idTeacher (FK to Teacher)
+		idClassroom (FK to Classroom)
+		idBachellor (FK to Bachellor)
+	],
+)
+```
+### Multidirectional N:1:N Relations
 - The N related are considered PK.
 - The 1 related are considered just FK
 ```mermaid
 flowchart LR
 	id2 -- ( 1 .. N ) --- id1
-	id2 -- ( 1 .. 1 ) --> id3
 	id2 -- ( 1 .. N ) --- id4
+	id2 -- ( 1 .. 1 ) --> id3
 
 	id1["`**Teacher**`"]
 	id2{"`*teaches*`"}
@@ -169,3 +196,32 @@ Teaches = (
 	idBachellor (FK to Bachellor)
 )
 ```
+
+### Multidirectional N:1:1 Relations
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. 1 ) --> id4
+	id2 -- ( 1 .. 1 ) --> id3
+
+
+	id1["`**Teacher**`"]
+	id2{"`*teaches*`"}
+	id3["`**Bachellor**`"]
+	id4["`**Classroom**`"]
+```
+```Relational
+Teacher = (@idTeacher)
+Bachellor = (@idBachellor)
+Classroom = (@idClassroom)
+
+Teaches = (
+	@[
+		idTeacher (FK to Teacher)
+		idClassroom (FK to Classroom)
+	] (Unique),
+	idBachellor (FK to Bachellor)
+)
+```
+
+## Weak entities
