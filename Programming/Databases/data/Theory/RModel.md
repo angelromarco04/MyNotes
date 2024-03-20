@@ -77,8 +77,24 @@ Student = (@idStudent, name)
 Bachellor = (@idBachellor, description)
 
 # Option 1
-Have = (@idStudent (FK to Student), idAccount(FK to Account)(Unique))
+Enroll = (@idStudent (FK to Student), idBachellor(FK to Bachellor))
+```
 
-# Option 2
-Have = (@idAccount(FK to Account), idStudent (FK to Student)(Unique))
+## N:N Relations
+
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. N ) --- id3
+
+	id1["`**Student**`"]
+	id2{"`**takes**`"}
+	id3["`**Course**`"]
+```
+
+```Relational
+Student = (@idStudent, name)
+Bachellor = (@idBachellor, description)
+
+Enroll = (@ [ idStudent (FK to Student), idBachellor(FK to Bachellor) ] )
 ```
