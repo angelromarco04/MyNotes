@@ -50,14 +50,13 @@ flowchart LR
 ```
 
 ```Relational
-Student = (@idStudent, name)
-Account = (@idAccount, info)
-
 # Option 1
-Have = (@idStudent (FK to Student), idAccount(FK to Account)(Unique))
+Student = (@idStudent, idAccount (FK to Account) (Unique))
+Account = (@idAccount)
 
 # Option 2
-Have = (@idAccount(FK to Account), idStudent (FK to Student)(Unique))
+Student = (@idStudent)
+Account = (@idAccount, idStudent (FK to Student) (Unique))
 ```
 
 ## 1:N Relations
@@ -90,8 +89,8 @@ flowchart LR
 ```
 
 ```Relational
-Student = (@idStudent, name)
-Bachellor = (@idBachellor, description)
+Student = (@idStudent)
+Bachellor = (@idBachellor)
 
 Enroll = ( @[
 	idStudent (FK to Student),
@@ -141,4 +140,22 @@ Has = ( @[
 	idCategory (FK to Category),
 	idCategory (FK to Category)
 ])
+```
+
+## Multidirectional
+- The N related are considered PK.
+- The 1 related are considered just FK
+```mermaid
+flowchart LR
+	id2 -- ( 1 .. N ) --- id1
+	id2 -- ( 1 .. 1 ) --> id3
+	id2 -- ( 1 .. N ) --- id4
+
+	id1["`**Teacher**`"]
+	id2{"`**takes**`"}
+	id3["`**Bachellor**`"]
+	id4["`**Classroom**`"]
+```
+```Relational
+Teacher = ()
 ```
