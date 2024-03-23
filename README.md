@@ -6,10 +6,6 @@ Date: 2024-02-05
 # My Notes
 
 I am a Computer Science student. Here I will upload all my notes.
-
-> [!TIP]
-> This notes are designed to be read with **Obsidian**.
-
 Hope you like it!  :D
 
 ---
