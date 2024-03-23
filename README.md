@@ -29,7 +29,7 @@ Hope you like it!  :D
 ### Other
 - Data Structures & Algorithms #TODO
 - [Design Patterns](/Programming/Patterns/PATTERNS.md)
-- [Computer-Human Interaction - GUI design](/Programming/CHI/CHI.md)
+- [Computer-Human Interaction - GUI design](Programming/CHI/HCI.md)
 - [Databases](Programming/Databases/DATABASES.md)
 - Clean code #TODO 
 

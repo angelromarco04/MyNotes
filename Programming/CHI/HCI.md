@@ -6,7 +6,7 @@ tags:
   - other
 ---
 ---
-# Computer-Human Interaction
+# Human-Computer Interaction
 
 [HOME](/README.md)
 

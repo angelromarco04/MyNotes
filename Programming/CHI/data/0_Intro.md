@@ -9,7 +9,7 @@ tags:
 ---
 # Introduction
 
-[Back to index](/Programming/CHI/CHI.md)
+[Back to index](../HCI.md)
 
 ---
 
