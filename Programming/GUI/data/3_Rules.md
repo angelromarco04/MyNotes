@@ -9,7 +9,7 @@ tags:
 ---
 # Golden rules of UI design
 
-[Back to index](../HCI.md)
+[Back to index](../GUI.md)
 
 ---
 

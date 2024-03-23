@@ -9,7 +9,7 @@ tags:
 ---
 # Usability
 
-[Back to index](../HCI.md)
+[Back to index](../GUI.md)
 
 ---
 
