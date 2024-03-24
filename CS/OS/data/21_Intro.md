@@ -99,12 +99,8 @@ gantt
 ---
 ## Definition of process
 
-
-
----
-## Image of a process
-
-
+- A process is an instance of a program.
+- 
 
 ---
 ## Process execution with interrupts
