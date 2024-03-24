@@ -5,7 +5,6 @@ tags:
   - programming
   - other
 ---
-
 ---
 # Golden rules of UI design
 

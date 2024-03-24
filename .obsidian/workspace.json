@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/GUI/GUI.md",
+                "file": "Programming/GUI/data/13_Rules.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6623f37eccce9676",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/GUI/data/20_standards.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/GUI/GUI.md",
+                "file": "Programming/GUI/data/20_standards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,14 +112,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b18126a6f6c44127",
+  "active": "6623f37eccce9676",
   "lastOpenFiles": [
-    "README.md",
     "Programming/GUI/GUI.md",
-    "Programming/GUI/data/3_Rules.md",
-    "Programming/GUI/data/2_Eval.md",
-    "Programming/GUI/data/1_Usability.md",
-    "Programming/GUI/data/0_Intro.md",
+    "data20_standards.md",
+    "Programming/GUI/data/20_standards.md",
+    "Programming/GUI/data/13_Rules.md",
+    "Programming/GUI/data/10_Intro.md",
+    "Programming/GUI/data/12_Eval.md",
+    "Programming/GUI/data/11_Usability.md",
+    "README.md",
     "Programming/Databases/data/Theory/RModel.md",
     "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/Theory/ERModel.md",
@@ -135,8 +151,6 @@
     "Programming/Databases/data/Theory",
     "Programming/Databases/data/SQL",
     "Programming/Patterns/PATTERNS.md",
-    "Programming/Patterns/data/State.md",
-    "Programming/Patterns/data/Command.md",
     "data",
     "Programming/Patterns/data",
     "Programming/Patterns",
