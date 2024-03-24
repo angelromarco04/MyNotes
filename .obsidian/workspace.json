@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/21_Intro.md",
+                "file": "CS/OS/data/22_description.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/21_Intro.md",
+                "file": "CS/OS/data/22_description.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,11 +100,12 @@
   },
   "active": "a5fba544b6f7a154",
   "lastOpenFiles": [
-    "Others/Markdown.md",
-    "README.md",
+    "CS/OS/OS.md",
+    "CS/OS/data/22_description.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/1_Intro.md",
-    "CS/OS/OS.md",
+    "Others/Markdown.md",
+    "README.md",
     "Programming/Patterns/PATTERNS.md",
     "data",
     "Programming/GUI/data/21_HTML.md",
@@ -128,7 +129,6 @@
     "Linux/Over_The_Wire.md",
     "Linux/Bash.md",
     "Others/ANSI_codes.md",
-    "Others/UsefulResources.md",
     "Assets/Programming/Databases/DB_4.png",
     "Assets/Programming/Databases/DB_5.png",
     "Assets/Programming/Databases/DB_3.png",
