@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/22_description.md",
+                "file": "Tutorials/How to mount disks in linux.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/22_description.md",
+                "file": "Tutorials/How to mount disks in linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,8 +98,9 @@
       "graph:Open graph view": false
     }
   },
-  "active": "a5fba544b6f7a154",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
+    "CS/OS/data/23_life.md",
     "CS/OS/OS.md",
     "CS/OS/data/22_description.md",
     "CS/OS/data/21_Intro.md",
@@ -128,7 +129,6 @@
     "Linux/Shell_Scripting.md",
     "Linux/Over_The_Wire.md",
     "Linux/Bash.md",
-    "Others/ANSI_codes.md",
     "Assets/Programming/Databases/DB_4.png",
     "Assets/Programming/Databases/DB_5.png",
     "Assets/Programming/Databases/DB_3.png",
@@ -140,7 +140,7 @@
     "Programming/Databases/data/SQL",
     "Programming/Patterns/data",
     "Programming/Patterns",
-    "Linux/tutorials",
+    "Tutorials",
     "Nuevo documento de texto.txt",
     "push.bat",
     "Assets/Others/UsefulResources1.jpeg",

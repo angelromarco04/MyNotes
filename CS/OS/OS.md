@@ -17,7 +17,7 @@ tags:
 2. **Processes Management**
 	1. [Introduction](data/21_Intro.md)
 	2. [Processes description](data/22_description.md)
-	3. Processes control
+	3. [Processes life cycle](data/23_life.md)
 	4. Scheduling Algorithms
 	5. Advanced concepts
 3. 
