@@ -31,9 +31,14 @@ tags:
 ##  Control Structures of the OS
 
 ### Process Control Block (PCB)
+- PCB is a OS data structure with all the critical information about a process.
+- Every existing process have a PCB.
+- Each OS implements the PCB differently.
+- PCBs are organized in the Processes Table.
+### Processes Table
 - OS must keep up-to-date information about processes status.
-- PCB is a critical 
-- an indexed vector with the process ID (PID).
+- The processes table is an indexed vector with the processes IDs (PID).
+- Contains pointers to the PCBs o the PCBs themselves.
 - Always resides in the main memory.
 
 ## The process control block
