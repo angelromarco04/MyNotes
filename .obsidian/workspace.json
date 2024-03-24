@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "380a7d00e8602753",
+        "id": "d263c2332c899496",
         "type": "tabs",
         "children": [
           {
-            "id": "b18126a6f6c44127",
+            "id": "a5fba544b6f7a154",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/GUI/data/13_Rules.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6623f37eccce9676",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/GUI/data/20_standards.md",
+                "file": "Programming/GUI/GUI.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/GUI/data/20_standards.md",
+                "file": "Programming/GUI/GUI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,12 +98,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "6623f37eccce9676",
+  "active": "a5fba544b6f7a154",
   "lastOpenFiles": [
+    "Programming/GUI/data/21_HTML.md",
     "Programming/GUI/GUI.md",
-    "data20_standards.md",
-    "Programming/GUI/data/20_standards.md",
     "Programming/GUI/data/13_Rules.md",
+    "data20_standards.md",
     "Programming/GUI/data/10_Intro.md",
     "Programming/GUI/data/12_Eval.md",
     "Programming/GUI/data/11_Usability.md",

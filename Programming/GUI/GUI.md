@@ -22,8 +22,7 @@ tags:
 ---
 ## Web design
 
-0. [Web Standards](data/20_standards.md)
-1. HTML
+1. [HTML](data/21_HTML.md)
 2. CSS
 3. JS
 

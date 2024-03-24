@@ -5,7 +5,7 @@ tags:
   - "#programming"
 ---
 ---
-# Web Standards
+# HTML
 
 [Back to index](../GUI.md)
 
