@@ -17,7 +17,7 @@ tags:
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<!-- Metadata -->
+		<!-- Not displayed information -->
 	</head>
 	<body>
 		<!-- Content of the webpage -->
@@ -27,8 +27,13 @@ tags:
 
 ## Head
 ```html
-<meta charset="utf-8">
 <title>...</title>
+<style>
+<script>
+<link>
+<meta>
+	<meta charset="utf-8">
+<base>
 
 ```
 
