@@ -27,6 +27,11 @@ tags:
 5. Address stated by the interrupt vector is loaded to the Program Counter (PC).
 6. The interruption management subroutine is executed. 
 
+### Interrupt Ending
+- Every interruption subroutine ends with the `iret` statement.
+	1. CPU switches to user mode.
+	2. Information is recovered from the stack and loaded to the CPU registers.
+	3. CPU continues running previously stopped process.
 
 ---
 ## OS Process Management
