@@ -17,8 +17,18 @@ tags:
 - Allow developing experiences available on any device.
 - Defined by the World Wide Web Consortium (W3C)
 
-## Origins 1991
+## History 
 
-- Only the HTML was present
-- HTML mixed structure, information and style of the web.
-- This led to incompatibilities and accessibility problems.
+1. Origins - HTML (1991)
+	- Hiper-Text Markup Language was created.
+	- It is a tag based language.
+	- It mixed structure, information and style of the web.
+	- This led to incompatibilities and accessibility problems.
+2. Separation - CSS (1996)
+	- Made code separation possible.
+
+## Todays Structure
+
+- Web content: HTML 5
+- Web presentation: CSS 3
+- Web

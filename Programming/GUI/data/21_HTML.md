@@ -5,7 +5,7 @@ tags:
   - "#programming"
 ---
 ---
-# Hiper-Text Markup Language
+# HTML
 
 [Back to index](../GUI.md)
 
