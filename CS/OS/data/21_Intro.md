@@ -97,14 +97,24 @@ gantt
 7. The OS gives control to P1 again.
 
 ---
-## Definition of process
-
+## Processes
+### Definition of a process
 - A process is an instance of a program.
-- 
+- Its different parts are stored in the main memory.
+	- **Context** (Some information needed by the OS)
+	- **Data**
+	- **Program Code**
+	- **Stack**
+### Creation of a process
+
+- It should be created in the main memory.
+- Two ways:
+	- Loading program from the secondary memory.
+	- Through clonation of another pre-existing process.
 
 ---
 ## Process execution with interrupts
 
-
+35
 
 ---
