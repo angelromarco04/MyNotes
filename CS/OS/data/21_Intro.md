@@ -19,6 +19,10 @@ tags:
 - There exists a table: **Interruptions Vector**.
 	- Associates each interrupt number with the address of its subroutine.
 	- This table is located in the lower addresses of the main memory.
+- The subroutines or interrupt handlers
+	- Are part of the OS.
+	- Are binaries located in the main memory.
+	- Whenever an interrupt occurs the OS takes control.
 ### Execution Steps
 1. An interruption is generated.
 2. CPU ends execution of current instruction.
