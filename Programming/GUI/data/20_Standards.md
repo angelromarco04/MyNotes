@@ -11,13 +11,14 @@ tags:
 
 ---
 
+## Web Standard Definition
 
-- Hiper-Text Markup Language (1991)
-	- Based on tags
-- Represents the CONTENT of Web pages.
-	- First version mixed structure, information and style.
-		- Led to incompatibilities and accessibility problems.
-- Web standards
-	- technical specifications
-	- experiences available on any device
-	- World Wide Web Consortium (W3C)
+- Technical specifications about the World Wide Web.
+- Allow developing experiences available on any device.
+- Defined by the World Wide Web Consortium (W3C)
+
+## Origins 1991
+
+- Only the HTML was present
+- HTML mixed structure, information and style of the web.
+- This led to incompatibilities and accessibility problems.
