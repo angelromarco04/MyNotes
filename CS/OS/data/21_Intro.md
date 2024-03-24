@@ -66,10 +66,12 @@ gantt
     section Process 2
         
     section Process 1
-	    exec    : after os1, 2
+	    exec    : p1_1, after os_1, 3
+	    IO      : p1_2, after os_2, 7
 
 	section OS
-		init    : os1, 00, 1
+		init           : os_1, 0, 1
+		handler P1     : os_2, after p1_1, 5
 ```
 
 
