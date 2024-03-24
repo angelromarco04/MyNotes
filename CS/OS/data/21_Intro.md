@@ -63,21 +63,24 @@ gantt
     dateFormat X
     axisFormat %s
     
-    section Process 2
-        exec    : p2_1, after os_2, 7
-        exec    : p2_2, after os_3, 11
+    section P2
+        exec    : p2_1, after os_2, 4
+        exec    : p2_2, after os_3, 6
         
-    section Process 1
-	    exec    : p1_1, after os_1, 3
-	    IO      : p1_2, after p1_1, 7
-	    exec    : p1_3, after os_4, 15
+    section P1
+	    exec    : p1_1, after os_1, 2
+	    IO      : p1_2, after p1_1, 4
+	    exec    : p1_3, after os_4, 8
 
 	section OS
 		init            : os_1, 0, 1
-		IO sys call     : os_2, after p1_1, 5
-		IO end    : os_3, after p1_2, 9
-		P2 end          : os_4, after p2_2, 13
+		IO sys call     : os_2, after p1_1, 3
+		IO end    : os_3, after p1_2, 5
+		P2 end          : os_4, after p2_2, 7
 ```
+
+0. OS starts execution (initialises interrupt vectors) and gives control to P1.
+1. P1 starts its execution.
 
 
 ---
