@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d263c2332c899496",
+        "id": "e53d37369113249b",
         "type": "tabs",
         "children": [
           {
-            "id": "a5fba544b6f7a154",
+            "id": "622eed021c507482",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/How to mount disks in linux.md",
+                "file": "CS/OS/data/23_life.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/How to mount disks in linux.md",
+                "file": "CS/OS/data/23_life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,10 +98,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "622eed021c507482",
   "lastOpenFiles": [
-    "CS/OS/data/23_life.md",
     "CS/OS/OS.md",
+    "Tutorials/How to mount disks in Linux.md",
+    "CS/OS/data/23_life.md",
     "CS/OS/data/22_description.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/1_Intro.md",
@@ -128,7 +129,6 @@
     "Programming/Databases/data/SQL/03_tuples.md",
     "Linux/Shell_Scripting.md",
     "Linux/Over_The_Wire.md",
-    "Linux/Bash.md",
     "Assets/Programming/Databases/DB_4.png",
     "Assets/Programming/Databases/DB_5.png",
     "Assets/Programming/Databases/DB_3.png",
