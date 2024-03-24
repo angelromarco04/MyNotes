@@ -12,7 +12,7 @@ tags:
 1. [Definition of an operating system (OS)](#definition-of-an-os)
 
 ---
-## Interrupts
+## Interruptions
 ### Definition
 - Interruptions always arrive at the CPU to stop current execution.
 - Each interruption is identified by an integer number.
@@ -28,10 +28,17 @@ tags:
 6. The interruption management subroutine is executed. 
 
 ### Interrupt Ending
-- Every interruption subroutine ends with the `iret` statement.
-	1. CPU switches to user mode.
-	2. Information is recovered from the stack and loaded to the CPU registers.
-	3. CPU continues running previously stopped process.
+Every interruption subroutine ends with the `iret` statement.
+1. CPU switches to user mode.
+2. Information is recovered from the stack and loaded to the CPU registers.
+3. CPU continues running previously stopped process.
+
+### Types of Interruptions.
+
+- Hardware Interruptions
+	- Electrical signals arriving to the CPU.
+	- Essential to allow multiprogramming
+- Software Interruptions
 
 ---
 ## OS Process Management
