@@ -14,11 +14,16 @@ tags:
 ---
 ## Interrupts
 ### Definition
+- Interruptions always arrive at the CPU to stop current execution
+- Each interruption is identified by an integer number.
+- The in 
 ### Steps
-1. CPU ends execution of current instruction.
-2. CPU registers are saved to the stack.
-3. CPU switches to supervisor mode.
-4. The address of the interruptio
+1. An interruption is generated.
+2. CPU ends execution of current instruction.
+3. CPU registers are saved to the stack.
+4. CPU switches to supervisor mode.
+5. Address stated by the interrupt vector is loaded to the Program Counter (PC).
+6. The interruption management subroutine is executed. 
 
 
 ---
