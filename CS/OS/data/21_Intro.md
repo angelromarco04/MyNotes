@@ -56,6 +56,14 @@ Every interruption subroutine ends with the `iret` statement.
 
 ---
 ## Multiprogramming
+### Rules
+- OS only takes control at boot and with every interruption.
+- OS is only executed in supervisor mode.
+- Processes never leave the CPU until a interrupt occurs.
+- Processes can only end in two ways:
+	- The system call `exit` (voluntary termination).
+	- An irrecoverable exception (forced termination).
+### Example
 
 ```mermaid
 gantt
@@ -86,10 +94,7 @@ gantt
 4. A hardware interruption is generated as the I/O operation ends.
 5. P2 execution is resumed as the handler ends.
 6. P2 terminates its execution. This can be due to:
-	- The system call `exit`.
-	- An irrecoverable exception.
 7. The OS gives control to P1 again.
-
 
 ---
 ## Definition of process
