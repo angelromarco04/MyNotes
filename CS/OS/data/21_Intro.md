@@ -60,18 +60,16 @@ Every interruption subroutine ends with the `iret` statement.
 ```mermaid
 gantt
     title IO Operation
-    dateFormat SS
+    dateFormat X
+    axisFormat %s
     
     section Process 2
-        A task          :a1, 01, 30d
-        Another task    :after a1, 20d
         
     section Process 1
-        Task in Another :12, 12d
-        another task    :24d
+	    exec    : after os1, 2
 
 	section OS
-		init 
+		init    : os1, 00, 1
 ```
 
 
