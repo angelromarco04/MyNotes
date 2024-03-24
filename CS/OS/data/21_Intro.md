@@ -64,14 +64,15 @@ gantt
     axisFormat %s
     
     section Process 2
+        exec    : p2_1, after os_2, 7
         
     section Process 1
 	    exec    : p1_1, after os_1, 3
-	    IO      : p1_2, after os_2, 7
+	    IO      : p1_2, after p1_1, 7
 
 	section OS
 		init           : os_1, 0, 1
-		handler P1     : os_2, after p1_1, 5
+		IO sys call     : os_2, after p1_1, 5
 ```
 
 
