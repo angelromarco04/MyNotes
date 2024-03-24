@@ -65,14 +65,18 @@ gantt
     
     section Process 2
         exec    : p2_1, after os_2, 7
+        exec    : p2_2, after os_3, 11
         
     section Process 1
 	    exec    : p1_1, after os_1, 3
 	    IO      : p1_2, after p1_1, 7
+	    exec    : p1_3, after os_4, 15
 
 	section OS
-		init           : os_1, 0, 1
+		init            : os_1, 0, 1
 		IO sys call     : os_2, after p1_1, 5
+		IO end    : os_3, after p1_2, 9
+		P2 end          : os_4, after p2_2, 13
 ```
 
 
