@@ -81,6 +81,14 @@ gantt
 
 0. OS starts execution (initialises interrupt vectors) and gives control to P1.
 1. P1 starts its execution.
+2. P1 generates a system call to ask for an I/O operation.
+3. The OS gives control to P2 meanwhile the I/O operation is been done.
+4. A hardware interruption is generated as the I/O operation ends.
+5. P2 execution is resumed as the handler ends.
+6. P2 terminates its execution. This can be due to:
+	- The system call `exit`.
+	- An irrecoverable exception.
+7. The OS gives control to P1 again.
 
 
 ---
