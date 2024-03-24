@@ -10,3 +10,17 @@ tags:
 [Back to index](../GUI.md)
 
 ---
+
+## Structure
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		...
+	</head>
+	<body>
+		//contents
+	</body>
+</html>
+```
