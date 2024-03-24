@@ -14,10 +14,12 @@ tags:
 ---
 ## Interrupts
 ### Definition
-- Interruptions always arrive at the CPU to stop current execution
+- Interruptions always arrive at the CPU to stop current execution.
 - Each interruption is identified by an integer number.
-- The in 
-### Steps
+- There exists a table: **Interruptions Vector**.
+	- Associates each interrupt number with the address of its subroutine.
+	- This table is located in the lower addresses of the main memory.
+### Execution Steps
 1. An interruption is generated.
 2. CPU ends execution of current instruction.
 3. CPU registers are saved to the stack.
