@@ -32,12 +32,12 @@ tags:
 
 ### Example
 
-| P   | Ta  | CPU-(E/S)          | Ts  | Te  | Tnrd        | Tnnrd | Tw  |
-| --- | --- | ------------------ | --- | --- | ----------- | ----- | --- |
-| 1   | 0   | 4, (1), 8, (1), 1  | 15  | 34  | 34 - 0 = 34 | 34/15 |     |
-| 2   | 2   | 1, (5), 3, (10), 1 | 20  | 44  | 44 - 2 = 42 | 44/20 |     |
-| 3   | 4   | 2, (2), 5, (3), 1  | 13  | 43  | 43 - 4 = 39 | 43/13 |     |
-| 4   | 6   | 10, (1), 8         | 19  | 42  | 42 - 6 = 36 |       |     |
+| P   | Ta  | CPU-(E/S)          | Ts  | Te  | Tnrd        | Tnnrd | Tw           |
+| --- | --- | ------------------ | --- | --- | ----------- | ----- | ------------ |
+| 1   | 0   | 4, (1), 8, (1), 1  | 15  | 34  | 34 - 0 = 34 | 34/15 | 34 - 15 = 19 |
+| 2   | 2   | 1, (5), 3, (10), 1 | 20  | 44  | 44 - 2 = 42 | 44/20 | 44 - 20 = 24 |
+| 3   | 4   | 2, (2), 5, (3), 1  | 13  | 43  | 43 - 4 = 39 | 43/13 | 43 - 13 = 30 |
+| 4   | 6   | 10, (1), 8         | 19  | 42  | 42 - 6 = 36 | 42/19 | 42 - 19 = 23 |
 ```mermaid
 ---
 displayMode: compact
@@ -81,17 +81,19 @@ gantt
 ```
 
 ---
-## Non-Preemptive Static Priority
+## Static Priority
 
 - The `ready` queue is a priority queue.
-- Each process have a priority assigned (lower the integer higher the priority).
+- Each process have a priority assigned 
+	- The priority is a constant integer.
+	- Usually, the lower the integer the higher the priority.
 - The process with highest priority is assigned to the `running` state.
 	- If there is a tie, usually choose by arrival time.
-- The `running` process cannot be interrupted nor removed (non-preemptive).
-
----
-## Preemptive Static Priority
-
+- Two types:
+	- Non-Preemptive static priority
+		- The `running` process cannot be interrupted nor removed.
+	- Preemptive static priority
+		- If a pro
 
 
 ---
