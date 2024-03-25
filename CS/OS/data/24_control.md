@@ -134,6 +134,7 @@ gantt
 - In the `exit` or done state:
 	- Process are no more elegible for running.
 	- OS keeps temporally the data structures associated.
-		- 
+		- Used to retrieve information by auxiliary programs.
+	- Finally, the OS definitely removes the program.
 
 ---

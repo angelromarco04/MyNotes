@@ -16,8 +16,9 @@ tags:
 1. [Introduction to Operating Systems](data/1_Intro.md)
 2. **Processes Management**
 	1. [Introduction](data/21_Intro.md)
-	2. [Processes description](data/22_description.md)
-	3. [Processes life cycle](data/23_life.md)
-	4. [Processes control](data/24_control.md)
-	5. Advanced concepts
+	2. [Processes Description](data/22_description.md)
+	3. [Processes Life Cycle](data/23_life.md)
+	4. [Processes Control](data/24_control.md)
+	5. STS Scheduling Algorithms (page 68)
+	6. Threads (page 90)
 3. 
