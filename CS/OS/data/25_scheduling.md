@@ -18,9 +18,9 @@ tags:
 - `CPU-(E/S)` is the sequence of **CPU and IO usage**.
 - `Ts` is the **Time of Service** (CPU time + IO time).
 - `Te` is the **Time of Ending** of the process.
-- `Tnrd` is the Turnaround Time (Total time from arrival to completion)
+- `Tnrd` is the Turnaround Time (Total time from `Ta` to `Te`)
 - `Tnnrd` is the Normalized Turnaround Time (`Tnrd` divided by `Ts`)
-- `Tw` is the Time Waiting (Total time waiting at the `ready` queue)
+- `Tw` is the Time Waiting (`Te` minus `Ts`)
 
 ---
 ## First Come First Served
