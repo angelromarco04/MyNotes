@@ -58,18 +58,24 @@ gantt
 	    W       : active, b, 2, 4
 	    X       : crit, b, 4, 5
 	    IO      : b, 5, 10
-	    W       : active, b, 10, 33
+	    W       : active, b, 10, 30
 	    X       : crit, b, 30, 33
 	    IO      : b, 33, 43
+	    X       : crit, b, 43, 44
 	section P3
 		W       : active, c, 4, 5
 		X       : crit, c, 5, 7
 	    IO      : c, 7, 9
+	    W       : active, c, 9, 25
 	    X       : crit, c, 25, 30
+	    IO      : c, 30, 33
+	    X       : crit, c, 42, 41
 	section P4
 		W       : active, d, 6, 15
 		X       : crit, d, 15, 25
 		IO      : d, 25, 26
+		W       : active, d, 26, 34
+		X       : crit, d, 34, 42
 
 ```
 
