@@ -23,7 +23,7 @@ tags:
 - `Tw` is the Time Waiting (`Te` minus `Ts`)
 
 ---
-## First Come First Served
+## First Come First Served (FCFS)
 
 - The `ready` queue is a FIFO queue.
 	- It is ordered by arrival time to this step.
@@ -98,7 +98,7 @@ gantt
 
 
 ---
-## Round-Robin
+## Round-Robin (RR)
 
 - Specifically designed for time-sharing systems.
 - CPU time divided by time units called quantums.
@@ -109,7 +109,13 @@ gantt
 ---
 ## Multiple level queues without feedback
 
-
+- Processes are classifiable in different groups.
+- The `ready` queue is split in several queues (one per group).
+	- Each queue has a priority assigned.
+	- Each queue has its own scheduling politics.
+- Two politics for managing several `ready` queues:
+	- Preemptive priorities (absolute priorities)
+	- S
 
 ---
 ## Multiple level queues with feedback
