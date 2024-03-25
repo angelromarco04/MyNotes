@@ -14,8 +14,10 @@ tags:
 
 ## First Come First Served
 
-- The `ready` queue is ordered by arrival time to this step.
-- The head o
+- The `ready` queue is a FIFO queue.
+	- It is ordered by arrival time to this step.
+- The head of the queue is selected for the `running` state.
+- The `running` process cannot be interrupted nor removed (non-preemptive).
 
 ---
 ## Non-Preemptive Static Priority
