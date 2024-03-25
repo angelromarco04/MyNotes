@@ -69,7 +69,8 @@ gantt
 	    W       : active, c, 9, 25
 	    X       : crit, c, 25, 30
 	    IO      : c, 30, 33
-	    X       : crit, c, 42, 41
+	    W       : active, c, 33, 42
+	    X       : crit, c, 42, 43
 	section P4
 		W       : active, d, 6, 15
 		X       : crit, d, 15, 25
