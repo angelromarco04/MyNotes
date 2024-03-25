@@ -56,10 +56,15 @@ gantt
 - Many CPU strikes with short duration.
 
 ---
-## Long term scheduler
+## Long Term Scheduler (LTS)
 
+- Its function is to admit new jobs in the system (to become processes).
+- Transfers from the `new` queue to the `ready` queue.
+- It must decide if the OS can accept more processes.
+	- Limits the level of multi-programing (number of processes in memory)
+- Tries to balance the number of CPU and I/O intensive processes in the STS.
 ---
-## Mid term scheduler
+## Mid term scheduler (MTS)
 
 ---
 ## Process Switching
