@@ -13,14 +13,14 @@ tags:
 ---
 ## Understanding metrics
 
-- P is the proces
-- `Ta` is the Time of Arrival to the scheduler.
-- `CPU-(E/S)` is 
-- `Ts` is the Time of Service (CPU time + IO time)
-- `Te`
-- `Tnrd`
-- `Tnnrd`
-- `Tw`
+- `P` is the **Process ID**.
+- `Ta` is the **Time of Arrival** to the scheduler.
+- `CPU-(E/S)` is the sequence of **CPU and IO usage**.
+- `Ts` is the **Time of Service** (CPU time + IO time).
+- `Te` is the **Time of Ending** of the process.
+- `Tnrd` is the Turnaround Time (Total time from arrival to completion)
+- `Tnnrd` is the Normalized Turnaround Time (`Tnrd` divided by `Ts`)
+- `Tw` is the Time Waiting (Total time waiting at the `ready` queue)
 
 ---
 ## First Come First Served
