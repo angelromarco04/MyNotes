@@ -114,8 +114,8 @@ gantt
 	- Each queue has a priority assigned.
 	- Each queue has its own scheduling politics.
 - Two politics for managing several `ready` queues:
-	- Preemptive priorities (absolute priorities)
-	- S
+	- Preemptive priorities (a queue has absolute priority over other queues)
+	- Shared time (queues receive a portion of the CPU time)
 
 ---
 ## Multiple level queues with feedback
