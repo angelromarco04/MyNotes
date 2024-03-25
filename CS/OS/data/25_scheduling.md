@@ -83,7 +83,8 @@ gantt
 ---
 ## Non-Preemptive Static Priority
 
-
+- Each process have a priority assigned (lower the integer higher the priority).
+- The process with hiest priority is assigned to
 
 ---
 ## Preemptive Static Priority
