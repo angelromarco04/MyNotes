@@ -18,6 +18,6 @@ tags:
 	1. [Introduction](data/21_Intro.md)
 	2. [Processes description](data/22_description.md)
 	3. [Processes life cycle](data/23_life.md)
-	4. Scheduling Algorithms (pg. 55)
+	4. [Processes control](data/24_control.md)
 	5. Advanced concepts
 3. 
