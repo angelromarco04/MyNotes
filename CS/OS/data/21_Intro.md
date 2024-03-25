@@ -65,6 +65,9 @@ Every interruption subroutine ends with the `iret` statement.
 ### Example
 
 ```mermaid
+---
+displayMode: compact
+---
 gantt
     title IO Operation
     dateFormat X
@@ -76,7 +79,7 @@ gantt
         
     section P1
 	    exec    : p1_1, after os_1, 2
-	    IO      : p1_2, after p1_1, 4
+	    IO      : crit, p1_2, after p1_1, 4
 	    exec    : p1_3, after os_4, 8
 
 	section OS

@@ -14,41 +14,44 @@ tags:
 ## Process Typology
 
 ```mermaid
+---
+displayMode: compact
+---
 gantt
     title CPU intensive
     dateFormat X
     axisFormat %s
     
     exec    : a, 0, 4
-    IO      : b, 4, 6
+    IO      : crit, b, 4, 6
     exec    : a, 6, 10
-    IO      : b, 10, 12
+    IO      : crit, b, 10, 12
     exec    : a, 12, 16
-    IO      : b, 16, 18
+    IO      : crit, b, 16, 18
     exec    : a, 18, 22
 ```
 - More CPU use than I/O.
 - Few CPU strikes with long duration.
 
 ```mermaid
+---
+displayMode: compact
+---
 gantt
-    title CPU intensive
+    title IO intensive
     dateFormat X
     axisFormat %s
     
     exec    : a1, 0, 1
-    IO      : b1, after a1, 3
-    exec    : a2, after b1, 4, sameline a1
-    IO      : b2, after b1, 6
-    exec    : a3, 6, 7
-    IO      : b3, 7, 9
-    exec    : a4, 9, 10
+    IO      : crit, b1, after a1, 3
+    exec    : a2, after b1, 4
+    IO      : crit, b2, after a2, 6
+    exec    : a3, after b2, 7
+    IO      : crit, b3, after a3, 9
+    exec    : a4, after b3, 10
 ```
-
-- **I/O intensive**
-	- More I/O than CPU use.
-	- Many CPU strikes with short duration.
-
+- More I/O than CPU use.
+- Many CPU strikes with short duration.
 
 ---
 ## Long term scheduler
