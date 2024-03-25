@@ -32,12 +32,12 @@ tags:
 
 ### Example
 
-| P   | Ta  | CPU-(E/S)          |
-| --- | --- | ------------------ |
-| 1   | 0   | 4, (1), 8, (1), 1  |
-| 2   | 2   | 1, (5), 3, (10), 1 |
-| 3   | 4   | 2, (2), 5, (3), 1  |
-| 4   | 6   | 10, (1), 8         |
+| P   | Ta  | CPU-(E/S)          | Ts  | Te  | Tnrd        | Tnnrd | Tw  |
+| --- | --- | ------------------ | --- | --- | ----------- | ----- | --- |
+| 1   | 0   | 4, (1), 8, (1), 1  | 15  | 35  | 35 - 0 = 35 | 35/15 |     |
+| 2   | 2   | 1, (5), 3, (10), 1 | 20  | 38  | 38 - 2 = 36 | 38/20 |     |
+| 3   | 4   | 2, (2), 5, (3), 1  | 13  | 48  | 48 - 4 = 44 | 48/13 |     |
+| 4   | 6   | 10, (1), 8         | 19  | 34  | 34 - 6 = 28 | 34/   |     |
 ```mermaid
 ---
 displayMode: compact
@@ -83,8 +83,11 @@ gantt
 ---
 ## Non-Preemptive Static Priority
 
+- The `ready` queue is a priority queue.
 - Each process have a priority assigned (lower the integer higher the priority).
-- The process with hiest priority is assigned to
+- The process with highest priority is assigned to the `running` state.
+	- If there is a tie, usually choose by arrival time.
+- The `running` process cannot be interrupted nor removed (non-preemptive).
 
 ---
 ## Preemptive Static Priority
