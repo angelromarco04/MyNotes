@@ -116,12 +116,24 @@ gantt
 	- Restores the process context (from its PCB).
 	- Change the process state.
 	- Removes the process from the `ready` queue
-- Switching can be cost-intensive as it consumes CPU resources.
-	- Memory speed, number of registers, 
+- Switching consumes CPU resources depending on.
+	- Memory speed.
+	- Number of registers to be copied.
+	- Availability of special instructions to copy all registers.
 
 ---
 ## Process Shutdown
 
-
+- Processes can end by several reasons:
+	- Executes a special finishing instruction.
+	- Invokes process ending system call.
+	- Generates an exception.
+	- Is forced to end by the operator or the OS.
+	- Its parent process kills it or ends.
+	- Another reasons.
+- In the `exit` or done state:
+	- Process are no more elegible for running.
+	- OS keeps temporally the data structures associated.
+		- 
 
 ---
