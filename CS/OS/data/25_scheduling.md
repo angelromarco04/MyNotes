@@ -11,7 +11,18 @@ tags:
 [Back to index](../OS.md)
 
 ---
+## Understanding metrics
 
+- P is the proces
+- `Ta` is the Time of Arrival to the scheduler.
+- `CPU-(E/S)` is 
+- `Ts` is the Time of Service (CPU time + IO time)
+- `Te`
+- `Tnrd`
+- `Tnnrd`
+- `Tw`
+
+---
 ## First Come First Served
 
 - The `ready` queue is a FIFO queue.
