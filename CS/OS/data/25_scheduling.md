@@ -90,16 +90,21 @@ gantt
 - The process with highest priority is assigned to the `running` state.
 	- If there is a tie, usually choose by arrival time.
 - Two types:
-	- Non-Preemptive static priority
+	- **Non-Preemptive**
 		- The `running` process cannot be interrupted nor removed.
-	- Preemptive static priority
-		- If a pro
+	- **Preemptive**
+		- Processes in the `running` state can be expelled from the CPU.
+		- Only if a process with higher priority arrives at the `ready` queue.
 
 
 ---
-## Round-Robin + FCFS
+## Round-Robin
 
-
+- Specifically designed for time-sharing systems.
+- CPU time divided by time units called quantums.
+	- When a quantum expires the `running` process is expelled from the CPU.
+	- This strategy is always preemptive.
+- Requires auxiliary scheduling politics as FCFS.
 
 ---
 ## Multiple level queues without feedback
