@@ -87,6 +87,7 @@ gantt
 ---
 ## Short term scheduler (STS)
 
+- Also called simply process scheduler.
 - **Functions.**
 	- Distributes CPU among `ready` processes.
 - **Decisions.**
@@ -107,9 +108,16 @@ gantt
 	- Disrupt the `running` process.
 	- Assign another process to the `running` state.
 - The **dispatcher** is the OS module in charge of the process switching.
-	- Saves processes context (into its PCB)
-	- Change processes state.
-	- Moves processes between the corresponding queues.
+- When a process leaves the CPU the dispatcher:
+	- Saves the process context (into its PCB).
+	- Change the process state.
+	- Moves the process to the corresponding queue.
+- When a process enters the CPU the dispatcher:
+	- Restores the process context (from its PCB).
+	- Change the process state.
+	- Removes the process from the `ready` queue
+- Switching can be cost-intensive as it consumes CPU resources.
+	- Memory speed, number of registers, 
 
 ---
 ## Process Shutdown
