@@ -68,8 +68,10 @@ gantt
 - **Invocation frequency.**
 	- Low invocation frequency
 	- Complex, computationally intensive algorithms.
+
 ---
 ## Mid term scheduler (MTS)
+
 - **Functions.**
 	- Suspendes and restores `ready` or `blocked` processes.
 	- Regulates the level of multiprogramming.
@@ -78,14 +80,29 @@ gantt
 	- Decides which processes come back to main memory.
 	- Decide when this transfers must be done.
 - **Invocation frequency.**
-	- 
+	- When there is available space in the main memory.
+	- When the number of `ready` processes is below a threshold.
+	- When the multi-programing level is so high.
+
 ---
 ## Short term scheduler (STS)
+
+- **Functions.**
+	- Distributes CPU among `ready` processes.
+- **Decisions.**
+	- Which `ready` process must take CPU control when it is free.
+- **Invocation frequency.**
+	- High frequency
+	- Clock, interrupts, some sys calls, process shutdown or exceptions)
 
 ---
 ## Process Switching
 
+
+
 ---
 ## Process Shutdown
+
+
 
 ---
