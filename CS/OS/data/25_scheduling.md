@@ -107,15 +107,30 @@ gantt
 - Requires auxiliary scheduling politics as FCFS.
 
 ---
-## Multiple level queues without feedback
+## Multiple Level Queues without feedback
 
 - Processes are classifiable in different groups.
 - The `ready` queue is split in several queues (one per group).
 	- Each queue has a priority assigned.
 	- Each queue has its own scheduling politics.
+
 - Two politics for managing several `ready` queues:
 	- Preemptive priorities (a queue has absolute priority over other queues)
 	- Shared time (queues receive a portion of the CPU time)
+
+- Pros:
+	- Specific management to each group.
+- Cons:
+	- Inflexible. Processes cannot jump between groups.
+	- Danger of starving for low priority processes.
+
+## With feedback
+
+- Modification to allow group changing (feedback).
+- Processes are split according its typology.
+	- I/O intensive to higher priority queues.
+	- CPU intensive to lower priority queues.
+
 
 ---
 ## Multiple level queues with feedback
