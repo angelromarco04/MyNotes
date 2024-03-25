@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e53d37369113249b",
+        "id": "3da86d1c0377ab1c",
         "type": "tabs",
         "children": [
           {
-            "id": "622eed021c507482",
+            "id": "cc897872a7c7da84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/25_scheduling.md",
+                "file": "CS/OS/OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0352c6c151f35fb6",
@@ -79,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/25_scheduling.md",
+                "file": "CS/OS/OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,9 +100,9 @@
   },
   "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
+    "CS/OS/data/25_scheduling.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/22_description.md",
-    "CS/OS/data/25_scheduling.md",
     "CS/OS/data/24_control.md",
     "CS/OS/OS.md",
     "Programming/Java/JAVA.md",

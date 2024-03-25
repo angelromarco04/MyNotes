@@ -110,6 +110,7 @@ gantt
 ## Multiple Level Queues without feedback
 
 - Processes are classifiable in different groups.
+
 - The `ready` queue is split in several queues (one per group).
 	- Each queue has a priority assigned.
 	- Each queue has its own scheduling politics.
@@ -118,19 +119,35 @@ gantt
 	- Preemptive priorities (a queue has absolute priority over other queues)
 	- Shared time (queues receive a portion of the CPU time)
 
-- Pros:
+- **Pros**:
 	- Specific management to each group.
-- Cons:
+- **Cons**:
 	- Inflexible. Processes cannot jump between groups.
 	- Danger of starving for low priority processes.
-
-## With feedback
-
-- Modification to allow group changing (feedback).
-- Processes are split according its typology.
-	- I/O intensive to higher priority queues.
-	- CPU intensive to lower priority queues.
 
 
 ---
 ## Multiple level queues with feedback
+
+- Modification to allow group changing (feedback).
+
+- Processes are split according its typology.
+	- I/O intensive to higher priority queues.
+	- CPU intensive to lower priority queues.
+
+- **Queue politics**:
+	- Incoming processes go to the higher priority `ready` queue.
+	- Queues have preemptive (absolute) priorities.
+	- Each queue has its own scheduling politics.
+	- Usually RR with small quantum for higher priority queues.
+	- Usually FCFS for lower priority queues.
+
+- **Queues changes**:
+	- A criteria is needed (evaluated once a CPU burst is finished).
+	- If fulfilled, the process jumps to a queue with one priority less.
+	- If not fulfilled, the process goes back to the same queue than before.
+
+- It can cause CPU intensive processes to starve
+	- Fixed by promoting processes lasting long times to higher priority queues.
+
+---
