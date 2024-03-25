@@ -58,18 +58,27 @@ gantt
 ---
 ## Long Term Scheduler (LTS)
 
-- Functions
-	- Its function is to admit new jobs in the system (to become processes).
+- **Functions.**
+	- Admits new jobs in the system (which become processes).
 	- Transfers from the `new` queue to the `ready` queue.
-- Decisions
-	- It must decide if the OS can accept more processes.
+- **Decisions.**
+	- Decides if the OS can accept more processes.
 	- Limits the level of multi-programing (number of processes in memory)
 	- Balances the number of CPU and I/O intensive processes in the STS.
-- 
-- Low invocation frequency with computationally intensive algorithms.
+- **Invocation frequency.**
+	- Low invocation frequency
+	- Complex, computationally intensive algorithms.
 ---
 ## Mid term scheduler (MTS)
-
+- **Functions.**
+	- Suspendes and restores `ready` or `blocked` processes.
+	- Regulates the level of multiprogramming.
+- **Decisions.**
+	- Decides which processes are transferred to secondary memory.
+	- Decides which processes come back to main memory.
+	- Decide when this transfers must be done.
+- **Invocation frequency.**
+	- 
 ---
 ## Short term scheduler (STS)
 
