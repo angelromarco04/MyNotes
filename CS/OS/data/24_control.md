@@ -22,13 +22,11 @@ gantt
     dateFormat X
     axisFormat %s
     
-    exec    : a, 0, 4
+    CPU     : a, 0, 4
     IO      : crit, b, 4, 6
-    exec    : a, 6, 10
+    CPU     : a, 6, 10
     IO      : crit, b, 10, 12
-    exec    : a, 12, 16
-    IO      : crit, b, 16, 18
-    exec    : a, 18, 22
+    CPU     : a, 12, 16
 ```
 - More CPU use than I/O.
 - Few CPU strikes with long duration.
@@ -42,13 +40,17 @@ gantt
     dateFormat X
     axisFormat %s
     
-    exec    : a1, 0, 1
-    IO      : crit, b1, after a1, 3
-    exec    : a2, after b1, 4
-    IO      : crit, b2, after a2, 6
-    exec    : a3, after b2, 7
-    IO      : crit, b3, after a3, 9
-    exec    : a4, after b3, 10
+    CPU     : a, 0, 1
+    IO      : crit, b, 1, 3
+    CPU     : a, 3, 4
+    IO      : crit, b, 4, 6
+    CPU     : a, 6, 7
+    IO      : crit, b, 7, 9
+    CPU     : a, 9, 10
+    IO      : crit, b, 10, 12
+    CPU     : a, 12, 13
+    IO      : crit, b, 13, 15
+    CPU     : a, 15, 16
 ```
 - More I/O than CPU use.
 - Many CPU strikes with short duration.
