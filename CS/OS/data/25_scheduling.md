@@ -47,18 +47,21 @@ gantt
     axisFormat %s
     
     section P1
-        exec    : crit, a, 0, 4
+        X       : crit, a, 0, 4
         IO      : a, 4, 5
+		W       : active, a, 5, 7
+		X       : crit, a, 7, 15
+		IO      : a, 15, 16
     section P2
-	    wait    : active, b, 2, 4
-	    exec    : crit, a, 4, 5
-	    IO      : a, 5, 10
+	    W       : active, b, 2, 4
+	    X       : crit, b, 4, 5
+	    IO      : b, 5, 10
 	section P3
-		wait    : active, b, 4, 5
-		exec    : crit, a, 5, 7
-	    IO      : a, 7, 9
+		W       : active, c, 4, 5
+		X       : crit, c, 5, 7
+	    IO      : c, 7, 9
 	section P4
-		wait    : active, b, 6, 7
+		W       : active, d, 6, 7
 
 ```
 
