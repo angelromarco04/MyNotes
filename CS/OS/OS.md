@@ -19,6 +19,6 @@ tags:
 	2. [Processes Description](data/22_description.md)
 	3. [Processes Life Cycle](data/23_life.md)
 	4. [Processes Control](data/24_control.md)
-	5. STS Scheduling Algorithms (page 68)
+	5. [STS Scheduling Algorithms](data/25_scheduling.md)
 	6. Threads (page 90)
 3. 

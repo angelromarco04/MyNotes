@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/data/25_scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/data/25_scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,12 +100,13 @@
   },
   "active": "622eed021c507482",
   "lastOpenFiles": [
-    "CS/OS/data/24_control.md",
     "CS/OS/OS.md",
+    "CS/OS/data/25_scheduling.md",
+    "CS/OS/data/24_control.md",
+    "CS/OS/data/1_Intro.md",
     "CS/OS/data/23_life.md",
     "CS/OS/data/22_description.md",
     "CS/OS/data/21_Intro.md",
-    "CS/OS/data/1_Intro.md",
     "Tutorials/How to mount disks in Linux.md",
     "Others/Markdown.md",
     "README.md",
@@ -128,7 +129,6 @@
     "Programming/Databases/data/SQL/02_tables.md",
     "Programming/Databases/data/SQL/01_shell.md",
     "Programming/Databases/data/SQL/03_tuples.md",
-    "Linux/Shell_Scripting.md",
     "Assets/Programming/Databases/DB_4.png",
     "Assets/Programming/Databases/DB_5.png",
     "Assets/Programming/Databases/DB_3.png",
