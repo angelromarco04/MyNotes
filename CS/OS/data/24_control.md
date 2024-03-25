@@ -93,12 +93,23 @@ gantt
 	- Which `ready` process must take CPU control when it is free.
 - **Invocation frequency.**
 	- High frequency
-	- Clock, interrupts, some sys calls, process shutdown or exceptions)
+	- Triggered by:
+		- Clock
+		- Interrupts (I/O events)
+		- Some sys calls
+		- Regular process shutdown
+		- Exceptions
 
 ---
 ## Process Switching
 
-
+- Is when the STS decides to:
+	- Disrupt the `running` process.
+	- Assign another process to the `running` state.
+- The **dispatcher** is the OS module in charge of the process switching.
+	- Saves processes context (into its PCB)
+	- Change processes state.
+	- Moves processes between the corresponding queues.
 
 ---
 ## Process Shutdown
