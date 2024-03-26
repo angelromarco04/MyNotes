@@ -75,7 +75,6 @@ tags:
 - Easier to create a new thread than a whole process.
 - Easier to end a existing thread than a whole process.
 - Easier to change the state of a thread than that of a whole process.
-- Threads 
+- Threads of the same process can communicate between them.
 
 ---
-## Use Examples
