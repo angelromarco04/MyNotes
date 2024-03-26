@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/data/26_threads.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/OS.md",
+                "file": "CS/OS/data/26_threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -98,13 +98,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "2ef3911002ae6c65",
+  "active": "cc897872a7c7da84",
   "lastOpenFiles": [
     "CS/OS/data/25_scheduling.md",
+    "CS/OS/data/26_threads.md",
+    "CS/OS/OS.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/22_description.md",
     "CS/OS/data/24_control.md",
-    "CS/OS/OS.md",
     "Programming/Java/JAVA.md",
     "CS/OS/data/1_Intro.md",
     "CS/OS/data/23_life.md",
@@ -128,7 +129,6 @@
     "Assets/Programming/Databases/SQL_2.png",
     "Assets/Programming/Databases/SQL_1.png",
     "Programming/Databases/data/SQL/02_tables.md",
-    "Programming/Databases/data/SQL/01_shell.md",
     "Assets/Programming/Databases/DB_4.png",
     "Assets/Programming/Databases/DB_5.png",
     "Assets/Programming/Databases/DB_3.png",
