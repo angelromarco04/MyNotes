@@ -13,8 +13,10 @@ tags:
 ## Introduction
 
 - OS manages differently:
-	- Process (Resource owner unit)
-	- Thread ()
+	- Process (Resource owner unit, do not run)
+	- Thread (minimal scheduling running unit)
+- Processes  are composed of one or more threads.
+- Multithread OS allows processes to use several threads.
 
 ---
 ## Composition in Main Memory
