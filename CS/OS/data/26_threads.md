@@ -21,7 +21,16 @@ tags:
 ---
 ## Composition in Main Memory
 
-
+- Processes
+	- Have the PCB loaded to main memory.
+	- Have at least one running thread (main thread)
+	- Do never execute code.
+	- PCB without some parts.
+- Threads
+	- Have a *mini PCB* called Thread Control Block (TCB)
+		- Thread state and context.
+	- Access to memory and resources that belong to their process
+	- Resoruces are shared 
 
 ---
 ## Process and Thread Creation
