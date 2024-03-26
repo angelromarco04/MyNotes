@@ -12,11 +12,11 @@ tags:
 
 ## Introduction
 
-- OS manages differently:
+- Modern OS manages differently:
 	- Process (Resource owner unit, do not run)
 	- Thread (minimal scheduling running unit)
-- Processes  are composed of one or more threads.
-- Multithread OS allows processes to use several threads.
+- Processes own threads.
+- Multithread OS allows processes to have several threads.
 
 ---
 ## Composition in Main Memory
@@ -25,17 +25,17 @@ tags:
 	- Have the PCB loaded to main memory.
 	- Have at least one running thread (main thread)
 	- Do never execute code.
-	- PCB without some parts.
+		- PCB without some parts (running state, context, etc).
 - Threads
 	- Have a *mini PCB* called Thread Control Block (TCB)
-		- Thread state and context.
+		- Contains the thread state, context and a stack.
 	- Access to memory and resources that belong to their process
-	- Resoruces are shared 
+	- Resources are shared between threads of the same process.
 
 ---
 ## Process and Thread Creation
 
-
+- The LTS loads runnable
 
 ---
 ## Process and Thread Management
