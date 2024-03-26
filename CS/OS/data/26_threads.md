@@ -21,7 +21,7 @@ tags:
 ---
 ## Composition in Main Memory
 
-- Processes
+- **Processes**
 	- Are stored at main memory.
 	- Formed by:
 		- Code
@@ -29,7 +29,7 @@ tags:
 		- At least one running thread (main thread)
 	- Do never execute code.
 		- PCB without some parts (running state, context, etc).
-- Threads
+- **Threads**
 	- Formed by:
 		- Thread Control Block (TCB) is a *mini PCB*. 
 			- Contains the thread state and context.
@@ -49,12 +49,17 @@ tags:
 	- Requires a system call to the OS.
 	- Fast and efficient creation.
 	- Threads share code and global data of the process.
-	- Usually, each thread uses one par
+	- Usually, each thread runs a piece of the program.
 
 ---
 ## Process and Thread Management
 
-
+- STS works with threads.
+	- CPU is assigned to a thread.
+	- Threads are the only ones with states.
+	- Context of threads is saved/restored.
+- MTS works with processes.
+	- Whole processes (all its threads) are suspended/activated.
 
 ---
 ## Process and Thread Ending
