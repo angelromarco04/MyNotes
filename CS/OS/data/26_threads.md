@@ -64,12 +64,18 @@ tags:
 ---
 ## Process and Thread Ending
 
-
+- Threads can end independently of other threads.
+- A process ends when all its threads end.
+	- Sometimes, the rest of threads are ended when the main thread ends.
+- The memory is freed when the whole process ends.
 
 ---
 ## Benefits of Threads
 
-
+- Easier to create a new thread than a whole process.
+- Easier to end a existing thread than a whole process.
+- Easier to change the state of a thread than that of a whole process.
+- Threads 
 
 ---
 ## Use Examples
