@@ -4,7 +4,7 @@ Date: 2024-03-26
 tags:
 ---
 ---
-# STS Scheduling Algorithms
+# Threads
 
 [Back to index](../OS.md)
 
