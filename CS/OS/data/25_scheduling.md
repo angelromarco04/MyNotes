@@ -148,14 +148,17 @@ gantt
         IO      : a, 4, 5
 		X       : crit, a, 5, 10
 		X       : crit, a, 10, 13
-		IO      : a, 4, 5
+		IO      : a, 13, 14
+		X       : crit, a, 14, 15
     section P2
 	    W       : active, b, 2, 4
 	    X       : crit, b, 4, 5
 	    IO      : b, 5, 10
+	    W       : active, b, 10, 15
+	    X       : crit, b, 15, 18
 	section P3
-		W       : active, c, 4, 5
-		X       : crit, c, 5, 7
+		W       : active, c, 4, 13
+		X       : crit, c, 13, 14
 	    IO      : c, 7, 9
 	section P4
 		W       : active, d, 6, 15
