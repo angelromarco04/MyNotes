@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/1_Intro.md",
+                "file": "CS/OS/data/25_scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/1_Intro.md",
+                "file": "CS/OS/data/25_scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,6 +100,7 @@
   },
   "active": "cc897872a7c7da84",
   "lastOpenFiles": [
+    "CS/OS/data/1_Intro.md",
     "CS/OS/data/26_threads.md",
     "CS/OS/data/25_scheduling.md",
     "CS/OS/OS.md",
@@ -107,7 +108,6 @@
     "CS/OS/data/22_description.md",
     "CS/OS/data/24_control.md",
     "Programming/Java/JAVA.md",
-    "CS/OS/data/1_Intro.md",
     "CS/OS/data/23_life.md",
     "Tutorials/How to mount disks in Linux.md",
     "Others/Markdown.md",
