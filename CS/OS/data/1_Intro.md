@@ -189,7 +189,6 @@ stateDiagram
 	- First sector of each partition (VBR: *Volume Boot Record*).
 - Have a predefined size and they are OS independent.
 - Can be written by third parties.
-- Loaded to memory by the BIOS.
 - BIOS tries to executes bootloaders in the disk in order.
 	1. Try to execute bootloader in MBR
 	2. Try to execute the VBRs in order:
