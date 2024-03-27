@@ -174,15 +174,20 @@ gantt
 	section P4
 		W       : active, d, 6, 19
 		X       : crit, d, 19, 21
-		IO      : d, 1, 2
+		W       : active, d, 21, 30
 		X       : crit, d, 30, 38
+		IO      : d, 38, 39
+		W       : active, d, 39, 43
 		X       : crit, d, 43, 51
 
 	section P5
 		W       : active, e, 8, 26
 		X       : crit, e, 26, 28
-		IO      : e, 1, 2
+		IO      : e, 28, 36
+		W       : active, e, 36, 38
 		X       : crit, e, 38, 43
+		IO      : e, 43, 45
+		W       : active, e, 45, 51
 		X       : crit, e, 51, 52
 
 ```

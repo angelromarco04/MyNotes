@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0352c6c151f35fb6",
@@ -98,7 +99,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "cc897872a7c7da84",
+  "active": "2ef3911002ae6c65",
   "lastOpenFiles": [
     "CS/OS/data/1_Intro.md",
     "CS/OS/data/26_threads.md",
