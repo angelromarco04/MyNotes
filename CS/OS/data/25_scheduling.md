@@ -150,6 +150,7 @@ gantt
 		X       : crit, a, 10, 13
 		IO      : a, 13, 14
 		X       : crit, a, 14, 15
+		
     section P2
 	    W       : active, b, 2, 4
 	    X       : crit, b, 4, 5
@@ -157,6 +158,8 @@ gantt
 	    W       : active, b, 10, 15
 	    X       : crit, b, 15, 18
 	    IO      : b, 18, 28
+	    X       : crit, b, 28, 29
+	    
 	section P3
 		W       : active, c, 4, 13
 		X       : crit, c, 13, 14
@@ -166,16 +169,21 @@ gantt
 	    X       : crit, c, 21, 24
 	    X       : crit, c, 24, 26
 	    IO      : c, 26, 29
+	    X       : crit, c, 29, 30
 
 	section P4
 		W       : active, d, 6, 19
 		X       : crit, d, 19, 21
 		IO      : d, 1, 2
+		X       : crit, d, 30, 38
+		X       : crit, d, 43, 51
 
 	section P5
-		W       : active, e, 6, 15
-		X       : crit, e, 15, 25
-		IO      : e, 25, 26
+		W       : active, e, 8, 26
+		X       : crit, e, 26, 28
+		IO      : e, 1, 2
+		X       : crit, e, 38, 43
+		X       : crit, e, 51, 52
 
 ```
 
