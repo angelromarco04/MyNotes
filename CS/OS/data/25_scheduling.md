@@ -156,14 +156,21 @@ gantt
 	    IO      : b, 5, 10
 	    W       : active, b, 10, 15
 	    X       : crit, b, 15, 18
+	    IO      : b, 18, 28
 	section P3
 		W       : active, c, 4, 13
 		X       : crit, c, 13, 14
-	    IO      : c, 7, 9
+		W       : active, c, 14, 18
+	    X       : crit, c, 18, 19
+	    IO      : c, 19, 21
+	    X       : crit, c, 21, 24
+	    X       : crit, c, 24, 26
+	    IO      : c, 26, 29
+
 	section P4
-		W       : active, d, 6, 15
-		X       : crit, d, 15, 25
-		IO      : d, 25, 26
+		W       : active, d, 6, 19
+		X       : crit, d, 19, 21
+		IO      : d, 1, 2
 
 	section P5
 		W       : active, e, 6, 15
