@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/26_threads.md",
+                "file": "CS/OS/data/1_Intro.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/26_threads.md",
+                "file": "CS/OS/data/1_Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,8 @@
   },
   "active": "cc897872a7c7da84",
   "lastOpenFiles": [
-    "CS/OS/data/25_scheduling.md",
     "CS/OS/data/26_threads.md",
+    "CS/OS/data/25_scheduling.md",
     "CS/OS/OS.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/22_description.md",

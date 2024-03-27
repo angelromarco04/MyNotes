@@ -186,13 +186,13 @@ stateDiagram
 #### Bootloaders
 - Located in predefined areas in the disk:
 	- First sector of the disk (MBR: *Master Boot Record*).
-	- First sector of each partition.
+	- First sector of each partition (VBR: *Volume Boot Record*).
 - Have a predefined size and they are OS independent.
 - Can be written by third parties.
 - Loaded to memory by the BIOS.
 - BIOS tries to executes bootloaders in the disk in order.
 	1. Try to execute bootloader in MBR
-	2. Try to execute the one in sector 0 of each partition in order:
+	2. Try to execute the VBRs in order:
 	3. If no bootloader is found, it prompts an error and stops.
 
 #### Limitations
