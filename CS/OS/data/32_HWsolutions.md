@@ -11,4 +11,14 @@ tags:
 [Back to index](../OS.md)
 
 ---
-## Disabling interruptions
+## Disabling Interruptions
+
+- In mono-processor computer processes are interleaved
+	- Processors keep CPU until 
+
+---
+## Special Machine Instructions
+
+
+
+---

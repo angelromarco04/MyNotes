@@ -100,10 +100,10 @@
   },
   "active": "cc897872a7c7da84",
   "lastOpenFiles": [
-    "CS/OS/data/26_threads.md",
     "CS/OS/data/31_intro.md",
-    "CS/OS/data/32_HWsolutions.md",
     "CS/OS/OS.md",
+    "CS/OS/data/32_HWsolutions.md",
+    "CS/OS/data/26_threads.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/1_Intro.md",
     "CS/OS/data/25_scheduling.md",
