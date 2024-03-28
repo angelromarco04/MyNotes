@@ -21,4 +21,7 @@ tags:
 	4. [Processes Control](data/24_control.md)
 	5. [STS Scheduling Algorithms](data/25_scheduling.md)
 	6. [Threads](data/26_threads.md)
-3. 
+3. **Processes Coordination & Synchronization**
+	1. [Introduction](data/31_intro.md)
+	2. Hardware solutions to mutual exclusion
+	3. Semaphores
