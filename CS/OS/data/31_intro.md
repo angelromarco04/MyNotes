@@ -33,8 +33,11 @@ tags:
 1. Contest among processes
 	- Independent processes trying to access same resource.
 	- OS is responsible of resources assignment.
-	- Mutual exclusion problem.
--
+2. Sharing cooperation among processes
+	- Processes cooperate without knowing each others.
+	- Programmer is responsible of controlling cooperation (use sys. calls).
+3. Communication cooperation among processes
+	- Processes send messages between them.
 
 ---
 ## The problem of mutual exclusion
