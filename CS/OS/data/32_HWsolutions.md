@@ -29,7 +29,18 @@ tags:
 	- This makes imposible the interference with other instructions.
 
 ### Test&Set
-- Cannot be disrupted (atomically executed)
-- 
+```C
+boolean Test&Set(boolean &origin) {...}
+
+// >>> USAGE <<<
+while( Test&Set(&lock) ) do nothing; // Entry section
+// CRITICAL SECTION
+lock = false; // Exit section
+```
+
+- Function cannot be disrupted (atomically executed)
+- CPU blocks memory bus when executing this instruction
+	- No other CPU can access it.
+- There is one shared global variable (`lock`) per shared resource.
 
 ---
