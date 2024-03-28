@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/31_intro.md",
+                "file": "CS/OS/data/32_HWsolutions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/31_intro.md",
+                "file": "CS/OS/data/32_HWsolutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,11 +100,12 @@
   },
   "active": "cc897872a7c7da84",
   "lastOpenFiles": [
+    "CS/OS/data/26_threads.md",
+    "CS/OS/data/31_intro.md",
+    "CS/OS/data/32_HWsolutions.md",
+    "CS/OS/OS.md",
     "CS/OS/data/21_Intro.md",
     "CS/OS/data/1_Intro.md",
-    "CS/OS/data/31_intro.md",
-    "CS/OS/OS.md",
-    "CS/OS/data/26_threads.md",
     "CS/OS/data/25_scheduling.md",
     "CS/OS/data/22_description.md",
     "CS/OS/data/24_control.md",
@@ -126,7 +127,6 @@
     "Programming/Databases/data/Theory/RModel.md",
     "Programming/Databases/DATABASES.md",
     "Programming/Databases/data/Theory/ERModel.md",
-    "Programming/Databases/data/SQL/04_queries.md",
     "Assets/Programming/Databases/SQL_2.png",
     "Assets/Programming/Databases/SQL_1.png",
     "Assets/Programming/Databases/DB_4.png",

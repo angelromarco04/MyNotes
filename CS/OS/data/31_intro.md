@@ -5,7 +5,6 @@ tags:
   - ComputerScience
   - OperatingSystems
 ---
-
 ---
 # Introduction to Processes Coordination
 

@@ -23,5 +23,5 @@ tags:
 	6. [Threads](data/26_threads.md)
 3. **Processes Coordination & Synchronization**
 	1. [Introduction](data/31_intro.md)
-	2. Hardware solutions to mutual exclusion
+	2. [Hardware solutions to mutual exclusion](data/32_HWsolutions.md)
 	3. Semaphores
