@@ -27,6 +27,9 @@ tags:
 - In multicore computers, processors are granted exclusive access to memory.
 	- Create special machine instructions to access memory in a single cycle.
 	- This makes imposible the interference with other instructions.
+
+### Test&Set
+- Cannot be disrupted (atomically executed)
 - 
 
 ---
