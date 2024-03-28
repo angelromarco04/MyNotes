@@ -21,15 +21,20 @@ tags:
 		- No real parallelism. Processes interleave.
 	- Multi-processing and distributed (several CPUs)
 		- Real parallelism. Processes interleave and overlap.
-- Concurrency Problems
+- **Concurrency Problems**
 	- Shared global resources.
 	- Processes synchronization.
-	- Resources assignment 
+	- Inefficient resource assignment.
+	- Difficult programming error identification (not repeatable scenarios)
 
 ---
 ## Classification of processes interaction
 
-
+1. Contest among processes
+	- Independent processes trying to access same resource.
+	- OS is responsible of resources assignment.
+	- Mutual exclusion problem.
+-
 
 ---
 ## The problem of mutual exclusion
