@@ -11,3 +11,4 @@ tags:
 [Back to index](../OS.md)
 
 ---
+## Disabling interruptions
