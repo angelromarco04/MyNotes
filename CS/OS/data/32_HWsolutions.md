@@ -6,7 +6,7 @@ tags:
   - OperatingSystems
 ---
 ---
-# Introduction to Processes Coordination
+# Hardware solutions to mutual exclusion
 
 [Back to index](../OS.md)
 
@@ -14,7 +14,12 @@ tags:
 ## Disabling Interruptions
 
 - In mono-processor computer processes are interleaved
-	- Processors keep CPU until 
+	- Processes are only disrupted because of interruptions.
+	- Disable interruptions during critical sections to solve *Mutual Exclusion*.
+- Cons:
+	- OS cannot get to the CPU.
+	- Processes interleaving rate is degraded. 
+	- Useless for multicore architectures.
 
 ---
 ## Special Machine Instructions
