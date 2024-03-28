@@ -55,6 +55,10 @@ tags:
 		- Grant exclusive accesses to the process to the resource.
 		- Forbid any other process to use that resource.
 	- This critical sections must be mutually exclusive in time.
-
+3. Add specific code to all critical sections
+	- Entry section (Before a critical section).
+		- Blocks the resource (forbidden to other processes).
+	- Exit section (After a critical section).
+		- Release the resource (accessible to other processes).
 
 ---
