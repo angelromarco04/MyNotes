@@ -37,7 +37,7 @@ boolean Test&Set(boolean &origin) {
 }
 
 // >>> USAGE <<<
-while( Test&Set(&lock) ) do nothing; // Entry section
+while( Test&Set(&lock) ) do {nothing}; // Entry section
 // CRITICAL SECTION
 lock = false; // Exit section
 ```
@@ -57,9 +57,12 @@ void Swap(boolean &register, boolean &memory) {
 }
 
 // >>> USAGE <<<
-while( Test&Set(&lock) ) do nothing; // Entry section
+key=true; // entry section
+do { swap(lock, key) } while (key == true); // entry section
 // CRITICAL SECTION
-lock = false; // Exit section
+lock = false; //output section
 ```
+
+- Swaps the contents of a register with a memory location.
 
 ---
