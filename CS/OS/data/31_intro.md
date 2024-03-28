@@ -16,11 +16,15 @@ tags:
 
 - **Concurrent processes**: interleave or overlap its execution.
 - **Parallel processes**: overlap its execution.
-- Concurrency and parallelism
+- **Concurrency and parallelism**
 	- Multi-programming (mono-processor)
-		- No real parallelism. Processes interleaves.
+		- No real parallelism. Processes interleave.
 	- Multi-processing and distributed (several CPUs)
-		- Real
+		- Real parallelism. Processes interleave and overlap.
+- Concurrency Problems
+	- Shared global resources.
+	- Processes synchronization.
+	- Resources assignment 
 
 ---
 ## Classification of processes interaction
