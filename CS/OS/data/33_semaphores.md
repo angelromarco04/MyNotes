@@ -2,6 +2,8 @@
 Author: AAM
 Date: 2024-03-29
 tags:
+  - ComputerScience
+  - OperatingSystems
 ---
 ---
 # Semaphores
@@ -85,11 +87,8 @@ void P2() {
 ## The producers/consumers problem
 
 - Common problem in communications.
-- There are tw
-
----
-## The readers/writers problem
-
-
+- There are two threads/processes:
+	- **Producer**. Continuously generates data to a FIFO.
+	- **Consumer**. Continuously consumes data from the FIFO.
 
 ---
