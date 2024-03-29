@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/OS/data/32_HWsolutions.md",
+                "file": "CS/OS/OS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/OS/data/32_HWsolutions.md",
+                "file": "CS/OS/OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -100,8 +100,8 @@
   },
   "active": "cc897872a7c7da84",
   "lastOpenFiles": [
-    "CS/OS/data/31_intro.md",
     "CS/OS/data/32_HWsolutions.md",
+    "CS/OS/data/31_intro.md",
     "CS/OS/OS.md",
     "CS/OS/data/26_threads.md",
     "CS/OS/data/21_Intro.md",
