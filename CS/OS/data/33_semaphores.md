@@ -10,14 +10,16 @@ tags:
 
 ---
 
-## Introduction
-
-
-
----
 ## Definition of semaphore
 
-
+- Processes cooperates through signals.
+	- Processes wait until a signal is received
+- Special variables called semaphores (`s`) are used.
+	- To send a signal `V(s)` or `signal(s)`.
+	- To receive a signal `P(s)` or `wait(s)`.
+- Implementation
+	- Semaphores are integer variables.
+	- 
 
 ---
 ## Implementation of semaphores
