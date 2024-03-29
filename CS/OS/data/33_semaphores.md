@@ -28,18 +28,16 @@ tags:
 ---
 ## Solution to the mutual exclusion problem
 
-### Simple
+### Simple Section
 ```C
-semaphore mutex = 1 // initial value 0
+semaphore mutex = 1 // mutex initial value is always 0
 
 P(mutex); // entry section
 // CRITICAL SECTION
 V(mutex); // exit section
 ```
-### If sections
+### Sections inside if  
 ```C
-semaphore mutex = 1 // initial value 0
-
 P(mutex);
 if(condition) { // CRITICAL SECTION (in the condition)
 	V(mutex);
@@ -47,19 +45,23 @@ if(condition) { // CRITICAL SECTION (in the condition)
 }
 else V(mutex); 
 ```
-### While sections
+### Sections inside while
 ```C
-semaphore mutex = 1 // initial value 0
-
 P(mutex);
-while(condition) {
+while(condition) {// CRITICAL SECTION (in the condition)
 	V(mutex);
-	// CRITICAL SECTION
+	// code
 	P(mutex);
 }
 else V(mutex); 
 ```
-
+### Sections inside return
+```C
+P(mutex); // entry section
+aux_var = ...;// CRITICAL SECTION
+V(mutex); // exit section
+return aux_var;
+```
 
 ---
 ## Solution to synchronization problems
@@ -80,14 +82,10 @@ void P2() {
 ```
 
 ---
-## Problems derived from the misuse of semaphores
-
-
-
----
 ## The producers/consumers problem
 
-
+- Common problem in communications.
+- There are tw
 
 ---
 ## The readers/writers problem
