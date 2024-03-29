@@ -28,12 +28,38 @@ tags:
 ---
 ## Solution to the mutual exclusion problem
 
+### Simple
 ```C
 semaphore mutex = 1 // initial value 0
+
 P(mutex); // entry section
 // CRITICAL SECTION
 V(mutex); // exit section
 ```
+### If sections
+```C
+semaphore mutex = 1 // initial value 0
+
+P(mutex);
+if(condition) { // CRITICAL SECTION (in the condition)
+	V(mutex);
+	// code
+}
+else V(mutex); 
+```
+### While sections
+```C
+semaphore mutex = 1 // initial value 0
+
+P(mutex);
+while(condition) {
+	V(mutex);
+	// CRITICAL SECTION
+	P(mutex);
+}
+else V(mutex); 
+```
+
 
 ---
 ## Solution to synchronization problems
