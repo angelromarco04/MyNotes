@@ -3,9 +3,8 @@ Author: AAM
 Date: 2024-02-18
 tags:
   - programming
-  - other
+  - frontend
 ---
-
 ---
 # UI Evaluation
 

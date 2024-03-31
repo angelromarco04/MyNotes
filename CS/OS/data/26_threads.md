@@ -2,6 +2,8 @@
 Author: AAM
 Date: 2024-03-26
 tags:
+  - ComputerScience
+  - OperatingSystems
 ---
 ---
 # Threads

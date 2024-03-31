@@ -3,7 +3,7 @@ Author: AAM
 Date: 2024-02-18
 tags:
   - programming
-  - other
+  - frontend
 ---
 ---
 # Golden rules of UI design

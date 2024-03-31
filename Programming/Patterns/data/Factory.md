@@ -14,7 +14,7 @@ tags:
 1. [Description](#description)
 2. [Factory Method](#factory-method)
 3. [Simple Factory](#simple-factory)
-4. [Abstract Factory](abstract-factory)
+4. [Abstract Factory](#abstract-factory)
 5. [Summary](#summary)
 
 ---

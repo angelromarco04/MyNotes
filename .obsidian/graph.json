@@ -1,12 +1,19 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
+    {
+      "query": "tag:#notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
+      }
+    },
     {
       "query": "tag:#java ",
       "color": {
