@@ -120,7 +120,14 @@ tags:
 ```
 ### Quotations
 ```html
-<blockquote cite="URL"> ... </>
+<!-- Blockquote -->
+<blockquote cite="URL"> ... </blockquote>
+
+<!-- Inline quotation -->
+<q> ... </q>
+
+<!-- Abbreviations -->
+<abbr title="Complete"> Abbreviation </abbr>
 ```
 ### Styling tags
 ```html
@@ -164,3 +171,7 @@ tags:
 ```html
 
 ```
+
+---
+## CSS
+### In-line styling
