@@ -11,6 +11,10 @@ tags:
 [Back to index](../GUI.md)
 
 ---
+## Resources
+
+- [HTML w3schools](https://www.w3schools.com/)
+---
 ## Introduction
 ### Tags
 
@@ -119,6 +123,12 @@ tags:
 
 <!-- Abbreviations -->
 <abbr title="Complete"> Abbreviation </abbr>
+
+<!-- Acronyms -->
+<acronym title="Complete"> ... </acronym>
+
+<!-- Definitions -->
+<dfn title="Definition"> ... </dfn>
 ```
 ### Styling tags
 ```html
