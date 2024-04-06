@@ -117,8 +117,15 @@ tags:
 
 ### Links
 ```HTML
-<a href="URL"> Displayed text </a>
+<a href="URL" target="_target"> Displayed text </a>
 ```
+
+- The `URL` can be internal/external and absolute/relative.
+	- To have a link to an email `html
+href="mailto:email".
+- The `_target` can be:
+	- `_blank`. Opens the link to a new tab.
+	- `_self`. Opens the same tab.
 ### Media
 ```html
 <img>
