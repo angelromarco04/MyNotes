@@ -121,13 +121,23 @@ tags:
 ```
 
 - The `URL` can be internal/external and absolute/relative.
-	- To have a link to an email `html
-href="mailto:email".
+	- To have a link to an email  use URL `mailto:email.
+	- To have a link to a section use URL `#section`
 - The `_target` can be:
 	- `_blank`. Opens the link to a new tab.
-	- `_self`. Opens the same tab.
-### Media
+	- `_self`. Opens the same tab (default).
+### Multimedia
+- An alternative (`alt`) must always be provided for accessibility.
+
 ```html
-<img>
-<input>
+<img src="image" alt="Alternative text">
+```
+
+### Lists
+```html
+<!-- Ordered list -->
+<ol>
+	<a>
+</ol>
+
 ```
