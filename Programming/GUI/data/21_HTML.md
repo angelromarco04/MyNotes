@@ -73,9 +73,6 @@ tags:
 
 ### Structure
 ```html
-<!-- Goup of related contents -->
-<section> ... </section>
-
 <!-- Headers (bigger to smaller) -->
 <h1> ... </h1>
 <h2> ... </h2>
@@ -88,12 +85,6 @@ tags:
 ```html
 <!-- Paragraph -->
 <p>...</p>
-
-<!-- Header of a block -->
-<header> ... </header>
-
-<!-- Footer of a block -->
-<footer> ... </footer>
 
 <!-- Line break -->
 <br>
@@ -176,6 +167,7 @@ tags:
 - `<tr>` is used for creating a table row.
 - `<th>` is used for creating a table header.
 - `<td>` is used for creating some table data.
+- Attributes `colpan` and `rowspan` are used to expand cells.
 
 ```html
 <table>  
@@ -187,10 +179,25 @@ tags:
   </tr>
 </table>
 ```
+### Page Layout
 
-- Attributes `colpan` and `rowspan` are used to expand cells.
+- [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
+
+```html
+<!-- Header of the page -->
+<header> ... </header>
+
+<!-- Navigation bar of the page -->
+<nav> ... </nav>
+
+<!-- Sections of the page -->
+<section> ... </section>
+
+<!-- Sidebar of the page -->
+<aside> ... </aside>
+
+<!-- Footer of the page -->
+<footer> ... </footer>
+```
 
 ---
-### Some Extra Resources (w3schools)
-- [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
-- [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
