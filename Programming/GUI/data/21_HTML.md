@@ -25,12 +25,13 @@ tags:
 	```
 	- Standalone tags.
 	```HTML
-	<tag>
+	<tag/>
 	```
 
 - Tags can also have some attributes
 ```Html
-<tag attribute="something">
+<tag attribute="something"> ... </tag>
+<tag attribute="something"/>
 ```
 ### Page Structure
 
@@ -63,13 +64,13 @@ tags:
 <link> ... </link>
 
 <!-- Some page metadata -->
-<meta charset="utf-8">
-<meta name="description" content="my page description">
-<meta name="keywords" content="keyword1, keyword2">
-<meta name="author" content="author's name">
+<meta charset="utf-8"/>
+<meta name="description" content="my page description"/>
+<meta name="keywords" content="keyword1, keyword2"/>
+<meta name="author" content="author's name"/>
 
 <!-- Base URL for a page relative links -->
-<base html href="base URL" target="_blank">
+<base html href="base URL" target="_blank"/>
 ```
 
 ---
@@ -91,10 +92,10 @@ tags:
 <p>...</p>
 
 <!-- Line break -->
-<br>
+<br/>
 
 <!-- Horizontal rule. Used to separate contents. -->
-<hr>
+<hr/>
 
 <!-- Preformated text -->
 <pre> ... </pre>
@@ -154,7 +155,18 @@ tags:
 - An alternative (`alt`) must always be provided for accessibility.
 
 ```html
-<img src="image" alt="Alternative text">
+<!-- Images -->
+<img src="image" alt="Alternative text"/>
+
+<!-- Images -->
+<video	src="video" alt="Alternative text"></video>
+
+<!-- Several sources can be provided -->
+<video alt="Alternative text">
+	<source src="video.mp4" type="video/mp4"/>
+	<source src="video.ogg" type="video/ogg"/>
+	<source src="video.webm" type="video/webm"/>
+</video>
 ```
 
 - Areas inside images can be defined: [Image Map (w3schools.com)](https://www.w3schools.com/html/html_images_imagemap.asp).
