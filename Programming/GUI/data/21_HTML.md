@@ -11,7 +11,7 @@ tags:
 [Back to index](../GUI.md)
 
 ---
-
+## Introduction
 ## Structure
 
 ```html
@@ -38,6 +38,7 @@ tags:
 
 ```
 
+## Body
 ```html
 <p>...</p>
 <h1> ... </h1>
