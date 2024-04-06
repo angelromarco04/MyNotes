@@ -71,7 +71,6 @@ tags:
 ---
 ## Body 
 ### Basic tags
-
 ```html
 <!-- Paragraphs -->
 <p>...</p>
@@ -93,19 +92,30 @@ tags:
 <h5> ... </h5>
 <h6> ... </h6>
 
-<!-- ? -->
+<!-- Line break -->
 <br>
 
-<!-- ? -->
+<!-- Horizontal rule. Used to separate contents. -->
 <hr>
 
+<!-- Preformated text -->
+<pre> ... </pre>
+```
+
+### Formatting tags
+```html
 <!-- Highlight (by default bold) -->
 <strong> ... </strong>
 
 <!-- Emphasise (by default italics) -->
 <em> ... </em>
-```
 
+<!-- Subscript -->
+<sub> ... </sub>
+
+<!-- Superscript -->
+<sup> ... </sup>
+```
 ### Styling tags
 ```html
 <!-- Used to apply styling to blocks of tags -->
@@ -139,5 +149,12 @@ tags:
 <ol>
 	<a>
 </ol>
+
+<!-- Unordered list -->
+
+```
+
+### Tables
+```html
 
 ```
