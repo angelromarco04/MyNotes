@@ -98,17 +98,27 @@ tags:
 
 <!-- ? -->
 <hr>
+
+<!-- Highlight (by default bold) -->
+<strong> ... </strong>
+
+<!-- Emphasise (by default italics) -->
+<em> ... </em>
 ```
 
----
-### Block markup
+### Styling tags
 ```html
+<!-- Used to apply styling to blocks of tags -->
 <div id=“someID” class=“someClass”> ... </div>
 
+<!-- Used to apply styling to text fragments -->
 <span> ... </span>
 ```
 
----
+### Links
+```HTML
+<a href="URL"> Displayed text </a>
+```
 ### Media
 ```html
 <img>
