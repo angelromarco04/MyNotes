@@ -185,6 +185,9 @@ tags:
 	<source src="video.ogg" type="video/ogg"/>
 	<source src="video.webm" type="video/webm"/>
 </video>
+
+<!-- Time and dates -->
+<time datetime="datetime">text</time>
 ```
 
 - Areas inside images can be defined: [Image Map (w3schools.com)](https://www.w3schools.com/html/html_images_imagemap.asp).
