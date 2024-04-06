@@ -68,7 +68,8 @@ tags:
 <meta name="description" content="my page description"/>
 <meta name="keywords" content="keyword1, keyword2"/>
 <meta name="author" content="author's name"/>
-
+<meta name="viewport"
+	  content="width=device-width, initial-scale=1.0">
 <!-- Base URL for a page relative links -->
 <base html href="base URL" target="_blank"/>
 ```
@@ -114,7 +115,7 @@ tags:
 <!-- Superscript -->
 <sup> ... </sup>
 ```
-### Quotations
+### Quotations & Other blocks
 ```html
 <!-- Blockquote -->
 <blockquote cite="URL"> ... </blockquote>
@@ -130,6 +131,9 @@ tags:
 
 <!-- Definitions -->
 <dfn title="Definition"> ... </dfn>
+
+<!-- Codeblock -->
+<code> ... </code>
 ```
 ### Styling tags
 ```html
@@ -160,6 +164,14 @@ tags:
 ```html
 <!-- Images -->
 <img src="image" alt="Alternative text"/>
+
+<!-- Images can be grouped inside a figure -->
+<figure>
+	<figcaption>Caption<figcaption>
+	<img src="img1"/>
+	<img src="img2"/>
+	<img src="img3"/>
+</figure>
 
 <!-- Audio -->
 <audio src="audio"></audio>
@@ -198,11 +210,12 @@ tags:
 ### Tables
 
 - `<table>` is used for creating a table.
+- `<thead>`, `<tbody>` and `<tfoot>` are used to define the structure.
 - `<tr>` is used for creating a table row.
 - `<th>` is used for creating a table header cell.
 - `<td>` is used for creating some table data cell.
 - Attributes `colpan` and `rowspan` are used to expand cells.
-- 
+- Table columns can be grouped with `<colgroup>`
 
 ```html
 <table>
