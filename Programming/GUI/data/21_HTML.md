@@ -169,10 +169,26 @@ tags:
 ```
 
 ### Tables
-```html
 
+- `<table>` is used for creating a table.
+- `<tr>` is used for creating a table row.
+- `<th>` is used for creating a table header.
+- `<td>` is used for creating some table data.
+
+```html
+<table>  
+  <tr>  
+    <th>Table Header</th>
+  </tr>  
+  <tr>  
+    <td>Table Data</td>  
+  </tr>
+</table>
 ```
 
+- Attributes `colpan` and 
+
 ---
-### Some Extra Resources ()
+### Some Extra Resources (w3schools)
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
+- 
