@@ -156,6 +156,7 @@ tags:
 <img src="image" alt="Alternative text">
 ```
 
+- Areas inside images can be defined: [Image Map (w3schools.com)](https://www.w3schools.com/html/html_images_imagemap.asp).
 ### Lists
 ```html
 <!-- Ordered list -->
@@ -171,3 +172,7 @@ tags:
 ```html
 
 ```
+
+---
+### Some Extra Resources ()
+- [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
