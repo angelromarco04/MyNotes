@@ -153,15 +153,21 @@ tags:
 	- `_self`. Opens the same tab (default).
 ### Multimedia
 - An alternative (`alt`) must always be provided for accessibility.
+- Audio can use:
+	- `autoplay` to automatically start playing the audio.
+	- `loop` to repeat the audio once it ends.
 
 ```html
 <!-- Images -->
 <img src="image" alt="Alternative text"/>
 
-<!-- Images -->
+<!-- Audio -->
+<audio src="audio"></audio>
+
+<!-- Videos -->
 <video	src="video" alt="Alternative text"></video>
 
-<!-- Several sources can be provided -->
+<!-- Several sources can be provided (also for audio) -->
 <video alt="Alternative text">
 	<source src="video.mp4" type="video/mp4"/>
 	<source src="video.ogg" type="video/ogg"/>
@@ -181,6 +187,12 @@ tags:
 <ul>  
   <li>List element</li>
 </ul>
+
+<!-- Definition list -->
+<dl>
+	<dt>Element</dt>
+		<dd>Definition</dd>
+</dl>
 ```
 
 ### Tables
