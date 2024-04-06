@@ -41,8 +41,7 @@ Hope you like it!  :D
 
 ## Cibersecurity
 - Reverse Engineering #TODO 
-- Malware Creation #TODO
-- Malware Analysis #TODO
+- [Malware]()
 ## Miscellaneous
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
