@@ -11,8 +11,23 @@ tags:
 [Back to index](../GUI.md)
 
 ---
-## Introduction
-## Structure
+## Introduction to tags
+
+- There are 2 types of tags:
+	- Open/Close tags.
+	```HTML
+	<tag>contents</tag>
+	```
+	- Standalone tags.
+	```HTML
+	<tag>
+	```
+
+- Tags can also have some attributes
+```Html
+<tag attribute="something">
+```
+## Page Structure
 
 ```html
 <!DOCTYPE html>
@@ -28,6 +43,7 @@ tags:
 
 ## Head
 ```html
+<!-- Title of the a -->
 <title>...</title>
 <style>
 <script>
