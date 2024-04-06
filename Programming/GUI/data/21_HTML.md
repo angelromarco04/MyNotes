@@ -161,11 +161,13 @@ tags:
 ```html
 <!-- Ordered list -->
 <ol>
-	<a>
+	<li>List element</li>
 </ol>
 
 <!-- Unordered list -->
-
+<ul>  
+  <li>List element</li>
+</ul>
 ```
 
 ### Tables
@@ -186,9 +188,9 @@ tags:
 </table>
 ```
 
-- Attributes `colpan` and 
+- Attributes `colpan` and `rowspan` are used to expand cells.
 
 ---
 ### Some Extra Resources (w3schools)
 - [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)
-- 
+- [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
