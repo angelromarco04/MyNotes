@@ -171,7 +171,3 @@ tags:
 ```html
 
 ```
-
----
-## CSS
-### In-line styling
