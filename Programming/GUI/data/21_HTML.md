@@ -11,7 +11,8 @@ tags:
 [Back to index](../GUI.md)
 
 ---
-## Introduction to tags
+## Introduction
+### Tags
 
 - There are 2 types of tags:
 	- Open/Close tags.
@@ -27,7 +28,7 @@ tags:
 ```Html
 <tag attribute="something">
 ```
-## Page Structure
+### Page Structure
 
 ```html
 <!DOCTYPE html>
@@ -41,7 +42,9 @@ tags:
 </html>
 ```
 
+---
 ## Head
+
 ```html
 <!-- Title of the page -->
 <title> ... </title>
@@ -64,25 +67,50 @@ tags:
 <!-- Base URL for a page relative links -->
 <base html href="base URL" target="_blank">
 ```
-## Body
+
+---
+## Body 
+### Basic tags
+
 ```html
+<!-- Paragraphs -->
 <p>...</p>
+
+<!-- Header of a block -->
 <header> ... </header>
+
+<!-- Footer of a block -->
 <footer> ... </footer>
+
+<!-- Sections of a block -->
 <section> ... </section>
+
+<!-- Headers (bigger to smaller) -->
 <h1> ... </h1>
 <h2> ... </h2>
 <h3> ... </h3>
 <h4> ... </h4>
 <h5> ... </h5>
 <h6> ... </h6>
+
+<!-- ? -->
 <br>
+
+<!-- ? -->
 <hr>
-<!-- Comments -->
+```
 
-<div>
-<span>
+---
+### Block markup
+```html
+<div id=“someID” class=“someClass”> ... </div>
 
+<span> ... </span>
+```
+
+---
+### Media
+```html
 <img>
 <input>
 ```
