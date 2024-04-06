@@ -199,18 +199,29 @@ tags:
 
 - `<table>` is used for creating a table.
 - `<tr>` is used for creating a table row.
-- `<th>` is used for creating a table header.
-- `<td>` is used for creating some table data.
+- `<th>` is used for creating a table header cell.
+- `<td>` is used for creating some table data cell.
 - Attributes `colpan` and `rowspan` are used to expand cells.
+- 
 
 ```html
-<table>  
-  <tr>  
-    <th>Table Header</th>
-  </tr>  
-  <tr>  
-    <td>Table Data</td>  
-  </tr>
+<table>
+	<caption>Table title</caption>
+	<thead>
+		<tr>  
+		    <th>Table Header</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>  
+		    <td>Table Data</td>  
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>  
+		    <td>Table foot</td>  
+		</tr>
+	</tfoot>
 </table>
 ```
 ### Page Layout
