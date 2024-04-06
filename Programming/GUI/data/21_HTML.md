@@ -70,18 +70,10 @@ tags:
 
 ---
 ## Body 
-### Basic tags
+
+### Structure
 ```html
-<!-- Paragraphs -->
-<p>...</p>
-
-<!-- Header of a block -->
-<header> ... </header>
-
-<!-- Footer of a block -->
-<footer> ... </footer>
-
-<!-- Sections of a block -->
+<!-- Goup of related contents -->
 <section> ... </section>
 
 <!-- Headers (bigger to smaller) -->
@@ -91,6 +83,17 @@ tags:
 <h4> ... </h4>
 <h5> ... </h5>
 <h6> ... </h6>
+```
+### Basic tags
+```html
+<!-- Paragraph -->
+<p>...</p>
+
+<!-- Header of a block -->
+<header> ... </header>
+
+<!-- Footer of a block -->
+<footer> ... </footer>
 
 <!-- Line break -->
 <br>
@@ -101,7 +104,6 @@ tags:
 <!-- Preformated text -->
 <pre> ... </pre>
 ```
-
 ### Formatting tags
 ```html
 <!-- Highlight (by default bold) -->
@@ -115,6 +117,10 @@ tags:
 
 <!-- Superscript -->
 <sup> ... </sup>
+```
+### Quotations
+```html
+<blockquote cite="URL"> ... </>
 ```
 ### Styling tags
 ```html
