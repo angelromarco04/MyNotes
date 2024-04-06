@@ -43,13 +43,30 @@ tags:
 
 ## Head
 ```html
-<!-- Title of the a -->
-<title>...</title>
-<style>
-<script>
-<link>
-<meta>
+<!-- Title of the page -->
+<title> ... </title>
+
+<!-- Defines the page style (CSS) -->
+<style> ... </style>
+
+<!-- Defines the page style (CSS) -->
+<script> ... </script>
+
+<!-- Title of the page -->
+<link> ... </link>
+
+<!-- Title of the page -->
+<meta> ... </meta>
 	<meta charset="utf-8">
+	<meta name="description" content="my page description">
+	<meta name="keywords" content="keyword1, keyword2">
+	<meta name="author" content="John Doe">
+
+
+
+
+
+<!-- Title of the page -->
 <base>
 
 ```
