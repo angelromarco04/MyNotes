@@ -52,28 +52,24 @@ tags:
 <!-- Defines the page style (CSS) -->
 <script> ... </script>
 
-<!-- Title of the page -->
+<!-- Defines the page scripts (JS) -->
 <link> ... </link>
 
-<!-- Title of the page -->
-<meta> ... </meta>
-	<meta charset="utf-8">
-	<meta name="description" content="my page description">
-	<meta name="keywords" content="keyword1, keyword2">
-	<meta name="author" content="John Doe">
+<!-- Some page metadata -->
+<meta charset="utf-8">
+<meta name="description" content="my page description">
+<meta name="keywords" content="keyword1, keyword2">
+<meta name="author" content="author's name">
 
-
-
-
-
-<!-- Title of the page -->
-<base>
-
+<!-- Base URL for a page relative links -->
+<base html href="base URL" target="_blank">
 ```
-
 ## Body
 ```html
 <p>...</p>
+<header> ... </header>
+<footer> ... </footer>
+<section> ... </section>
 <h1> ... </h1>
 <h2> ... </h2>
 <h3> ... </h3>
