@@ -139,7 +139,7 @@ tags:
 <!-- Superscript -->
 <sup> ... </sup>
 ```
-### Quotations & Other blocks
+### Quotations & Definitions
 ```html
 <!-- Blockquote -->
 <blockquote cite="URL"> ... </blockquote>
@@ -155,9 +155,17 @@ tags:
 
 <!-- Definitions -->
 <dfn title="Definition"> ... </dfn>
-
+```
+### Other blocks
+```html
 <!-- Codeblock -->
 <code> ... </code>
+
+<!-- Collapsible block -->
+<details>
+  <summary>Click to expand</summary>
+  ...
+</details>
 ```
 ### Styling tags
 ```html
@@ -167,7 +175,6 @@ tags:
 <!-- Used to apply styling to text fragments -->
 <span id=“someID” class=“someClass”> ... </span>
 ```
-
 ### Links
 ```HTML
 <!-- Basic link -->
@@ -274,9 +281,11 @@ tags:
 	</tfoot>
 </table>
 ```
+### Forms
 
----
-## Forms
+- Use `<fieldset>` to group related inputs of the form.
+	- Use `<legend>` to provide information to the grouping.
+- Use `<label>` and `<input>` for creating an input for the form.
 
 ```html
 <form>
