@@ -41,6 +41,14 @@
 	<!-- Text input (with max length) -->
 	<label for="name">First name:</label>
 	<input type="text" id="name" name="name" maxlength="15"/>
+
+	<!-- Input with predefined options -->
+	<label for="browser">Browser:</label>
+	<input id="browser" name="browser" list="browsers">  
+	<datalist id="browsers">  
+	    <option value="Chrome">
+	    <option value="Firefox">
+	</datalist>
 	
 	<!-- Radio buttons input -->
 	<input type="radio" id="male" name="sex"/>
