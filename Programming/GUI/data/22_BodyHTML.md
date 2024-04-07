@@ -142,27 +142,27 @@
 	<img src="img3"/>
 </figure>
 ```
-### Video
+### Video & audio
 ```html
 <!-- Simple Video -->
 <video	src="video" alt="Alternative text"></video>
 
-<!-- Several sources -->
-<video alt="Alternative text">
-	<source src="video.mp4" type="video/mp4"/>
-	<source src="video.ogg" type="video/ogg"/>
-</video>
-```
-### Audio
-```html
-<!-- Simple Audio -->
-<audio src="audio"></audio>
+<!-- Video with user-controls -->
+<video	src="video" alt="Alternative text" controls></video>
 
-<!-- Several sources can be provided (also for audio) -->
+<!-- Simple Audio -->
+<audio	src="video" alt="Alternative text"></audio>
+
+<!-- Auto-starting video (also valid with audio) -->
+<video	src="video" alt="Alternative text" autoplay></video>
+
+<!-- Muted video (also valid with audio) -->
+<video	src="video" alt="Alternative text" muted></video>
+
+<!-- Several sources (also valid with audio) -->
 <video alt="Alternative text">
 	<source src="video.mp4" type="video/mp4"/>
 	<source src="video.ogg" type="video/ogg"/>
-	<source src="video.webm" type="video/webm"/>
 </video>
 ```
 ### Date & Time
@@ -172,5 +172,24 @@
 
 <!-- Full datetime -->
 <time datetime="2001-05-15T19:00">May 15</time>
+```
+---
+## Lists
+```html
+<!-- Ordered list -->
+<ol>
+	<li>List element</li>
+</ol>
+
+<!-- Unordered list -->
+<ul>  
+  <li>List element</li>
+</ul>
+
+<!-- Definition list -->
+<dl>
+	<dt>Element</dt>
+		<dd>Definition</dd>
+</dl>
 ```
 ---
