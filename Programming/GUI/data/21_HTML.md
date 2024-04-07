@@ -296,7 +296,7 @@ tags:
 ```
 ### Forms
 
-- Type can be:
+- Input type can be: `text`, `password`, `date`, `submit` or `reset`
 
 ```html
 <form>
