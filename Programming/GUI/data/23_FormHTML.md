@@ -38,9 +38,9 @@
 ### Input
 ```html
 <form>
-	<!-- Text input (with max length) -->
+	<!-- Simple input -->
 	<label for="name">First name:</label>
-	<input type="text" id="name" name="name" maxlength="15"/>
+	<input type="text" id="name" name="name"/>
 
 	<!-- Input with predefined options -->
 	<label for="browser">Browser:</label>
@@ -49,28 +49,6 @@
 	    <option value="Chrome">
 	    <option value="Firefox">
 	</datalist>
-	
-	<!-- Radio buttons input -->
-	<input type="radio" id="male" name="sex"/>
-	<label for="male">Male</label>
-	
-	<input type="radio" id="female" name="sex"/>
-	<label for="male">Female</label>
-	
-	<!-- Checkboxes input -->
-	<input type="checkbox" id="dev1" name="dev1" value="PC">  
-	<label for="device1"> I have a PC</label>
-	
-	<input type="checkbox" id="dev2" name="dev2" value="Phone">
-	<label for="device2"> I have a phone</label><br>
-	
-	<!-- Date input -->
-	<label for="birth">Birth date:</label>
-	<input type="date" id="birth" name="birth"/>
-	
-	<!-- Password input (with min length) -->
-	<label for="pwd">Password:</label>
-	<input type="password" id="pwd" name="pwd" minlength="8"/>
 </form>
 ```
 ### Select
@@ -97,3 +75,36 @@
 	Write here your message.  
 </textarea>
 ```
+---
+## Input types
+```html
+	<!-- Text input (with max length) -->
+	<label for="name">First name:</label>
+	<input type="text" id="name" name="name" maxlength="15"/>
+
+	
+	
+	<!-- Radio buttons input -->
+	<input type="radio" id="male" name="sex"/>
+	<label for="male">Male</label>
+	
+	<input type="radio" id="female" name="sex"/>
+	<label for="male">Female</label>
+	
+	<!-- Checkboxes input -->
+	<input type="checkbox" id="dev1" name="dev1" value="PC">  
+	<label for="device1"> I have a PC</label>
+	
+	<input type="checkbox" id="dev2" name="dev2" value="Phone">
+	<label for="device2"> I have a phone</label><br>
+	
+	<!-- Date input -->
+	<label for="birth">Birth date:</label>
+	<input type="date" id="birth" name="birth"/>
+	
+	<!-- Password input (with min length) -->
+	<label for="pwd">Password:</label>
+	<input type="password" id="pwd" name="pwd" minlength="8"/>
+```
+---
+## Input Attributes
