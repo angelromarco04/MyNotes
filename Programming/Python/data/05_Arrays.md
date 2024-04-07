@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-05
-tags:
-  - "#programming"
-  - python
----
+
 ---
 # 05 Arrays and `for` loop
 
-[Back to index](../PYTHON.md)
+[Back to index](../index.md)
 
 ---
 

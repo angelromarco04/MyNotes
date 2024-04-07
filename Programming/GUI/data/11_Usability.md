@@ -1,15 +1,9 @@
----
-Author: AAM
-Date: 2024-02-15
-tags:
-  - programming
-  - frontend
----
+
 
 ---
 # Usability
 
-[Back to index](../GUI.md)
+[Back to index](../index.md)
 
 ---
 

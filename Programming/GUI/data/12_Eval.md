@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-18
-tags:
-  - programming
-  - frontend
----
+
 ---
 # UI Evaluation
 
-[Back to index](../GUI.md)
+[Back to index](../index.md)
 
 ---
 

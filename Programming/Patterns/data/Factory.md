@@ -1,15 +1,8 @@
----
-Author: AAM
-Date: 2024-03-16
-tags:
-  - "#programming"
-  - other
-  - programming
----
+
 ---
 # Factory Patterns
 
-[Back to index](../PATTERNS.md)
+[Back to index](../index.md)
 
 1. [Description](#description)
 2. [Factory Method](#factory-method)

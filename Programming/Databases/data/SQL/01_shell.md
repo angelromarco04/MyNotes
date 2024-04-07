@@ -1,16 +1,8 @@
----
-Author: AAM
-Date: 2024-02-09
-tags:
-  - "#programming"
-  - SQL
-  - DB
----
 
 ---
 # 01 PSQL shell commands
 
-[Back to index](../../DATABASES.md)
+[Back to index](../../index.md)
 
 ---
 ## Basic

@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-05
-tags:
-  - "#programming"
-  - python
----
+
 ---
 # 06 Functions
 
-[Back to index](../PYTHON.md)
+[Back to index](../index.md)
 
 ---
 

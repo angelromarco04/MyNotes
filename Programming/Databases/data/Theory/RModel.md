@@ -1,15 +1,8 @@
----
-Author: AAM
-Date: 2024-03-20
-tags:
-  - "#programming"
-  - DB
----
 
 ---
 # Relational Model
 
-[Back to index](../../DATABASES.md)
+[Back to index](../../index.md)
 
 1. Basic Notions
 2. Attributes

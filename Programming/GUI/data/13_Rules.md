@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-18
-tags:
-  - programming
-  - frontend
----
+
 ---
 # Golden rules of UI design
 
-[Back to index](../GUI.md)
+[Back to index](../index.md)
 
 ---
 

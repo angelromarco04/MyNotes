@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-03-16
-tags:
-  - programming
-  - other
----
+
 ---
 # Title
 
-[Back to index](../PATTERNS.md)
+[Back to index](../index.md)
 
 ---
 

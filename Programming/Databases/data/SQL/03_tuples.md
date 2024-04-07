@@ -1,16 +1,8 @@
----
-Author: AAM
-Date: 2024-03-18
-tags:
-  - "#programming"
-  - SQL
-  - DB
----
 
 ---
 # 03 Tuples Management
 
-[Back to index](../../DATABASES.md)
+[Back to index](../../index.md)
 
 ---
 ## Inserting tuples

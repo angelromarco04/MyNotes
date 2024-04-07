@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-05
-tags:
-  - "#programming"
-  - "#rust"
----
+
 ---
 # Control Flow
 
-[Back to index](../RUST.md)
+[Back to index](../index.md)
 
 ---
 ## Conditional structures

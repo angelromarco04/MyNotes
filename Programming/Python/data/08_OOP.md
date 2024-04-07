@@ -1,15 +1,8 @@
----
-Author: AAM
-Date: 2024-02-05
-tags:
-  - "#python"
-  - "#programming"
-  - python
----
+
 ---
 # 07 Object Oriented Programming
 
-[Back to index](../PYTHON.md)
+[Back to index](../index.md)
 
 ---
 

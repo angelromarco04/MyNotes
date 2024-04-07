@@ -1,15 +1,8 @@
----
-Author: AAM
-Date: 2024-03-17
-tags:
-  - "#programming"
-  - DB
----
 
 ---
 # Entity/Relationship Model
 
-[Back to index](../../DATABASES.md)
+[Back to index](../../index.md)
 
 ---
 

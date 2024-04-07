@@ -8,7 +8,7 @@ tags:
 ---
 # 01 Basics
 
-[Back to index](../MATLAB.md)
+[Back to index](../index.md)
 
 ---
 

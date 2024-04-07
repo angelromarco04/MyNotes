@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-05
-tags:
-  - "#programming"
-  - "#rust"
----
+
 ---
 # Data types
 
-[Back to index](../RUST.md)
+[Back to index](../index.md)
 
 ---
 

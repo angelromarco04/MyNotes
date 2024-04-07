@@ -8,7 +8,7 @@ tags:
 ---
 # 02 Vectors & Matrices
 
-[Back to index](../MATLAB.md)
+[Back to index](../index.md)
 
 ---
 
