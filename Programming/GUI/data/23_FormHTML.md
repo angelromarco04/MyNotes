@@ -12,16 +12,18 @@
 	<fieldset>
 	    <legend>Personal details</legend>
 		
-		<!-- Text input -->
-	    <label for="firstname">First name:</label>
+		<!-- Text input (with max length) -->
+	    <label for="firstname" maxlength="15">First name:</label>
 	    <input type="text" id="firstname" name="firstname"/>
 		
+		<input type="radio" id="male" name="firstname"/>
+
 		<!-- Date input -->
 	    <label for="birth">Birth date:</label>
 	    <input type="date" id="birth" name="birth"/>
-		
-		<!-- Password input (with min and max length) -->
-	    <label for="pwd" minlength="5" maxlength="9">Password:</label>
+	    
+		<!-- Password input (with min length) -->
+	    <label for="pwd" minlength="8">Password:</label>
 	    <input type="password" id="pwd" name="pwd"/>
 		
 	</fieldset>
