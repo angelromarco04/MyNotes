@@ -159,9 +159,9 @@
 ```
 ### Date & Time
 ```html
-<!-- Time only -->
+<!-- Simple datetime -->
 <time>20:00</time>
 
-<!-- Time and dates -->
+<!-- Full datetime -->
 <time datetime="">text</time>
 ```
