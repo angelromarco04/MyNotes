@@ -103,6 +103,18 @@
 	<input type="email" id="email" name="email">
 	<input type="file" id="myfile" name="myfile">
 	<input type="hidden" id="data" name="data" value="someData">
+	<input type="number" id="quantity" name="quantity">
 ```
 ---
 ## Input Attributes
+
+- `checked`. Pre-selected radio button or checkbox.
+- `max`.  Maximum value for an input.
+- `min`. Minimum value for an input.
+- `maxlength`.  Maximum length for an input.
+- `minlength`.  Minimum length for an input.
+- `pattern`. Pattern to check the input.
+- `disabled`. Disabled input.
+- `readonly`. Non-modificable input.
+- `required`. Mandatory input.
+- `value`. Default value.
