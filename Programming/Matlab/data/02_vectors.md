@@ -1,10 +1,4 @@
----
-Author: AAM
-Date: 2024-02-04
-tags:
-  - "#matlab"
-  - "#programming"
----
+
 ---
 # 02 Vectors & Matrices
 

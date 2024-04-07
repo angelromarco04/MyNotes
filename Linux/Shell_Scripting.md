@@ -1,10 +1,5 @@
+
 ---
-Author: AAM
-Date: 2024-03-19
-tags:
-  - linux
----
-------
 # Shell_Scripting
 
 [HOME](/README.md)

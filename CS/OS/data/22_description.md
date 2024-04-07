@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-03-24
-tags:
-  - ComputerScience
-  - OperatingSystems
----
+
 ---
 # Processes description
 
-[Back to index](../OS.md)
+[Back to index](../index.md)
 
 ---
 ## Processes Basics

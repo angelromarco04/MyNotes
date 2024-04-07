@@ -1,10 +1,4 @@
----
-Author: AAM
-Date: 2024-02-09
-tags:
-  - programming
-  - DB
----
+
 ---
 # DATABASES
 

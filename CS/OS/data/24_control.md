@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-03-25
-tags:
-  - ComputerScience
-  - OperatingSystems
----
+
 ---
 # Processes Control
 
-[Back to index](../OS.md)
+[Back to index](../index.md)
 
 ---
 ## Process Typology

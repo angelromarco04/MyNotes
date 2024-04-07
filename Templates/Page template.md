@@ -2,7 +2,8 @@
 ---
 # 00 Title
 
-[Back to index]()
+[Back to index](../index.md)
 
 ---
 
+## Heading

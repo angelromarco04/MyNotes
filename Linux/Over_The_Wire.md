@@ -1,10 +1,4 @@
----
-Author: AAM
-Date: 2024-03-19
-tags:
-  - other
-  - linux
----
+
 ---
 # Over The Wire Games
 

@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-03-29
-tags:
-  - ComputerScience
-  - OperatingSystems
----
+
 ---
 # Semaphores
 
-[Back to index](../OS.md)
+[Back to index](../index.md)
 
 ---
 

@@ -1,10 +1,3 @@
----
-Author: AAM
-Date: 2024-03-15
-tags:
-  - notes
-  - linux
----
 # Manual mounting
 
 ```bash

@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-03-26
-tags:
-  - ComputerScience
-  - OperatingSystems
----
+
 ---
 # Threads
 
-[Back to index](../OS.md)
+[Back to index](../index.md)
 
 ---
 

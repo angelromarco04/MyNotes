@@ -1,9 +1,3 @@
----
-Author: AAM
-Date: 2024-03-19
-tags:
-  - other
----
 
 # ANSI Escape Codes
 This codes are used to control the cursor location, color, font, styling and another options on terminals.

@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-03-28
-tags:
-  - ComputerScience
-  - OperatingSystems
----
+
 ---
 # Hardware solutions to mutual exclusion
 
-[Back to index](../OS.md)
+[Back to index](../index.md)
 
 ---
 ## Disabling Interruptions

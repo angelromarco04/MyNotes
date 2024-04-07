@@ -32,7 +32,7 @@ Hope you like it!  :D
 ## Computer Science Theory
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
-- [Operating Systems](CS/OS/OS.md)
+- [Operating Systems](CS/OS/index.md)
 ## Linux
 - [Bash](/Linux/Bash.md)
 - [Shell Scripting](/Linux/Shell_Scripting.md)
@@ -41,7 +41,7 @@ Hope you like it!  :D
 
 ## Cibersecurity
 - Reverse Engineering #TODO 
-- [MALWARE](Cibersecurity/Malware/MALWARE.md) #TODO
+- [index](Cibersecurity/Malware/index.md) #TODO
 ## Miscellaneous
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)

@@ -1,14 +1,8 @@
----
-Author: AAM
-Date: 2024-02-05
-tags:
-  - ComputerScience
-  - OperatingSystems
----
+
 ---
 # Introduction to Operating Systems
 
-[Back to index](../OS.md)
+[Back to index](../index.md)
 
 1. [Definition of an operating system (OS)](#definition-of-an-os)
 2. [Historic evolution](#historic-evolution)

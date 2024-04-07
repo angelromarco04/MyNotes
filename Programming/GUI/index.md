@@ -22,7 +22,7 @@
 - [JavaScript w3schools](https://www.w3schools.com/js/default.asp)
 ### HTML/CSS
 1. [Introduction to Web Design](data/21_IntroHTML.md)
-2. 
+2. [Webpage Body](data/22_BodyHTML.md)
 ### JavaScript (JS)
 1. 
 ---
