@@ -161,11 +161,24 @@ tags:
 <!-- Codeblock -->
 <code> ... </code>
 
-<!-- Collapsible block -->
+<!-- Collapsible Block -->
 <details>
   <summary>Click to expand</summary>
   ...
 </details>
+
+<!-- Select Option -->
+<select>
+   <optgroup label="Menu1">
+      <option>One option</option>
+      ...
+   </optgroup>
+   <optgroup label="Menu2">
+      <option>Other option</option>
+      ...
+   </optgroup>
+</select>
+
 ```
 ### Styling tags
 ```html
@@ -296,6 +309,9 @@ tags:
 	    <input type="text" id="firstname" name="firstname"/>
 	    
    </fieldset>
+
+	<!-- To specify input length-->
+	<input type="text" minlength="3">
 </form>
 ```
 
