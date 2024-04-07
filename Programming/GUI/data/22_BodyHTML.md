@@ -178,18 +178,54 @@
 ```html
 <!-- Ordered list -->
 <ol>
+	<!-- List item -->
 	<li>List element</li>
 </ol>
 
 <!-- Unordered list -->
-<ul>  
-  <li>List element</li>
+<ul>
+	<!-- List item -->
+	<li>List element</li>
 </ul>
 
 <!-- Definition list -->
 <dl>
-	<dt>Element</dt>
-		<dd>Definition</dd>
+	<dt>Descriptor</dt>
+		<dd>Element</dd>
 </dl>
 ```
 ---
+## Tables
+### Structure
+```html
+<table>
+	<!-- Table Title -->
+	<caption>Table title</caption>
+
+	<!-- Table Head -->
+	<thead> ... </thead>
+
+	<!-- Table Body -->
+	<tbody> ... </tbody>
+
+	<!-- Table Footer -->
+	<tfoot> ... </tfoot>
+</table>
+```
+### Table contents
+```html
+<table>
+	<!-- Table row -->
+	<tr>
+		<!-- Table header cell -->
+		<th> ... </th>
+
+		<!-- Table data cell -->
+		<td> ... </td>
+
+		<!-- 2 rows cell -->
+		<td colspan="2"> ... </td>
+	</tr>
+	<tr> </tr>
+</table>
+```

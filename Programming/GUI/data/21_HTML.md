@@ -46,7 +46,7 @@
 - `<tr>` is used for creating a table row.
 - `<th>` is used for creating a table header cell.
 - `<td>` is used for creating some table data cell.
-- Attributes `colpan` and `rowspan` are used to expand cells.
+- Attributes `colspan` and `rowspan` are used to expand cells.
 - Table columns can be grouped with `<colgroup>`
 
 ```html
