@@ -226,6 +226,24 @@
 		<!-- 2 rows cell -->
 		<td colspan="2"> ... </td>
 	</tr>
-	<tr> </tr>
+	<tr>
+		<!-- 2 column cell -->
+		<td rowspan="2"> ... </td>
+	</tr>
 </table>
 ```
+### Table styling
+```html
+<table>
+	<!-- Styling columns -->
+	<colgroup>
+	    <col span="2" style="background-color: red">
+	    <col style="background-color: yellow">
+	</colgroup>
+
+	<!-- Table  -->
+	...
+	
+</table>
+```
+---
