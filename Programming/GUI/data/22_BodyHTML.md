@@ -142,13 +142,21 @@
 	<img src="img3"/>
 </figure>
 ```
-### Audio & Video
+### Video
 ```html
-<!-- Audio -->
-<audio src="audio"></audio>
-
-<!-- Video -->
+<!-- Simple Video -->
 <video	src="video" alt="Alternative text"></video>
+
+<!-- Several sources -->
+<video alt="Alternative text">
+	<source src="video.mp4" type="video/mp4"/>
+	<source src="video.ogg" type="video/ogg"/>
+</video>
+```
+### Audio
+```html
+<!-- Simple Audio -->
+<audio src="audio"></audio>
 
 <!-- Several sources can be provided (also for audio) -->
 <video alt="Alternative text">
@@ -165,3 +173,4 @@
 <!-- Full datetime -->
 <time datetime="2001-05-15T19:00">May 15</time>
 ```
+---
