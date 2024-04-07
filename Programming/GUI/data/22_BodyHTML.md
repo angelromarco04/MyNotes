@@ -163,5 +163,5 @@
 <time>20:00</time>
 
 <!-- Full datetime -->
-<time datetime="">text</time>
+<time datetime="2001-05-15T19:00">May 15</time>
 ```
