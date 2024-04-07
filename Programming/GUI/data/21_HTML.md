@@ -77,7 +77,28 @@ tags:
 ---
 ## Body 
 
-### Structure
+### Body Layout
+
+- [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
+
+```html
+<!-- Header of the page -->
+<header> ... </header>
+
+<!-- Navigation bar of the page -->
+<nav> ... </nav>
+
+<!-- Sections of the page -->
+<section> ... </section>
+
+<!-- Sidebar of the page -->
+<aside> ... </aside>
+
+<!-- Footer of the page -->
+<footer> ... </footer>
+```
+
+### Headers
 ```html
 <!-- Headers (bigger to smaller) -->
 <h1> ... </h1>
@@ -97,12 +118,12 @@ tags:
 
 <!-- Horizontal rule. Used to separate contents. -->
 <hr/>
-
-<!-- Preformated text -->
-<pre> ... </pre>
 ```
 ### Formatting tags
 ```html
+<!-- Preformated text -->
+<pre> ... </pre>
+
 <!-- Highlight (by default bold) -->
 <strong> ... </strong>
 
@@ -141,12 +162,22 @@ tags:
 <div id=“someID” class=“someClass”> ... </div>
 
 <!-- Used to apply styling to text fragments -->
-<span> ... </span>
+<span id=“someID” class=“someClass”> ... </span>
 ```
 
 ### Links
 ```HTML
+<!-- Basic link -->
 <a href="URL" target="_target"> Displayed text </a>
+
+<!-- Email link -->
+<a href="mailto:name@example.com"> Send Email </a>
+
+<!-- Phone call link -->
+<a href="tel:+1234567890"> Call Us </a>
+
+<!-- SMS link -->
+<a href="sms:+1234567890"> Send SMS </a>
 ```
 
 - The `URL` can be internal/external and absolute/relative.
@@ -240,25 +271,6 @@ tags:
 	</tfoot>
 </table>
 ```
-### Page Layout
 
-- [HTML Layout](https://www.w3schools.com/html/html_layout.asp)
-
-```html
-<!-- Header of the page -->
-<header> ... </header>
-
-<!-- Navigation bar of the page -->
-<nav> ... </nav>
-
-<!-- Sections of the page -->
-<section> ... </section>
-
-<!-- Sidebar of the page -->
-<aside> ... </aside>
-
-<!-- Footer of the page -->
-<footer> ... </footer>
-```
 
 ---
