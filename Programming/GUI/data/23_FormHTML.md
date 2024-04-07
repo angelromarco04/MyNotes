@@ -78,33 +78,31 @@
 ---
 ## Input types
 ```html
-	<!-- Text input (with max length) -->
-	<label for="name">First name:</label>
-	<input type="text" id="name" name="name" maxlength="15"/>
-
-	
+	<!-- Text input -->
+	<input type="text" id="name" name="name"/>
 	
 	<!-- Radio buttons input -->
 	<input type="radio" id="male" name="sex"/>
-	<label for="male">Male</label>
-	
 	<input type="radio" id="female" name="sex"/>
-	<label for="male">Female</label>
 	
 	<!-- Checkboxes input -->
-	<input type="checkbox" id="dev1" name="dev1" value="PC">  
-	<label for="device1"> I have a PC</label>
-	
+	<input type="checkbox" id="dev1" name="dev1" value="PC">
 	<input type="checkbox" id="dev2" name="dev2" value="Phone">
-	<label for="device2"> I have a phone</label><br>
 	
 	<!-- Date input -->
-	<label for="birth">Birth date:</label>
 	<input type="date" id="birth" name="birth"/>
 	
-	<!-- Password input (with min length) -->
-	<label for="pwd">Password:</label>
-	<input type="password" id="pwd" name="pwd" minlength="8"/>
+	<!-- Password input -->
+	<input type="password" id="pwd" name="pwd"/>
+	
+	<!-- Button input -->
+	<input type="button" onclick="function()" value="Click Me!">
+	
+	<!-- Other input -->
+	<input type="color" id="favcolor" name="favcolor">
+	<input type="email" id="email" name="email">
+	<input type="file" id="myfile" name="myfile">
+	<input type="hidden" id="data" name="data" value="someData">
 ```
 ---
 ## Input Attributes
