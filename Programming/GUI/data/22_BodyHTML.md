@@ -105,7 +105,7 @@
 </select>
 ```
 ---
-## Multimedia
+## Multimedia & More
 ### Links
 ```HTML
 <!-- Basic link -->
@@ -128,6 +128,10 @@
 
 <!-- SMS link -->
 <a href="sms:+1234567890"> Send SMS </a>
+```
+### Buttons
+```html
+<button type="button" onclick="function()">Click Me!</button>
 ```
 ### Images
 ```html
