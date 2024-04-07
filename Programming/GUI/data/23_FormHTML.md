@@ -24,13 +24,12 @@
 		<label for="male">Female</label>
 		
 		<!-- Checkboxes input -->
-		<input type="checkbox" id="device1" name="device1" value="TV">  
-  <label for="vehicle1"> I have a bike</label><br>  
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">  
-  <label for="vehicle2"> I have a car</label><br>
-
-
-
+		<input type="checkbox" id="dev1" name="dev1" value="PC">  
+		<label for="device1"> I have a PC</label>
+		
+		<input type="checkbox" id="dev2" name="dev2" value="Phone">
+		<label for="device2"> I have a phone</label><br>
+		
 		<!-- Date input -->
 	    <label for="birth">Birth date:</label>
 	    <input type="date" id="birth" name="birth"/>
@@ -46,4 +45,10 @@
     <input type="reset" value="Reset">
 	
 </form>
+```
+---
+## Form Attributes
+```html
+<!-- Perform an action --
+<form action="/action.php"> ... </form>
 ```
