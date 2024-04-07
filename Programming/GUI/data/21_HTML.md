@@ -11,9 +11,7 @@ tags:
 [Back to index](../GUI.md)
 
 ---
-## Resources
 
-- [HTML w3schools](https://www.w3schools.com/)
 ---
 ## Introduction
 ### Tags

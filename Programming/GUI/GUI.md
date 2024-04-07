@@ -18,13 +18,15 @@ tags:
 1. [Usability](data/11_Usability.md)
 2. [UI Evaluation](data/12_Eval.md)
 3. [UI Design Rules](data/13_Rules.md)
+4. [Web Standards](data/20_Standards.md)
 
 ---
 ## Web design
-
-0. [Web Standards](data/20_Standards.md)
-1. [HTML](data/21_HTML.md)
-2. CSS
-3. JS
-
+### Resources
+- [HTML w3schools](https://www.w3schools.com/)
+### HTML/CSS
+1. [Introduction to Web Design](data/21_IntroHTML.md)
+2. 
+### JavaScript (JS)
+1. 
 ---

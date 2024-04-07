@@ -25,7 +25,7 @@ Hope you like it!  :D
 ### Other
 - Data Structures & Algorithms #TODO
 - [Design Patterns](/Programming/Patterns/PATTERNS.md)
-- [Web design](Programming/GUI/GUI.md)
+- [Human-Computer Interaction](Programming/GUI/GUI.md)
 - [Databases](Programming/Databases/DATABASES.md)
 - Clean code #TODO 
 
