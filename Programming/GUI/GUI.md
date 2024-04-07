@@ -24,6 +24,8 @@ tags:
 ## Web design
 ### Resources
 - [HTML w3schools](https://www.w3schools.com/)
+- [CSS w3schools](https://www.w3schools.com/css/default.asp)
+- [JavaScript w3schools](https://www.w3schools.com/js/default.asp)
 ### HTML/CSS
 1. [Introduction to Web Design](data/21_IntroHTML.md)
 2. 

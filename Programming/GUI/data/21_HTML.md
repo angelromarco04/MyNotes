@@ -14,7 +14,7 @@ tags:
 
 ---
 ## Introduction
-### Tags
+### HTML Tags
 
 - There are 2 types of tags:
 	- Open/Close tags.
