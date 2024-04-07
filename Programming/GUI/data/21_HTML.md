@@ -91,6 +91,9 @@ tags:
 <!-- Sections of the page -->
 <section> ... </section>
 
+<!-- Articles of the page -->
+<article> ... </article>
+
 <!-- Sidebar of the page -->
 <aside> ... </aside>
 
@@ -168,7 +171,10 @@ tags:
 ### Links
 ```HTML
 <!-- Basic link -->
-<a href="URL" target="_target"> Displayed text </a>
+<a href="http://page.com" target="_target"> Link </a>
+
+<!-- Section link -->
+<a href="#section" target="_target"> Go to section </a>
 
 <!-- Email link -->
 <a href="mailto:name@example.com"> Send Email </a>
@@ -180,9 +186,6 @@ tags:
 <a href="sms:+1234567890"> Send SMS </a>
 ```
 
-- The `URL` can be internal/external and absolute/relative.
-	- To have a link to an email  use URL `mailto:email.
-	- To have a link to a section use URL `#section`
 - The `_target` can be:
 	- `_blank`. Opens the link to a new tab.
 	- `_self`. Opens the same tab (default).
@@ -272,5 +275,19 @@ tags:
 </table>
 ```
 
+---
+## Forms
+
+```html
+<form>
+	<fieldset>
+	    <legend>Personal details</legend>
+	    
+	    <label for="firstname">First name:</label>
+	    <input type="text" id="firstname" name="firstname"/>
+	    
+   </fieldset>
+</form>
+```
 
 ---
