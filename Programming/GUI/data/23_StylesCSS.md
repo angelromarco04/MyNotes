@@ -20,6 +20,28 @@ h1 {
 }
 ```
 ---
+## How to use CSS
+### Inline
+```html
+<h1 style="color:red">Heading</h1>
+```
+### Embedded/Internal
+```html
+<head>
+	<style>
+		h1 {color:red}
+	</style>
+<head>
+
+<body>
+	<h1>Heading</h1>
+</body>
+```
+### External
+```html
+
+```
+---
 ## CSS Selector
 
 ### Basic
