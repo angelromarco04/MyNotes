@@ -20,11 +20,32 @@ h1 {
 }
 ```
 ## CSS Selector
+
+### Basic
+```css
+/* All h1 will have this style */
+h1 {
+	text-align: center;
+	font-size: 300%;
+}
+```
+### Using IDs
+```css
+/* All h1 will have this style */
+#id {
+	text-align: center;
+	font-size: 300%;
+}
+```
+### Using Classes
+
 ```html
 <html>
 	<head>
 		<style>
-			h1 {color:red;}
+			#header1 {text-align: center;}
+			.red_headers {color:red;}
+			h1 {font-size: 300%;}
 		<style>
 	</head>
 	
