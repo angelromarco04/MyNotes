@@ -23,7 +23,7 @@
 ### HTML/CSS
 1. [Webpage Structure (HTML)](data/21_IntroHTML.md)
 2. [Webpage Contents (HTML)](data/22_BodyHTML.md)
-3. [Webpage Styling (CSS)](data/23_CSS.md)
+3. [Webpage Styling (CSS)](data/23_StylesCSS.md)
 4. [HTML Forms](data/24_FormHTML.md)
 5. 
 ### JavaScript (JS)
