@@ -23,8 +23,9 @@
 ### HTML/CSS
 1. [Introduction to Web Design](data/21_IntroHTML.md)
 2. [HTML Body](data/22_BodyHTML.md)
-3. [HTML Forms](data/23_FormHTML.md)
-4. 
+3. [CSS Styling](data/23_CSS.md)
+4. [HTML Forms](data/24_FormHTML.md)
+5. 
 ### JavaScript (JS)
 1. 
 ---
