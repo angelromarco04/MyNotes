@@ -1,6 +1,6 @@
 
 ---
-# HTML Forms
+# Forms
 
 [Back to index](../index.md)
 
