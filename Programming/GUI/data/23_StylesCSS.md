@@ -39,7 +39,13 @@ h1 {
 ```
 ### External
 ```html
-
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+<head>
+```
+### Imports
+```css
+@import url(styles.css)
 ```
 ---
 ## CSS Selector
@@ -56,11 +62,17 @@ h1 {
 ```
 ### Using IDs
 ```css
-/* Each element can have ONE UNIQUE id */
+/* Each element can have ONE id */
 /* Used to apply a style to a specific element */
 /* Example: <h1 id="header1">...</h1> */
 
 #header1 {
+	text-align: center;
+	font-size: 200%;
+}
+
+/* Applied only to h1 that are header1 */
+h1#header1 {
 	text-align: center;
 	font-size: 300%;
 }
