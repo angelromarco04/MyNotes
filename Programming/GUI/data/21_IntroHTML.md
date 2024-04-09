@@ -1,6 +1,6 @@
 
 ---
-# Introduction to Web Design
+# Webpage Structure
 
 [Back to index](../index.md)
 

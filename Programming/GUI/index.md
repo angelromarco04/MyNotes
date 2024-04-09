@@ -21,9 +21,9 @@
 - [CSS w3schools](https://www.w3schools.com/css/default.asp)
 - [JavaScript w3schools](https://www.w3schools.com/js/default.asp)
 ### HTML/CSS
-1. [Introduction to Web Design](data/21_IntroHTML.md)
-2. [HTML Body](data/22_BodyHTML.md)
-3. [CSS Styling](data/23_CSS.md)
+1. [Webpage Structure (HTML)](data/21_IntroHTML.md)
+2. [Webpage Contents (HTML)](data/22_BodyHTML.md)
+3. [Webpage Styling (CSS)](data/23_CSS.md)
 4. [HTML Forms](data/24_FormHTML.md)
 5. 
 ### JavaScript (JS)
