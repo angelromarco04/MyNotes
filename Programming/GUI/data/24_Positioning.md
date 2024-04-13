@@ -36,4 +36,5 @@
 	- Position is fixed in the screen.
 - `sticky`
 	- Is contain in another element.
-	- Position is fixed in the screen.
+	- Position is stick to the screen on scrolling.
+	- (Requires a `top`, `bottom`, `left` or `right` property)
