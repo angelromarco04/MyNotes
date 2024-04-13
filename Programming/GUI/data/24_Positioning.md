@@ -27,4 +27,13 @@
 
 - `absolute`
 	- Is Independent from other elements.
-	- Position is absolute to the screen.
+	- Position is absolute to the document.
+- `relative`
+	- Is contain in another element.
+	- Position is relative to the container element.
+- `fixed`
+	- Is Independent from other elements.
+	- Position is fixed in the screen.
+- `sticky`
+	- Is contain in another element.
+	- Position is fixed in the screen.
