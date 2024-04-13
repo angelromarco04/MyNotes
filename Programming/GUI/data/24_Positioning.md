@@ -19,3 +19,10 @@
 		- `width` and `height` modify `contents` + `padding` + `border`.
 
 ## Box position
+```css
+.something {
+	position: <pos>;
+}
+```
+
+- absolute
