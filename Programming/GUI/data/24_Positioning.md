@@ -1,6 +1,6 @@
 
 ---
-# Box Model
+# Box Positioning
 
 [Back to index](../index.md)
 
@@ -12,3 +12,6 @@
 	- `padding` is the spacing between the content and border.
 	- `border` is a line that encloses the content and padding
 	- `margin` is the spacing between this element and another ones.
+- Two ways of calculating
+	- `box-sizing: content-b`
+	- `box-sizing: border-box;`
