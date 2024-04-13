@@ -13,5 +13,9 @@
 	- `border` is a line that encloses the content and padding
 	- `margin` is the spacing between this element and another ones.
 - Two ways of calculating
-	- `box-sizing: content-b`
+	- `box-sizing: content-box;`
+		- `width` and `height` modify `contents`.
 	- `box-sizing: border-box;`
+		- `width` and `height` modify `contents` + `padding` + `border`.
+
+## Box position
