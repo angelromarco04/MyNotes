@@ -25,4 +25,6 @@
 }
 ```
 
-- absolute
+- `absolute`
+	- Is Independent from other elements.
+	- Position is absolute to the screen.
