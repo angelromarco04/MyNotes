@@ -24,7 +24,7 @@
 
 ```css
 .something {
-	position: <pos>;
+	position: <value>;
 }
 ```
 
@@ -43,3 +43,16 @@
 	- (Requires a `top`, `bottom`, `left` or `right` property)
 
 ---
+## Box display
+```css
+.something {
+	display: <value>;
+}
+```
+
+- `block` displays element as a block (default.
+- `inline` displays element as a inline element
+- `flex`
+- `inline-flex`
+- `grid`
+- `inline-grid`
