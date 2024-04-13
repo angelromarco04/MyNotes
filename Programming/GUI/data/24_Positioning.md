@@ -6,6 +6,7 @@
 
 ---
 ## Box Model
+
 - Each html element creates a box.
 - Box are made from (inside out):
 	- `content` is the actual contents of the element (usually text).
@@ -18,7 +19,9 @@
 	- `box-sizing: border-box;`
 		- `width` and `height` modify `contents` + `padding` + `border`.
 
+---
 ## Box position
+
 ```css
 .something {
 	position: <pos>;
@@ -38,3 +41,5 @@
 	- Is contain in another element.
 	- Position is stick to the screen on scrolling.
 	- (Requires a `top`, `bottom`, `left` or `right` property)
+
+---
