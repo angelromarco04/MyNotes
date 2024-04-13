@@ -24,7 +24,7 @@
 1. [Webpage Structure (HTML)](data/21_IntroHTML.md)
 2. [Webpage Contents (HTML)](data/22_BodyHTML.md)
 3. [Webpage Styling (CSS)](data/23_StylesCSS.md)
-4. [CSS Reference (CSS)](data/24_RefCSS.md)
+4. [Box Model (CSS)](data/24_BoxModel.md)
 5. Box Model & Positioning (CSS)
 6. 
 7. 
