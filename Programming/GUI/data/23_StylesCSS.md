@@ -98,7 +98,20 @@ h1.big {
 ---
 ## Combinators
 ```css
-div p {  background-color: yellow;}
-div > p {  background-color: yellow;}
+/* Descendant Selector */
+/* All p inside the div */
+div   p {background-color: yellow;}
+
+/* Child Selector */
+/* Only p directly inside the div */
+div > p {background-color: yellow;}
+
+/* General Sibling Selector */
+/* All p behind the div */
+div ~ p {background-color: yellow;}
+
+/* Adjacent Sibling Selector */
+/* Only p directly behind the div */
+div + p {background-color: yellow;}
 ```
 ---
