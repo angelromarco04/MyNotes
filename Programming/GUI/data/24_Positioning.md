@@ -16,6 +16,7 @@
 - Two ways of calculating
 	- `box-sizing: content-box;`
 		- `width` and `height` modify `contents`.
+		- default behaviour.
 	- `box-sizing: border-box;`
 		- `width` and `height` modify `contents` + `padding` + `border`.
 
@@ -50,9 +51,17 @@
 }
 ```
 
-- `block` displays element as a block (default.
-- `inline` displays element as a inline element
-- `flex`
-- `inline-flex`
-- `grid`
-- `inline-grid`
+- `block` displays element as a block (default).
+- `inline` displays element as a inline element.
+- `flex` displays element as a flex block element.
+- `inline-flex` displays element as a inline flex element.
+- `grid` displays element as a grid block element.
+- `inline-grid` displays element as a inline grid element.
+
+---
+## Flex
+
+---
+## Grid
+
+---
