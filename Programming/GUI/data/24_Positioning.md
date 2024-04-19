@@ -25,7 +25,14 @@
 
 ```css
 .something {
-	position: <value>;
+	position: /* value */;
+	
+	/* OPTIONAL */
+	
+	top: /* unit */;
+	bottom: /* unit */;
+	right: /* unit */;
+	left: /* unit */;
 }
 ```
 
@@ -41,13 +48,12 @@
 - `sticky`
 	- Is contain in another element.
 	- Position is stick to the screen on scrolling.
-	- (Requires a `top`, `bottom`, `left` or `right` property)
 
 ---
 ## Box display
 ```css
-.something {
-	display: <value>;
+.container {
+	display: /* value */;
 }
 ```
 
@@ -60,6 +66,17 @@
 
 ---
 ## Flex
+```css
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.contents {
+	
+}
+```
 
 ---
 ## Grid
