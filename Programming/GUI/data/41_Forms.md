@@ -109,8 +109,10 @@
 	<input type="color" id="favcolor" name="favcolor">
 	<input type="email" id="email" name="email">
 	<input type="file" id="myfile" name="myfile">
-	<input type="hidden" id="data" name="data" value="someData">
 	<input type="number" id="quantity" name="quantity">
+
+	<!-- To send some data hidden to the user -->
+	<input type="hidden" id="data" name="data" value="someData">
 ```
 ---
 ## Input Attributes
@@ -125,3 +127,5 @@
 - `readonly`. Non-modificable input.
 - `required`. Mandatory input.
 - `value`. Default value.
+- `novalidate`.  Non-validated input.
+- `placeholder`. Adds explanatory tex
