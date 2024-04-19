@@ -96,8 +96,11 @@
 	- `align-content: baseline;`
 	- `align-content: stretch;`
 ### Children
-- order
-- flex-basis: 50%;
+- `order: <int>;`
+- `flex-grow: <0/1>;` (allow the child to grow or not)
+- `flex-basis: <unit>;` (Defines size of the element)
+- `flex-shrink: <0/1>;` (allow the child to shrink or not)
+- `align-self: <value>;` (Individually align-item)
 
 ---
 ## Grid
