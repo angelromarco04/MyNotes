@@ -66,17 +66,27 @@
 
 ---
 ## Flex
-```css
-.container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-}
-
-.contents {
-	
-}
-```
+### Container
+- **flex-direction**
+	- row (default)
+	- row-reverse
+	- column
+	- column-reverse
+- **flex-wrap**
+	- nowrap
+	- wrap
+	- wrap-reverse
+- **justify-content** (main or X axes)
+	- flex-start
+	- flex-end
+	- center
+	- space-between
+	- space-around
+	- space-evenly
+- **align-items**
+	- 
+- **align-content**
+### Children
 
 ---
 ## Grid
