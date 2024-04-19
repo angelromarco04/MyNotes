@@ -24,7 +24,11 @@
 ---
 ## Form Attributes
 ```html
-<!-- Perform an action of a php file -->
+<!-- Form name -->
+<form name="name"> ... </form>
+
+<!-- Action indicates where the data must be sent -->
+<!-- Using a php code -->
 <form action="/action.php"> ... </form>
 
 <!-- Data sent by URL (Do not use for sensitive data) -->
@@ -32,6 +36,9 @@
 
 <!-- Data sent by an HTTP post -->
 <form action="/action.php" method="post"> ... </form>
+
+<!-- Send by email -->
+<form action="mailto:email" method="post" enctype="text/plain" target="_blank"> ... </form>
 ```
 ---
 ## Form Elements
