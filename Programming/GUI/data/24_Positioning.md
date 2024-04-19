@@ -68,25 +68,36 @@
 ## Flex
 ### Container
 - **flex-direction**
-	- row (default)
-	- row-reverse
-	- column
-	- column-reverse
+	- `flex-direction: row;` (default)
+	- `flex-direction: row-reverse;`
+	- `flex-direction: column;`
+	- `flex-direction: column-reverse;`
 - **flex-wrap**
-	- nowrap
-	- wrap
-	- wrap-reverse
+	- `flex-wrap: nowrap;`
+	- `flex-wrap: wrap;`
+	- `flex-wrap: wrap-reverse;`
 - **justify-content** (main or X axes)
-	- flex-start
-	- flex-end
-	- center
-	- space-between
-	- space-around
-	- space-evenly
-- **align-items**
-	- 
-- **align-content**
+	- `justify-content: flex-start;`
+	- `justify-content: flex-end;`
+	- `justify-content: center;`
+	- `justify-content: space-between;`
+	- `justify-content: space-around;`
+	- `justify-content: space-evenly;`
+- **align-items** (cross or Y axes)
+	- `align-items: flex-start;`
+	- `align-items: flex-end;`
+	- `align-items: center;`
+	- `align-items: baseline;`
+	- `align-items: stretch;`
+- **align-content** (for +1 lines)
+	- `align-content: flex-start;`
+	- `align-content: flex-end;`
+	- `align-content: center;`
+	- `align-content: baseline;`
+	- `align-content: stretch;`
 ### Children
+- order
+- flex-basis: 50%;
 
 ---
 ## Grid
