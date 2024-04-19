@@ -6,7 +6,7 @@
 
 ---
 
-## Introduction to Web Design
+## Web Design
 ### Definition
 Part of the Human-computer interaction discipline, that studies the ways of communication for the best exchange of information between a person and a computer.
 ### Web Design Stages
@@ -27,4 +27,10 @@ Part of the Human-computer interaction discipline, that studies the ways of comm
 	- Altavista (1997)
 - 2000 CSS success
 	- FAO (2002)
-- CSS Garden
+	- CSS Garden
+- 200-2005 The rise of JavaScript
+	- Best practices: A list apart (2007)
+- 2006-2009 Web 2.0
+- 2010-Present
+
+## Visual perception
