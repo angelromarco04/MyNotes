@@ -134,3 +134,5 @@
 - `value`. Default value.
 - `novalidate`.  Non-validated input.
 - `placeholder`. Adds explanatory text.
+
+---
