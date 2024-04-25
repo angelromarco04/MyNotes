@@ -136,3 +136,12 @@
 - `placeholder`. Adds explanatory text.
 
 ---
+## Events
+### General
+- `onload` (with body)
+- `onchange` (with form inputs)
+- `onfocus` (with form inputs)
+- `onblur` (with form inputs)
+
+### Mouse & Keyboard
+- `onclick`. Mouse event (usually with button or span)
