@@ -123,9 +123,14 @@
 - `maxlength`.  Maximum length for an input.
 - `minlength`.  Minimum length for an input.
 - `pattern`. Pattern to check the input.
+	- `[]` set of characters
+	- `{}` range of repetitions
+	- `?` optional.
+	- `*` 0 or more.
+	- `+` 1 or more.
 - `disabled`. Disabled input.
 - `readonly`. Non-modificable input.
 - `required`. Mandatory input.
 - `value`. Default value.
 - `novalidate`.  Non-validated input.
-- `placeholder`. Adds explanatory tex
+- `placeholder`. Adds explanatory text.
