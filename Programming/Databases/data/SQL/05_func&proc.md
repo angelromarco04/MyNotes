@@ -5,10 +5,6 @@
 [Back to index](../../index.md)
 
 ---
-
-## PL/pgSQL
-
----
 ## Functions
 ### Characteristics
 ### Return a value
@@ -38,10 +34,40 @@ $$ languaje plpgsql;
 ```
 ### PL/pgSQL param & exceptions
 - Inside the PL/pgSQL code of a function/procedure.
-- Replace Use `$1` to refer to the first param.
+- Replace `%` with the `$1` which refers to the first param.
+- An alias can also be specified
 ```sql
-IF NOT FOUND
-	THEN RAISE EXCEPTION '... % ...', $1;
+$$
+BEGIN
+	...
+	IF NOT FOUND THEN
+		RAISE EXCEPTION '... % ...', $1;
+END;
+$$
+```
+
+```sql
+$$
+DECLARE alias_name ALIAS FOR $1;
+BEGIN
+	...
+	IF NOT FOUND THEN
+		RAISE EXCEPTION '... % ...', alias_name;
+END;
+$$
+```
+
+### For loops
+- Used to iterate over the values of a query.
+```sql
+$$
+BEGIN
+	FOR var_name IN query
+	LOOP
+		...
+	END LOOP;
+END;
+$$
 ```
 ---
 ## Procedures
