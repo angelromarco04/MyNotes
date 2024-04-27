@@ -30,8 +30,6 @@ RETURNS TABLE(var_name type, ...) AS
 $$
 	BEGIN
 		RETURN QUERY SELECT ...
-		IF NOT FOUND
-			THEN RAISE EXCEPTION '... % ...', $1;
 	END;
 $$ languaje plpgsql;
 ```
@@ -39,7 +37,21 @@ $$ languaje plpgsql;
 ```SQL
 SELECT my_function(params);
 ```
-### PL/pgSQL param & exceptions
+
+---
+## Procedures
+```SQL
+CREATE PROCEDURE proc_name (param type, ..., INOUT out_name type)
+RETURNS type AS
+$$
+	BEGIN
+		SELECT prop_name INTO out_name FROM ...
+	END;
+$$ languaje plpgsql;
+```
+---
+## PL/pgSQL code
+### Param & exceptions
 - Inside the PL/pgSQL code of a function/procedure.
 - Replace `%` with the `$1` which refers to the first param.
 - An alias can also be specified
@@ -75,18 +87,23 @@ BEGIN
 END;
 $$
 ```
----
-## Procedures
-```SQL
-CREATE PROCEDURE proc_name (param type, ..., INOUT )
-RETURNS type AS
+
+```sql
 $$
-	DECLARE
-		var_name type;
+BEGIN
+	FOR var_name IN value..value
+	LOOP
 		...
-	BEGIN
-		SELECT prop_name INTO var_name FROM ...
-	END;
-$$ languaje plpgsql;
+	END LOOP;
+END;
+$$
 ```
----
+### Notices
+```sql
+$$
+BEGIN
+	...
+	RAISE NOTICE '... % ...', var_name;
+END;
+$$
+```
