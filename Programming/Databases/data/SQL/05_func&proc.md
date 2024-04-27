@@ -13,7 +13,8 @@
 ### Characteristics
 ### Return a value
 ```sql
-CREATE FUNCTION func_name (param type, ...) RETURNS type AS
+CREATE FUNCTION func_name (param type, ...)
+RETURNS type AS
 $$
 	DECLARE
 		var_name type;
@@ -24,6 +25,17 @@ $$
 $$ languaje plpgsql;
 ```
 ### Return a table
-
+```sql
+CREATE FUNCTION func_name (param type, ...)
+RETURNS TABLE() AS
+$$
+	DECLARE
+		var_name type;
+		...
+	BEGIN
+		statement
+	END;
+$$ languaje plpgsql;
+```
 ---
 ## Procedures
