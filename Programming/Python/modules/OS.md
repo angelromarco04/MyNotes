@@ -21,5 +21,13 @@ os.rename('olddir', 'newdir') # Rename directory
 
 os.stat('file') # Gives the status (info) of a file
 
-os.walk('')
+os.walk('path')
+# returns a generator of a tree of paths, subdirectories and files
+
+os.eviron.get('env') # Returns the environment path
+
+os.path.join('path', 'path') # Joins the paths in the proper format
+os.path.filename('path') # Returns the filename in the path
+os.path.dirname('path') # Returns the directory name in the path
+os.path.split('path') # Returns the p
 ```
