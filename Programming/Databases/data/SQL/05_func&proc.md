@@ -75,8 +75,17 @@ BEGIN
 END;
 $$
 ```
-### For loops
-- Used to iterate over the values of a query.
+### Notices
+```sql
+$$
+BEGIN
+	...
+	RAISE NOTICE '... % ...', var_name;
+END;
+$$
+```
+### For loop
+- Used to iterate over the values of a query or a sequence.
 ```sql
 $$
 BEGIN
@@ -98,12 +107,15 @@ BEGIN
 END;
 $$
 ```
-### Notices
-```sql
+### While loop
+```SQL
 $$
 BEGIN
-	...
-	RAISE NOTICE '... % ...', var_name;
+	WHILE condition
+	LOOP
+		...
+	END LOOP;
 END;
 $$
 ```
+
