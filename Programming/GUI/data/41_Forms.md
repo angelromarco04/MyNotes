@@ -145,3 +145,6 @@
 
 ### Mouse & Keyboard
 - `onclick`. Mouse event (usually with button or span)
+- `onkeyup`. Keyboard event (with form inputs)
+- `onkeydown`. Keyboard event (with form inputs)
+- `onkeypress`. Keyboard event (with form inputs)
