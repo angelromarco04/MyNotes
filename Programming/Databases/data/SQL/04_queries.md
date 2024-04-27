@@ -2,7 +2,7 @@
 ---
 # 04 Queries
 
-[Back to index]()
+[Back to index](../../index.md)
 
 ---
 

@@ -18,4 +18,5 @@
 2. [Table Management](data/SQL/02_tables.md)
 3. [Tuple Management](data/SQL/03_tuples.md)
 4. [Queries](data/SQL/04_queries.md)
+5. [Functions & Procedures](data/SQL/05_func&proc.md)
 
