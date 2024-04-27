@@ -18,7 +18,8 @@ $$
 		var_name type;
 		...
 	BEGIN
-		
+		statement
+	END;
 $$ languaje plpgsql;
 ```
 ---
