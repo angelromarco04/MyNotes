@@ -10,7 +10,8 @@
 
 ---
 ## Functions
-
+### Characteristics
+### Return a value
 ```sql
 CREATE FUNCTION func_name (param type, ...) RETURNS type AS
 $$
@@ -22,5 +23,7 @@ $$
 	END;
 $$ languaje plpgsql;
 ```
+### Return a table
+
 ---
 ## Procedures
