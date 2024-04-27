@@ -29,5 +29,9 @@ os.eviron.get('env') # Returns the environment path
 os.path.join('path', 'path') # Joins the paths in the proper format
 os.path.filename('path') # Returns the filename in the path
 os.path.dirname('path') # Returns the directory name in the path
-os.path.split('path') # Returns the p
+os.path.split('path') # Returns the previous two combined
+os.path.exists('path') # Returns true if the path exits
+os.path.isfile('path') # Returns true if the path is a file
+os.path.isdir('path') # Returns true if the path is a directory
+os.path.splitext('path') # Split the path and the extension
 ```
