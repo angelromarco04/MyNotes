@@ -5,8 +5,11 @@
 [Back to index](../../index.md)
 
 ---
+## Function vs Procedure
+- Functions perform an calculation and return a result.
+- Procedures perform an operation and return no value.
+---
 ## Functions
-### Characteristics
 ### Return a value
 ```sql
 CREATE FUNCTION func_name (param type, ...)
@@ -32,6 +35,10 @@ $$
 	END;
 $$ languaje plpgsql;
 ```
+### Using a function
+```SQL
+SELECT my_function(params);
+```
 ### PL/pgSQL param & exceptions
 - Inside the PL/pgSQL code of a function/procedure.
 - Replace `%` with the `$1` which refers to the first param.
@@ -56,7 +63,6 @@ BEGIN
 END;
 $$
 ```
-
 ### For loops
 - Used to iterate over the values of a query.
 ```sql
@@ -71,3 +77,16 @@ $$
 ```
 ---
 ## Procedures
+```SQL
+CREATE PROCEDURE proc_name (param type, ..., INOUT )
+RETURNS type AS
+$$
+	DECLARE
+		var_name type;
+		...
+	BEGIN
+		SELECT prop_name INTO var_name FROM ...
+	END;
+$$ languaje plpgsql;
+```
+---
