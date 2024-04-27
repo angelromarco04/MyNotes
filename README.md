@@ -29,7 +29,7 @@ Hope you like it!  :D
 - [Databases](Programming/Databases/index.md)
 - Clean code #TODO 
 
-## Computer Science Theory
+## Computer Science
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
 - [Operating Systems](CS/OS/index.md)
@@ -41,7 +41,7 @@ Hope you like it!  :D
 
 ## Cibersecurity
 - Reverse Engineering #TODO 
-- [Malware](Cibersecurity/Malware/index.md) #TODO
+- [Malware](Sec/Malware/index.md) #TODO
 ## Miscellaneous
 - [Useful Resources](/Others/UsefulResources.md)
 - [Markdown](/Others/Markdown.md)
