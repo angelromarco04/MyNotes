@@ -22,6 +22,9 @@ CREATE DOMAIN domain_name AS data_type
 ## Checking text patterns
 ```postgresql
 CHECK( value ~ 'pattern')
+
+-- Email example
+CHECK( value ~ '^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$');
 ```
 
 - `^` is used to represent the start of the string.
@@ -33,3 +36,5 @@ CHECK( value ~ 'pattern')
 
 - `\w` is used to represent any alphanumeric character or `_`.
 - `a-z` are used to represent a character between `a` and `z`.
+- `[ ... ]` is used to represent any of the characters inside (only one).
+- `{ n }` is used to represent a sequence of `n` of the preceding character.
