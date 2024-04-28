@@ -34,7 +34,7 @@
 - Repeated table names are not allowed.
 - By convention properties are named: `tableName_propertie`
 
-```sql
+```postgresql
 CREATE TABLE [IF NOT EXISTS] table_name (
     column1 datatype(length) column_constraint,
     column2 datatype(length) column_constraint,
@@ -48,7 +48,7 @@ CREATE TABLE [IF NOT EXISTS] table_name (
 ## Types of Constraints
 
 1. **Primary Key** (Identifies a row in the table. Usually one).
-```sql
+```postgresql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
 	-- More...
@@ -64,7 +64,7 @@ CREATE TABLE book (
 ```
 
 2. **Unique** (Column values are unique).
-```sql
+```postgresql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
 	student_email VARCHAR(100) UNIQUE,
@@ -73,7 +73,7 @@ CREATE TABLE student (
 ```
 
 3. **Not Null** (Column cannot  be empty)
-```sql
+```postgresql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
 	student_name VARCHAR(100) NOT NULL,
@@ -82,7 +82,7 @@ CREATE TABLE student (
 ```
 
 4. **Check** (Validates data based on a condition)
-```sql
+```postgresql
 CREATE TABLE book (
 	book_id SERIAL PRIMARY KEY,
 	book_price INT CHECK (book_price > 0),
@@ -96,7 +96,7 @@ CREATE TABLE book (
 ```
 
 5. **Default** (Sets a default value)
-```sql
+```postgresql
 CREATE TABLE student (
 	student_id SERIAL PRIMARY KEY,
 	student_erasmus BOOLEAN DEFAULT 'no',
@@ -105,7 +105,7 @@ CREATE TABLE student (
 ```
 
 6. ***Foreign Key** (Establishes a relationship between two tables)
-```sql
+```postgresql
 CREATE TABLE classroom (
     id_classroom INT PRIMARY KEY NOT NULL,
     id_location INT NOT NULL,
@@ -116,7 +116,7 @@ CREATE TABLE classroom (
 ```
 
 7. **On update cascade** (Tuples are updated when modified in the relation)
-```sql
+```postgresql
 CREATE TABLE student (
     id_student INT PRIMARY KEY NOT NULL,
     lecture_name INT,
@@ -128,7 +128,7 @@ CREATE TABLE student (
 ```
 
 8. **On delete cascade** (Tuples are removed when deleted in the relation)
-```sql
+```postgresql
 CREATE TABLE student (
     id_student INT PRIMARY KEY NOT NULL,
     lecture_name INT,
@@ -142,7 +142,7 @@ CREATE TABLE student (
 ## Relations
 
 1. **One to many**
-```sql
+```postgresql
 CREATE TABLE classroom (
 
     id_classroom INT PRIMARY KEY NOT NULL,
@@ -152,7 +152,7 @@ CREATE TABLE classroom (
 );
 ```
 2. **Many to many**
-```sql
+```postgresql
 CREATE TABLE teach (
 
     id_bachelor INT NOT NULL,
@@ -166,7 +166,7 @@ CREATE TABLE teach (
 );
 ```
 3. **Aggregation**
-```sql
+```postgresql
 CREATE TABLE practice (
     id_bachelor INT NOT NULL,
     id_teacher INT NOT NULL,
@@ -184,7 +184,7 @@ CREATE TABLE practice (
 
 ## Specification
 
-```SQL
+```postgresql
 CREATE TABLE student (
     id_student INT PRIMARY KEY NOT NULL,
     FOREIGN KEY (id_student) references university(id_member),
@@ -194,7 +194,7 @@ CREATE TABLE student (
 ## Add new columns
 
 - Syntax: `ALTER TABLE [table] ADD COLUMN [new property] [datatype]`
-```sql
+```postgresql
 -- Add property erasmus to student.
 ALTER TABLE student ADD COLUMN student_erasmus BOOLEAN;
 
@@ -205,7 +205,7 @@ UPDATE student SET student_erasmus = 'no';
 ## Delete columns
 
 - Syntax: `ALTER TABLE [table] DROP [property]`
-```sql
+```postgresql
 -- Delete property erasmus from student.
 ALTER TABLE student DROP student_erasmus;
 ```

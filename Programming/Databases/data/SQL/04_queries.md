@@ -14,7 +14,7 @@
 	- Ascending order with `ORDER BY [property] ASC`.
 	- Descending order with `ORDER BY [property] DESC`.
 
-```sql
+```postgresql
 -- Displays a list of names from student
 SELECT name FROM student;
 
@@ -30,7 +30,7 @@ SELECT name FROM student ORDER BY name ASC;
 
 ## Queries with Multiple Tables
 
-```SQL
+```postgresql
 -- Display all the students name and they bachellor name.
 SELECT student.name, bachellor.name FROM student, bachellor
 WHERE student.id = bachellor.id;
@@ -50,7 +50,7 @@ WHERE s.id = b.id;
 
 ![](/Assets/Programming/Databases/SQL_1.png)
 
-```SQL
+```postgresql
 -- Display all names in erasmus AND student.
 -- A x B : erasmus x student
 (SELECT name FROM erasmus) INTERSECT (SELECT name FROM student)
@@ -70,7 +70,7 @@ WHERE s.id = b.id;
 
 ![](/Assets/Programming/Databases/SQL_2.png)
 
-```SQL
+```postgresql
 -- INNER JOIN.
 -- (Tuples not related will not be displayed)
 SELECT s.name, b.name FROM

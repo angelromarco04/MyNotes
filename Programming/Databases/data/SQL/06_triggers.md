@@ -6,7 +6,7 @@
 
 ---
 ## Creation
-```sql
+```postgresql
 CREATE TRIGGER trigger_name
 { BEFORE | AFTER } { operation }
 ON table_name [ FOR EACH ROW | FOR EACH STATEMENT ] [ WHEN ( condition ) ]
@@ -28,7 +28,7 @@ EXECUTE PROCEDURE func_name (args)
 - Executed once per operation.
 	- No matter the number of rows modified.
 	- Always returns null.
-```sql
+```postgresql
 CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
 	BEGIN
@@ -49,7 +49,7 @@ EXECUTE PROCEDURE func_name();
 	- Modified using variable `NEW`.
 	- If `NULL` is returned, the row is not modified.
 	
-```sql
+```postgresql
 CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
 	BEGIN 
@@ -69,7 +69,7 @@ EXECUTE PROCEDURE func_name();
 	- The new value cannot be modified.
 - The return value is not used.
 
-```sql
+```postgresql
 CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
 	BEGIN 

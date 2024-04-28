@@ -13,7 +13,7 @@
 1. [Entity/Relationship Model](data/Theory/ERModel.md)
 2. [Relational Model](data/Theory/RModel.md)
 
-## SQL
+## PostgreSQL
 1. [Shell Usage](data/SQL/01_shell.md)
 2. [Table Management](data/SQL/02_tables.md)
 3. [Tuple Management](data/SQL/03_tuples.md)

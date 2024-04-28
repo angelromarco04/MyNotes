@@ -11,7 +11,7 @@
 ---
 ## Functions
 ### Return a value
-```sql
+```postgresql
 CREATE FUNCTION func_name (param type, ...)
 RETURNS type AS
 $$
@@ -24,7 +24,7 @@ $$
 $$ languaje plpgsql;
 ```
 ### Return a table
-```sql
+```postgresql
 CREATE FUNCTION func_name (param type, ...)
 RETURNS TABLE(var_name type, ...) AS
 $$
@@ -34,13 +34,13 @@ $$
 $$ languaje plpgsql;
 ```
 ### Using a function
-```SQL
+```postgresql
 SELECT my_function(params);
 ```
 
 ---
 ## Procedures
-```SQL
+```postgresql
 CREATE PROCEDURE proc_name (param type, ..., INOUT out_name type)
 RETURNS type AS
 $$
@@ -55,7 +55,7 @@ $$ languaje plpgsql;
 - Inside the PL/pgSQL code of a function/procedure.
 - Replace `%` with the `$1` which refers to the first param.
 - An alias can also be specified
-```sql
+```postgresql
 $$
 BEGIN
 	...
@@ -65,7 +65,7 @@ END;
 $$
 ```
 
-```sql
+```postgresql
 $$
 DECLARE alias_name ALIAS FOR $1;
 BEGIN
@@ -76,7 +76,7 @@ END;
 $$
 ```
 ### Notices
-```sql
+```postgresql
 $$
 BEGIN
 	...
@@ -86,7 +86,7 @@ $$
 ```
 ### For loop
 - Used to iterate over the values of a query or a sequence.
-```sql
+```postgresql
 $$
 BEGIN
 	FOR var_name IN query
@@ -97,7 +97,7 @@ END;
 $$
 ```
 
-```sql
+```postgresql
 $$
 BEGIN
 	FOR var_name IN value..value
@@ -108,7 +108,7 @@ END;
 $$
 ```
 ### While loop
-```SQL
+```postgresql
 $$
 BEGIN
 	WHILE condition

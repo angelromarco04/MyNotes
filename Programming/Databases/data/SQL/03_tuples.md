@@ -8,7 +8,7 @@
 ## Inserting tuples
 
 - Syntax: `INSERT INTO [table] VALUES( [values ...] )`
-```sql
+```postgresql
 -- table1 is a table with 3 properties.
 -- value1, value2 and value3 must have the proper datatypes.
 INSERT INTO table1 VALUES(value1, value2, value3);
@@ -16,7 +16,7 @@ INSERT INTO table1 VALUES(value1, value2, value3);
 
 ## Delete tuples
 - Syntax: `DELETE FROM [table] WHERE [condition]`
-```sql
+```postgresql
 -- Delete from table1 the second tuple
 DELETE FROM table1 WHERE table1_id = 2;
 
@@ -27,7 +27,7 @@ DELETE FROM table1;
 ## Update tuples
 
 - Syntax: `UPDATE [table] SET [propertie = new value] WHERE [condition]`
-```sql
+```postgresql
 -- Set property name of all tuples of table1 to "A"
 UPDATE table1 SET table1_name = "A";
 

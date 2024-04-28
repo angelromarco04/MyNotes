@@ -8,7 +8,7 @@
 ## Definition
 - Is a data type with some optional restrictions.
 
-```sql
+```postgresql
 CREATE DOMAIN domain_name AS data_type
 [COLLATE collation] [DEFAULT expression] [constraint […]]
 ```
@@ -20,6 +20,10 @@ CREATE DOMAIN domain_name AS data_type
 	- `CHECK(...)`
 
 ## Checking text patterns
-```sql
-CHECK( value ~)
+```postgresql
+CHECK( value ~ 'pattern')
 ```
+
+- `%` is used to represent any sequence of 0 or more characters.
+- `_` is used to represent any character (only one).
+- `\w` is used to represent a 
