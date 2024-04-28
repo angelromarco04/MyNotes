@@ -20,4 +20,5 @@
 4. [Queries](data/SQL/04_queries.md)
 5. [Functions & Procedures](data/SQL/05_func&proc.md)
 6. [Triggers](data/SQL/06_triggers.md)
+7. [Domains](data/SQL/07_domains.md)
 
