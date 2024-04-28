@@ -14,6 +14,7 @@ EXECUTE PROCEDURE func_name (args)
 ```
 
 - `operation` can be `INSERT`, `UPDATE` or `DELETE`. Several can be specified with `OR`.
+---
 ## Variables
 - `NEW` contains the new row (insert/update).
 - `OLD` contains the old row (delete/update).
@@ -21,17 +22,18 @@ EXECUTE PROCEDURE func_name (args)
 - `TG_LEVEL` returns `ROW` or `STATEMENT`.
 - `TG_OP` returns `INSERT`, `UPDATE` OR `DELETE`.
 - `TG_TABLE_NAME` returns the modified table.
+---
 ## Levels
 ### STATEMENT-level
 - Executed once per operation.
 	- No matter the number of rows modified.
-	- Always returns null
+	- Always returns null.
 ```sql
 CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
 	BEGIN
 		...
-		RETURN NULL;
+		RETURN NULL; -- Mandatory
 	END;
 $$ LANGUAGE 'plpgsql';
 
@@ -52,7 +54,7 @@ CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
 	BEGIN 
 		...
-		RETURN NEW;
+		RETURN NEW; -- New row values
 	END;
 $$ LANGUAGE 'plpgsql';
 
@@ -72,11 +74,12 @@ CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
 	BEGIN 
 		...
-		RETURN NULL;
+		RETURN NULL; -- Does not matter
 	END;
 $$ LANGUAGE 'plpgsql';
 
 CREATE TRIGGER trigger_name
-BEFORE {operation} ON table_name FOR EACH ROW
+AFTER {operation} ON table_name FOR EACH ROW
 EXECUTE PROCEDURE func_name();
 ```
+---
