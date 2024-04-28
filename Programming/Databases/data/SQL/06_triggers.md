@@ -42,9 +42,11 @@ EXECUTE PROCEDURE func_name();
 ### ROW-level + BEFORE
 - Trigger is called for every row the operation modifies.
 - Function is executed before the row modification.
+	- The new value can be modified.
 - Function must return the new row value.
 	- Modified using variable `NEW`.
 	- If `NULL` is returned, the row is not modified.
+	
 ```sql
 CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
 $$
@@ -62,5 +64,19 @@ EXECUTE PROCEDURE func_name();
 ### ROW-level + AFTER
 - Trigger is called for every row the operation modifies.
 - Function is executed after the row modification.
+	- The new value cannot be modified.
 - The return value is not used.
-- 
+
+```sql
+CREATE OR REPLACE FUNCTION func_name() RETURNS trigger AS
+$$
+	BEGIN 
+		...
+		RETURN NULL;
+	END;
+$$ LANGUAGE 'plpgsql';
+
+CREATE TRIGGER trigger_name
+BEFORE {operation} ON table_name FOR EACH ROW
+EXECUTE PROCEDURE func_name();
+```
