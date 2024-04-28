@@ -35,3 +35,5 @@ os.path.isfile('path') # Returns true if the path is a file
 os.path.isdir('path') # Returns true if the path is a directory
 os.path.splitext('path') # Split the path and the extension
 ```
+
+[Python Tutorial: Calling External Commands Using the Subprocess Module (youtube.com)](https://www.youtube.com/watch?v=2Fp1N6dof0Y)

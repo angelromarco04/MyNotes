@@ -27,7 +27,7 @@ print("Hello World")
 8. [OOP](./data/08_OOP.md)
 
 ## Modules
-- [Subprocess]() ( #TODO)
 - [System]() ( #TODO)
-- [OS](./modules/OS.md)
+- [OS & Subprocess](./modules/OS.md)
 - [Request](./modules/request.md)
+- [BeautifulSoup]() ( #TODO)
