@@ -18,3 +18,8 @@ CREATE DOMAIN domain_name AS data_type
 	- `NULL`
 	- `NOT NULL`
 	- `CHECK(...)`
+
+## Checking text patterns
+```sql
+CHECK( value ~)
+```
