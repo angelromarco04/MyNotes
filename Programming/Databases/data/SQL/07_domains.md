@@ -24,6 +24,12 @@ CREATE DOMAIN domain_name AS data_type
 CHECK( value ~ 'pattern')
 ```
 
+- `^` is used to represent the start of the string.
+- `$` is used to represent the end of the string.
+- `+` is used to specify a sequence of 1 or more of the preceding character.
+
 - `%` is used to represent any sequence of 0 or more characters.
 - `_` is used to represent any character (only one).
-- `\w` is used to represent a 
+
+- `\w` is used to represent any alphanumeric character or `_`.
+- `a-z` are used to represent a character between `a` and `z`.
