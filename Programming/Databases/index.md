@@ -3,7 +3,7 @@
 # DATABASES
 
 > [!WARNING]
-> To write this notes PostgreSQL was used.
+> To write this notes PostgreSQL and PL/pgSQL were used.
 
 [HOME](/README.md)
 
