@@ -8,7 +8,7 @@
 ## Creation
 ```sql
 CREATE TRIGGER trigger_name { BEFORE | AFTER } { operation }
-ON table_name [ FOR [ EACH ] {ROW | STATEMENT} ]
+ON table_name [ FOR EACH ROW | FOR EACH STATEMENT ]
 [ WHEN ( condition ) ]
 EXECUTE PROCEDURE func_name (args)
 ```
