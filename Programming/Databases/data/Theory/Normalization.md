@@ -29,9 +29,9 @@ The relation schema is $R = \{\text{ Field 1 }, \text{ Field 2 }\}$
 ### Definition
 It is a functional dependency $\alpha \to \beta$  with  $\alpha, \beta  \in R$
 If every pair of tuples $t_1$ , $t_2$  complies that:
-$t_1[\:\{\alpha\}\:] = t_2[\:\{\alpha\}\:] \implies t_1[\:\{\text{ Field 2 }\}\:] = t_2[\:\{\text{ Field 2 }\}\:]$
+$$t_1[\:\alpha\:] = t_2[\:\alpha\:] \implies t_1[\:\beta\:] = t_2[\:\beta\:]$$
 
 #### Example
-$\text{Field 1 } \to \text{Field 2}$ 
-$t_1 = \{\text{ data 11}, \text{data 12 }\}$, $t_2 = \{\text{ data 21}, \text{data 22 }\}$
-
+For $\text{Field 1 } \to \text{Field 2}$ to be true:
+Having $t_1 = \{\text{ data 11}, \text{ data 12 }\}$, $t_2 = \{\text{ data 21}, \text{ data 22 }\}$
+Satisfy that $data 11 = data 21 \implies data 21 = data 22$
