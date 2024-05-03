@@ -16,4 +16,16 @@ To obtain a good DDBB design we avoid:
 ---
 ## Functional dependencies
 
-### 
+### Functional dependency definition
+
+Having a table:
+
+| Field 1 | Field 2 | Field 3 |
+| ------- | ------- | ------- |
+| data 1  | data 2  | data 3  |
+| ...     | ...     | ...     |
+
+
+
+
+
