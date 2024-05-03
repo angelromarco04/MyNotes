@@ -47,3 +47,11 @@ $$\beta \subseteq \alpha \implies \alpha \to \beta$$
 $$\alpha \to \beta \quad\text{ \& }\quad \delta \subseteq \mu \implies \alpha\:\mu \to \beta\:\delta$$
 - Transitive
 $$\alpha \to \beta \quad\text{ \& }\quad \beta \to \gamma \implies \alpha \to \gamma$$
+#### Additional rules
+From Armstrong's Axioms we can infer:
+- Union
+$$\alpha \to \beta \quad \& \quad \alpha \to \delta \implies \alpha \to\beta\:\delta$$
+- Decomposition
+$$\alpha \to\beta\:\delta \implies \alpha \to \beta \quad \& \quad \alpha \to \delta$$
+- Pseudo-transitive
+$$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha \to\beta\:\delta$$
