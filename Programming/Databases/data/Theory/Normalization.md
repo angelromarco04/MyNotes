@@ -20,12 +20,13 @@ To obtain a good DDBB design we avoid:
 
 Having a table:
 
-| Field 1 | Field 2 | Field 3 |
-| ------- | ------- | ------- |
-| data 1  | data 2  | data 3  |
-| ...     | ...     | ...     |
+| Field 1 | Field 2 |
+| ------- | ------- |
+| data 11 | data 12 |
+| ...     | ...     |
+The relation schema $R = \{\text{ Field 1 }, \text{ Field 2 }, \text{ Field 3 }\}$
 
-
+It is a functional dependency ( $\text{Field 1 } \to \text{Field 2}$ ) if:
 
 
 
