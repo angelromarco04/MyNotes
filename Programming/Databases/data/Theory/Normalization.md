@@ -43,6 +43,7 @@ We can imply that $\alpha\to\gamma$ .
 $F^+$ is the set of all functional dependencies that can be implied from $F$.
 #### Armstrong's Axioms
 - Reflexivity
-$$\beta \in$$
+$$\beta \subseteq \alpha \implies \alpha \to \beta$$
 - Augmentation
+$$\alpha \to \beta$$
 - Transitive
