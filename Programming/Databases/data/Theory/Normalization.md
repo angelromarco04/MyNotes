@@ -5,7 +5,6 @@
 [Back to index](../../index.md)
 
 ---
-
 ## Introduction
 
 To obtain a good DDBB design we avoid:
@@ -16,6 +15,7 @@ To obtain a good DDBB design we avoid:
 ---
 ## Functional dependencies
 
+---
 ### Functional dependency
 #### Having
 
@@ -37,6 +37,7 @@ Satisfy that: $\quad\text{data 11} = \text{data 21} \implies \text{data 21} = \t
 Is a set with all the functional dependencies:
 $$F = \{\:\alpha \to  \beta\quad,\quad\beta \to \gamma\quad,\quad...\:\}$$
 
+---
 ### Closure of $F$ or $F^+$
 #### Definition
 $F^+$ is the set of all functional dependencies that can be implied from $F$.
@@ -54,4 +55,5 @@ $$\alpha \to \beta \quad \& \quad \alpha \to \delta \implies \alpha \to\beta\:\d
 - Decomposition
 $$\alpha \to\beta\:\delta \implies \alpha \to \beta \quad \& \quad \alpha \to \delta$$
 - Pseudo-transitive
-$$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha \to\beta\:\delta$$
+$$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha\:\delta \to\mu$$
+---
