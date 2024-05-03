@@ -57,3 +57,4 @@ $$\alpha \to\beta\:\delta \implies \alpha \to \beta \quad \& \quad \alpha \to \d
 - Pseudo-transitive
 $$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha\:\delta \to\mu$$
 ---
+Closure of Attribute Sets pg. 21
