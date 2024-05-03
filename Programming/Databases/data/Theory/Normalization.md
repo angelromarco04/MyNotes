@@ -24,9 +24,12 @@ Having a table:
 | ------- | ------- |
 | data 11 | data 12 |
 | ...     | ...     |
-The relation schema $R = \{\text{ Field 1 }, \text{ Field 2 }, \text{ Field 3 }\}$
+The relation schema is $R = \{\text{ Field 1 }, \text{ Field 2 }\}$
 
-It is a functional dependency ( $\text{Field 1 } \to \text{Field 2}$ ) if:
+If every pair of tuples ($t_1$, $t_2$) complies that:
+$t_1[\:\{\text{ Field 1 }\}\:] = t_2[\:\{\text{ Field 1 }\}\:] \implies t_1[\:\{\text{ Field 2 }\}\:] = t_2[\:\{\text{ Field 2 }\}\:]$
+
+It is a functional dependency ( $\text{Field 1 } \to \text{Field 2}$ )
 
 
 
