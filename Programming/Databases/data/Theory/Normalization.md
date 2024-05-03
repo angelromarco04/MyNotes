@@ -33,10 +33,9 @@ $$t_1[\:\alpha\:] = t_2[\:\alpha\:] \implies t_1[\:\beta\:] = t_2[\:\beta\:]$$
 For $\text{Field 1 } \to \text{Field 2}$ to be true:
 Having $t_1 = \{\text{ data 11}, \text{ data 12 }\}$, $t_2 = \{\text{ data 21}, \text{ data 22 }\}$
 Satisfy that: $\quad\text{data 11} = \text{data 21} \implies \text{data 21} = \text{data 22}$
-#### Implication
-Having the set of functional dependencies:
-$$F = \{\alpha \to  \beta\:,\:\beta \to \gamma\}$$
-We can imply that $\alpha\to\gamma$ .
+#### Functional dependency set
+Is a set with all the functional dependencies:
+$$F = \{\:\alpha \to  \beta\quad,\quad\beta \to \gamma\quad,\quad...\:\}$$
 
 ### Closure of $F$ or $F^+$
 #### Definition
@@ -45,5 +44,6 @@ $F^+$ is the set of all functional dependencies that can be implied from $F$.
 - Reflexivity
 $$\beta \subseteq \alpha \implies \alpha \to \beta$$
 - Augmentation
-$$\alpha \to \beta \text{ and } \delta \subseteq$$
+$$\alpha \to \beta \quad\text{ \& }\quad \delta \subseteq \mu \implies \alpha\:\mu \to \beta\:\delta$$
 - Transitive
+$$\alpha \to \beta \quad\text{ \& }\quad \beta \to \gamma \implies \alpha \to \gamma$$
