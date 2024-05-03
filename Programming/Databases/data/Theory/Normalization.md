@@ -34,4 +34,12 @@ $$t_1[\:\alpha\:] = t_2[\:\alpha\:] \implies t_1[\:\beta\:] = t_2[\:\beta\:]$$
 #### Example
 For $\text{Field 1 } \to \text{Field 2}$ to be true:
 Having $t_1 = \{\text{ data 11}, \text{ data 12 }\}$, $t_2 = \{\text{ data 21}, \text{ data 22 }\}$
-Satisfy that $data 11 = data 21 \implies data 21 = data 22$
+Satisfy that: $\quad\text{data 11} = \text{data 21} \implies \text{data 21} = \text{data 22}$
+
+#### Implication
+Having the set of functional dependencies:
+$$F = \{\alpha \to  \beta\:,\:\beta \to \gamma\}$$
+We can imply that $\alpha\to\gamma$ .
+
+### Closure of $F$ or $F^+$
+Is the set of all
