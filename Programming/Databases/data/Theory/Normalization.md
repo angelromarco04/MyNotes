@@ -26,10 +26,9 @@ Having a table:
 | ...     | ...     |
 The relation schema is $R = \{\text{ Field 1 }, \text{ Field 2 }\}$
 
+It is a functional dependency $\alpha \to \beta$  ( Example. $\text{Field 1 } \to \text{Field 2}$ )
 If every pair of tuples ($t_1$, $t_2$) complies that:
 $t_1[\:\{\text{ Field 1 }\}\:] = t_2[\:\{\text{ Field 1 }\}\:] \implies t_1[\:\{\text{ Field 2 }\}\:] = t_2[\:\{\text{ Field 2 }\}\:]$
-
-It is a functional dependency ( $\text{Field 1 } \to \text{Field 2}$ )
 
 
 
