@@ -45,5 +45,5 @@ $F^+$ is the set of all functional dependencies that can be implied from $F$.
 - Reflexivity
 $$\beta \subseteq \alpha \implies \alpha \to \beta$$
 - Augmentation
-$$\alpha \to \beta$$
+$$\alpha \to \beta \text{ and } \delta \subseteq$$
 - Transitive
