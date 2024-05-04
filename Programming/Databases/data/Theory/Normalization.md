@@ -65,7 +65,9 @@ $\alpha^+$ is the set of attributes that are functionally dependent from $\alpha
 2. For each functional dependency $\quad \beta \to \gamma \quad$ in $F$.
 	1. If $\quad \beta \subseteq \text{result} \quad$ then $\quad \text{result} := \text{result} \:\cup\: \gamma\quad$
 #### Applications
-- Finding super-keys.
-	A super$$\alpha \to R \in F^+$$
-- Checking if $\alpha \to \beta$ is in $F^+$.
+- **Finding super-keys**. All fields can be implied from the super-key field. 
+$$\alpha \to R \in F^+$$
+- **Checking if $\alpha \to \beta$ is in $F^+$**.$$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
 - Calculating $F^+$.
+	1. For each $\gamma \in R$ calculate $\gamma^+$.
+	2. For each $S \in \g
