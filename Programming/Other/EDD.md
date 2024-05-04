@@ -70,5 +70,13 @@ sequenceDiagram
 	- Event Objects. Encapsulates event data.
 	- Event Handler. Responses to the event.
 ### Events vs method calls
-- Event source and handler have a weaker coupling (independence).
-- Event handler
+1. Event source and handler have a weaker coupling (independence).
+2. Event handlers can be connected to several events at different times.
+3. Events can have 0 or more handlers.
+4. Event handlers does not return any value.
+5. Same handler can control events from different sources.
+6. Event sources (usually) do not need to wait for the handler to finish.
+7. Events can be handled with delay.
+---
+## EDP Design
+### 
