@@ -92,7 +92,7 @@ All $F_c$ functional dependencies are:
 - Non-trivial
 - Complete
 - Non-redundant (cannot be inferred from others)
-#### Objective
+#### Objectives
 Try to eliminate extraneous attributes for each $\alpha \to \beta$.
 - Test if $A \in \alpha$ is extraneous in $\alpha$.
 $$\beta \in(\{\alpha\} - A)^+$$
@@ -104,4 +104,5 @@ F' = (F-\{\alpha\to\beta\})\quad\cup\quad\{\alpha\to(\beta-A)\}
 $$
 	(Replace $\alpha \to \gamma \:A\quad$ by $\quad\alpha \to\gamma$. Note that $\beta = \gamma\:A$)
 #### Algorithm
-1. R
+1. Apply union rule. Replace $\alpha \to \beta$ and $\alpha \to \delta$ with $\alpha \to \beta\:\delta$
+2. 
