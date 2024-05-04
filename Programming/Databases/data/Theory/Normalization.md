@@ -64,4 +64,4 @@ $\alpha^+$ is the set of attributes that are functionally dependent from $\alpha
 1. Initially: $\text{Result} := \alpha$
 2. while there are changes to be made do:
 	1. For each functional dependency $\quad \beta \to \gamma \quad$ in $F$.
-		1. If $\quad \beta \subseteq \text{result} \quad$ then $\quad \text{result} := \text{result} \u \gamma\quad$
+		1. If $\quad \beta \subseteq \text{result} \quad$ then $\quad \text{result} := \text{result} \:\cup\: \gamma\quad$
