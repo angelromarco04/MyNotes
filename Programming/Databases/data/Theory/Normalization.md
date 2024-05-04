@@ -92,3 +92,5 @@ All $F_c$ functional dependencies are:
 - Non-trivial
 - Complete
 - Non-redundant (cannot be inferred from others)
+#### Algorithm
+We
