@@ -29,10 +29,13 @@ The execution flow of the program varies depending on some events.
 ---
 ## Event Based Systems (EBS) Interactions
 ### Definition
-A system is a set of agents that:
-- Change their behaviour depending on its state.
-- Interact between them in several ways (events).
-We can 
+- A system is a set of agents that:
+	- Change their behaviour depending on its state.
+	- Interact between them in several ways (events).
+- The system state is the state of all the agents at a specific time.
+- A EBS is discrete if:
+	- It has a finite set of states and changes.
+	- Every state has a next state.
 ### Request-Response Interaction
 - Involves only two agents.
 - Response is mandatory.
