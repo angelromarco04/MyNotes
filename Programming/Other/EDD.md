@@ -80,6 +80,16 @@ sequenceDiagram
 ---
 ## EDP Design
 ### Event response
-Event handlers can have:
-- A unique response algorithm.
-- Different responses depending on the system state.
+- Event handlers can have:
+	- A unique response algorithm.
+	- Different responses depending on the system state.
+- Some events can be an Action Not Allowed (ANA) for specific states.
+### EBS representation
+- **State graph** represents the states, the events and the allowed changes.
+```mermaid
+graph LR
+A((State 0)) -- event A --> B((State 1))
+B((State 1)) -- event B --> A((State 0))
+
+```
+- 
