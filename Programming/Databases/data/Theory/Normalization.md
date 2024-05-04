@@ -74,5 +74,4 @@ $$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
 	2. For each $S \in \gamma^+$ add $\gamma \to S$.
 ---
 ### Candidate Key
-For $\alpha$ to be a candidate key it must satisfy at least one of these:
-- $\alpha$ is not present
+For $\alpha\beta$ to be a candidate key it cannot contain any $\gamma$ such that
