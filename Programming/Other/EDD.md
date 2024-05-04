@@ -90,6 +90,21 @@ sequenceDiagram
 graph LR
 A((State 0)) -- event A --> B((State 1))
 B((State 1)) -- event B --> A((State 0))
-
+B((State 1)) -- event A --> C((State 2))
+C((State 2)) -- event B --> B((State 1))
+C((State 2)) -- event C --> D((State 3))
+A((State 0)) -- event C --> D((State 3))
 ```
-- 
+- **State table** is the table representation of the state graph.
+
+| State | event A | event B | event C |
+| :---: | :-----: | :-----: | :-----: |
+|   0   |    1    |   ANA   |    3    |
+|   1   |    2    |    0    |   ANA   |
+|   2   |   ANA   |   ANA   |    3    |
+|   3   |   ANA   |   ANA   |   ANA   |
+
+- Actions table provides a description of what each event does in each state.
+---
+## Events Infrastructure
+pg 34
