@@ -74,4 +74,9 @@ $$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
 	2. For each $S \in \gamma^+$ add $\gamma \to S$.
 ---
 ### Candidate Key
-For $\alpha\beta$ to be a candidate key it cannot contain any $\gamma$ such that
+#### Complete functional dependencies
+For $\alpha \to \beta$ to be complete
+It cannot exist any $\delta$ such that $\delta \subseteq \alpha$ and $\delta \to \beta$.
+#### Candidate key definition
+For $\alpha$ to be a candidate key:
+- $\alpha$ must be a superkey ( $\alpha \$ ) 
