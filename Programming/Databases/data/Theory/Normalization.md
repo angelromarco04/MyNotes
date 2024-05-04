@@ -93,4 +93,8 @@ All $F_c$ functional dependencies are:
 - Complete
 - Non-redundant (cannot be inferred from others)
 #### Algorithm
-We
+Try to eliminate extraneous attributes for each $\alpha \to \beta$.
+- Test if $A \in \alpha$ is extraneous in $\alpha$.
+$$\beta \in(\{\alpha\} - A)^+$$
+- Test if $A \in \beta$ is extraneous in $\beta$.
+$$$$
