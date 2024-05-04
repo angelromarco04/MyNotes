@@ -61,6 +61,7 @@ $$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha\:\delta 
 #### Definition
 $\alpha^+$ is the set of attributes that are functionally dependent from $\alpha$ under $F$.
 #### Algorithm
-```pseudo-code
-result := a
-```
+1. Initially: $\text{Result} := \alpha$
+2. while there are changes to be made do:
+	1. For each functional dependency $\quad \beta \to \gamma \quad$ in $F$.
+		1. If $\quad \beta \subseteq \text{result} \quad$ then $\quad \text{result} := \text{result} \u \gamma\quad$
