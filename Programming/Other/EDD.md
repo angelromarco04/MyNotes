@@ -79,4 +79,7 @@ sequenceDiagram
 7. Events can be handled with delay.
 ---
 ## EDP Design
-### 
+### Event response
+Event handlers can have:
+- A unique response algorithm.
+- Different responses depending on the system state.
