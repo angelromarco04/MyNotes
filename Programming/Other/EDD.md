@@ -61,4 +61,8 @@ sequenceDiagram
 - Several B agents subscribe to A.
 - Several A agents publish several types of messages.
 - B agents receive messages from A agents if they are subscribed.
-
+---
+## The EDP Paradigm
+### Event Model
+- EDP is a paradigm whose core are the events.
+- Event 
