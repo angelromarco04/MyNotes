@@ -67,7 +67,16 @@ $\alpha^+$ is the set of attributes that are functionally dependent from $\alpha
 #### Applications
 - **Finding super-keys**. All fields can be implied from the super-key field. 
 $$\alpha \to R \in F^+$$
-- **Checking if $\alpha \to \beta$ is in $F^+$**.$$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
-- Calculating $F^+$.
+- **Checking if $\alpha \to \beta$ is in $F^+$**.
+$$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
+- **Calculating $F^+$.**
 	1. For each $\gamma \in R$ calculate $\gamma^+$.
-	2. For each $S \in \g
+	2. For each $S \in \gamma^+$ add $\gamma \to S$.
+#### Example
+$$
+\begin{align}
+&R = (A\:,\:B\:,\:C)\\
+&F = \{\}
+\end{align}
+
+$$
