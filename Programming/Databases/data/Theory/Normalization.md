@@ -62,6 +62,10 @@ $$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha\:\delta 
 $\alpha^+$ is the set of attributes that are functionally dependent from $\alpha$ under $F$.
 #### Algorithm
 1. Initially: $\text{Result} := \alpha$
-2. while there are changes to be made do:
-	1. For each functional dependency $\quad \beta \to \gamma \quad$ in $F$.
-		1. If $\quad \beta \subseteq \text{result} \quad$ then $\quad \text{result} := \text{result} \:\cup\: \gamma\quad$
+2. For each functional dependency $\quad \beta \to \gamma \quad$ in $F$.
+	1. If $\quad \beta \subseteq \text{result} \quad$ then $\quad \text{result} := \text{result} \:\cup\: \gamma\quad$
+#### Applications
+- Finding super-keys.
+	A super$$\alpha \to R \in F^+$$
+- Checking if $\alpha \to \beta$ is in $F^+$.
+- Calculating $F^+$.
