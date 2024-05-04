@@ -97,4 +97,9 @@ Try to eliminate extraneous attributes for each $\alpha \to \beta$.
 - Test if $A \in \alpha$ is extraneous in $\alpha$.
 $$\beta \in(\{\alpha\} - A)^+$$
 - Test if $A \in \beta$ is extraneous in $\beta$.
-$$$$
+$$
+\begin{align}
+F' = (F-\{\alpha\to\beta\})\quad\cup\quad\{\alpha\to(\beta-A)\}
+\end{align}
+$$
+	(Replace $\alpha \to \gamma \:A\quad$ by $\quad\alpha \to\gamma$. Note that $\beta = \gamma\:A$)
