@@ -23,8 +23,10 @@ Hope you like it!  :D
 - [Scheme](Programming/Other/SCHEME.md)
 
 ### Other
-- Data Structures & Algorithms #TODO
+- Data Structures #TODO
+- Algorithms #TODO
 - [Design Patterns](Programming/Patterns/index.md)
+- [Event Driven Design](/Programming/EDD/index.md)
 - [Human-Computer Interaction](Programming/GUI/index.md)
 - [Databases](Programming/Databases/index.md)
 - Clean code #TODO 
