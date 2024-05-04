@@ -104,5 +104,6 @@ F' = (F-\{\alpha\to\beta\})\quad\cup\quad\{\alpha\to(\beta-A)\}
 $$
 	(Replace $\alpha \to \gamma \:A\quad$ by $\quad\alpha \to\gamma$. Note that $\beta = \gamma\:A$)
 #### Algorithm
-1. Apply union rule. Replace $\alpha \to \beta$ and $\alpha \to \delta$ with $\alpha \to \beta\:\delta$
-2. 
+1. Apply union rule. Replace $\alpha \to \beta$ and $\alpha \to \delta$ with $\alpha \to \beta\:\delta$.
+2. Find and delete all extraneous attributes.
+---
