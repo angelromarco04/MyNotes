@@ -72,11 +72,5 @@ $$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
 - **Calculating $F^+$.**
 	1. For each $\gamma \in R$ calculate $\gamma^+$.
 	2. For each $S \in \gamma^+$ add $\gamma \to S$.
-#### Example
-$$
-\begin{align}
-&R = (A\:,\:B\:,\:C)\\
-&F = \{\}
-\end{align}
-
-$$
+---
+### Candidate Key
