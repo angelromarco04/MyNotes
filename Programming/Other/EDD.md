@@ -31,7 +31,8 @@ The execution flow of the program varies depending on some events.
 ### Definition
 A system is a set of agents that:
 - Change their behaviour depending on its state.
-- Interact between them in several ways.
+- Interact between them in several ways (events).
+We can 
 ### Request-Response Interaction
 - Involves only two agents.
 - Response is mandatory.
