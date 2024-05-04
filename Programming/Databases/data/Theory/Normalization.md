@@ -78,5 +78,7 @@ $$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
 For $\alpha \to \beta$ to be complete
 It cannot exist any $\delta$ such that $\delta \subseteq \alpha$ and $\delta \to \beta$.
 #### Candidate key definition
-For $\alpha$ to be a candidate key:
-- $\alpha$ must be a superkey ( $\alpha \$ ) 
+For $\alpha\beta$ to be a candidate key it must fulfil:
+- $\alpha\beta$ must be a super-key ( $\alpha\beta \to R \implies R \subseteq(\alpha\beta)^+$ ).
+- $\alpha\beta \to R$ is a complete functional dependency.
+	- Nor $\alpha^+$ nor $\beta^+$ are super-keys.
