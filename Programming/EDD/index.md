@@ -21,5 +21,10 @@ The execution flow of the program varies depending on some events.
 - Events can happen at any instant.
 - Events can be external or internal.
 ### Event Response
-- An observer responds (handles) an event.
-- The observer 
+- There is an observer that responds (handles) an event.
+- The observer is frequently called event handler or controller.
+### Event Sources
+- Some events are launched by an agent.
+- The agent is called event source.
+---
+## Event Based Systems (EBS)
