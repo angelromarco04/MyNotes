@@ -42,19 +42,25 @@ $$F = \{\:\alpha \to  \beta\quad,\quad\beta \to \gamma\quad,\quad...\:\}$$
 #### Definition
 $F^+$ is the set of all functional dependencies that can be implied from $F$.
 #### Armstrong's Axioms
-- Reflexivity
+- **Reflexivity**
 $$\beta \subseteq \alpha \implies \alpha \to \beta$$
-- Augmentation
+- **Augmentation**
 $$\alpha \to \beta \quad\text{ \& }\quad \delta \subseteq \mu \implies \alpha\:\mu \to \beta\:\delta$$
-- Transitive
+- **Transitive**
 $$\alpha \to \beta \quad\text{ \& }\quad \beta \to \gamma \implies \alpha \to \gamma$$
 #### Additional rules
 From Armstrong's Axioms we can infer:
-- Union
+- **Union**
 $$\alpha \to \beta \quad \& \quad \alpha \to \delta \implies \alpha \to\beta\:\delta$$
-- Decomposition
+- **Decomposition**
 $$\alpha \to\beta\:\delta \implies \alpha \to \beta \quad \& \quad \alpha \to \delta$$
-- Pseudo-transitive
+- **Pseudo-transitive**
 $$\alpha \to \beta \quad \& \quad \beta\:\delta \to \mu \implies \alpha\:\delta \to\mu$$
 ---
-Closure of Attribute Sets pg. 21
+### Closure of Attribute Sets ( $\alpha^+$ )
+#### Definition
+$\alpha^+$ is the set of attributes that are functionally dependent from $\alpha$ under $F$.
+#### Algorithm
+```pseudo-code
+result := a
+```
