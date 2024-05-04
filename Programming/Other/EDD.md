@@ -65,4 +65,10 @@ sequenceDiagram
 ## The EDP Paradigm
 ### Event Model
 - EDP is a paradigm whose core are the events.
-- Event 
+- Objects linked to events:
+	- Event Source. Generates the event.
+	- Event Objects. Encapsulates event data.
+	- Event Handler. Responses to the event.
+### Events vs method calls
+- Event source and handler have a weaker coupling (independence).
+- Event handler
