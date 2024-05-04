@@ -88,4 +88,7 @@ For $\alpha\beta$ to be a candidate key it must fulfil:
 For $\alpha \to \beta$ to be trivial it must fulfil that $\beta \subseteq \alpha$.
 #### Definition
 $F_c$ is the minimal set of functional dependencies of $F$ .
-- All 
+All $F_c$ functional dependencies are:
+- Non-trivial
+- Complete
+- Non-redundant (cannot be inferred from others)
