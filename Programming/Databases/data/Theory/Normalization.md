@@ -77,10 +77,15 @@ $$\beta \subseteq \alpha^+ \implies \{\:\alpha \to\beta\:\} \in F^+$$
 #### Complete functional dependencies
 For $\alpha \to \beta$ to be complete
 It cannot exist any $\delta$ such that $\delta \subseteq \alpha$ and $\delta \to \beta$.
-#### Candidate key definition
+#### Definition
 For $\alpha\beta$ to be a candidate key it must fulfil:
 - $\alpha\beta$ must be a super-key ( $\alpha\beta \to R \implies R \subseteq(\alpha\beta)^+$ ).
 - $\alpha\beta \to R$ is a complete functional dependency.
 	- Nor $\alpha^+$ nor $\beta^+$ are super-keys.
 ---
-### Canonical Cover
+### Canonical Cover ( $F_c$ )
+#### Trivial functional dependencies
+For $\alpha \to \beta$ to be trivial it must fulfil that $\beta \subseteq \alpha$.
+#### Definition
+$F_c$ is the minimal set of functional dependencies of $F$ .
+- All 
