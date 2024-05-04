@@ -33,11 +33,28 @@ A system is a set of agents that:
 - Change their behaviour depending on its state.
 - Interact between them in several ways.
 ### Request-Response Interaction
+- Involves only two agents.
+- Response is mandatory.
 ```mermaid
 sequenceDiagram
     participant A
     participant B
-    A->>Bob: Hi Bob
-    B->>Alice: Hi Alice
+    A->>B: Request (+details)
+    B->>A: Response
 ```
+### Message passing Interaction
+- Involves only two agents.
+- Response is optional.
+```mermaid
+sequenceDiagram
+    participant A
+    participant B
+    A->>B: Request (+details)
+    B-->>A: Response (optional)
+```
+### Publication-Subscription Interaction
+- Involves multiple agents.
+- Several B agents subscribe to A.
+- Several A agents publish several types of messages.
+- B agents receive messages from A agents if they are subscribed.
 
