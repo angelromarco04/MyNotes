@@ -82,3 +82,5 @@ For $\alpha\beta$ to be a candidate key it must fulfil:
 - $\alpha\beta$ must be a super-key ( $\alpha\beta \to R \implies R \subseteq(\alpha\beta)^+$ ).
 - $\alpha\beta \to R$ is a complete functional dependency.
 	- Nor $\alpha^+$ nor $\beta^+$ are super-keys.
+---
+### Canonical Cover
