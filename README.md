@@ -26,7 +26,7 @@ Hope you like it!  :D
 - Data Structures #TODO
 - Algorithms #TODO
 - [Design Patterns](Programming/Patterns/index.md)
-- [Event Driven Design](/Programming/EDD/index.md)
+- [Event Driven Design](Programming/Other/EDD.md)
 - [Human-Computer Interaction](Programming/GUI/index.md)
 - [Databases](Programming/Databases/index.md)
 - Clean code #TODO 

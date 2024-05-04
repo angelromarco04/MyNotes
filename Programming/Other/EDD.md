@@ -27,4 +27,17 @@ The execution flow of the program varies depending on some events.
 - Some events are launched by an agent.
 - The agent is called event source.
 ---
-## Event Based Systems (EBS)
+## Event Based Systems (EBS) Interactions
+### Definition
+A system is a set of agents that:
+- Change their behaviour depending on its state.
+- Interact between them in several ways.
+### Request-Response Interaction
+```mermaid
+sequenceDiagram
+    participant A
+    participant B
+    A->>Bob: Hi Bob
+    B->>Alice: Hi Alice
+```
+
