@@ -140,9 +140,25 @@ $$
 | A, B    |     |     |     |     |     |
 | A, D, E |     |     |     |     |     |
 | C, D    |     |     |     |     |     |
-3. Mark the attributes contained in each $R_i$.
+3. Mark the attributes contained in each $R_i$
+	(for clarity we mark with a + the column number).
+
 | $R_i$   | A   | B   | C   | D   | E   |
 | ------- | --- | --- | --- | --- | --- |
-| A, B    |     |     |     |     |     |
-| A, D, E |     |     |     |     |     |
-| C, D    |     |     |     |     |     |
+| A, B    | a1  | a2  |     |     |     |
+| A, D, E | a1  |     |     | a4  | a5  |
+| C, D    |     |     | a3  | a4  |     |
+
+4. Apply the relations in $F$ one by one.
+
+| $A \to B$ | A   | B   | C   | D   | E   |
+| --------- | --- | --- | --- | --- | --- |
+| A, B      | a1  | a2  |     |     |     |
+| A, D, E   | a1  | a2  |     | a4  | a5  |
+| C, D      |     |     | a3  | a4  |     |
+
+|         | A   | B   | C   | D   | E   |
+| ------- | --- | --- | --- | --- | --- |
+| A, B    | a1  | a2  |     |     |     |
+| A, D, E | a1  |     |     | a4  | a5  |
+| C, D    |     |     | a3  | a4  |     |
