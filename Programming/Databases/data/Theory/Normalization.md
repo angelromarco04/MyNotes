@@ -168,4 +168,5 @@ $$
 5. If a full row is marked then the decomposition is lossless
 ---
 ### Dependency Preservation
-pg 11
+Having $R$ decomposed in $R_1,\:...,\:R_n$, dependencies are preserved if:
+$$F^+ = (F_1\:\cup\:...\:\cup\:F_n)$$
