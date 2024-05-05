@@ -173,4 +173,6 @@ $$F^+ = (F_1\:\cup\:...\:\cup\:F_n)^+ \quad\text{where}\quad F_i=F^+ \cap\:R_i$$
 - To check if a concrete dependency $\alpha \to \beta$  is preserved:
 	1. $\text{result} = \alpha$
 	2. For each $R_i$ do $\text{result} = result \cup ((\text{result} \cap R_i)^+\cap R_i)$
-	3. It must fulfil $\beta \in \text{result}$ .
+	3. It must fulfil $\beta \in \text{result}$.
+---
+### First Normal Form (1FN)
