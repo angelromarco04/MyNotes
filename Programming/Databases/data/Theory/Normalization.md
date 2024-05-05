@@ -135,6 +135,14 @@ $$
 $$
 2. Create a table with n rows and as many columns as attributes in R
 
-|     |     |
-| --- | --- |
-|     |     |
+| $R_i$   | A   | B   | C   | D   | E   |
+| ------- | --- | --- | --- | --- | --- |
+| A, B    |     |     |     |     |     |
+| A, D, E |     |     |     |     |     |
+| C, D    |     |     |     |     |     |
+3. Mark the attributes contained in each $R_i$.
+| $R_i$   | A   | B   | C   | D   | E   |
+| ------- | --- | --- | --- | --- | --- |
+| A, B    |     |     |     |     |     |
+| A, D, E |     |     |     |     |     |
+| C, D    |     |     |     |     |     |
