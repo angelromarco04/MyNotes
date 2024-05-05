@@ -13,7 +13,7 @@ To obtain a good DDBB design we avoid:
 - Additional code.
 
 ---
-## Functional dependencies
+## PART 1
 
 ---
 ### Functional dependency
@@ -107,3 +107,6 @@ $$
 1. Apply union rule. Replace $\alpha \to \beta$ and $\alpha \to \delta$ with $\alpha \to \beta\:\delta$.
 2. Find and delete all extraneous attributes.
 ---
+## PART 2
+---
+### Decomposition of relations
