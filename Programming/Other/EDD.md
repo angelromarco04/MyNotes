@@ -104,7 +104,7 @@ A((State 0)) -- event C --> D((State 3))
 |   2   |   ANA   |   ANA   |    3    |
 |   3   |   ANA   |   ANA   |   ANA   |
 
-- Actions table provides a description of what each event does in each state.
+- **Actions table** provides a description of what each event does in each state.
 ---
 ## Events Infrastructure
-pg 34
+### Definition
