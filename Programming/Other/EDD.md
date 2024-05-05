@@ -108,3 +108,9 @@ A((State 0)) -- event C --> D((State 3))
 ---
 ## Events Infrastructure
 ### Definition
+- Is an infrastructure that allows to develop and execute event-based programs.
+- Constant loop of events.
+### Requirements
+- Event handlers.
+- Usually stablish a time deadline for processing an event (Real Time Systems).
+- 
