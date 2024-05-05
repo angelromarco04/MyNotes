@@ -186,7 +186,11 @@ Multi-values are not allowed.
 4. Every non-main attribute must depend on every candidate key.
 ---
 ### Third Normal Form
+#### Definition
 Every $\alpha \to \beta$ must satisfy at least one:
 - Trivial relation ( $\beta \subseteq \alpha$ )
 - $\alpha$ contains a key of $R$.
 - Every attribute of $(\:\beta - \alpha\:)$ belongs to a candidate key of R.
+#### Algorithm
+
+---
