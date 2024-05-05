@@ -179,4 +179,8 @@ $$F^+ = (F_1\:\cup\:...\:\cup\:F_n)^+ \quad\text{where}\quad F_i=F^+ \cap\:R_i$$
 - Multi-values are not allowed.
 ---
 ### Second Normal Form (2FN)
-- 
+1. Assume it is in 1FN.
+2. Localize candidate keys.
+3. Every attribute in the candidate keys is a main attribute.
+4. Every non-main attribute must depend on every candidate key.
+---
