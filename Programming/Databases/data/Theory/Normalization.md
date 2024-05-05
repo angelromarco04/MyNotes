@@ -192,5 +192,9 @@ Every $\alpha \to \beta$ must satisfy at least one:
 - $\alpha$ contains a key of $R$.
 - Every attribute of $(\:\beta - \alpha\:)$ belongs to a candidate key of R.
 #### Algorithm
-
+1. Calculate the canonical cover $F_c$ .
+2. Decompose
+	1. For every relation $\alpha \to \beta$ in $F_c$.
+	2. Create a decomposition $R_i = \alpha\:\beta$ .
+3. Discard every $R_i$ that is included in another $R_j$.
 ---
