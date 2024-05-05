@@ -149,16 +149,20 @@ $$
 | A, D, E | a1  |     |     | a4  | a5  |
 | C, D    |     |     | a3  | a4  |     |
 
-4. Apply the relations in $F$ one by one.
+4. Apply the relations in $F$ one by one
+	(taking into account the marked attributes, NOT the ones in $R_i$).
 
-| $A \to B$ | A   | B   | C   | D   | E   |
-| --------- | --- | --- | --- | --- | --- |
-| A, B      | a1  | a2  |     |     |     |
-| A, D, E   | a1  | a2  |     | a4  | a5  |
-| C, D      |     |     | a3  | a4  |     |
+| $D \to E, \:A$ | A      | B   | C   | D   | E      |
+| -------------- | ------ | --- | --- | --- | ------ |
+| A, B           | a1     | a2  |     |     |        |
+| A, D, E        | a1     |     |     | a4  | a5     |
+| C, D           | **a1** |     | a3  | a4  | **a5** |
 
-|         | A   | B   | C   | D   | E   |
-| ------- | --- | --- | --- | --- | --- |
-| A, B    | a1  | a2  |     |     |     |
-| A, D, E | a1  |     |     | a4  | a5  |
-| C, D    |     |     | a3  | a4  |     |
+| $A \to B$ | A   | B      | C   | D   | E   |
+| --------- | --- | ------ | --- | --- | --- |
+| A, B      | a1  | a2     |     |     |     |
+| A, D, E   | a1  | **a2** |     | a4  | a5  |
+| C, D      | a1  | **a2** | a3  | a4  | a5  |
+5. If a full row is marked then the decomposition is lossless
+---
+### 
