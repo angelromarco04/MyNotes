@@ -118,8 +118,16 @@ A((State 0)) -- event C --> D((State 3))
 ```mermaid
 graph LR
 A[/Observer/] --> B[Event queue]
+subgraph Event loop
 B <==> C((Dealer))
-C -..-> D[Handler 1]
-C -..-> E[Handler 2]
-C -..-> F[Handler 3]
+end
+C -.-> D[Handler 1]
+C -.-> E[Handler 2]
+C -.-> F[Handler 3]
 ```
+### Dealer (Planner)
+- Calls the event handlers when the event is triggered.
+- Approaches:
+	- **Push**. Event source triggers the dealer on an event.
+	- **Pull**. Dealer periodically checks the event sources for an event.
+### Event Queue
