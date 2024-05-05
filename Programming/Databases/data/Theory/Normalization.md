@@ -115,3 +115,6 @@ $$
 $$R = R_1\:\cup\:R_2\:\cup\:\:...\:\cup\:R_n$$
 - R is always contained in the junction of all $R_i$ but not necessary equal.
 $$r \subseteq r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\triangleleft\:\:...\:\triangleright\triangleleft\:r_n$$
+- We try to obtain a equivalent decomposition:
+	- No information loss ( $r = r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\triangleleft\:\:...\:\triangleright\triangleleft\:r_n$ )
+	- Preserve dependencies ( $F^+_R = F_1\:\:\cup\:\:...\:\cup\:F_n$ )
