@@ -126,7 +126,15 @@ $$r \subseteq r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\trianglele
 1. We have $R$, $F$ and $R_i : i \in [1, n]$.
 $$
 \begin{align}
-R = (A,\:B, C, D, E)
+&R = (A,\:B,\:C,\:D,\:E)\\
+&F = \{A \to B,\:D \to E,\:A\}\\\\
+&F_1 = (A, \:B)\\
+&F_2 = (A,\:D,\:E)\\
+&F_3 = (C,\:D)
 \end{align}
 $$
 2. Create a table with n rows and as many columns as attributes in R
+
+|     |     |
+| --- | --- |
+|     |     |
