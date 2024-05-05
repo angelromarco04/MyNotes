@@ -133,4 +133,16 @@ C -.-> F[Handler 3]
 ### Event Queue
 - In direct delivery:
 	- Events can reach the dealer before it finishes handling another event.
-	- A queue is requ
+- A event queue is required. Its size is critical.
+---
+## Concurrency
+### Thread
+- Is a mechanism to implement concurrency.
+- Advantages:
+	- Avoid sequential behaviour.
+	- More efficient. Programs can use:
+		- Several cores.
+		- Shared resources.
+### Java Threads
+- Two ways:
+	- Inherit from `thread`
