@@ -176,3 +176,5 @@ $$F^+ = (F_1\:\cup\:...\:\cup\:F_n)^+ \quad\text{where}\quad F_i=F^+ \cap\:R_i$$
 	3. It must fulfil $\beta \in \text{result}$.
 ---
 ### First Normal Form (1FN)
+- Multi-values are not allowed.
+- Relation $A \to B,\:C$ is transformed to $A \to B$ and $A \to C$.
