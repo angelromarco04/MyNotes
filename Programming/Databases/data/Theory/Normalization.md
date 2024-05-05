@@ -108,8 +108,10 @@ $$
 2. Find and delete all extraneous attributes.
 ---
 ## PART 2
+
 ---
 ### Decomposition of relations
+#### Definition
 
 - The whole set of attributes $R$ is divided into several $R_i$ .
 $$R = R_1\:\cup\:R_2\:\cup\:\:...\:\cup\:R_n$$
@@ -119,10 +121,10 @@ $$r \subseteq r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\trianglele
 	- No information loss ( $r = r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\triangleleft\:\:...\:\triangleright\triangleleft\:r_n$ )
 	- Preserve dependencies ( $F^+_R = F_1\:\:\cup\:\:...\:\cup\:\:F_n$ )
 - Lossy decompositions generate fake tuples on join.
-### Principle of Rissanen
+#### Principle of Rissanen
 - Check if $R$ decomposition in $R_1$ and $R_2$ is lossless. ($n = 2$).
 - $R_1 \subseteq (R_1 \cap R_2)^+ \quad$ OR $\quad R_2 \subseteq (R_1 \cap R_2)^+$.
-### Algorithm for $n > 2$
+#### Algorithm for $n > 2$
 1. We have $R$, $F$ and $R_i : i \in [1, n]$.
 $$
 \begin{align}
@@ -165,4 +167,5 @@ $$
 | C, D      | a1  | **a2** | a3  | a4  | a5  |
 5. If a full row is marked then the decomposition is lossless
 ---
-### 
+### Dependency Preservation
+pg 11
