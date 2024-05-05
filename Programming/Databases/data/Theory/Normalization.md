@@ -120,4 +120,5 @@ $$r \subseteq r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\trianglele
 	- Preserve dependencies ( $F^+_R = F_1\:\:\cup\:\:...\:\cup\:\:F_n$ )
 - Lossy decompositions generate fake tuples on join.
 ### Principle of Rissanen
-- Check if $R$ c
+- Check if $R$ decomposition in $R_1$ and $R_2$ is lossless. ($n = 2$).
+- $R_1 \subseteq (R_1 \cap R_2)^+ \quad$ OR $\quad R_2 \subseteq (R_1 \cap R_2)^+$.
