@@ -151,3 +151,23 @@ C -.-> F[Handler 3]
 	- `run()` contains the code to be executed in the thread.
 	- `start()` starts the execution in a new thread.
 ### Java Thread Class
+- **Static attributes**:
+	- `Thread.MIN_PRIORITY`
+	- `Thread.NORM_PRIORITY`
+	- `Thread.MAX_PRIORITY`
+- **Constructors**:
+	- `Thread()`
+	- `Thread(String name)`
+	- `Thread(Runnable target)`
+	- `Thread(Runnable target, String name)`
+- **Static Methods**:
+	- `sleep(long millis)`. Currently executing thread goes to sleep.
+	- `yield()`. Currently executing thread frees the CPU.
+- **Non-static Methods**:
+	- `name` & `priority` setters and getters.
+	- currentThread()
+	- isAlive()
+	- join()
+	- join(long millis)
+	- run()
+	- start()
