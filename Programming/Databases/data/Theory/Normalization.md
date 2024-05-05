@@ -198,3 +198,5 @@ Every $\alpha \to \beta$ must satisfy at least one:
 	2. Create a decomposition $R_i = \alpha\:\beta$ .
 3. Discard every $R_i$ that is included in another $R_j$.
 ---
+### Boyce-Codd Normal Form (BCNF)
+page 24
