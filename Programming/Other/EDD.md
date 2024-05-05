@@ -145,4 +145,9 @@ C -.-> F[Handler 3]
 		- Shared resources.
 ### Java Threads
 - Two ways:
-	- Inherit from `thread`
+	- Inherit from `Thread`.
+	- Implement `Runnable` interface.
+- Methods
+	- `run()` contains the code to be executed in the thread.
+	- `start()` starts the execution in a new thread.
+### Java Thread Class
