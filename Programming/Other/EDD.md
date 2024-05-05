@@ -128,6 +128,9 @@ C -.-> F[Handler 3]
 ### Dealer (Planner)
 - Calls the event handlers when the event is triggered.
 - Approaches:
-	- **Push**. Event source triggers the dealer on an event.
+	- **Push (direct delivery)** . Event source triggers the dealer on an event.
 	- **Pull**. Dealer periodically checks the event sources for an event.
 ### Event Queue
+- In direct delivery:
+	- Events can reach the dealer before it finishes handling another event.
+	- A queue is requ
