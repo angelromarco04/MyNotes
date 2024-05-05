@@ -113,4 +113,4 @@ A((State 0)) -- event C --> D((State 3))
 ### Requirements
 - Event handlers.
 - Usually stablish a time deadline for processing an event (Real Time Systems).
-- 
+- Concurrent event handling in overlapping times.
