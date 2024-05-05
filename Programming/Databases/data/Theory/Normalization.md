@@ -110,3 +110,8 @@ $$
 ## PART 2
 ---
 ### Decomposition of relations
+
+- The whole set of attributes $R$ is divided into several $R_i$ .
+$$R = R_1\:\cup\:R_2\:\cup\:\:...\:\cup\:R_n$$
+- R is always contained in the junction of all $R_i$ but not necessary equal.
+$$R \subseteq R_1\:\cup\:R_2\:\cup\:\:...\:\cup\:R_n$$
