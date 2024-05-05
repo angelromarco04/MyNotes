@@ -122,3 +122,11 @@ $$r \subseteq r_1\:\triangleright\triangleleft\:\:r_2\:\triangleright\trianglele
 ### Principle of Rissanen
 - Check if $R$ decomposition in $R_1$ and $R_2$ is lossless. ($n = 2$).
 - $R_1 \subseteq (R_1 \cap R_2)^+ \quad$ OR $\quad R_2 \subseteq (R_1 \cap R_2)^+$.
+### Algorithm for $n > 2$
+1. We have $R$, $F$ and $R_i : i \in [1, n]$.
+$$
+\begin{align}
+R = (A,\:B, C, D, E)
+\end{align}
+$$
+2. Create a table with n rows and as many columns as attributes in R
