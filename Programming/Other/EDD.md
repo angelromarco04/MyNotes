@@ -114,3 +114,12 @@ A((State 0)) -- event C --> D((State 3))
 - Event handlers.
 - Usually stablish a time deadline for processing an event (Real Time Systems).
 - Concurrent event handling in overlapping times.
+### Structure
+```mermaid
+graph LR
+A[/Observer/] --> B[Event queue]
+B <==> C((Dealer))
+C -..-> D[Handler 1]
+C -..-> E[Handler 2]
+C -..-> F[Handler 3]
+```
