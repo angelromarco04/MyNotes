@@ -204,3 +204,4 @@ Every $\alpha \to \beta$ must satisfy at least one:
 - Every $\alpha$ is a super-key of $R$ .
 - Its decomposition does not guarantee dependency preservation.
 #### Algorithm
+1. Fin
