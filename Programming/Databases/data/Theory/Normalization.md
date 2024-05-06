@@ -204,4 +204,7 @@ Every $\alpha \to \beta$ must satisfy at least one:
 - Every $\alpha$ is a super-key of $R$ .
 - Its decomposition does not guarantee dependency preservation.
 #### Algorithm
-1. Fin
+1. Find functional dependencies $\alpha \to \beta$ which:
+	- $\alpha \to \beta$  is not trivial ( $\beta\nsubseteq \alpha$ )
+	- $\alpha$ is not a super-key.
+2. 
