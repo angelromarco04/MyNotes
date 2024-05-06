@@ -202,7 +202,9 @@ Every $\alpha \to \beta$ must satisfy at least one:
 #### Definition
 - Every functional dependency $\alpha \to \beta$  is trivial ( $\beta\subseteq \alpha$ ).
 - Every $\alpha$ is a super-key of $R$ .
+#### Notes
 - Its decomposition does not guarantee dependency preservation.
+- Binary attribute sets $R$ are always in BCNF.
 #### Algorithm
 1. Having the attribute set $R$ and the dependencies $F$
 1. Find functional dependencies $F_i =\{\:\alpha \to \beta\:\} \in F$ which:
@@ -211,4 +213,6 @@ Every $\alpha \to \beta$ must satisfy at least one:
 2. For each one, divide into two:
 	- $R_{\:i\:1} = \alpha \cup \beta$  with  $F_{\:i\:1} = F_i$
 	- $R_{\:i\:2} = R_i - \beta$ with $F_{\:i\:1} = F - F_i$
-	- 
+---
+Multivalue
+pg 38
