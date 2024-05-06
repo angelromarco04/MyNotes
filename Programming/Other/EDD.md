@@ -161,13 +161,74 @@ C -.-> F[Handler 3]
 	- `Thread(Runnable target)`
 	- `Thread(Runnable target, String name)`
 - **Static Methods**:
+	- `currentThread()`. Get reference of the currently executing thread.
 	- `sleep(long millis)`. Currently executing thread goes to sleep.
 	- `yield()`. Currently executing thread frees the CPU.
 - **Non-static Methods**:
 	- `name` & `priority` setters and getters.
-	- currentThread()
-	- isAlive()
-	- join()
-	- join(long millis)
-	- run()
-	- start()
+	- `isAlive()`. Check if a thread is alive.
+	- `join()`. Main thread waits for the thread to finish.
+	- `join(long millis)`. Main thread waits only for some time.
+	- `run()`. Runs the code of the runnable object (if present).
+	- `start()`. The thread starts is execution.
+### Thread States
+- `NEW`. Created but not started.
+- `RUNNABLE`. Started but waiting for the CPU.
+- `BLOCKED`. Waiting for a semaphore in a synchronized area.
+- `WAITING`. Waiting indefinitely for another thread.
+- `TIMED_WAITING`. Waiting with a timer for another thread.
+- `TERMINATED`. Execution finished.
+### Program Correctness
+#### Liveness Properties
+- **Live-lock**. Execution of instructions without making progress.
+- **Starvation**. Low-priority threads cannot use CPU time.
+#### Safety Properties
+- **Mutual exclusion**. Avoid simultaneous access to shared resources.
+- **Synchronisation**. Some thread have to wait for another.
+	- Producer-Consumer problem.
+- **Deadlock.** All threads wait for an event that will not happen.
+#### Solutions
+- **Semaphore** (or mutex) is the primitive way of blocking/releasing a resource.
+	- `P(mutex)` to block a resource.
+	- `V(Mutex)` to free a resource.
+- Higher level mechanisms:
+	- **Critical regions** grant exclusive access to a section of code.
+	- **Monitors** are abstract datatypes that gran exclusive access to them.
+	- **Signals and message passing** among concurrent processes.
+### Java Concurrency Correctness
+#### Semaphores
+```java
+private static Object shared;
+private Semaphore mutex = new Semaphore(1, true);
+
+public void run() {
+	mutex.acquire() //P(mutex)
+	// Critical section here
+	// Use shared object.
+	mutex.release() // V(mutex)
+}
+```
+#### Synchronised for mutual exclusion
+```java
+private static Object shared;
+private Object mutex = new Object();
+
+public void run() {
+	synchronized(mutex) {
+		// Critical section here
+		// Use shared object.
+	}
+}
+```
+#### Synchronised for Synchronization
+```java
+private static Object shared;
+
+public synchronized void myMethod() {
+	while (cond) wait(); // Wait for a notification
+	...
+	notify();
+	...
+}
+```
+---
