@@ -205,9 +205,10 @@ Every $\alpha \to \beta$ must satisfy at least one:
 - Its decomposition does not guarantee dependency preservation.
 #### Algorithm
 1. Having the attribute set $R$ and the dependencies $F$
-1. Find functional dependencies $\{\:\alpha \to \beta\:\} \in F$ which:
-	- $\alpha \to \beta$  is not trivial ( $\beta\nsubseteq \alpha$ )
+1. Find functional dependencies $F_i =\{\:\alpha \to \beta\:\} \in F$ which:
+	- $F_i$ is not trivial ( $\beta\nsubseteq \alpha$ )
 	- $\alpha$ is not a super-key.
 2. For each one, divide into two:
-	- $R_{\:i\:1} = \alpha \cup \beta$  with  $F_{\:i\:1}$
-	- $R_{\:i\:2} = R_i - \beta$
+	- $R_{\:i\:1} = \alpha \cup \beta$  with  $F_{\:i\:1} = F_i$
+	- $R_{\:i\:2} = R_i - \beta$ with $F_{\:i\:1} = F - F_i$
+	- 
