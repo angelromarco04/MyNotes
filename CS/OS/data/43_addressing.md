@@ -15,6 +15,13 @@
 ---
 ## Physical Address Generation
 
+```mermaid
+graph TB
+    A[Program] -- Symbolic --> B{Compilation}
+    B --> C((Physical))
+
+```
+
 1. **Creating a program**
 	- Symbolic addresses are used (function & variable names)
 	- Easier for the programmer to understand
@@ -33,10 +40,12 @@
 		- Puts the runnable files one after another.
 		- Readjusts the relative addresses (add the size of the previous files)
 	- The addresses for the external functions must be assigned.
-5. **Load runnable to the MM (by the LTS)**
+5. **Load runnable to the MM**
+	- Done by the OS module called Long Term Scheduler (LTS).
 	- For physical addr. the LTS loads the runnable in the specified address.
 	- For relative addresses, the LTS can:
 		- Load the program wherever in MM.
 		- Maintain relative addr. (now logical) or convert them to physical.
-6. **Run-time translation (by the MMU)**
-	- Step only required if the 
+7. **Run-time translation**
+	- Step only required if in the previous step we keep logical addresses.
+	- Done very fast by specific hardware called Memory Management Unit.
