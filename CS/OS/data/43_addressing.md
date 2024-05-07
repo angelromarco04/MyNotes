@@ -19,4 +19,10 @@
 	- Easier for the programmer to understand
 2. Compilation
 	- Code is transformed to machine code.
-	- Symbolic addresses are converted to 
+	- Symbolic addresses are usually converted to relative ones.
+		- Requires to compile each individual file.
+		- Relative addr. are an offset from the beginning of the file
+	- Symbolic addresses can also be converted to physical ones.
+		- Is not recommended.
+		- Final runnable cannot be relocated.
+		- Final runnable must be loaded at a specific 
