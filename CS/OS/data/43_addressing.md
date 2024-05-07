@@ -14,6 +14,7 @@
 > (CPU only works with physical addresses.)
 ---
 ## Physical Address Generation
+
 1. **Creating a program**
 	- Symbolic addresses are used (function & variable names)
 	- Easier for the programmer to understand
@@ -28,4 +29,6 @@
 		- Final runnable must be loaded at a specific space in MM.
 3. **Linking**
 	- Puts the runnable files one after another.
-	- 
+	- Readjusts the relative addresses by adding the size of the previous files.
+	- Must assign the relative addresses of the external functions.
+4. 
