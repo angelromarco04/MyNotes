@@ -20,7 +20,7 @@
 	3. [Semaphores](data/33_semaphores.md)
 4. **Management of the Real Memory**
 	1. [Introduction](data/41_intro.md)
-	2. Hierarchy of memories
+	2. [Hierarchy of memories](data/42_hierarchy.md)
 	3. Addressing
 	4. Dynamic addressing
 	5. Mechanisms to manage real memory
