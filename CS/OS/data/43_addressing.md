@@ -18,8 +18,14 @@
 ```mermaid
 graph TB
     A[Program] -- Symbolic --> B{Compilation}
-    B --> C((Physical))
-
+    B -- Physical --> C[Machine code]
+    B -- Relative --> D[Machine code]
+    C --> E{Linking}
+    D --> F{Linking}
+    E --> G[Runnable]
+    F --> H[Runnable]
+	G --> I{Load to MM}
+    H --> J{Load to MM}
 ```
 
 1. **Creating a program**
