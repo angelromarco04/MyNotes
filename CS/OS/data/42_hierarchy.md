@@ -24,9 +24,18 @@ From top (1) to bottom (6):
 - Memory accesses tend to be to adjacent positions.
 	- Sequential programs, iterative structures, vectors...
 - When an address is accessed it is probable that it will be accessed again.
-- +performance = less access to lower 
+- +performance = less access to lower level memories.
+	- Highly accessed data stores in cache memory.
 
 ---
 ## Hierarchy's operation
+### Main Memory
+- Most important memory.
+- Is directly and explicitly accessed by the CPU.
+### Cache Memory
+- In in between the CPU registers and the MM.
+- Has small size and high access speed.
+- Every piece of data goes through it.
+- Is invisible to d
 
 ---
