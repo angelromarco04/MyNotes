@@ -34,4 +34,9 @@
 		- Readjusts the relative addresses (add the size of the previous files)
 	- The addresses for the external functions must be assigned.
 5. **Load runnable to the MM (by the LTS)**
-	- For physical addresses the LTS just loads the runnable in the 
+	- For physical addr. the LTS loads the runnable in the specified address.
+	- For relative addresses, the LTS can:
+		- Load the program wherever in MM.
+		- Maintain relative addr. (now logical) or convert them to physical.
+6. **Run-time translation (by the MMU)**
+	- Step only required if the 
