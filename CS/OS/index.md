@@ -18,3 +18,5 @@
 	1. [Introduction](data/31_intro.md)
 	2. [Hardware solutions to mutual exclusion](data/32_HWsolutions.md)
 	3. [Semaphores](data/33_semaphores.md)
+4. **Management of the Real Memory**
+	1. 
