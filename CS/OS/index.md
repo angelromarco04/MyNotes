@@ -6,7 +6,7 @@
 
 ---
 
-1. [Introduction to Operating Systems](data/1_Intro.md)
+1. [Introduction to Operating Systems](data/10_Intro.md)
 2. **Processes Management**
 	1. [Introduction](data/21_Intro.md)
 	2. [Processes Description](data/22_description.md)
@@ -19,4 +19,8 @@
 	2. [Hardware solutions to mutual exclusion](data/32_HWsolutions.md)
 	3. [Semaphores](data/33_semaphores.md)
 4. **Management of the Real Memory**
-	1. 
+	1. [Introduction](data/41_intro.md)
+	2. Hierarchy of memories
+	3. Addressing
+	4. Dynamic addressing
+	5. Mechanisms to manage real memory

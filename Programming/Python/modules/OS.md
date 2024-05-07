@@ -2,7 +2,7 @@
 ---
 # OS Module
 
-[Back to index](../CS/OS/index.md)
+[Back to index](../index.md)
 
 ---
 
