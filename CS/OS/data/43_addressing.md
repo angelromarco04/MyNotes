@@ -6,24 +6,19 @@
 
 ---
 ## Types of Memory Addresses
-- Symbolic
-- Relative
-- Logical
-- Physical
-> NOTE
-> (CPU only works with physical addresses.)
+- Symbolic. Assigned by the programmer.
+- Relative. Offset to the beginning of a **runnable**.
+- Logical. Offset to the beginning of a **process**.
+- Physical. Real memory address used by the CPU.
+
 ---
-## Physical Address Generation
+## Physical Address Generation Steps
 
 ```mermaid
 graph TB
-    A((Program)) -- Symbolic --> B{Compilation}
-    B -- Physical --> C[Machine code]
-    B -- Relative --> D[Machine code]
-    C --> E{Linking}
-    D --> F{Linking}
-    E --> G[Runnable]
-    F --> H[Runnable]
+    A((Program)) -- Symbolic --> B{Compile + Link}
+    B -- Physical --> G[Runnable]
+    B -- Relative --> H[Runnable]
 	G -- Physical --> I{Load to MM}
     H -- Relative --> J{Load to MM}
     I -- Physical --> K[Process]
@@ -64,4 +59,4 @@ graph TB
 	- Done very fast by specific hardware called Memory Management Unit.
 
 ---
-32
+## 
