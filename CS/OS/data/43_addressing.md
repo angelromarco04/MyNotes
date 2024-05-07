@@ -17,15 +17,22 @@
 
 ```mermaid
 graph TB
-    A[Program] -- Symbolic --> B{Compilation}
+    A((Program)) -- Symbolic --> B{Compilation}
     B -- Physical --> C[Machine code]
     B -- Relative --> D[Machine code]
     C --> E{Linking}
     D --> F{Linking}
     E --> G[Runnable]
     F --> H[Runnable]
-	G --> I{Load to MM}
-    H --> J{Load to MM}
+	G -- Physical --> I{Load to MM}
+    H -- Relative --> J{Load to MM}
+    I -- Physical --> K[Process]
+    J -- Physical --> L[Process]
+    J -- Logical --> M[Process]
+    M -- Logical --> N{MMU}
+    N -- Physical --> Z((CPU))
+    K --> Z
+    L --> Z
 ```
 
 1. **Creating a program**
@@ -55,3 +62,6 @@ graph TB
 7. **Run-time translation**
 	- Step only required if in the previous step we keep logical addresses.
 	- Done very fast by specific hardware called Memory Management Unit.
+
+---
+32
