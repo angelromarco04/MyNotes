@@ -21,6 +21,6 @@
 4. **Management of the Real Memory**
 	1. [Introduction](data/41_intro.md)
 	2. [Hierarchy of memories](data/42_hierarchy.md)
-	3. Addressing
+	3. [Addressing](data/43_addressing.md)
 	4. Dynamic addressing
 	5. Mechanisms to manage real memory

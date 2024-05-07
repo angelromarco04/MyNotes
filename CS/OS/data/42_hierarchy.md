@@ -32,10 +32,17 @@ From top (1) to bottom (6):
 ### Main Memory
 - Most important memory.
 - Is directly and explicitly accessed by the CPU.
+- CPU only deals with MM addresses.
 ### Cache Memory
 - In in between the CPU registers and the MM.
 - Has small size and high access speed.
 - Every piece of data goes through it.
-- Is invisible to d
+- Is invisible to the CPU
+### Disk (Secondary storage)
+- Can contain parts of processes.
+- Data goes to MM only when needed.
+### Disk Cache
+- Is an intermediate buffer between the disk and MM
+- Usually implemented in the MM by software.
 
 ---
