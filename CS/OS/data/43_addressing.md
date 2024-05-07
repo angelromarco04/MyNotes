@@ -28,7 +28,10 @@
 		- Final runnable cannot be relocated.
 		- Final runnable must be loaded at a specific space in MM.
 3. **Linking**
-	- Puts the runnable files one after another.
-	- Readjusts the relative addresses by adding the size of the previous files.
-	- Must assign the relative addresses of the external functions.
-4. 
+	- Same memory type.
+	- For relative addr. only:
+		- Puts the runnable files one after another.
+		- Readjusts the relative addresses (add the size of the previous files)
+	- The addresses for the external functions must be assigned.
+5. **Load runnable to the MM (by the LTS)**
+	- For physical addresses the LTS just loads the runnable in the 
