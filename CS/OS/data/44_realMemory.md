@@ -6,6 +6,12 @@
 
 ---
 ## Introduction
+There are several ways to manage the memory
+- Real memory
+	- Whole process is loaded to MM.
+	- Low multiprogramming.
+- Virtual memory
+	- 
 
 ---
 ## Contiguous memory allocation
