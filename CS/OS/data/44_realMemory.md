@@ -62,8 +62,10 @@
 - A queue for processes to access the MM is required.
 	- Can have one single input queue or one per petition.
 #### Assignment Strategies
-- First-fit (First available partition starting from the first one)
-- Next-fit (First big enough partition starting from the last assigned one)
+(One partition, one process. Only partition bigger than the process are electable)
+- **First-fit** (First available partition starting from the first one)
+- **Next-fit** (First available partition starting from the last assigned one)
+- **Best-fit** (Available partition with less free space)
 ### Multi-processing dynamic fixed partitions
 
 ---
