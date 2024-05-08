@@ -61,6 +61,9 @@
 	- State (free/used), Partition base, Partition size.
 - A queue for processes to access the MM is required.
 	- Can have one single input queue or one per petition.
+#### Assignment Strategies
+- First-fit (First available partition starting from the first one)
+- Next-fit (First big enough partition starting from the last assigned one)
 ### Multi-processing dynamic fixed partitions
 
 ---
