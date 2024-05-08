@@ -34,10 +34,18 @@
 ---
 ## Contiguous memory allocation
 ### Singe-process monitor (OS)
-- **Physical organization of the MM**
+#### Physical organization of the MM
 	- OS present at lower positions
 	- The only process is stored before the OS in the transient area.
 		- Processes life cycle: One stops -> It is removed -> Load another.
+#### Protection
+	- Base register contains the initial physical address of the process in MM.
+	- Limit register contains the process size (in bytes).
+	- Process cannot access any logical address greater than the limit register.
+#### Translation
+```mermaid
+
+```
 
 ### Multiple partitions
 
