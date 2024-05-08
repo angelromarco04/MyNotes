@@ -50,7 +50,11 @@
 4. We have a physical address to access the MM.
 
 ### Multi-processing with fixed partitions
-
+#### Physical organization of the MM
+- MM is divided into fixed size pieces called partitions.
+- The partition 0 is assigned to the OS.
+- Each process is inside a partition that is bigger that them.
+- If no partition free it must wait (suspended) or replace another process
 
 ### Multi-processing dynamic fixed partitions
 
