@@ -22,7 +22,7 @@
 	1. [Introduction](data/41_intro.md)
 	2. [Hierarchy of memories](data/42_hierarchy.md)
 	3. [Addressing](data/43_addressing.md)
-	4. Mechanisms to manage real memory
+	4. [Mechanisms to manage real memory](data/44_realMemory.md)
 5. **Files Management**
 	1. Introduction
 	2. Files
