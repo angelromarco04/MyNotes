@@ -51,11 +51,16 @@
 
 ### Multi-processing with fixed partitions
 #### Physical organization of the MM
-- MM is divided into fixed size pieces called partitions.
+- MM is divided into pieces called partitions.
+	- Partitions have a fixed size but not necessarily the same.
 - The partition 0 is assigned to the OS.
-- Each process is inside a partition that is bigger that them.
-- If no partition free it must wait (suspended) or replace another process
-
+- Each process is inside a partition that is bigger that them (waste of MM).
+- If no partition is free processes must wait (suspended) or replace another one.
+#### Data Structure
+- A partition table is required.
+	- State (free/used), Partition base, Partition size.
+- A queue for processes to access the MM is required.
+	- Can have one single input queue or one per petition.
 ### Multi-processing dynamic fixed partitions
 
 ---
