@@ -74,12 +74,23 @@
 #### Physical organization of the MM
 - MM is divided into partitions and free spaces called hollows
 - Initially there is only the OS partition and a big hollow.
-- Each process creates a new partition:
-	- As big as the process ().
-	- Starting at the first available and big enough hollow.
+- Each process:
+	- Creates a new partition as big as the process.
+	- Starts at the first available and big enough hollow.
+	- Partition is erased on process finishing.
+- Note that partitions cannot move as they hold a running process.
+- It suffers from fragmentation
+	- Is the wasted space of the small hollows in between partitions.
+	- Hollow condensation is gathering adjacent hollows when freing
+#### Data Structures
+- A list of partitions and hollows is required (Can be joined os separated).
+- For each hollow we have a initial physical address and its size in bytes.
+- For the partitions we also have the PID.
+#### Assignment Strategies, Protection & Translation Steps
+- Same as in multi-processing with fixed partitions.
 
 ---
-## Non-contiguous memory allocation
+## Non-contiguous memory allocation (pg 64)
 ### Simple paging
 
 ### Simple segmentation
