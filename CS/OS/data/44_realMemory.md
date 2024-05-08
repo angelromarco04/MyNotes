@@ -15,7 +15,7 @@
 	- Processes are partially loaded to MM.
 	- Higher multiprogramming.
 	- Uses secondary memory as backup.
-### History
+### Historical Evolution
 1. Real memory
 	1. Contiguous Allocation
 		1. Single-process monitor
@@ -28,11 +28,16 @@
 		3. Paged segmentation
 2. Virtual memory
 	1. Paging on-demand
-	2. Segmentation on-demand.  Paged segmentation.
+	2. Segmentation on-demand
+	3. Paged segmentation.
 
 ---
 ## Contiguous memory allocation
-### Singe-process OS (monitor)
+### Singe-process monitor (OS)
+- **Physical organization of the MM**
+	- OS present at lower positions
+	- The only process is stored before the OS in the transient area.
+		- Processes life cycle: One stops -> It is removed -> Load another.
 
 ### Multiple partitions
 
