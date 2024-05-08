@@ -6,7 +6,7 @@
 
 ---
 ## Introduction
-There are several ways to manage the memory
+### Ways to Manage Memory
 - **Real memory**
 	- Whole process is loaded to MM.
 	- Low multiprogramming.
@@ -16,10 +16,23 @@ There are several ways to manage the memory
 	- Higher multiprogramming.
 	- Uses secondary memory as backup.
 ### History
+1. Real memory
+	1. Contiguous Allocation
+		1. Single-process monitor
+		2. Multi-programmed systems
+			1. With fixed partitions
+			2. With dynamic partitions
+	2. Non-contiguous allocation
+		1. Simple paging
+		2. Simple segmentation
+		3. Paged segmentation
+2. Virtual memory
+	1. Paging on-demand
+	2. Segmentation on-demand.  Paged segmentation.
 
 ---
 ## Contiguous memory allocation
-### Singe-process monitor
+### Singe-process OS (monitor)
 
 ### Multiple partitions
 
