@@ -22,5 +22,12 @@
 	1. [Introduction](data/41_intro.md)
 	2. [Hierarchy of memories](data/42_hierarchy.md)
 	3. [Addressing](data/43_addressing.md)
-	4. Dynamic addressing
+	4. Dynamic addressing (pg. 43)
 	5. Mechanisms to manage real memory
+5. **Files Management**
+	1. Introduction
+	2. Files
+	3. Folders
+	4. Data structures for files management
+	5. File system implementation
+---

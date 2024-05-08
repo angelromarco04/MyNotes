@@ -59,4 +59,35 @@ graph TB
 	- Done very fast by specific hardware called Memory Management Unit.
 
 ---
-## 
+## Types of bindings
+Depends on the time when the physical address was obtained:
+### Static correspondence (or binding)
+- Obtained in compilation/linking time.
+	- Neither runnable nor process can be relocated.
+- Obtained in loading time.
+	- Relocatable runnable but not process.
+### Dynamic correspondence (or binding)
+- Obtained in run time.
+	- Relocatable both runnable and process.
+---
+## Address Spaces
+### Logical Address Space
+- Is the set of valid logical addresses inside a runnable.
+- Goes from $0$ to $\text{size}(\text{ process }) -1$.
+- Outside this range a segmentation fault happens.
+### Physical Address Space
+- Is the set of valid physical addresses (of the MM) inside a process.
+- Each one is associated to a logical address.
+- Can change in run time.
+---
+## Translating function or relocation
+- Is the translation from logical to physical addresses.
+- Is done by the Memory Management Unit
+- Two ways:
+	- **Base or relocation register**
+		- Register containing the starting address of the process in MM.
+		- Adds this register to the logical addr. to obtain the physical one.
+	- **Binding table**
+		- Table that contains the translations from logical to physical.
+		- Avoids performing an addition every cycle.
+---
