@@ -66,6 +66,11 @@
 - **First-fit** (First available partition starting from the first one)
 - **Next-fit** (First available partition starting from the last assigned one)
 - **Best-fit** (Available partition with less free space)
+
+#### Protection & Translation Steps
+- Same as in single-process monitor.
+- 
+
 ### Multi-processing dynamic fixed partitions
 
 ---
