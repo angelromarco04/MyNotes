@@ -79,9 +79,10 @@
 	- Starts at the first available and big enough hollow.
 	- Partition is erased on process finishing.
 - Note that partitions cannot move as they hold a running process.
-- It suffers from fragmentation
+- It suffers from fragmentation.
 	- Is the wasted space of the small hollows in between partitions.
-	- Hollow condensation is gathering adjacent hollows when freing
+	- Hollow condensation: Join adjacent hollows when freeing a process.
+	- Compaction: Move process to have always only one big hollow.
 #### Data Structures
 - A list of partitions and hollows is required (Can be joined os separated).
 - For each hollow we have a initial physical address and its size in bytes.
