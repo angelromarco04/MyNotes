@@ -69,9 +69,14 @@
 
 #### Protection & Translation Steps
 - Same as in single-process monitor.
-- 
 
 ### Multi-processing dynamic fixed partitions
+#### Physical organization of the MM
+- MM is divided into partitions and free spaces called hollows
+- Initially there is only the OS partition and a big hollow.
+- Each process creates a new partition:
+	- As big as the process ().
+	- Starting at the first available and big enough hollow.
 
 ---
 ## Non-contiguous memory allocation
