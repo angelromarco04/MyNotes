@@ -94,13 +94,20 @@
 ## Non-contiguous memory allocation
 ### Simple paging
 #### Physical Organization of the MM
-- MM is divided into equal size pieces called page frames.
-- $\text{\# page frames} \times \text{page frame size} = \text{memory size}$
+- MM is divided into equal size pieces called frames.
+- $\text{\# frames} \times \text{frame size} = \text{memory size}$
 #### Logical organization of processes
-- Processes can be occupy several non-adjacent page frames.
-- We need a process page to story the order of the page frames.
-- This process page can be stored in anywhere in MM.
-
+- Processes can be occupy several non-adjacent frames.
+- We need a process page to store the occupied frames.
+- This process page can be stored in any frame.
+#### Data Structures
+- Frame table
+	- Only one for whole system.
+	- Has an entry for each frame (assigned/free, page number, PID)
+	- Free frames can be stored in a list for efficiency.
+- Page tables
+	- One per process.
+	- 
 ### Simple segmentation
 
 ### Paged segmentation
