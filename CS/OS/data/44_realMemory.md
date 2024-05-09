@@ -96,8 +96,10 @@
 #### Physical Organization of the MM
 - MM is divided into equal size pieces called page frames.
 - $\text{\# page frames} \times \text{page frame size} = \text{memory size}$
-- Processes can be occupy several page frames.
-- 
+#### Logical organization of processes
+- Processes can be occupy several non-adjacent page frames.
+- We need a process page to story the order of the page frames.
+- This process page can be stored in anywhere in MM.
 
 ### Simple segmentation
 
