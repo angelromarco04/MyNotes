@@ -102,6 +102,7 @@
 - We need a process page to store the occupied frames.
 - $\text{\# pages} = \text{\# processes}$
 - This process page can be stored in any frame.
+	- We need a Page Table Base Register (PTBR)
 #### Data Structures
 - **Frame table**
 	- Only one for whole system.
@@ -120,6 +121,10 @@
 	- Sift bits ( $s$ ). Where $2^{\:s}$ is the frames size.
 
 (Note that the sift bits are equal for both logical and physical addresses)
+#### Protection
+- Check with limit register done during the address translation.
+- Protection bits are also used.
+
 ### Simple segmentation
 
 ### Paged segmentation
