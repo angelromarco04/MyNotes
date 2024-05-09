@@ -18,8 +18,8 @@
 ### Historical Evolution
 1. Real memory
 	1. Contiguous Allocation
-		1. Single-process monitor
-		2. Multi-programmed systems
+		1. Single-process monitor (OS + transient)
+		2. Multi-programmed systems (1 process - 1 partition)
 			1. With fixed partitions
 			2. With dynamic partitions
 	2. Non-contiguous allocation
@@ -93,6 +93,8 @@
 ---
 ## Non-contiguous memory allocation
 ### Simple paging
+#### Physical organization of the MM
+- MM is divided into equal size pieces called page frames.
 
 ### Simple segmentation
 
