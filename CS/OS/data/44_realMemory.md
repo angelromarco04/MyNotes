@@ -111,9 +111,15 @@
 	- One per process.
 	- Has an entry per occupied frame by the process.
 	- Stores: page number (table index),  frame number and protection bits.
-#### Organization of logical addresses
-- Logical addresses ($L$) are divided in:
-	- Page number
+#### Organization Addresses
+- Logical addresses ( $L$ ) are divided into:
+	- Page number bits ( $p$ ).  Where $2^{\:p}$ is the max. number of pages.
+	- Sift bits ( $s$ ). Where $2^{\:s}$ is the pages size.
+- Physical addresses ( $P$ ) are divided into:
+	- Frame number bits ( $f$ ).  Where $2^{\:f}$ is the total number of frames.
+	- Sift bits ( $s$ ). Where $2^{\:s}$ is the frames size.
+
+(Note that the sift bits are equal for both logical and physical addresses)
 ### Simple segmentation
 
 ### Paged segmentation
