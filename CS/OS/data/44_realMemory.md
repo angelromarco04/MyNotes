@@ -54,7 +54,8 @@
 - MM is divided into pieces called partitions.
 	- Partitions have a fixed size but not necessarily the same.
 - The partition 0 is assigned to the OS.
-- Each process is inside a partition that is bigger that them (waste of MM).
+- Each process is inside a partition that is bigger that them.
+	- There is a waste of MM called internal fragmentation.
 - If no partition is free processes must wait (suspended) or replace another one.
 #### Data Structure
 - A partition table is required.
@@ -79,7 +80,7 @@
 	- Starts at the first available and big enough hollow.
 	- Partition is erased on process finishing.
 - Note that partitions cannot move as they hold a running process.
-- It suffers from fragmentation.
+- It suffers from external fragmentation.
 	- Is the wasted space of the small hollows in between partitions.
 	- Hollow condensation: Join adjacent hollows when freeing a process.
 	- Compaction: Move process to have always only one big hollow.
