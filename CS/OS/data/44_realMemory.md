@@ -93,8 +93,9 @@
 ---
 ## Non-contiguous memory allocation
 ### Simple paging
-#### Organization of the MM
+#### Physical Organization of the MM
 - MM is divided into equal size pieces called page frames.
+- $\text{\# page frames} \times \text{page frame size} = \text{memory size}$
 - Processes can be occupy several page frames.
 - 
 
