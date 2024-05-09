@@ -103,14 +103,17 @@
 - $\text{\# pages} = \text{\# processes}$
 - This process page can be stored in any frame.
 #### Data Structures
-- Frame table
+- **Frame table**
 	- Only one for whole system.
 	- Has an entry for each frame (assigned/free, page number, PID)
 	- Free frames can be stored in a list for efficiency.
-- Pages table
+- **Pages table**
 	- One per process.
 	- Has an entry per occupied frame by the process.
 	- Stores: page number (table index),  frame number and protection bits.
+#### Organization of logical addresses
+- Logical addresses ($L$) are divided in:
+	- Page number
 ### Simple segmentation
 
 ### Paged segmentation
