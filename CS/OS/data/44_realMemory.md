@@ -99,15 +99,17 @@
 #### Logical organization of processes
 - Processes can be occupy several non-adjacent frames.
 - We need a process page to store the occupied frames.
+- $\text{\# pages} = \text{\# processes}$
 - This process page can be stored in any frame.
 #### Data Structures
 - Frame table
 	- Only one for whole system.
 	- Has an entry for each frame (assigned/free, page number, PID)
 	- Free frames can be stored in a list for efficiency.
-- Page tables
+- Pages table
 	- One per process.
-	- 
+	- Has an entry per occupied frame by the process.
+	- Stores: page number (table index),  frame number and protection bits.
 ### Simple segmentation
 
 ### Paged segmentation
