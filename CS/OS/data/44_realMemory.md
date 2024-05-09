@@ -91,7 +91,7 @@
 - Same as in multi-processing with fixed partitions.
 
 ---
-## Non-contiguous memory allocation (pg 64)
+## Non-contiguous memory allocation
 ### Simple paging
 
 ### Simple segmentation
