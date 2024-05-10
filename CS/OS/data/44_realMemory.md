@@ -126,6 +126,9 @@
 - Protection bits are also used.
 
 ### Simple segmentation
+#### Physical Organization of the MM
+
+#### Logical organization of processes
 
 ### Paged segmentation
 
