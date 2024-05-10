@@ -129,7 +129,12 @@
 - MM is divided into hollows and segments variable in size.
 - Processes occupy several segments.
 - Similar to dynamic partitions but $1 \text{process} \neq 1 \text{segment}$.
-#### Logical organization of processes
+#### Data Structures
+- **Hollow list**
+- Segments table
+	- One table per process.
+	- One entry per segment in the process.
+	- In each entry: Base address
 
 ### Paged segmentation
 
