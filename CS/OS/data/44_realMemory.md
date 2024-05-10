@@ -72,7 +72,7 @@
 - Same as in single-process monitor.
 
 ### Multi-processing with dynamic partitions
-#### Physical organization of the MM
+#### Organization of the MM
 - MM is divided into partitions and free spaces called hollows
 - Initially there is only the OS partition and a big hollow.
 - Each process:
@@ -94,10 +94,9 @@
 ---
 ## Non-contiguous memory allocation
 ### Simple paging
-#### Physical Organization of the MM
+#### Organization of the MM
 - MM is divided into equal size pieces called frames.
 - $\text{\# frames} \times \text{frame size} = \text{memory size}$
-#### Logical organization of processes
 - Processes can be occupy several non-adjacent frames.
 - We need a process page to store the occupied frames.
 - $\text{\# pages} = \text{\# processes}$
@@ -126,9 +125,9 @@
 - Protection bits are also used.
 
 ### Simple segmentation
-#### Physical Organization of the MM
+#### Organization of the MM
 - MM is divided into hollows and segments variable in size.
-- Processes occup into several segments.
+- Processes occupy several segments.
 - Similar to dynamic partitions but $1 \text{process} \neq 1 \text{segment}$.
 #### Logical organization of processes
 
