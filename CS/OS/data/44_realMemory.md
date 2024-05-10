@@ -71,7 +71,7 @@
 #### Protection & Translation Steps
 - Same as in single-process monitor.
 
-### Multi-processing dynamic fixed partitions
+### Multi-processing with dynamic partitions
 #### Physical organization of the MM
 - MM is divided into partitions and free spaces called hollows
 - Initially there is only the OS partition and a big hollow.
@@ -127,7 +127,9 @@
 
 ### Simple segmentation
 #### Physical Organization of the MM
-
+- MM is divided into hollows and segments variable in size.
+- Processes occup into several segments.
+- Similar to dynamic partitions but $1 \text{process} \neq 1 \text{segment}$.
 #### Logical organization of processes
 
 ### Paged segmentation
