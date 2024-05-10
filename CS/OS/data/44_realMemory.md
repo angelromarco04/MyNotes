@@ -82,7 +82,7 @@
 - Note that partitions cannot move as they hold a running process.
 - It suffers from external fragmentation.
 	- Is the wasted space of the small hollows in between partitions.
-	- Hollow condensation: Join adjacent hollows when freeing a process.
+	- Hollow condensation: Join adjacent hollows into one single hollow.
 	- Compaction: Move process to have always only one big hollow.
 #### Data Structures
 - A list of partitions and hollows is required (Can be joined os separated).
