@@ -111,7 +111,7 @@
 	- One per process.
 	- Has an entry per occupied frame by the process.
 	- Stores: page number (table index),  frame number and protection bits.
-#### Organization Addresses
+#### Translation of Addresses
 - Logical addresses ( $L$ ) are divided into:
 	- Page number bits ( $p$ ).  Where $2^{\:p}$ is the max. number of pages.
 	- Sift bits ( $s$ ). Where $2^{\:s}$ is the pages size.
@@ -131,11 +131,11 @@
 - Similar to dynamic partitions but $1 \text{process} \neq 1 \text{segment}$.
 #### Data Structures
 - **Hollow list**
-- Segments table
+- **Segments table**
 	- One table per process.
 	- One entry per segment in the process.
-	- In each entry: Base address
-
+	- In each entry: Base address, segment limit/length and protection bits.
+	- It is stored in memory. We need a Segment
 ### Paged segmentation
 
 
