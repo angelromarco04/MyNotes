@@ -126,7 +126,8 @@
 
 ### Simple segmentation
 #### Organization of the MM
-- Processes MM is divided into hollows and segments variable in size.
+- Processes split into segments variable in size  (code, data, stack).
+- MM is divided into hollows and segments 
 - Processes occupy several segments.
 - Similar to dynamic partitions but $1 \text{process} \neq 1 \text{segment}$.
 #### Data Structures
