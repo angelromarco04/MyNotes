@@ -135,8 +135,9 @@
 	- One table per process.
 	- One entry per segment in the process.
 	- In each entry: Base address, segment limit/length and protection bits.
-	- It is stored in memory. We need a Segment
+	- It is stored in memory. We need a Segment Table Base Register (STBR)
 ### Paged segmentation
 
+101
 
 ---
