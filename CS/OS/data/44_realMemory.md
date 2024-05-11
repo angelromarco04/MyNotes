@@ -139,8 +139,9 @@
 	- It is stored in memory. We need a Segment Table Base Register (STBR)
 ### Paged Segmentation
 - Combination of simple paging and segmentation.
+- MM divided into same size blocks called frames.
 - Steps:
 	1. Split process into segments (code, data, stack).
-	2. Consider each segment a page
+	2. Consider each segment a page and locate it in a frame.
 
 ---
