@@ -127,8 +127,8 @@
 ### Simple segmentation
 #### Organization of the MM
 - Processes split into segments variable in size  (code, data, stack).
-- MM is divided into hollows and segments 
-- Processes occupy several segments.
+- Segments reside in contiguous MM locations.
+- Initially MM is divided into OS segments and a big hollow.
 - Similar to dynamic partitions but $1 \text{process} \neq 1 \text{segment}$.
 #### Data Structures
 - **Hollow list**
@@ -137,8 +137,10 @@
 	- One entry per segment in the process.
 	- In each entry: Base address, segment limit/length and protection bits.
 	- It is stored in memory. We need a Segment Table Base Register (STBR)
-### Paged segmentation
-
-101
+### Paged Segmentation
+- Combination of simple paging and segmentation.
+- Steps:
+	1. Split process into segments (code, data, stack).
+	2. Consider each segment a page
 
 ---
