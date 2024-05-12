@@ -13,3 +13,6 @@ sudo mount -a
 ```
 
 # Unmounting
+```bash
+sudo umount /dev/<device>
+```
