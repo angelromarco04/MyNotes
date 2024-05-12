@@ -6,7 +6,7 @@
 
 ---
 
-1. [Introduction to Operating Systems](data/10_Intro.md)
+1. [Introduction to Operating Systems](data/10_os_Intro.md)
 2. **Processes Management**
 	1. [Introduction](data/21_Intro.md)
 	2. [Processes Description](data/22_description.md)
@@ -20,14 +20,14 @@
 	3. [Semaphores](data/33_semaphores.md)
 4. **Memory Management**
 	1. **Management of the Real Memory**
-		1. [Introduction](data/411_intro.md)
-		2. [Hierarchy of memories](data/412_hierarchy.md)
-		3. [Addressing](data/413_addressing.md)
-		4. [Mechanisms to manage real memory](data/414_realMemory.md)
+		1. [Introduction](data/411_real_intro.md)
+		2. [Hierarchy of memories](data/412_real_hierarchy.md)
+		3. [Addressing](data/413_real_addressing.md)
+		4. [Mechanisms to manage real memory](data/414_real_Memory.md)
 	2. **Management of the Virtual Memory**
-		1. [Introduction](data/421_virtualintro.md)
-		2. [Implementations of the virtual memory](data/422_virtualImp.md)
-		3. [Management policies of the virtual memory](data/423_virtualpolicies.md)
+		1. [Introduction](data/421_virtual_Intro.md)
+		2. [Implementations of the virtual memory](data/422_virtual_Imp.md)
+		3. [Management policies of the virtual memory](data/423_virtual_Policies.md)
 5. **Files Management**
 	1. Introduction
 	2. Files
