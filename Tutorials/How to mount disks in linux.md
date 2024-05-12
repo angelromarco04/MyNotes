@@ -2,7 +2,7 @@
 
 ```bash
 sudo lsblk
-sudo mount /dev/sdb1 /mnt
+sudo mount /dev/<device> /mnt
 ```
 # Automatic mounting
 
