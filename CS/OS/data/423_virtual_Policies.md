@@ -27,6 +27,7 @@
 - OS determines this set size
 - Small size $\implies$ More processes in MM but higher page fault rate per process.
 ### Assignment Policies
-- Assign the maximum number of used frames per process.
-- Low # frames $\implies$ hyper-paging (# pages $>>$ # frames) $\implies$ High page fault rate
+- Maximum and minumun number of used frames per process.
+	- Low $\text{\#frames}$ $\implies$ hyperpaging ($\text{\#pages} >> \text{\#frames}$) $\implies$ More page faults
+	- High $\text{\#frames}$ $\implies$ Less multiprogramming rate.
 ---
