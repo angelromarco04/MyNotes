@@ -5,21 +5,18 @@
 [Back to index](../index.md)
 
 ---
-## Introduction
-
-- Some software is required to manage virtual memory
-	- 
-
----
 ## Reading Policies
 
+- When do w
 
 ---
 ## Location Policies
 
 
+
 ---
 ## Resident Set Management
+
 
 
 ---
