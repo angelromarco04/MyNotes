@@ -35,8 +35,11 @@ There are several ways of implementing Virtual Memory:
 2. Access the page table of the process.
 	- Try to translate the page number to a frame number.
 	- If present bit is set to 0 throw a Page Fault Exception.
-		1. OS takes control to locate page in secondary memory.
-		2. Loads to MM the 
-1. Access the MM with the physical address.
-	- physical address = frame number +offset.
+		1. OS takes control and moves the process to blocked state.
+		2. Locate page in secondary memory.
+		3. Loads the page to MM (I/O operation).
+		4. Updates the page table and moves the process to ready state.
+		5. Restarts the execution of the instruction.
+3. Access the MM with the physical address.
+	- physical address = frame number + offset.
 	- Locate the frame number and the offset inside it.
