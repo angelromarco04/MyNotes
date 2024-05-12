@@ -25,6 +25,8 @@
 ### Definition
 - Set of pages of a process loaded to the MM.
 - OS determines this set size
-	- Small size = More processes in MM
-
+- Small size $\implies$ More processes in MM but higher page fault rate per process.
+### Assignment Policies
+- Assign the maximum number of used frames per process.
+- Low # frames $\implies$ hyper-paging (# pages $>>$ # frames) $\implies$ High page fault rate
 ---
