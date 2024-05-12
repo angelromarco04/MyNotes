@@ -26,7 +26,7 @@
 		4. [Mechanisms to manage real memory](data/414_realMemory.md)
 	2. **Management of the Virtual Memory**
 		1. [Introduction](data/421_intro.md)
-		2. Implementations of the virtual memory
+		2. [Implementations of the virtual memory](data/422_virtualImp.md)
 		3. Management policies of the virtual memory
 5. **Files Management**
 	1. Introduction
