@@ -43,5 +43,6 @@
 	- No free frames in MM.
 	- Reached the maximum $\text{\#frames}$ for a process.
 - Implementation:
-	- 
+	- FIFO algorithm (victim page is the older in memory).
+	- Optimal algorithm (victim page is the one that will be used latter).
 ---
