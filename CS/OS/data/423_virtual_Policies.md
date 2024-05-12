@@ -38,6 +38,10 @@
 	- Fixed assignation ($\text{\#frames}$ assigned when created)
 	- Variable assignation ($\text{\#frames}$ varies on process behaviour)
 ### Replacement policies
-- Sometimes a victim page to be removed from MM to .
-- 
+- On some page faults a victim page in the MM is replaced.
+- Cases:
+	- No free frames in MM.
+	- Reached the maximum $\text{\#frames}$ for a process.
+- Implementation:
+	- 
 ---
