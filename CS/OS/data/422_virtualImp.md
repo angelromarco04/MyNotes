@@ -18,16 +18,17 @@ There are several ways of implementing Virtual Memory:
 - Pages and frames are of the same size.
 ### Data Structures
 - **Pages table**
-	- One per process
+	- One per process.
+	- Pointed by a register in MMU
 	- Contains:
 		- Page number.
 		- Protection bits.
 		- Modified bit (1 if modified).
 		- Present bit (1 if in MM).
 		- Reference bit  (1 if referenced recently).
-- File map table
+- **File map table**
 	- Address of the processes in secondary storage.
-- Frames table (as in simple paging)
+- **Frames table** (as in simple paging)
 	- Only one for whole system.
 	- Has an entry for each frame (assigned/free, page number, PID)
 ### Address translation
