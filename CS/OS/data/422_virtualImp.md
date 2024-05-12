@@ -31,4 +31,12 @@ There are several ways of implementing Virtual Memory:
 	- Only one for whole system.
 	- Has an entry for each frame (assigned/free, page number, PID)
 ### Address translation
-1. Divide the virtual address 
+1. Divide the virtual address into page number and offset.
+2. Access the page table of the process.
+	- Try to translate the page number to a frame number.
+	- If present bit is set to 0 throw a Page Fault Exception.
+		1. OS takes control to locate page in secondary memory.
+		2. Loads to MM the 
+1. Access the MM with the physical address.
+	- physical address = frame number +offset.
+	- Locate the frame number and the offset inside it.
