@@ -32,4 +32,12 @@
 		- More multiprogramming rate but also more page faults.
 	- High $\text{\#frames}$
 		- Less page faults but also less multiprogramming rate.
+- Minimum number of assigned frames per process.
+	- Defined by hardware architecture.
+- **Types**:
+	- Fixed assignation ($\text{\#frames}$ assigned when created)
+	- Variable assignation ($\text{\#frames}$ varies on process behaviour)
+### Replacement policies
+- Sometimes a victim page to be removed from MM to .
+- 
 ---
