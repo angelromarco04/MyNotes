@@ -7,6 +7,11 @@
 ---
 ## Problem with Real Memory
 
-- Processes must be completely loaded in MM.
-	- It is impossible to run programas bigger than the MM.
+- With real memory scheme:
+	- Processes must be completely loaded in MM.
 	- We do not need the whole program in MM.
+- To partially load processes have some advantages:
+	- Allowance to run programs greater in size than MM.
+	- More programs can be in MM.
+		- Increases multiprogramming level.
+		- Switching operations are less expensive.
