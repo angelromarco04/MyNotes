@@ -15,3 +15,11 @@
 	- More programs can be in MM.
 		- Increases multiprogramming level.
 		- Switching operations are less expensive.
+---
+## Presenting Virtual Memory
+
+- Only used parts of the process are kept in MM.
+	- The rest is kept in secondary storage.
+- Is transparent to the programmer.
+- Requires hardware support: Memory Management Unit (MMU)
+---
