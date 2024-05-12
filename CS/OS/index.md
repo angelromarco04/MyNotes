@@ -25,9 +25,9 @@
 		3. [Addressing](data/413_addressing.md)
 		4. [Mechanisms to manage real memory](data/414_realMemory.md)
 	2. **Management of the Virtual Memory**
-		1. [Introduction](data/421_intro.md)
+		1. [Introduction](data/421_virtualintro.md)
 		2. [Implementations of the virtual memory](data/422_virtualImp.md)
-		3. Management policies of the virtual memory
+		3. [Management policies of the virtual memory](data/423_virtualpolicies.md)
 5. **Files Management**
 	1. Introduction
 	2. Files

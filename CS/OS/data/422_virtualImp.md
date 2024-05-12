@@ -44,3 +44,4 @@ There are several ways of implementing Virtual Memory:
 3. Access the MM with the physical address.
 	- physical address = frame number + offset.
 	- Locate the frame number and the offset inside it.
+---
