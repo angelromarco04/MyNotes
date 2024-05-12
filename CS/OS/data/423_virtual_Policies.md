@@ -49,4 +49,5 @@
 	- Working set strategy
 		- We have a constant $\Delta$ that is a number of references.
 		- The working set is the last $\Delta$ references
+
 ---
