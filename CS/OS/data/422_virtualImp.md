@@ -17,9 +17,18 @@ There are several ways of implementing Virtual Memory:
 - MM is divided into fixed-size blocks called frames.
 - Pages and frames are of the same size.
 ### Data Structures
-- Pages table
+- **Pages table**
 	- One per process
 	- Contains:
-		- Number of page/frames.
-		- Protection bits
-		- Modified (1 if modified), present (1 if in MM) and reference b
+		- Page number.
+		- Protection bits.
+		- Modified bit (1 if modified).
+		- Present bit (1 if in MM).
+		- Reference bit  (1 if referenced recently).
+- File map table
+	- Address of the processes in secondary storage.
+- Frames table (as in simple paging)
+	- Only one for whole system.
+	- Has an entry for each frame (assigned/free, page number, PID)
+### Address translation
+1. Divide the virtual address 
