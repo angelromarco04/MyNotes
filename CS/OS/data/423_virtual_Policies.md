@@ -19,9 +19,12 @@
 ### Location Policies
 - Where do we need to load a page to MM?
 - For paging location is not important.
+
 ---
 ## Resident Set Management
-
-
+### Definition
+- Set of pages of a process loaded to the MM.
+- OS determines this set size
+	- Small size = More processes in MM
 
 ---
