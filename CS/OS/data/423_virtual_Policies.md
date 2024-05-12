@@ -43,6 +43,10 @@
 	- No free frames in MM.
 	- Reached the maximum $\text{\#frames}$ for a process.
 - Implementation:
-	- FIFO algorithm (victim page is the older in memory).
-	- Optimal algorithm (victim page is the one that will be used latter).
+	- FIFO algorithm (victim page is the older in memory)
+	- Optimal algorithm (victim page is the one that will be used latter)
+	- Last Recently Used (victim page is the one that was less recently used)
+	- Working set strategy
+		- We have a constant $\Delta$ that is a number of references.
+		- The working set is the last $\Delta$ references
 ---
