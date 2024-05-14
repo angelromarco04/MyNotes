@@ -2,7 +2,7 @@
 ---
 # 01 Basics
 
-[Back to Java index](../index.md)
+[Back to Java index](../README.md)
 
 ---
 

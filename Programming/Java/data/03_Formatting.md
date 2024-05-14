@@ -2,7 +2,7 @@
 ---
 # 03 Formatting
 
-[Back to Java index](../index.md)
+[Back to Java index](../README.md)
 
 ---
 

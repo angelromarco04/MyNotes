@@ -14,21 +14,21 @@ Hope you like it!  :D
 
 ## Programming
 ### Languages
-- [Java](Programming/Java/index.md)
-- [Python](Programming/Python/index.md)
+- [Java](Programming/Java/README.md)
+- [Python](Programming/Python/README.md)
 - C #TODO
 - C++ #TODO
-- [Rust](Programming/Rust/index.md)
-- [Matlab](Programming/Matlab/index.md)
+- [Rust](Programming/Rust/README.md)
+- [Matlab](Programming/Matlab/README.md)
 - [Scheme](Programming/Other/SCHEME.md)
 
 ### Other
 - Data Structures #TODO
 - Algorithms #TODO
-- [Design Patterns](Programming/Patterns/index.md)
+- [Design Patterns](Programming/Patterns/README.md)
 - [Event Driven Design](Programming/Other/EDD.md)
-- [Human-Computer Interaction](Programming/GUI/index.md)
-- [Databases](Programming/Databases/index.md)
+- [Human-Computer Interaction](Programming/GUI/README.md)
+- [Databases](Programming/Databases/README.md)
 - Clean code #TODO 
 
 ## Computer Science

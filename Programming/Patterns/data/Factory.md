@@ -2,7 +2,7 @@
 ---
 # Factory Patterns
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 1. [Description](#description)
 2. [Factory Method](#factory-method)

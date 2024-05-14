@@ -2,7 +2,7 @@
 ---
 # Relational Model
 
-[Back to index](../../index.md)
+[Back to index](../../README.md)
 
 1. Basic Notions
 2. Attributes

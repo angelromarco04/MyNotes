@@ -2,7 +2,7 @@
 ---
 # 01 PSQL shell commands
 
-[Back to index](../../index.md)
+[Back to index](../../README.md)
 
 ---
 ## Basic

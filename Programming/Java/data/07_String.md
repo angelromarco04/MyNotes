@@ -2,7 +2,7 @@
 ---
 # 07 String
 
-[Back to Java index](../index.md)
+[Back to Java index](../README.md)
 
 ---
 

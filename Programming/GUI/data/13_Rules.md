@@ -2,7 +2,7 @@
 ---
 # Golden rules of UI design
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 

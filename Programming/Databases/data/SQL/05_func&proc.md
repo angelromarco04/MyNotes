@@ -2,7 +2,7 @@
 ---
 # 05 Functions & Procedures
 
-[Back to index](../../index.md)
+[Back to index](../../README.md)
 
 ---
 ## Function vs Procedure

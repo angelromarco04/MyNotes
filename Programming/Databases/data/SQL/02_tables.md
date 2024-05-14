@@ -2,7 +2,7 @@
 ---
 # 02 Tables Management
 
-[Back to index](../../index.md)
+[Back to index](../../README.md)
 
 ---
 

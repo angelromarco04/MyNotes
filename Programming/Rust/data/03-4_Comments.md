@@ -2,7 +2,7 @@
 ---
 # Comments
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 
