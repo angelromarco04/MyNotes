@@ -2,7 +2,7 @@
 ---
 # Hardware solutions to mutual exclusion
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 ## Disabling Interruptions

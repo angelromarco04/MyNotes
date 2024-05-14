@@ -2,7 +2,7 @@
 ---
 # Introduction to Processes Management
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 ## Interruptions

@@ -34,7 +34,7 @@ Hope you like it!  :D
 ## Computer Science
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
-- [Operating Systems](CS/OS/index.md)
+- [Operating Systems](CS/OS/README.md)
 ## Linux
 - [Bash](/Linux/Bash.md)
 - [Shell Scripting](/Linux/Shell_Scripting.md)

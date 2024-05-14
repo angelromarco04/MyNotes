@@ -2,7 +2,7 @@
 ---
 # Introduction to Processes Coordination
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 ## Principles of concurrency

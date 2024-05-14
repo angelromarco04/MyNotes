@@ -2,7 +2,7 @@
 ---
 # Memory Hierarchy
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 ## Introduction to Memory Hierarchy

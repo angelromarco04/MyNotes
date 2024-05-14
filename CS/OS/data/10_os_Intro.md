@@ -2,7 +2,7 @@
 ---
 # Introduction to Operating Systems
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 1. [Definition of an operating system (OS)](#definition-of-an-os)
 2. [Historic evolution](#historic-evolution)

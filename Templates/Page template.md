@@ -2,7 +2,7 @@
 ---
 # 00 Title
 
-[Back to index](../CS/OS/index.md)
+[Back to index](../CS/OS/README.md)
 
 ---
 

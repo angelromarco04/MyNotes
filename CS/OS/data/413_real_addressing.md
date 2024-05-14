@@ -2,7 +2,7 @@
 ---
 # Memory Addressing
 
-[Back to index](../index.md)
+[Back to index](../README.md)
 
 ---
 ## Types of Memory Addresses
