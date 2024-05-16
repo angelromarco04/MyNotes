@@ -20,16 +20,16 @@
 	3. [Semaphores](data/33_semaphores.md)
 4. **Memory Management**
 	1. **Management of the Real Memory**
-		1. [Introduction](data/411_real_intro.md)
-		2. [Hierarchy of memories](data/412_real_hierarchy.md)
-		3. [Addressing](data/413_real_addressing.md)
-		4. [Mechanisms to manage real memory](data/414_real_Memory.md)
+		1. [Introduction](data/41-1_real_intro.md)
+		2. [Hierarchy of memories](data/41-2_real_hierarchy.md)
+		3. [Addressing](data/41-3_real_addressing.md)
+		4. [Mechanisms to manage real memory](data/41-4_real_Memory.md)
 	2. **Management of the Virtual Memory**
-		1. [Introduction](data/421_virtual_Intro.md)
-		2. [Implementations of the virtual memory](data/422_virtual_Imp.md)
-		3. [Management policies of the virtual memory](data/423_virtual_Policies.md)
+		1. [Introduction](data/42-1_virtual_Intro.md)
+		2. [Implementations of the virtual memory](data/42-2_virtual_Imp.md)
+		3. [Management policies of the virtual memory](data/42-3_virtual_Policies.md)
 5. **Files Management**
-	1. Introduction
+	1. [Introduction](data/51_intro.md)
 	2. Files
 	3. Folders
 	4. Data structures for files management
