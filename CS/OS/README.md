@@ -30,7 +30,7 @@
 		3. [Management policies of the virtual memory](data/42-3_virtual_Policies.md)
 5. **Files Management**
 	1. [Introduction](data/51_intro.md)
-	2. Files
+	2. [Files](data/52_files.md)
 	3. Folders
 	4. Data structures for files management
 	5. File system implementation

@@ -23,6 +23,8 @@
 ## File Management System
 
 - Is the OS module in charge of managing files.
-- 
+- Sets the file system.
+- Requires some algorithms and data structures.
+- Communicates with the I/O management module to provide services.
 
 ---
