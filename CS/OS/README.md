@@ -31,7 +31,7 @@
 5. **Files Management**
 	1. [Introduction](data/51_intro.md)
 	2. [Files](data/52_files.md)
-	3. Folders
+	3. [Directories](data/53_directories.md)
 	4. Data structures for files management
 	5. File system implementation
 ---

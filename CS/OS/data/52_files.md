@@ -42,6 +42,9 @@
 - **Direct access**
 	- Access is done directly through an address.
 	- read/write operations must specify this address.
+- **Indexed access**
+	- Built over direct access
+	- There is an index file that relates an index value to an address.
 
 ---
 ## System calls for file management
