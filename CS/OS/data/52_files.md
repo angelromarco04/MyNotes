@@ -23,17 +23,25 @@
 ---
 ## File types
 
-- Regular files
+- **Regular files**
 	- ASCII/text
 	- Binaries
 		- The internal structure is known by the process using it.
 		- If that process is the OS the binary is called executable.
-- D
+- **Directories**
+	- Structure that the OS can understand.
+- **Special files** (UNIX)
 
 ---
 ## File access
 
-
+- **Sequential access**
+	- Used in primitive OSs.
+	- Information read/written sequentially byte by byte.
+	- There is a pointer moving forward automatically.
+- **Direct access**
+	- Access is done directly through an address.
+	- read/write operations must specify this address.
 
 ---
 ## System calls for file management
