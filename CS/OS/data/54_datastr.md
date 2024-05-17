@@ -17,7 +17,9 @@
 ---
 ## System open file table
 
-
+- One for the whole system.
+- Stores information about the opened files.
+- 
 
 ---
 ## FDB table in the M.M.
