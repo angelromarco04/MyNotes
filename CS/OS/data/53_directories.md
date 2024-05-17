@@ -18,8 +18,12 @@
 - Each folder contains pointers to other files and folders.
 	- Tree structure (hierarchical)
 	- Structure defined by de user.
-- Absolute paths
-	- Sequence of folders from the tree root to a 
+- **Absolute paths**
+	- Sequence of folders from the tree root to a specific location.
+- **Relative paths**
+	- The working directory is the directory a user is currently in.
+	- `.` represents the current working directory.
+	- `..` represents the directory immediately above the working one.
 
 ---
 ## System calls for directories management
