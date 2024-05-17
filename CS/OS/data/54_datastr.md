@@ -19,6 +19,9 @@
 
 - One for the whole system.
 - Stores information about the opened files.
+	- Copy of the FDB
+	- Reading/writing pointer
+	-  # processes sharing.
 - 
 
 ---
