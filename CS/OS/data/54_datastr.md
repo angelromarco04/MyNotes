@@ -31,7 +31,13 @@
 ---
 ## FDB table in the M.M.
 
-- FDB table contains a copy of the FDB
+- One for the whole system.
+- Contains a copy in MM of the opened files FDB.
+	- Also contains the number of references to it.
+	- If this number reaches 0 the entry is freed.
+- Avoids storing several copies of the same FDB in MM.
+- Not every OS implements it.
+
 
 ---
 ## Process’ open file table
