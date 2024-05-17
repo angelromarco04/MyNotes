@@ -31,7 +31,7 @@
 ---
 ## FDB table in the M.M.
 
-
+- FDB table contains a copy of the FDB
 
 ---
 ## Process’ open file table
