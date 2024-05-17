@@ -19,10 +19,14 @@
 
 - One for the whole system.
 - Stores information about the opened files.
-	- Copy of the FDB
-	- Reading/writing pointer
-	-  # processes sharing.
-- 
+	- Copy of the FDB (actual copy or pointer to the FDB table)
+	- Reading/writing pointer (pointer to a R/W memory position)
+	-  # processes sharing (-1 if no sharing)
+- New entry is always created if:
+	- Different file (FDB)
+	- Same file but R/W pointers are not shared.
+	- Same file but different mode.
+- Opening modes: read (R), write (R) or read/write (R/W)
 
 ---
 ## FDB table in the M.M.
