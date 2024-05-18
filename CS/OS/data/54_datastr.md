@@ -65,6 +65,12 @@
 		3. New entry in process' open file table (File descriptor)
 			- Points to entry in step 1
 	- If shared: `open(<MODE>, <FILE>, 1)`
+		- If there is already an entry in open file table:
+			1. Increment shared count field.
+			2. New entry in the process open file table
+		- If not entry in open file table:
+			1. Create an entry with shared count set to 1.
+			2. 
 
 ---
 ## System calls for directories management
