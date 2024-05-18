@@ -91,7 +91,7 @@
 ---
 ## System calls for directories management
 ### Create folder
-- FDB are assigned and attributes and special folders (`) are set.
+- FDB are assigned and attributes and special folders (`.`and `..`) are set.
 
 
 ---
