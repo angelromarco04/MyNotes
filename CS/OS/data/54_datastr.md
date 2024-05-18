@@ -42,12 +42,16 @@
 ---
 ## Process’ open file table
 
-
+- Stores information about about files opened by each process.
+- Stored in MM.
+- Contains:
+	- pointer to system open file table
+	- Can also store R/W pointer.
 
 ---
 ## System calls for files management
 
-
+pg 38
 
 ---
 ## System calls for directories management
