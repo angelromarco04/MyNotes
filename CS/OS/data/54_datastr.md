@@ -57,8 +57,13 @@
 - **Delete file**
 	- File and its FDB are removed.
 - **Open file**
-	- If not shared
-	- If shared
+	- If not shared:  `open(<MODE>, <FILE>, 0)`
+		1. New entry in open file table (# shared = -1)
+		2. Modify the FDB table
+			- If entry exists increment reference counter.
+			- If not exists FDB is copied and reference counter = 1.
+		3. New entry in process' open file table
+	- If shared: `open(<MODE>, <FILE>, 1)`
 
 ---
 ## System calls for directories management
