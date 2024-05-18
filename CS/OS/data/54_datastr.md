@@ -51,26 +51,37 @@
 ---
 ## System calls for files management
 
-- **Create file**
-	1. Create a new FDB.
-	2. Set initial values in the FDB.
-- **Delete file**
-	- File and its FDB are removed.
-- **Open file**
-	- If not shared:  `open(<MODE>, <FILE>, 0)`
-		1. New entry in open file table (# shared = -1)
-		2. Modify the FDB table
+### Create file
+1. Create a new FDB.
+2. Set initial values in the FDB.
+### Delete file
+- File and its FDB are removed.
+### Open file
+- If not shared:  `open(<MODE>, <FILE>, 0)`
+	1. New entry in open file table (# shared = -1)
+	2. Modify the FDB table (if exists)
+		- If entry exists increment reference counter.
+		- If not exists FDB is copied and reference counter = 1.
+		- Set pointer of the entry in step 1 to this.
+	3. New entry in process' open file table (File descriptor)
+- If shared: `open(<MODE>, <FILE>, 1)`
+	- If there is already an entry in open file table:
+		1. Increment shared count field.
+		2. New entry in the process open file table (File descriptor).
+	- If not entry in open file table:
+		1. Create an entry with shared count set to 1.
+		2. Modify the FDB table (if exists)
 			- If entry exists increment reference counter.
 			- If not exists FDB is copied and reference counter = 1.
-		3. New entry in process' open file table (File descriptor)
-			- Points to entry in step 1
-	- If shared: `open(<MODE>, <FILE>, 1)`
-		- If there is already an entry in open file table:
-			1. Increment shared count field.
-			2. New entry in the process open file table
-		- If not entry in open file table:
-			1. Create an entry with shared count set to 1.
-			2. 
+			- Set pointer of the entry in step 1 to this.
+		3. New entry in the process open file table (File descriptor).
+### Close file
+- If not shared:
+	1. Entry in open file table is freed.
+	2. If there is a FDB table:
+		- Decrement the references counter.
+		- 
+- If shared:
 
 ---
 ## System calls for directories management
