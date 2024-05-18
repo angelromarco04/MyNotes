@@ -51,7 +51,13 @@
 ---
 ## System calls for files management
 
-pg 38
+- **Create file**
+	1. Create a new FDB.
+	2. Set initial values in the FDB.
+- **Delete file**
+	- File and its FDB are removed.
+- **Open file**
+	1. 
 
 ---
 ## System calls for directories management
