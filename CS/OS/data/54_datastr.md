@@ -57,7 +57,8 @@
 - **Delete file**
 	- File and its FDB are removed.
 - **Open file**
-	1. 
+	- If not shared
+	- If shared
 
 ---
 ## System calls for directories management
