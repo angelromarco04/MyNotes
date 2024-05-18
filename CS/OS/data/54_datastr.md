@@ -80,12 +80,18 @@
 	1. Entry in open file table is freed.
 	2. If there is a FDB table:
 		- Decrement the references counter.
-		- 
+		- If counter reaches 0, entry is freed.
+	3. Entry in process' open file table is freed.
 - If shared:
+	1. Entry in open file table is modified:
+		- Decrement the shared counter.
+		- If counter reaches 0, entry is freed.
+	1. Entry in process' open file table is freed.
 
 ---
 ## System calls for directories management
-
+### Create folder
+- FDB are assigned and attributes and special folders (`) are set.
 
 
 ---
