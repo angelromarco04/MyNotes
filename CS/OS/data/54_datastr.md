@@ -87,11 +87,17 @@
 		- Decrement the shared counter.
 		- If counter reaches 0, entry is freed.
 	1. Entry in process' open file table is freed.
-
+### Other
+- Read
+- Write
+- Append
+- Locate
+- Rename
 ---
 ## System calls for directories management
 ### Create folder
 - FDB are assigned and attributes and special folders (`.`and `..`) are set.
-
+### Other
+- Open/close
 
 ---
