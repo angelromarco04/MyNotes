@@ -62,7 +62,8 @@
 		2. Modify the FDB table
 			- If entry exists increment reference counter.
 			- If not exists FDB is copied and reference counter = 1.
-		3. New entry in process' open file table
+		3. New entry in process' open file table (File descriptor)
+			- Points to entry in step 1
 	- If shared: `open(<MODE>, <FILE>, 1)`
 
 ---
