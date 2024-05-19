@@ -32,12 +32,17 @@
 - There is a table that contains:
 	- One entry per block (index = block number)
 	- For each entry the block number of the block of a file.
-	- 
+- Advantages:
+	- Easier direct access.
+	- Whole block used for data.
+	- Faster if all table is loaded to MM.
+### Indexed assignation
+
 
 ---
 ## Folder implementation
 
-
+- 
 
 ---
 ## Free space management
