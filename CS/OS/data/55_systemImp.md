@@ -82,5 +82,11 @@
 - The system can fail before writing information to the disk:
 	- File system can be in an inconsistent state.
 	- Critical if FDB, folders or free block structure loss information.
+- OS must be able to check consistency of the file system with utilities:
+### Check Consistency with fsck
+- Block consistency:
+	- Goes block by block creating two tables (initially set to `0`).
+	- One stores the number of times a block belongs to a file.
+	- The other stores `1` if the block is free
 
 ---
