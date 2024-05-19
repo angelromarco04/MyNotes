@@ -46,8 +46,21 @@
 ---
 ## Folder implementation
 
-- 
-
+- FDB must be reachable by its name.
+### MS-DOS Implementation:
+- File name (8B)
+- Extension (3B)
+- Attributes (1B)
+- Reserved (10B)
+- Time (2B) & Date (2B)
+- First block number (2B)
+- Size (4B)
+### UNIX folder implementation:
+	- FDB resides in a specific area and is called i-node.
+	- Each i-node is identified by a integer (file ID).
+	- i-node example:
+		- i-node number (2B)
+		- File name (14B)
 ---
 ## Free space management
 
