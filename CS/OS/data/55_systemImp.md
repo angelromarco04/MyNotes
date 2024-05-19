@@ -55,15 +55,22 @@
 - Time (2B) & Date (2B)
 - First block number (2B)
 - Size (4B)
-### UNIX folder implementation:
-	- FDB resides in a specific area and is called i-node.
-	- Each i-node is identified by a integer (file ID).
-	- i-node example:
-		- i-node number (2B)
-		- File name (14B)
+### UNIX Implementation:
+- FDB resides in a specific area and is called i-node.
+- Each i-node is identified by a integer (file ID).
+- i-node example:
+	- i-node number (2B)
+	- File name (14B)
+
 ---
 ## Free space management
 
+- We must know which blocks are free.
+### Linked List
+- Each free block stores the block number of the next free block.
+- Only the block number of the first block is required.
+
+### Bits Map
 
 
 ---
