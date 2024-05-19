@@ -37,7 +37,11 @@
 	- Whole block used for data.
 	- Faster if all table is loaded to MM.
 ### Indexed assignation
-
+- FDB contains a fixed number of block numbers.
+- Some of this blocks contain other block numbers (indirect access).
+- Problems:
+	- Limited file size. by the index.
+	- Access time depends on indirection level.
 
 ---
 ## Folder implementation
