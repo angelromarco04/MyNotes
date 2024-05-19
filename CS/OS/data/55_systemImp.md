@@ -21,7 +21,15 @@
 
 - Files are stored in data blocks in SM.
 - Data blocks of the same file may not be adjacent.
-- To access them seImplementation 
+- To access them in order there are several implementation.
+### Linked List Assignation
+- FDB contains only the block number (address) of the file's first block.
+- Each block contains the block number of that file's next block.
+- Problems:
+	- Inefficient direct access, only sequential.
+	- Space waste in each block.
+### Linked List Assignation using a Table
+- 
 
 ---
 ## Folder implementation
