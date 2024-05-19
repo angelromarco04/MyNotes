@@ -71,11 +71,16 @@
 - Only the block number of the first block is required.
 
 ### Bits Map
-
+- We need a sequence of bits, one per block.
+- Each bit is `1` if the block is free or `0` if used.
+- Easy to find consecutive free blocks.
 
 ---
 ## File system consistency
 
-
+- Operations over files and data structures take place in the MM.
+- The system can fail before writing information to the disk:
+	- File system can be in an inconsistent state.
+	- Critical if FDB, folders or free block structure loss information.
 
 ---
