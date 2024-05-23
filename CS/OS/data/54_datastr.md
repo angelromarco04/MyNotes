@@ -21,7 +21,7 @@
 - Stores information about the opened files.
 	- Copy of the FDB (actual copy or pointer to the FDB table)
 	- Reading/writing pointer (pointer to a R/W memory position)
-	-  # processes sharing (-1 if no sharing)
+	-  \# processes sharing (-1 if no sharing)
 - New entry is always created if:
 	- Different file (FDB)
 	- Same file but R/W pointers are not shared.
