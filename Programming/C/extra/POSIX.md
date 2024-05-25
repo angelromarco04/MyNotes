@@ -65,12 +65,21 @@ int setgid (gid_t gid); // Change owner GID
 int seteuid (uid_t euid); // Change effective owner UID
 int setegid (gid_t egid); // Change effective owner GID
 ```
-
 ---
 ## Process Environment
+## Environment Variables
+- When a process starts some variables are created.
+	- `HOME`: Initial working directory of the user.
+	- `LOGNAME`: User name in the login.
+	- `PATH`: Folders with executable files.
+	- `SHELL`: Default command interpreter.
+### Usage
+```cpp
+#invlude <stdlib.h>
 
-
-
+char *getenv (const char *name);
+int putenv (const char *string);
+```
 ---
 ## Process Creation
 
