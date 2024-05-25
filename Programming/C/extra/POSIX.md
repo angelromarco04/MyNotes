@@ -56,12 +56,13 @@ gid_t var_gid; // Datatype to store GIDs.
 - All of this functions:
 	- Throw an error if the provided UID/GID is not valid.
 	- Return `0` if the operation is correctly performed and `-1` otherwise.
+- In every change the 
 ```cpp
-int setuid (uid_t uid);
-int setgid (gid_t gid);
+int setuid (uid_t uid); // Change owner UID
+int setgid (gid_t gid); // Change owner GID
 
-int seteuid (uid_t euid);
-int setegid (gid_t egid);
+int seteuid (uid_t euid); // Change effective owner UID
+int setegid (gid_t egid); // Change effective owner GID
 ```
 
 ---
