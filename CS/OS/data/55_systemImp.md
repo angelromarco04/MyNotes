@@ -83,7 +83,7 @@
 	- File system can be in an inconsistent state.
 	- Critical if FDB, folders or free block structure loss information.
 - OS must be able to check consistency of the file system with utilities:
-### Check Consistency with fsck
+### Check Consistency with `fsck`
 - **Block consistency**:
 	- Goes block by block creating two tables (initially set to `0`).
 		- One stores the number of times a block belongs to a file.
@@ -92,6 +92,12 @@
 		- If both are `0` a the block was lost.
 		- If there is a number greater than `1` the block is replicated.
 - **Directories consistency**:
-	- Uses the number of names in the FDB.
-	- Creates a counter 
+	2. Creates a counter for each FDB initially set to `0`.
+	3. Traverses the folder hierarchy increasing the counter for each reference.
+	4. Compares the counter with the number of names in the FDB.
+		- If equal they are consistent.
+		- If the count is less, some filename was lost.
+		- If the counter is greater, we are pointing to a removed file.
+	5. Re-adjust the number of names in the FDB using the count.
+
 ---
