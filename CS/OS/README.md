@@ -5,6 +5,7 @@
 [HOME](/README.md)
 
 ---
+## Theory
 
 1. [Introduction to Operating Systems](data/10_os_Intro.md)
 2. **Processes Management**
@@ -35,3 +36,4 @@
 	4. [Data structures for files management](data/54_datastr.md)
 	5. [File system implementation](data/55_systemImp.md)
 ---
+## System Calls with C
