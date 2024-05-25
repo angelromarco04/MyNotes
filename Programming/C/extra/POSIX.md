@@ -43,8 +43,7 @@ var_uid = getuid(); // Get the owner UID
 var_uid = geteuid(); // Get the effective owner UID
 ```
 - The superuser (root) has all privileges and always has the UID 0.
-
-### Obtaining process UID
+### Obtaining process GID
 - Group ID (GID)
 	- **Owner group** (Group that created the process)
 	- **Effective group** (Group whose privileges is using the process)
@@ -53,27 +52,13 @@ gid_t var_gid; // Datatype to store GIDs.
 	var_gid = getgid(); // Get the owner GID
 	var_gid = getegid(); // Get the effective owner GID
 ```
-
-
-### Getting information
+### Changing Process Identification
 ```cpp
-#include <iostream>
-#include <sys/types.h>
-#include <unistd.h>
+int setuid (uid_t uid);
+int setgid (gid_t gid);
 
-// Information we get is relative to the process running this code.
-
-int main() {
-	
-	
-	uid_t var_uid;  // Datatype to store UIDs.
-	var_uid = getuid(); // Get the owner UID
-	var_uid = geteuid(); // Get the effective owner UID
-	
-	gid_t var_gid; // Datatype to store GIDs.
-	var_gid = getgid(); // Get the owner GID
-	var_gid = getegid(); // Get the effective owner GID
-}
+int seteuid (uid_t euid);
+int setegid (gid_t egid);
 ```
 
 ---
