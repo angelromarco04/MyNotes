@@ -56,7 +56,8 @@ gid_t var_gid; // Datatype to store GIDs.
 - All of this functions:
 	- Throw an error if the provided UID/GID is not valid.
 	- Return `0` if the operation is correctly performed and `-1` otherwise.
-- In every change the 
+- When superuser invokes `setuid()` or `setgid()` it changes both fields.
+	- When a process loose superuser privileges it cannot get them back.
 ```cpp
 int setuid (uid_t uid); // Change owner UID
 int setgid (gid_t gid); // Change owner GID
