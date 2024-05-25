@@ -21,24 +21,41 @@
 ```
 ---
 ## Process identification
-### Definitions
-
+### Obtaining process' PID
 - Processes are identified by an unique integer ID (PID)
+```cpp
+pid_t var_pid; // Datatype to store PIDs.
+var_pid = getpid(); // Get the PID.
+var_pid = getppid(); // Get the parent PID.
+```
 - In UNIX there are some special process always running:
 	- **Swapper** (PID 0) is responsible of dumping pages to disk.
 	- **Init** (PID 1) is responsible of loading other processes on boot.
 		- Tree-like hierarchy with `init` as root.
 - Every orphan process is set as a children of `init`
-
-- Each process also has other identification:
-	- User ID (UID)
-		- **Owner user** (User that created the process)
-		- **Effective user** (User whose priviledges is using the process)
-	- Group ID (GID)
-		- **Owner group** (Group that created the process)
-		- **Effective group** (Group whose privileges is using the process)
+### Obtaining process UID
+- User ID (UID)
+	- **Owner user** (User that created the process)
+	- **Effective user** (User whose priviledges is using the process)
+```cpp
+uid_t var_uid;  // Datatype to store UIDs.
+var_uid = getuid(); // Get the owner UID
+var_uid = geteuid(); // Get the effective owner UID
+```
 - The superuser (root) has all privileges and always has the UID 0.
-### Usage
+
+### Obtaining process UID
+- Group ID (GID)
+	- **Owner group** (Group that created the process)
+	- **Effective group** (Group whose privileges is using the process)
+```cpp
+gid_t var_gid; // Datatype to store GIDs.
+	var_gid = getgid(); // Get the owner GID
+	var_gid = getegid(); // Get the effective owner GID
+```
+
+
+### Getting information
 ```cpp
 #include <iostream>
 #include <sys/types.h>
@@ -47,9 +64,7 @@
 // Information we get is relative to the process running this code.
 
 int main() {
-	pid_t var_pid; // Datatype to store PIDs.
-	var_pid = getpid(); // Get the PID.
-	var_pid = getppid(); // Get the parent PID.
+	
 	
 	uid_t var_uid;  // Datatype to store UIDs.
 	var_uid = getuid(); // Get the owner UID
