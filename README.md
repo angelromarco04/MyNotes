@@ -16,7 +16,7 @@ Hope you like it!  :D
 ### Languages
 - [Java](Programming/Java/README.md)
 - [Python](Programming/Python/README.md)
-- [C/C++](Programming/Matlab/README.md) #TODO
+- [C/C++](Programming/C/README.md)
 - [Rust](Programming/Rust/README.md)
 - [Matlab](Programming/Matlab/README.md)
 - [Scheme](Programming/Other/SCHEME.md)
