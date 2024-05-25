@@ -15,3 +15,27 @@
 	- POSIX = Portable Operating System Interface
 ---
 ## Process identification
+
+- Processes are identified by an unique integer ID (PID)
+- In UNIX there are some special process always running:
+	- **Swapper** (PID 0) is responsible of dumping pages to disk.
+	- **Init** (PID 1) is responsible of loading other processes on boot.
+		- Tree-like hierarchy with `init` as root.
+- Every orphan process is set as a children of `init`.
+
+---
+## Process Environment
+
+
+
+---
+## Process Creation
+
+
+
+---
+## Process Termination
+
+
+
+---
