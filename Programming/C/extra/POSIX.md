@@ -28,7 +28,15 @@
 	- **Swapper** (PID 0) is responsible of dumping pages to disk.
 	- **Init** (PID 1) is responsible of loading other processes on boot.
 		- Tree-like hierarchy with `init` as root.
-- Every orphan process is set as a children of `init`.
+- Every orphan process is set as a children of `init`
+
+- Each process also has other identificators:
+	- 
+	- **Owner user** (User that created the process)
+	- **Effective user** (User whose permissions is using the process)
+	- **Owner group** (Group that created the process)
+	- **Effective group** (Group whose permissions is using the process)
+- The root (superuser) user has the UID
 ### Usage
 ```cpp
 #include <iostream>
@@ -36,7 +44,10 @@
 #include <unistd.h>
 
 int main() {
-	pid_t current_process_pid = getpid();
+	pid_t var; // To story PIDs a datatype is provided
+	var = getpid(); // We get the current process PID
+	var = getppid(); // We get the current process' parent PID
+	
 }
 ```
 
