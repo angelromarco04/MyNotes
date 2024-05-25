@@ -53,6 +53,9 @@ gid_t var_gid; // Datatype to store GIDs.
 	var_gid = getegid(); // Get the effective owner GID
 ```
 ### Changing Process Identification
+- All of this functions:
+	- Throw an error if the provided UID/GID is not valid.
+	- Return `0` if the operation is correctly performed and `-1` otherwise.
 ```cpp
 int setuid (uid_t uid);
 int setgid (gid_t gid);
