@@ -31,23 +31,29 @@
 - Every orphan process is set as a children of `init`
 
 - Each process also has other identificators:
-	- 
-	- **Owner user** (User that created the process)
-	- **Effective user** (User whose permissions is using the process)
-	- **Owner group** (Group that created the process)
-	- **Effective group** (Group whose permissions is using the process)
-- The root (superuser) user has the UID
+	- User ID (UID)
+		- **Owner user** (User that created the process)
+		- **Effective user** (User whose priviledges is using the process)
+	- Group ID (GID)
+		- **Owner group** (Group that created the process)
+		- **Effective group** (Group whose priviledges is using the process)
+- The root (superuser) user always has the UID 0.
 ### Usage
 ```cpp
 #include <iostream>
 #include <sys/types.h>
 #include <unistd.h>
 
+// Note that everething we get is related to the 
+
 int main() {
-	pid_t var; // To story PIDs a datatype is provided
-	var = getpid(); // We get the current process PID
-	var = getppid(); // We get the current process' parent PID
-	
+	pid_t var_pid; // Datatype to store PIDs.
+	var_pid = getpid(); // Get the PID.
+	var_pid = getppid(); // Get the parent PID.
+
+	uid_t var_uid;  // Datatype to store UIDs.
+	var_uid = getuid(); // Get the owner UID
+	var_uid = geteuid(); // Get the effective owner UID
 }
 ```
 
