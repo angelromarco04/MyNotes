@@ -96,7 +96,10 @@ int putenv (const char *string);
 ---
 ## Process Creation
 
-pg 29
+- To create a process we call `fork()`
+	- The child is a copy of the parent process (same code and data).
+	- The child starts executing where `fork()` was called.
+- 
 
 ---
 ## Process Termination
