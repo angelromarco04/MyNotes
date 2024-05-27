@@ -175,10 +175,20 @@ pid_t wait (int *status);
 // Waits for the specified child to end and returns its PID.
 pid_t waitpid (pid_t pid, int *status, int options);
 ```
-### Process Killing
+---
+## Process Signals
+### Sending a Signal
+- For P1 to be able to send a signal to P2 it must fulfill one:
+	- P1 and P2 have the same UID.
+	- P1 is the superuser.
 ```cpp
-// Sends a signal to the process
+// Sends a signal to the process with a specific PID
 int kill (pid_t pid, int sig);
 ```
+### Processing Signals
+```cpp
+struct sigaction act;
 
+
+```
 ---
