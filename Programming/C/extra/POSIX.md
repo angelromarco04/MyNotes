@@ -196,8 +196,13 @@ sigaction(SIGUSR1, &act, NULL)
 ```
 ### Waiting and Temporization
 ```cpp
-pause(void); // Waits for a non-ignored signal.
-alarm(int seconds); // Sends itself a SIGALRM after some seconds.
-sleep(int seconds); // Waits for an a non-ignored signal fo.
+// Waits for a non-ignored signal.
+pause(void);
+
+// Sends itself a SIGALRM after some seconds.
+alarm(int seconds);
+
+// Waits for an a non-ignored signal for some seconds.
+sleep(int seconds);
 ```
 ---
