@@ -135,19 +135,37 @@ for(int i = 0; i < 10; i++)
 - The `exec()` call changes the program executing by the process.
 	- It erases all data form current process.
 	- It loads the new program to execute.
-- `exec()` only returns a value if there was an error.
+- `exec()` only returns a value (`-1`) if there was an error.
+- Usually combined with `fork()`.
 ### Usage
 ```cpp
-// BASIC
-// Loads the executable in th
+//-----------------------
+//        BASIC
+//-----------------------
+// Loads the executable in that path with the LIST of arguments.
 int execl(char *path, char *arg1, char *arg2, ...);
+// Loads the executable in that path with the LIST of arguments.
 int execv(char *path, char *argv[]);
 
+//-----------------------
+//    With environment
+//-----------------------
 int execle(char *path, char *arg1, char *arg2, ..., char *envp[]);
 int execve(char *path, char *argv[], char *envp[]);
 
+//-----------------------
+//    File from PATH
+//-----------------------
 int execlp(char *file, char *arg1, char *arg2, ...);
 int execvp(char *file, char *argv[]);
 ```
+
+---
+## Process Execution
+### Theory
+- Three ways of terminating a process:
+	- Executing `return` on `main` function.
+	- Executing `exit(EXIT_STATUS)`.
+	- With the system call `_exit(int status)`.
 
 ---
