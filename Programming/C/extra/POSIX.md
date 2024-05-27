@@ -159,13 +159,26 @@ int execve(char *path, char *argv[], char *envp[]);
 int execlp(char *file, char *arg1, char *arg2, ...);
 int execvp(char *file, char *argv[]);
 ```
-
 ---
-## Process Execution
-### Theory
+## Process Termination
+### Process Termination
 - Three ways of terminating a process:
 	- Executing `return` on `main` function.
 	- Executing `exit(EXIT_STATUS)`.
 	- With the system call `_exit(int status)`.
+### Process Waiting
+
+```cpp
+// Waits for a children to end and returns its PID.
+pid_t wait (int *status);
+
+// Waits for the specified child to end and returns its PID.
+pid_t waitpid (pid_t pid, int *status, int options);
+```
+### Process Killing
+```cpp
+// Sends a signal to the process
+int kill (pid_t pid, int sig);
+```
 
 ---
