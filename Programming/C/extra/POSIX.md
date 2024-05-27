@@ -74,16 +74,29 @@ int setegid (gid_t egid); // Change effective owner GID
 	- `PATH`: Folders with executable files.
 	- `SHELL`: Default command interpreter.
 ### Usage
+- To obtain all environment variables
 ```cpp
-#invlude <stdlib.h>
-
+// envp is an array of strings containig all environment variables.
+main(int argc, char *argv[], char *envp[]) {
+	for (int i = 0; envp[i] != NULL; i++)
+		cout << envp[i] << endl;
+}
+```
+- We can also use some functions.
+```cpp
+// Get a specific environment variable.
+// Returns NULL if variable name does not exist.
 char *getenv (const char *name);
-int putenv (const char *string);
+
+// Change a environment variable.
+// string must have the syntax name=value
+// Returns 0 if success, -1 if error.
+int putenv (const char *string); 
 ```
 ---
 ## Process Creation
 
-
+pg 29
 
 ---
 ## Process Termination
