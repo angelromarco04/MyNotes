@@ -188,7 +188,16 @@ int kill (pid_t pid, int sig);
 ### Processing Signals
 ```cpp
 struct sigaction act;
+act.sa_handler = myHandler;
+act.sa_flags = 0;
+sigemptyset(&act.sa_mask);
 
-
+sigaction(SIGUSR1, &act, NULL)
+```
+### Waiting and Temporization
+```cpp
+pause(void); // Waits for a non-ignored signal.
+alarm(int seconds); // Sends itself a SIGALRM after some seconds.
+sleep(int seconds); // Waits for an a non-ignored signal fo.
 ```
 ---
