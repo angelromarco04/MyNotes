@@ -169,6 +169,8 @@ int execvp(char *file, char *argv[]);
 ### Process Waiting
 
 ```cpp
+#include<sys/wait.h>
+
 // Waits for a children to end and returns its PID.
 pid_t wait (int *status);
 
@@ -182,11 +184,15 @@ pid_t waitpid (pid_t pid, int *status, int options);
 	- P1 and P2 have the same UID.
 	- P1 is the superuser.
 ```cpp
+#include<signal.h>
+
 // Sends a signal to the process with a specific PID
 int kill (pid_t pid, int sig);
 ```
 ### Processing Signals
 ```cpp
+#include<signal.h>
+
 struct sigaction act;
 act.sa_handler = myHandler;
 act.sa_flags = 0;
@@ -196,6 +202,8 @@ sigaction(SIGUSR1, &act, NULL)
 ```
 ### Waiting and Temporization
 ```cpp
+#include<signal.h>
+
 // Waits for a non-ignored signal.
 pause(void);
 
