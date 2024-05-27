@@ -67,7 +67,7 @@ int setegid (gid_t egid); // Change effective owner GID
 ```
 ---
 ## Process Environment
-## Environment Variables
+### Environment Variables
 - When a process starts some variables are created.
 	- `HOME`: Initial working directory of the user.
 	- `LOGNAME`: User name in the login.
@@ -95,11 +95,31 @@ int putenv (const char *string);
 ```
 ---
 ## Process Creation
-
+### Theory
 - To create a process we call `fork()`
 	- The child is a copy of the parent process (same code and data).
 	- The child starts executing where `fork()` was called.
-- 
+- `fork()` have two different return values:
+	- To the parent it returns the child process' PID or `-1` if error occurred.
+	- To the child it always return `0`.
+### Simple Creation
+```cpp
+pid_t pid = fork();
+switch(pid) {
+	case -1:
+		// Error
+		break;
+	case 0;
+		// Child
+		break;
+	default:
+		// Parent
+}
+```
+### Sequential Creation
+```cpp
+for(int i=0; )
+```
 
 ---
 ## Process Termination
