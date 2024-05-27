@@ -116,14 +116,26 @@ switch(pid) {
 		// Parent
 }
 ```
-### Sequential Creation
+### Sequential Creation (X -> 1 -> 2 -> 3)
 ```cpp
-for(int i=0; )
+for(int i = 0; i < 10; i++)
+	if(fork()) break;
+	//Code
+```
+### Parallel Creation (X -> 1, 2, 3)
+```cpp
+for(int i = 0; i < 10; i++)
+	if(!fork()) break;
+	//Code
 ```
 
 ---
-## Process Termination
-
+## Process Execution
+### Theory
+- The `exec()` call changes the program executing by the process.
+	- It erases all data form current process.
+	- It loads the new program to execute.
+- `exec()` only returns a value if there was an error.
 
 
 ---
