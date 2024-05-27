@@ -136,6 +136,18 @@ for(int i = 0; i < 10; i++)
 	- It erases all data form current process.
 	- It loads the new program to execute.
 - `exec()` only returns a value if there was an error.
+### Usage
+```cpp
+// BASIC
+// Loads the executable in th
+int execl(char *path, char *arg1, char *arg2, ...);
+int execv(char *path, char *argv[]);
 
+int execle(char *path, char *arg1, char *arg2, ..., char *envp[]);
+int execve(char *path, char *argv[], char *envp[]);
+
+int execlp(char *file, char *arg1, char *arg2, ...);
+int execvp(char *file, char *argv[]);
+```
 
 ---
