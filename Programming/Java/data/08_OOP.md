@@ -16,11 +16,11 @@
 
 ```java
 public myClass {
-		// Instance atributes (belong to the object/instance)
-		// Instance methods (Constructors, getters, setters ...)
+    // Instance atributes (belong to the object/instance)
+    // Instance methods (Constructors, getters, setters ...)
 
-		// Static atributes   (belong to the class, is the same for every object)
-		// Static methods
+    // Static atributes   (belong to the class, is the same for every object)
+    // Static methods
 }
 
 // Object of the previous class
@@ -59,20 +59,20 @@ public myClass() {}
 **// Parametrized**
 // (could use any number of variables)
 public myClass(type myVar1, type myVar2) {
-		this.myVar1 = myVar1;
-		this.myVar2 = myVar2;
+    this.myVar1 = myVar1;
+    this.myVar2 = myVar2;
 }
 // Is a good practice to pass this variables throught the setters
 public myClass(type myVar1, type myVar2) {
-		this.setMyVar1(myVar1);
-		this.setMyVar2(myVar2);
+    this.setMyVar1(myVar1);
+    this.setMyVar2(myVar2);
 }
 
 **// Copy constructor**
 // If type is not primitive we should asure that no memory adress is provided
 public myClass(myClass another) {
-		this.myVar1 = another.getMyVar1();
-		this.myVar2 = another.getMyVar2();
+    this.myVar1 = another.getMyVar1();
+    this.myVar2 = another.getMyVar2();
 }
 ```
 
@@ -81,20 +81,20 @@ public myClass(myClass another) {
 ```java
 **// Getter**
 public type getMyVar1() {
-		return this.myVar1;
+    return this.myVar1;
 }
 // If type is not primitive we should asure that no memory adress is provided
 public type getMyVar2() {
-		return new type(myVar2)  // Only works if there's a copy constructor
+    return new type(myVar2)  // Only works if there's a copy constructor
 }
 
 // Setter
 public void setMyVar1(type newVar1) {
-		if(condition) {
-				throw exception(message);  // Particular exception must be shown
-		}
-		// IllegalArgumentException  -  NullPointerException
-		this.myVar1 = newVar1;
+    if(condition) {
+        throw exception(message);  // Particular exception must be shown
+    }
+    // IllegalArgumentException  -  NullPointerException
+    this.myVar1 = newVar1;
 }
 
 ```
