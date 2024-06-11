@@ -25,8 +25,8 @@ public class myClass{
 
 ## OOP
 8.  [Classes & Objects](data/08_OOP.md)
-9.  [Inheritance]() ( #TODO)
-10. [Polymorphism]() ( #TODO)
+9.  [Inheritance](data/09_Inheritance.md)
+10. [Polymorphism](data/10_Polymorphism.md)
 
 ## Advanced
 11. [Exceptions]() ( #TODO)
