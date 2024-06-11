@@ -1,3 +1,10 @@
+
+---
+# 10 Polymorphism
+
+[Back to Java index](../README.md)
+
+---
 ## instanceof operator
 ```java
 // Having Dog and Cat extend an Animal
@@ -38,34 +45,18 @@ public interface myInterface
     // All atributes declared in an interface are static and final
     private type myAtribute;
 
-  
-
-        // All methods declared in a interface are abstract
-
-        public type myMethod();
-
-  
-
-        // A default implementation can be provided
-
-        public type setMyAtribute()
-
-        {
-
-                throw new UnsupportedOperationException();
-
-        }
-
+    // All methods declared in a interface are abstract
+    public type myMethod();
+    
+    // A default implementation can be provided
+    public type setMyAtribute()
+    {
+        throw new UnsupportedOperationException();
+    }
 }
 
-  
-
 // Interface usage.
-
 // A class can implement more than one interface.
-
 // All non-abstract classes must implement all interface's methods
-
 public class myClass implements myInterface {body}
-
 ```
