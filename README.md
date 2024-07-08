@@ -28,7 +28,6 @@ Hope you like it!  :D
 - [Event Driven Design](Programming/Other/EDD.md)
 - [Human-Computer Interaction](Programming/GUI/README.md)
 - [Databases](Programming/Databases/README.md)
-- Clean code #TODO 
 
 ## Computer Science
 - Computers Fundamentals #TODO
