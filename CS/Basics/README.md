@@ -9,7 +9,7 @@
 
 - **Introduction**
 	1. [Digital Information](data/01_digital_info.md)
-	2. Digital Systems
+	2. [Digital Systems](data/02_digital_sys.md)
 - **Computer Fundamentals**
 	3. Computers Architecture
 	4. Computers Language (Assembly)
