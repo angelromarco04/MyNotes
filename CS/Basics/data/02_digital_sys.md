@@ -14,64 +14,37 @@ $$
 S_n = f_n(E_0, E_1, E_2, ..., E_{m-1})
 
 $$
-
-  
-
 Where `n` is one of the outputs and there are `m` inputs
+#### Truth table
 
-  
-
-- Truth table
-
-  
-
-| $E_2$ | $E_2$ | $E_2$ | $S$ |
-
-| --- | --- | --- | --- |
-
-| 0 | 0 | 0 | 0 |
-
-| 0 | 0 | 1 | 1 |
-
-| 0 | 1 | 0 | 1 |
-
-| 0 | 1 | 1 | 1 |
-
-| 1 | 0 | 0 | 0 |
-
-| 1 | 0 | 1 | 1 |
-
-| 1 | 1 | 0 | 0 |
-
-| 1 | 1 | 1 | 1 |
-
-  
+| $E_2$ | $E_1$ | $E_0$ | $S$ |
+| ----- | ----- | ----- | --- |
+| 0     | 0     | 0     | 0   |
+| 0     | 0     | 0     | 1   |
+| 0     | 0     | 1     | 0   |
+| 0     | 0     | 1     | 1   |
+| 0     | 1     | 0     | 0   |
+| 0     | 1     | 0     | 1   |
+| 0     | 1     | 1     | 0   |
+| 0     | 1     | 1     | 1   |
+| 1     | 0     | 0     | 0   |
+| 1     | 0     | 0     | 1   |
+| 1     | 0     | 1     | 0   |
+| 1     | 0     | 1     | 1   |
+| 1     | 1     | 0     | 0   |
+| 1     | 1     | 0     | 1   |
+| 1     | 1     | 1     | 0   |
+| 1     | 1     | 1     | 1   |
 
 1. For the Inputs whose solution $S = 1$ create a $m_i$ that is the result of multiplying the input 1’s and the negation of the input 0’s. As following:
-
     $m_1 = ¬E_2 * ¬E_1 *  E_0$
-
     $m_2 = ¬ E_2 *  E_1 * ¬ E_0$
-
-  
-
-…
-
-  
-
 1. Latter the result will be the addition of every $m_i$
 
-  
+### Logic gates
+![](../../../Assets/OS/Basics/CS_Basics_02_00.png)
 
-## **Logic gates**
-
-  
-
-![Untitled](02%20Digital%20Systems%20e3e855d3e6a84df4b4da6654a8ca7a96/Untitled.png)
-
-  
-
-## **1-bit adder**
+##1-bit adder**
 
   
 
