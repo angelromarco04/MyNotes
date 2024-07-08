@@ -44,98 +44,36 @@ Where `n` is one of the outputs and there are `m` inputs
 ### Logic gates
 ![](../../../Assets/OS/Basics/CS_Basics_02_00.png)
 
-##1-bit adder**
-
-  
-
+### 1-bit adder
 - Receives two 1-bit numbers ( $A$ and $B$ )
-
 - Returns the result ( $S$ ) and the carry ( $C$ )
-
-  
-
-![Untitled](02%20Digital%20Systems%20e3e855d3e6a84df4b4da6654a8ca7a96/Untitled%201.png)
-
-  
-
-## **Multiplexer**
-
-  
-
-![Untitled](02%20Digital%20Systems%20e3e855d3e6a84df4b4da6654a8ca7a96/Untitled%202.png)
-
-  
-
-## **n-bit adder**
-
-  
-
+![](../../../Assets/OS/Basics/CS_Basics_02_01.png)
+### Multiplexer
+![](../../../Assets/OS/Basics/CS_Basics_02_02.png)
+### n-bit adder
 - Is a chain of 1-bit adders but with a carry bit in and out
-
-  
-
-![Untitled](02%20Digital%20Systems%20e3e855d3e6a84df4b4da6654a8ca7a96/Untitled%203.png)
-
-  
-
+![](../../../Assets/OS/Basics/CS_Basics_02_03.png)
 ## **Overflow detector**
+![](../../../Assets/OS/Basics/CS_Basics_02_04.png)
 
-  
+| $A_{n-1}$ | $B_{n-1}$ | $S_{n-1}$ | $Ov$ |
+| --------- | --------- | --------- | ---- |
+| 0         | 0         | 0         | 0    |
+| 0         | 0         | 1         | 1    |
+| 0         | 1         | 0         | 0    |
+| 0         | 1         | 1         | 0    |
+| 1         | 0         | 0         | 0    |
+| 1         | 0         | 1         | 0    |
+| 1         | 1         | 0         | 1    |
+| 1         | 1         | 1         | 0    |
+### Arithmetical-Logic Unit (ALU)
+![](../../../Assets/OS/Basics/CS_Basics_02_05.png)
 
-![Untitled](02%20Digital%20Systems%20e3e855d3e6a84df4b4da6654a8ca7a96/Untitled%204.png)
-
-  
-
-| A | B | S | Ov |
-
-| --- | --- | --- | --- |
-
-| 0 | 0 | 0 | 0 |
-
-| 0 | 0 | 1 | 1 |
-
-| 0 | 1 | 0 | 0 |
-
-| 0 | 1 | 1 | 0 |
-
-| 1 | 0 | 0 | 0 |
-
-| 1 | 0 | 1 | 0 |
-
-| 1 | 1 | 0 | 1 |
-
-| 1 | 1 | 1 | 0 |
-
-  
-
-## **Arithmetical-Logic Unit (ALU)**
-
-  
-
-![Untitled](02%20Digital%20Systems%20e3e855d3e6a84df4b4da6654a8ca7a96/Untitled%205.png)
-
-  
+| Operation | Op 0 | Op 1 | C_in |     |
+| --------- | ---- | ---- | ---- | --- |
+|           |      |      |      |     |
 
 [ALU Detail](https://www.notion.so/ALU-Detail-68517975e9c7485793b9558860cf44f4?pvs=21)
-
-  
-
-| Operation | OP0 | OP1 | C_in | Compl-1 |
-
-| --- | --- | --- | --- | --- |
-
-| AND | 0 | 0 | 0 | 0 |
-
-| OR | 1 | 0 | 0 | 0 |
-
-| XOR | 0 | 1 | 0 | 0 |
-
-| ADDITION | 1 | 1 | 0 | 0 |
-
-| SUBSTRACTION | 1 | 1 | 1 | 1 |
-
-  
-
 # SEQUENCIAL CIRCUITS
 
   
