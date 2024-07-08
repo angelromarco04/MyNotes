@@ -2,7 +2,7 @@
 ---
 # 01 Digital Information
 
-[Back to index](../CS/OS/README.md)
+[Back to index](../README.md)
 
 ---
 ## Binary codes
@@ -22,10 +22,10 @@
 | 1PiB | 2^50 B |
 ## Logic data
 
-- AND    ”· 
-- OR    ” + ”
-- NOT    ” **¯** ”
-- XOR    (exclusive NOR)
+- AND = `·` 
+- OR  = `+` 
+- NOT =  `¯` 
+- XOR  = (exclusive NOR)
 ## Positional system
 
 | 1234.5    | 1110.1b  | 2BC7.Ah    |
@@ -41,27 +41,18 @@
 - With `n` bits, `2^n` numbers can be represented
     - Range = `[ 0 , 2^n -1 ]`
 - Overflow → Operations result out of range
+## Signed Number
 
-## **Signed Number**
-
-### **Sign and magnitude**
+### Sign and magnitude
 
 Most significant bit used to represent the sign
-
-0_101_b = 5
-
-1_101_b = -5
-
+`0_101_b` = `5`
+`1_101_b` = `-5`
 `2^n-1` numbers can be represented
-
 range = `[ -2^n-1 +1 ,  2^n-1 -1 ]`
-
 Difficult to do arithmetical operations
-
-### **Excess - K**
-
+### Excess - K
 Adding `K` to num. we obtain a positive one
-
 `num + K ≥ 0`
 
 | Number |  Excess - 8 | 4 bits |
@@ -70,73 +61,40 @@ Adding `K` to num. we obtain a positive one
 | -7 | -7 + 8 = 1 | 0001 |
 | 2 | 2 + 8 = 10 | 1010 |
 | 8 | 8 + 8 = 16 | no (>17) |
-
-easy comparison
-
-difficult arithmetic operations
-
+- easy comparison
+- difficult arithmetic operations
 ### **Two’s Complement**
-
 def. `two’s complement(M) = 2^n - M`
-
 where M is the number
-
 **Steps:**
-
 1. Encode M in bin
 2. Copy from top right to the first 1
 3. Invert the rest of bits
-
 range = `[ -2^n-1 , 2^n-1 -1 ]`
-
 **Adding or substracting**
-
 Same as with unsigned numbers
-
 When carry digit out of range remove it
-
 **Overflow:**
-
 - Positive + Positive = Negative
 - Negative + Negative = Positive
-
----
-
 ## **Real Number**
-
 To represent a real num. R we assign the closest valid num. R’
-
 Rounding error = `| R - R’ |`
-
 Relative rounding error (%) = `Rounding error / | R |`
-
 **Representation:**
-
 - Fixed Point
-    
     Assign n positions to represent the integer part and m to represent the fractional one
-    
     Two’s complement can be used
-    
 - Floating Point
-    
     `R = (-1)^S * M * B^E`
-    
     Where S represent the sign, M the mantissa, B the base and E the exponent
-    
     Example: `R = (-1)^1 * 1.23456 * 10^2 = -123.456`
-    
 
 **IEEE-754 format**
-
 Single precision (binary32) (java float)
-
 Double precision (binary64) (java double)
-
 Quadruple precision (binary128)
-
 For single precision:
-
 $$
 R = (-1)^S * 1.F * 2 ^ {E-127}
 $$
@@ -144,9 +102,6 @@ $$
 | 1 bit | 8 bits | 23 bits |
 | --- | --- | --- |
 | Sign (S) | Exponent (E) | Mantissa (1.F) |
-
----
-
 ## Characters
 
 - ASCII
