@@ -69,11 +69,14 @@ Where `n` is one of the outputs and there are `m` inputs
 ### Arithmetical-Logic Unit (ALU)
 ![](../../../Assets/OS/Basics/CS_Basics_02_05.png)
 
-| Operation | Op 0 | Op 1 | C_in |     |
-| --------- | ---- | ---- | ---- | --- |
-|           |      |      |      |     |
-
-[ALU Detail](https://www.notion.so/ALU-Detail-68517975e9c7485793b9558860cf44f4?pvs=21)
+| Operation | Op 0 | Op 1 | C_in | Compl-1 |
+| --------- | ---- | ---- | ---- | ------- |
+| AND       | 0    | 0    | 0    | 0       |
+| OR        | 1    | 0    | 0    | 0       |
+| XOR       | 0    | 1    | 0    | 0       |
+| ADD       | 1    | 1    | 0    | 0       |
+| SUB       | 1    | 1    | 1    | 1       |
+#TODO
 # SEQUENCIAL CIRCUITS
 
   
