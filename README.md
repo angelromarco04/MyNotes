@@ -12,6 +12,7 @@ Hope you like it!  :D
 
 # List of topics
 
+---
 ## Programming
 ### Languages
 - [Java](Programming/Java/README.md)
@@ -33,6 +34,7 @@ Hope you like it!  :D
 - Computers Fundamentals #TODO
 - Computers Architecture #TODO
 - [Operating Systems](CS/OS/README.md)
+- Networking #TODO
 ## Linux
 - [Bash](/Linux/Bash.md)
 - [Shell Scripting](/Linux/Shell_Scripting.md)
