@@ -20,7 +20,7 @@
 
 - [Programación Concurrente y Paralela](PCP/README.md)
 - Ingeniería del Software
-- Redes de Computadores
+- [Redes de Computadores](Redes1/README.md)
 - Configuración y Evaluación de Sistemas
 - Administración de Sistemas
 
