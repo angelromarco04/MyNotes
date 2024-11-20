@@ -15,9 +15,3 @@
 - T5 - Nivel de transporte
 
 ---
-## Práctica
-
-- Vectorización
-- Makefile
-
----
