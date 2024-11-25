@@ -2,7 +2,7 @@
 ---
 # Redes de Computadores
 
-[HOME](../README.md)
+[HOME](../../README.md)
 
 ---
 
