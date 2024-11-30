@@ -21,6 +21,7 @@
 
 ---
 ### Referencias
-- [An Efficient Matrix Transpose in CUDA C/C++ | NVIDIA Technical Blog](https://developer.nvidia.com/blog/efficient-matrix-transpose-cuda-cc/)
-- [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance](https://siboehm.com/articles/22/CUDA-MMM)
-- 
+- [Curso de programación en CUDA - YouTube (inglés)](https://www.youtube.com/watch?v=86FAWCzIe_4)
+- [Transposición eficiente (inglés)](https://developer.nvidia.com/blog/efficient-matrix-transpose-cuda-cc/)
+- [Optimización de DGEMM kernel (inglés)](https://siboehm.com/articles/22/CUDA-MMM)
+- [Introducción resumida a CUDA (inglés)](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
