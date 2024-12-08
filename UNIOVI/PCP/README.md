@@ -10,7 +10,7 @@
 
 - [T1 - Análisis de Rendimiento](../Redes1/data/T1.md)
 - [T2 - Fundamentos de diseño de Algoritmos Paralelos](data/T2.md)
-- T3 - OpenMP
+- [T3 - OpenMP](data/T3.md)
 - [T4 - GPUs y CUDA](data/T4.md)
 
 ---
