@@ -27,7 +27,7 @@ Está estructurada en varios procesos donde cada proceso tiene actividades y cad
 			1. Grafico (actores - procesos)
 			2. Tipo información.
 			3. Partes interesadas.
-			4. Sistema actual.
+			4. Diagnostico (mejoras)
 		3. EVS 3 - Definición de requisitos.
 			1. Procesos identificados + prioridad (previo).
 			2. Catálogo de requisitos funcionales y no funcionales.
