@@ -20,7 +20,7 @@ Está estructurada en varios procesos donde cada proceso tiene actividades y cad
 - **Planificación**
 	1. Planificación de Sistemas de Información (Proceso PSI)
 - **Desarrollo**
-	2. [Estudio de la Viabilidad del Sistema (Proceso EVS)](data/EVS.md)
+	2. Estudio de la Viabilidad del Sistema (Proceso EVS)
 		1. Establecimiento del alcance del sistema .
 			- Objetivo general con primeros requisitos.
 		2. Estudio de la situación inicial.
@@ -31,7 +31,7 @@ Está estructurada en varios procesos donde cada proceso tiene actividades y cad
 		3. Definición de requisitos.
 			- Procesos identificados + prioridad (previo).
 			- Catálogo de requisitos funcionales y no funcionales.
-		- Estudio de alternativas (4), Valoración de alternativas (5), Selección de la solución (6).
+		4. Estudio de alternativas (4), Valoración de alternativas (5), Selección de la solución (6).
 			- Sistemas similares y contratación de servicios.
 			- Posibles integraciones y plan de implementación.
 	3. Análisis del Sistema de Información (Proceso ASI)
