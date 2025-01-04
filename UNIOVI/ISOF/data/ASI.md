@@ -60,6 +60,7 @@
 	- **MODELADO DE DOMINIO**
 		- Diagrama de clases (Similar a BD)
 			- Cada clase tiene nombre y atributos
+			- Siempre se acompaña de un diccionario de datos
 			- Asociaciones (línea simple entre clases)
 				- Cardinalidad (`1`, `*`, `1..*`, `1..n`...)
 				- Nombre (Ej. Trabaja para)
@@ -69,7 +70,17 @@
 					- En medio indica XOR, OR, AND...
 			- Generalizaciones (flecha de clase hijo a clase padre)
 				- flecha apunta a padre
-		- Diccionario de datos
+		- Diagrama de transición de estados (asociados a una clase)
+			- Estado inicial (punto)  y estado final (punto + circulo)
+			- Estados (recuadros)
+			- Transiciones (flechas entre recuadros) + evento 
+		- Diagramas de actividad
+			- Se hacen varias particiones verticales por cada agente.
+			- Elementos:
+				- Nodo inicial (punto)  y nodo final (punto + circulo)
+				- Acciones (recuadros con un caso de uso)
+				- Arcos (flechas que indican orden temporal)
+				- Paralelización (línea horizontal al que llega una flecha y salen varias)
 
 ---
 ## ASI 8 - Definición de Interfaces de Usuario
