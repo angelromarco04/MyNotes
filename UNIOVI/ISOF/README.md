@@ -34,7 +34,7 @@ Está estructurada en varios procesos donde cada proceso tiene actividades y cad
 2. **DESARROLLO**
 	1. [Estudio de la Viabilidad del Sistema (Proceso EVS)](data/EVS.md)
 		1. Analiza necesidades del cliente y da solución a corto plazo definiendo proyecto.
-	2. **Análisis del Sistema de Información (Proceso ASI)**
+	2. [**Análisis del Sistema de Información (Proceso ASI)**](data/ASI.md)
 		1. Analiza la consistencia y especifica los requisitos.
 	3. **Diseño del Sistema de Información (Proceso DSI)**
 		1. Definir arquitectura del sistema y entorno tecnológico.
