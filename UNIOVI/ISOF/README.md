@@ -6,7 +6,7 @@
 
 ---
 
-## Introducción
+##  T1 - Introducción a la Ingeniería del Software
 
 - Los proyectos de software son difíciles:
 	- Suelen costar más y tardar más tiempo de lo previsto.
@@ -16,7 +16,7 @@
 - Sirve para solucionar problemas de usuarios
 	- Para ello es necesario entender el problema y comunicarse de forma efectiva con él.
 ---
-## Procesos de software
+##  T2 - Procesos de software
 Conjunto de actividades/productos obtenidos durante desarrollo de cualquier sistema de software:
 1. **Análisis**. ¿Qué hacer?
 2. **Diseño**. ¿Cómo hacerlo?
@@ -25,7 +25,7 @@ Conjunto de actividades/productos obtenidos durante desarrollo de cualquier sist
 5. **Mantenimiento**. Mejorar, adaptar y corregir.
 
 ---
-## Métrica v3
+## T2 - Métrica v3
 Es una metodología desarrollada por el Gobierno de España.
 Está estructurada en varios procesos donde cada proceso tiene actividades y cada actividad tareas.
 1. **PLANIFICACIÓN**
@@ -48,4 +48,50 @@ Está estructurada en varios procesos donde cada proceso tiene actividades y cad
 3. **MANTENIMIENTO**
 	1. **Mantenimiento del Sistema de Información (MSI)**
 
+---
+## T3 - Proceso de diseño (Proceso DSI)
+- **Arquitectura (hardware y software)**
+	- Se buscan nodos involucrados (hardware)
+	- Se tiene en cuenta:
+		- Infraestructura (propia o alojamiento externo)
+		- Tecnología (software)
+		- Eficiencia y seguridad
+	- Diagramas 
+		- de componentes (nodos)
+		- de despliegue (nodos + artefactos)
+		- de interacción (detalle de un escenario)
+- **Diseño de datos (Base de datos)**
+	- 1 clase = 1 tabla ; 1 atributo = 1 columna
+	- Se escoge la clave principal
+	- Se añaden relaciones y herencias
+- **Plan de pruebas**
+	- 1 - Se planean pruebas (plan temporal y pruebas de aceptación)
+	- 2 - Se diseñan las pruebas (tipos, estrategia e integración)
+	- 3 - Se ejecutan las pruebas
+	- 4 - Se corrigen defectos (depuración)
+---
+## T4 - Pruebas: conceptos y proceso
+- Definición de prueba
+	- Proceso de ejecutar un programa con la intención de encontrar fallos
+	- Buen caso de prueba = Probabilidad alta de encontrar nuevo fallo.
+	- Caso de prueba con éxito = Detectar un fallo nuevo.
+- Conceptos
+	- **Error**. Acción humana que produce un resultado incorrecto
+	- **Fallo**. Diferencia entre comportamiento esperado y observado del software.
+	- **Defecto**. Desperfecto en un componente/sistema.
+- Proceso
+	- Especificación y diseño
+		- Emplea técnicas de prueba
+			- Técnicas basadas en condiciones (decisiones lógicas)
+				- Cobertura de sentencias (Toda la decisión)
+				- Cobertura de condiciones (partes sin operadores lógicos como AND y OR)
+				- Cobertura de condición/decisión (Se prueban las partes y el conjunto)
+				- Cobertura de múltiple condición (Todas, crecimiento exponencial)
+			- Es necesario identificar situaciones de prueba (definir entorno de prueba)
+		- Identifica de casos de prueba
+		- Obtención de un Test Suite (conjunto de casos de prueba)
+	- Ejecución. Software bajo prueba
+	- Evaluación e informe (reporting)
+		- Presentación de fallos descubiertos
+	- Detección y corrección de pruebas (depuración)
 ---
