@@ -95,3 +95,14 @@ Está estructurada en varios procesos donde cada proceso tiene actividades y cad
 		- Presentación de fallos descubiertos
 	- Detección y corrección de pruebas (depuración)
 ---
+## Extra - Tipos de diagramas
+- **ASI**
+	- Modelado funcional
+		- Diagrama de casos de uso
+	- Modelado de dominio
+		- Diagrama de clases
+		- Diagrama de transición de estados
+		- Diagrama de actividad
+- **DSI**
+	- Diagrama de despliegue
+	- Modelo Entidad/relación
