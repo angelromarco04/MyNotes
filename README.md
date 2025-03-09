@@ -10,6 +10,7 @@
 - Administración de Sistemas
 
 ## 3S2
+- [Sistemas Distribuidos (EN)](UNIOVI/DistributedSystems/README.md)
 
 ---
 [Antiguo](Antiguo/README.md)
