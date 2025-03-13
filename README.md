@@ -11,6 +11,7 @@
 
 ## 3S2
 - [Sistemas Distribuidos (EN)](UNIOVI/DistributedSystems/README.md)
+- [Sistemas Inteligentes (EN)](UNIOVI/InteligentSystems/README.md)
 
 ---
 [Antiguo](Antiguo/README.md)
