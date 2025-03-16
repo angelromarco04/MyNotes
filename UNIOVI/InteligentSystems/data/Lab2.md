@@ -65,6 +65,11 @@ data['MyCol']
 # Access multiple columns
 data[['Driver', 'Team']]
 
+# Get an array representation
+data.values
+```
+### Filtering data
+```python
 # Get the row number as a DataFrame
 data.loc[row]
 
@@ -74,8 +79,14 @@ data.loc[row, 'MyCol']
 # Access a position (row and col are the index numbers)
 data.iloc[row, col]
 
-# Get an array representation
-data.values
+# Filter by condition
+data.loc[condition]
+# Examples:
+data.loc[ data['MyCol'] == value ]
+data.loc[ data['MyCol'] >  value ]
+data.loc[ (data['MyCol1'] > value1) & (data['MyCol2'] > value2) ]
+data.loc[ data['MyCol'].isin( [value1, value2] ) ]
+data.loc[ data['MyCol'].str.contains(value)]
 ```
 ### Statistics
 ```python
