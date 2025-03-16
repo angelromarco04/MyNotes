@@ -42,10 +42,17 @@ len(data.columns)
 # Get a tuple (number rows , number columns)
 data.shape
 ```
-### Information about columns & rows
+### Statistics
 ```python
 # For each column obtaine number non-null and type
 data.info()
 
-# Get statistics
+# Get statistics all columns or an specific columns
+data.describe()
+data['MyCol'].describe()
+
+# Get unique values for a column
+data['MyCol'].isnull().any()
+
+# Get unique values for a column
 ```
