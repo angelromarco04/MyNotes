@@ -87,6 +87,12 @@ data.loc[ data['MyCol'] >  value ]
 data.loc[ (data['MyCol1'] > value1) & (data['MyCol2'] > value2) ]
 data.loc[ data['MyCol'].isin( [value1, value2] ) ]
 data.loc[ data['MyCol'].str.contains(value)]
+
+# Sorting data
+data.sort_values(ascending = False).reset_index()
+
+# Grouping data by same MyCol1
+data.groupby('MyCol1') # S
 ```
 ### Statistics
 ```python
@@ -99,6 +105,9 @@ data['MyCol'].describe()
 
 # Get unique values for a column
 data['MyCol'].unique()
+
+# Get number of unique values for a column
+data['MyCol'].nunique()
 
 # Get if there are empty values
 data.isnull().any()
