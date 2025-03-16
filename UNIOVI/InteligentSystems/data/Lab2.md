@@ -95,18 +95,21 @@ data['MyCol'].std()  # Standard deviation
 data['MyCol'].var()  # Variance
 ```
 ---
-## Changing types
+## Cleaning data
+### Changing types
 ```python
 # Check data types of each column
 data.dtypes
 
-# Change column type to integer
-data['MyCol'] = data['MyCol'].astype(int)
+# Change column type to another primitive type
+# type can be: int, float, str, bool
+data['MyCol'] = data['MyCol'].astype(type)
 
-# Change column type to float
-data['MyCol'] = data['MyCol'].astype(float)
+# Convert dates to datetime format
+data['MyCol'] = pd.to_datetime(data['MyCol'])
 
-# Change column type to string
-data['MyCol'] = data['MyCol'].astype(str)
-
+# Convert a column to timedelta (useful for duration calculations)
+data['MyCol'] = pd.to_timedelta(data['MyCol'])
 ```
+### Removing columns
+### Dealing with null values
