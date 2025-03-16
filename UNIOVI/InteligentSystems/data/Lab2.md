@@ -9,13 +9,13 @@
 - Remove or fill empty rows or columns
 - Eliminate inconsistent values
 ### Some concepts
-- Dat
- - `DataFrame` is a two-dimensional labelled data structure (Similar to a matrix)
- - `Series` is a one-dimensional labelled data structure (Similar to an array)
- - Each column in a `DataFrame` is a `Series`
- - Some functions return a modified version of a `DataFrame`
-	 - 
- - `inplace=True` 
+- Data is structured in `DataFrames` that contains `Series`
+	- `DataFrame` is a two-dimensional labelled data structure (Similar to a matrix).
+	- `Series` is a one-dimensional labelled data structure (Similar to an array).
+	- Each column in a `DataFrame` is a `Series`.
+ - Some functions return a modified version of a `DataFrame`.
+	 - By default they do not modify the `DataFrame`.
+	 - To modify directly without generating a copy specify the arg `inplace=True` .
 ---
 ## Obtaining the data
 ```python
@@ -120,12 +120,12 @@ data['MyCol'] = pd.to_datetime(data['MyCol'])
 # Convert a column to timedelta (useful for duration calculations)
 data['MyCol'] = pd.to_timedelta(data['MyCol'])
 ```
-### Removing columns
-```python
-
-```
 ### Dealing with null values
 ```python
+# Remove a column
+data.drop(columns = ['MyCol'], inplace = True)
 
+# Remove a row
+data.drop('MyRow', inplace = True)
 ```
 ---
