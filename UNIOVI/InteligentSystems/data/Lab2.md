@@ -65,11 +65,14 @@ data['MyCol']
 # Access multiple columns
 data[['Driver', 'Team']]
 
-# Get the row number N as a DataFrame
-data.loc[N]
+# Get the row number as a DataFrame
+data.loc[row]
 
-# Access a position
-data.loc[row, col]
+# Access a position (row is an index but col a col name)
+data.loc[row, 'MyCol']
+
+# Access a position (row and col are the index numbers)
+data.iloc[row, col]
 
 # Get an array representation
 data.values
@@ -100,8 +103,8 @@ data['MyCol'].median() # Median
 data['MyCol'].mode()   # Mode (most frequent value)
 data['MyCol'].min()
 data['MyCol'].max()
-data['MyCol'].std()  # Standard deviation
-data['MyCol'].var()  # Variance
+data['MyCol'].std()    # Standard deviation
+data['MyCol'].var()    # Variance
 ```
 ---
 ## Cleaning data
@@ -120,12 +123,14 @@ data['MyCol'] = pd.to_datetime(data['MyCol'])
 # Convert a column to timedelta (useful for duration calculations)
 data['MyCol'] = pd.to_timedelta(data['MyCol'])
 ```
-### Dealing with null values
+### Dealing with unwanted values
 ```python
 # Remove a column
 data.drop(columns = ['MyCol'], inplace = True)
 
-# Remove a row
-data.drop('MyRow', inplace = True)
+# Remove the row at position N
+data.drop(N, inplace = True)
+
+
 ```
 ---
