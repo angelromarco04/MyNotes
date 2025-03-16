@@ -26,7 +26,8 @@ data_source = "..." # Can be an URL or a local path.
 # Read from csv file 
 data = pd.read_csv(data_source)
 
-# Read from pickle file (Serialize oython objects - More storage efficient)
+# Read from pickle file (Serialize oython objects)
+# More storage efficient and stores the type of data
 data = pd.read_pickle(data_source)
 
 # Read from JSON file
@@ -162,6 +163,17 @@ data.dropna(inplace=True)
 data.dropna(axis=1, inplace=True)
 
 # Drop rows where a specific column has missing values
-data.dropna(subset=['ColumnName'], inplace=True)
+data.dropna(subset=['MyCol'], inplace=True)
+
+# Drop rows where all values are missing
+data.dropna(how='all', inplace=True)
+
+# Fill missign cells of a column with a value
+data['MyCol'].fillna(value, inplace=True)
+```
+---
+## Saving data
+```python
+data.to_pickle('my_data.pkl')
 ```
 ---
