@@ -26,8 +26,9 @@ data = pd.read_json(data_source)
 # Read from a sheet of an Excel file
 data = pd.read_excel('data.xlsx', sheet_name='Sheet1')
 ```
+---
 ## Exploring the data
-### Columns and rows
+### Counting columns & rows
 ```python
 # Count rows
 len(data)
@@ -38,6 +39,13 @@ data.columns
 # Count columns
 len(data.columns)
 
-# Get 
+# Get a tuple (number rows , number columns)
 data.shape
+```
+### Information about columns & rows
+```python
+# For each column obtaine number non-null and type
+data.info()
+
+# Get statistics
 ```
