@@ -42,6 +42,18 @@ len(data.columns)
 # Get a tuple (number rows , number columns)
 data.shape
 ```
+### Accessing the data
+```python
+# Accesss the first N rows
+data.head(N)
+
+# Accesss the last N rows
+data.head(N)
+
+# Access a column
+data['MyCol']
+
+```
 ### Statistics
 ```python
 # For each column obtaine number non-null and type
@@ -52,7 +64,13 @@ data.describe()
 data['MyCol'].describe()
 
 # Get unique values for a column
+data['MyCol'].unique()
+
+# Get if there are empty values
+data.isnull().any()
 data['MyCol'].isnull().any()
 
-# Get unique values for a column
+# Get the number of empty values
+data.isnull().sum()
+data['MyCol'].isnull().sum()
 ```
