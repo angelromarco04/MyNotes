@@ -27,5 +27,17 @@ data = pd.read_json(data_source)
 data = pd.read_excel('data.xlsx', sheet_name='Sheet1')
 ```
 ## Exploring the data
-```py
+### Columns and rows
+```python
+# Count rows
+len(data)
+
+# Get list of column names
+data.columns
+
+# Count columns
+len(data.columns)
+
+# Get 
+data.shape
 ```
