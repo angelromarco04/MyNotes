@@ -3,10 +3,19 @@
 [Go Back](../README.md)
 
 ---
-## Objectives
+## Introduction
+### Objectives
 - Understand the data
 - Remove or fill empty rows or columns
 - Eliminate inconsistent values
+### Some concepts
+- Dat
+ - `DataFrame` is a two-dimensional labelled data structure (Similar to a matrix)
+ - `Series` is a one-dimensional labelled data structure (Similar to an array)
+ - Each column in a `DataFrame` is a `Series`
+ - Some functions return a modified version of a `DataFrame`
+	 - 
+ - `inplace=True` 
 ---
 ## Obtaining the data
 ```python
@@ -112,4 +121,11 @@ data['MyCol'] = pd.to_datetime(data['MyCol'])
 data['MyCol'] = pd.to_timedelta(data['MyCol'])
 ```
 ### Removing columns
+```python
+
+```
 ### Dealing with null values
+```python
+
+```
+---
