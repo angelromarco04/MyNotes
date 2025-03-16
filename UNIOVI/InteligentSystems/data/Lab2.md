@@ -92,7 +92,11 @@ data.loc[ data['MyCol'].str.contains(value)]
 data.sort_values(ascending = False).reset_index()
 
 # Grouping data by same MyCol1
-data.groupby('MyCol1') # S
+data.groupby('MyCol1') # Some other thing must be applied to the grouped data
+# Example.
+data.groupby('MyCol1')['MyCol2'].unique()
+data.groupby('MyCol1')['MyCol2'].mean()
+data.groupby('MyCol1')['MyCol2'].max()
 ```
 ### Statistics
 ```python
@@ -151,6 +155,13 @@ data.drop(columns = ['MyCol'], inplace = True)
 # Remove the row at position N
 data.drop(N, inplace = True)
 
+# Remove rows with missing values
+data.dropna(inplace=True)
 
+# Remove columns with missing values
+data.dropna(axis=1, inplace=True)
+
+# Drop rows where a specific column has missing values
+data.dropna(subset=['ColumnName'], inplace=True)
 ```
 ---
