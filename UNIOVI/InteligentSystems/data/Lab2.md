@@ -26,3 +26,6 @@ data = pd.read_json(data_source)
 # Read from a sheet of an Excel file
 data = pd.read_excel('data.xlsx', sheet_name='Sheet1')
 ```
+## Exploring the data
+```py
+```
