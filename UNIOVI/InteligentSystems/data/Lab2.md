@@ -84,4 +84,29 @@ data['MyCol'].isnull().any()
 # Get the number of empty values
 data.isnull().sum()
 data['MyCol'].isnull().sum()
+
+# Other statistics
+data['MyCol'].mean()   # Mean (average)
+data['MyCol'].median() # Median
+data['MyCol'].mode()   # Mode (most frequent value)
+data['MyCol'].min()
+data['MyCol'].max()
+data['MyCol'].std()  # Standard deviation
+data['MyCol'].var()  # Variance
+```
+---
+## Changing types
+```python
+# Check data types of each column
+data.dtypes
+
+# Change column type to integer
+data['MyCol'] = data['MyCol'].astype(int)
+
+# Change column type to float
+data['MyCol'] = data['MyCol'].astype(float)
+
+# Change column type to string
+data['MyCol'] = data['MyCol'].astype(str)
+
 ```
