@@ -48,11 +48,22 @@ data.shape
 data.head(N)
 
 # Accesss the last N rows
-data.head(N)
+data.tail(N)
 
 # Access a column
 data['MyCol']
 
+# Access multiple columns
+data[['Driver', 'Team']]
+
+# Get the row number N as a DataFrame
+data.loc[N]
+
+# Access a position
+data.loc[row, col]
+
+# Get an array representation
+data.values
 ```
 ### Statistics
 ```python
