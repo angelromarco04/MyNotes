@@ -67,15 +67,26 @@ metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matt
 ```
 ### Available models
 ```python
-baseline_aleatorio = DummyClassifier(strategy = 'uniform', random_state = seed)
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
 
-baseline_zerror = DummyClassifier(strategy = 'most_frequent')
+# Baselines
+model = DummyClassifier(strategy = 'uniform', random_state = seed) # random
+model = DummyClassifier(strategy = 'most_frequent') # zero-R
 
-regression = LogisticRegression()
+# Better for linear data
+model = LogisticRegression()
 
-KNearest = KNeighborsClassifier(n_neighbors = 3)
+# Good for non-linear data
+model = KNeighborsClassifier(n_neighbors = 3)
 
-decisionTrees = DecisionTreeClassifier(random_state = seed, max_depth = 2)
-SVM_linear = SVC(kernel = 'linear')
-SVM_poly2 = SVC(kernel = 'poly', degree = 2, coef0 = 1)
+# Captures non-linearity
+model = DecisionTreeClassifier(random_state = seed, max_depth = 2)
+
+# Effective for high-dimensional, linearly separable data
+model = SVC(kernel = 'linear')
+
+# Captures non-linear relationships
+model = SVC(kernel = 'poly', degree = 2, coef0 = 1)
 ```
