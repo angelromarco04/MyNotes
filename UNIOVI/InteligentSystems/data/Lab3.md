@@ -69,28 +69,29 @@ metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matt
 ### Available models
 #### Baselines
 ```python
-# Random predictions (pure chance)
+# Random guessing
 model = DummyClassifier(strategy='uniform', random_state=seed)
 
-# Always predicts the most frequent class (Zero-R baseline)
+# Always predicts majority class
 model = DummyClassifier(strategy='most_frequent')
 ```
 #### Linearly separable data
 ```python
-# Fast, interpretable, and works well for linear relationships
+# Fast and interpretable
 model = LogisticRegression()
 
-# More powerful than logistic regression, works well with high-dimensional data
+# Handles high-dimensional data better than LogisticRegression
 model = SVC(kernel='linear')
 
-# Captures simple decision boundaries, but may underfit with low depth
+# Simple decision boundaries, may underfit
 model = DecisionTreeClassifier(random_state=seed, max_depth=2)
 ```
 #### Non-linear data
 ```python
-# Good for non-linear patterns, but sensitive to noise and slower for large datasets
+# Works well with complex patterns, sensitive to noise
 model = KNeighborsClassifier(n_neighbors=3)
 
-# Uses polynomial transformation to capture non-linear relationships, computationally expensive
+# Captures non-linear relationships, computationally expensive
 model = SVC(kernel='poly', degree=2, coef0=1)
 ```
+---
