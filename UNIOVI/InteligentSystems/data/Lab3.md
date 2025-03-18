@@ -31,6 +31,8 @@ sk.model_selection.train_test_split(data, test_size=0.2, random_state=2533)
 ---
 ## Scikit-Learn
 ```python
+from sklearn import metrics
+
 # Select the model to use to predict (See below)
 model = DummyClassifier()
 
@@ -41,6 +43,14 @@ Y = data_train["Solution"]
 # Train the model
 model.fit(X, Y)
 
+# Obtain data for testing
+X_test = data_test["MyCol_1", "MyCol_2", "MyCol_3"]
+Y_test = data_test["Solution"]
+
 # Make predictions
-X = data_test["MyCol_1", "MyCol_2", "MyCol_3"]
+Y_pred = model.predict(X_test)
+
+# Evaluate the prediction
+metrics.accuracy_score(Y_test, Y_pred) # Percentaje of hits
+metrics.confusion_matrix(Y_test, pred_random) # True/False Positives/Negatives
 ```
