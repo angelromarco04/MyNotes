@@ -177,3 +177,8 @@ data['MyCol'].fillna(value, inplace=True)
 data.to_pickle('my_data.pkl')
 ```
 ---
+## Visualization
+```python
+plt.figure(figsize =)
+hist = sns.
+```
