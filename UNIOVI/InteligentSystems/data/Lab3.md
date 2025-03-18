@@ -20,24 +20,16 @@ mode = data_aston['MyCol'].mode().value
 zero_r_values = [mode for _ in range(len(data))]
 ```
 ---
-## Dividing subsets
-```python
-import sklearn as sk # type: ignore
-
-# Divide the dataset int 80% for training and 20% for testing
-
-data_train, data_test =
-sk.model_selection.train_test_split(data, test_size=0.2, random_state=2533)
-```
----
 ## Scikit-Learn
 ### Steps
 ```python
-from sklearn import metrics
-from sklearn.preprocessing import StandardScaler
+import sklearn as sk # type: ignore
 
-# Select the model to use to predict (See below)
-model = DummyClassifier()
+# --------------------------------------------------------------------------------
+
+# Divide the dataset int 80% for training and 20% for testing
+data_train, data_test =
+	sk.model_selection.train_test_split(data, test_size=0.2, random_state=2533)
 
 # Obtain the data for training
 X = data_train["MyCol_1", "MyCol_2", "MyCol_3"]
@@ -48,9 +40,14 @@ X_test = data_test["MyCol_1", "MyCol_2", "MyCol_3"]
 Y_test = data_test["Solution"]
 
 # Sometimes it is important to normalize
-standardizer = StandardScaler()
+standardizer = sk.preprocessing.StandardScaler()
 X_std = standardizer.fit_transform(X)
 X_test_std = standardizer.transform(X_test)
+
+# --------------------------------------------------------------------------------
+
+# Select the model to use to predict (See below)
+model = DummyClassifier()
 
 # Train the model
 model.fit(X_std, , Y.squeeze()) # squeeze removes unnecessary dimensions
@@ -58,13 +55,15 @@ model.fit(X_std, , Y.squeeze()) # squeeze removes unnecessary dimensions
 # Make predictions
 Y_pred = model.predict(X_test)
 
+# --------------------------------------------------------------------------------
+
 # Evaluate the prediction
 metrics.confusion_matrix(Y_test, Y_pred) # True/False Positives/Negatives
 
-metrics.precision_score(Y_test, Y_pred) # Used when false positives are costly
-metrics.recall_score(Y_test, Y_pred) # Used when false negatives are costly
-metrics.accuracy_score(Y_test, Y_pred) # Percentaje of hits (for balanced data)
-metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matter)
+sk.metrics.precision_score(Y_test, Y_pred) # Used when false positives are costly
+sk.metrics.recall_score(Y_test, Y_pred) # Used when false negatives are costly
+sk.metrics.accuracy_score(Y_test, Y_pred) # Percentaje of hits (for balanced data)
+sk.metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matter)
 ```
 ### Available models
 #### Baselines
