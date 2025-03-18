@@ -179,6 +179,25 @@ data.to_pickle('my_data.pkl')
 ---
 ## Visualization
 ```python
-plt.figure(figsize =)
-hist = sns.
+import matplotlib.pyplot as plt
+import seaborn as sns
+import bokeh as bk
+
+sns.set_style('whitegrid') # Sets the style of the plots
+
+plt.figure(figsize = (12,6)) # Size for the graph
+hist = sns.type_of_plot() # Use the funtion to plot the desired graph
+hist.set_xlabel("X label")
+hist.set_ylabel("Y label")
+hist.set_title("Title")
+plt.show()
 ```
+- For `1` variable:
+	- `sns.histplot()` for quantitative variables
+	- `sns.countplot()` for categorical variables
+	- `sns.kdeplot()`
+- For `2` variables
+	- Bars: `sns.barplot`
+	- Line: `sns.lineplot`
+	- Scatter: `sns.scatterplot`
+	- Regression line: `sns.regplot`
