@@ -177,11 +177,10 @@ data['MyCol'].fillna(value, inplace=True)
 data.to_pickle('my_data.pkl')
 ```
 ---
-## Visualization
+## Visualisation
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
-import bokeh as bk
 
 sns.set_style('whitegrid') # Sets the style of the plots
 
@@ -193,11 +192,12 @@ hist.set_title("Title")
 plt.show()
 ```
 - For `1` variable:
-	- `sns.histplot()` for quantitative variables
-	- `sns.countplot()` for categorical variables
+	- Histogram (quantitative): `sns.histplot()`
+	- Histogram (categorical): `sns.countplot()`
 	- `sns.kdeplot()`
-- For `2` variables
+- For `2` variables:
 	- Bars: `sns.barplot`
 	- Line: `sns.lineplot`
 	- Scatter: `sns.scatterplot`
 	- Regression line: `sns.regplot`
+---
