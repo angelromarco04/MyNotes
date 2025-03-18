@@ -30,6 +30,7 @@ sk.model_selection.train_test_split(data, test_size=0.2, random_state=2533)
 ```
 ---
 ## Scikit-Learn
+### Steps
 ```python
 from sklearn import metrics
 from sklearn.preprocessing import StandardScaler
@@ -51,15 +52,30 @@ X_std = standardizer.fit_transform(X)
 X_test_std = standardizer.transform(X_test)
 
 # Train the model
-model.fit(X, Y)
+model.fit(X_std, , Y.squeeze()) # squeeze removes unnecessary dimensions
 
 # Make predictions
 Y_pred = model.predict(X_test)
 
 # Evaluate the prediction
 metrics.confusion_matrix(Y_test, Y_pred) # True/False Positives/Negatives
+
 metrics.precision_score(Y_test, Y_pred) # Used when false positives are costly
+metrics.recall_score(Y_test, Y_pred) # Used when false negatives are costly
 metrics.accuracy_score(Y_test, Y_pred) # Percentaje of hits (for balanced data)
 metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matter)
+```
+### Available models
+```python
+baseline_aleatorio = DummyClassifier(strategy = 'uniform', random_state = seed)
 
+baseline_zerror = DummyClassifier(strategy = 'most_frequent')
+
+regression = LogisticRegression()
+
+KNearest = KNeighborsClassifier(n_neighbors = 3)
+
+decisionTrees = DecisionTreeClassifier(random_state = seed, max_depth = 2)
+SVM_linear = SVC(kernel = 'linear')
+SVM_poly2 = SVC(kernel = 'poly', degree = 2, coef0 = 1)
 ```
