@@ -3,25 +3,7 @@
 [Go Back](../README.md)
 
 ---
-## Baseline
-Used for comparison.
-### Random
-```python
-import random
-random.seed(2533)
-
-random_values = [random.choice([0, 1]) for _ in range(len(data))]
-```
-### Zero-R
-We always predict the most frequent value for a column.
-```python
-mode = data_aston['MyCol'].mode().value
-
-zero_r_values = [mode for _ in range(len(data))]
-```
----
 ## Scikit-Learn
-### Steps
 ```python
 import sklearn as sk # type: ignore
 
@@ -65,13 +47,16 @@ sk.metrics.recall_score(Y_test, Y_pred) # Used when false negatives are costly
 sk.metrics.accuracy_score(Y_test, Y_pred) # Percentaje of hits (for balanced data)
 sk.metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matter)
 ```
-### Available models
+---
+## Available models
 #### Baselines
 ```python
+# Are used for comparison
+
 # Random guessing
 model = DummyClassifier(strategy='uniform', random_state=seed)
 
-# Always predicts majority class
+# Always predicts the most frequent value
 model = DummyClassifier(strategy='most_frequent')
 ```
 #### Linearly separable data
