@@ -4,6 +4,7 @@
 
 ---
 ## Baseline
+Used for comparison.
 ### Random
 ```python
 import random
@@ -66,27 +67,30 @@ metrics.accuracy_score(Y_test, Y_pred) # Percentaje of hits (for balanced data)
 metrics.f1_score(Y_test, Y_pred) # For inbalance data (precision and recall matter)
 ```
 ### Available models
+#### Baselines
 ```python
-from sklearn.linear_model import LogisticRegression
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
+# Random predictions (pure chance)
+model = DummyClassifier(strategy='uniform', random_state=seed)
 
-# Baselines
-model = DummyClassifier(strategy = 'uniform', random_state = seed) # random
-model = DummyClassifier(strategy = 'most_frequent') # zero-R
-
-# Better for linear data
+# Always predicts the most frequent class (Zero-R baseline)
+model = DummyClassifier(strategy='most_frequent')
+```
+#### Linearly separable data
+```python
+# Fast, interpretable, and works well for linear relationships
 model = LogisticRegression()
 
-# Good for non-linear data
-model = KNeighborsClassifier(n_neighbors = 3)
+# More powerful than logistic regression, works well with high-dimensional data
+model = SVC(kernel='linear')
 
-# Captures non-linearity
-model = DecisionTreeClassifier(random_state = seed, max_depth = 2)
+# Captures simple decision boundaries, but may underfit with low depth
+model = DecisionTreeClassifier(random_state=seed, max_depth=2)
+```
+#### Non-linear data
+```python
+# Good for non-linear patterns, but sensitive to noise and slower for large datasets
+model = KNeighborsClassifier(n_neighbors=3)
 
-# Effective for high-dimensional, linearly separable data
-model = SVC(kernel = 'linear')
-
-# Captures non-linear relationships
-model = SVC(kernel = 'poly', degree = 2, coef0 = 1)
+# Uses polynomial transformation to capture non-linear relationships, computationally expensive
+model = SVC(kernel='poly', degree=2, coef0=1)
 ```
